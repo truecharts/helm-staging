@@ -12743,6 +12743,44 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.10.9
+    created: "2023-02-09T21:58:54.972872579Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 11.0.22
+    description: Allows you to sync any Joplin client.
+    digest: 32c7a1b885d106675d36c7a8656bc66f7a87a9e39ca5356bd286dede37e3091a
+    home: https://truecharts.org/charts/stable/joplin-server
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/joplin-server.png
+    keywords:
+    - joplin
+    - notes
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: joplin-server
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/joplin-server
+    - https://hub.docker.com/joplin/server
+    - https://github.com/laurent22/joplin/tree/dev/packages/server
+    - https://github.com/laurent22/joplin
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/joplin-server-11.0.26/joplin-server-11.0.26.tgz
+    version: 11.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.10.8
     created: "2023-02-09T21:50:33.849260435Z"
     dependencies:
@@ -36474,4 +36512,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-09T21:53:15.993986968Z"
+generated: "2023-02-09T21:58:54.973951216Z"
