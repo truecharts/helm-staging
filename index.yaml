@@ -29631,6 +29631,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-09T21:53:15.992834462Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Provides management of TV shows and/or Anime, it detects new episodes,
+      links downloader apps, and more
+    digest: 3b5282ea424be1d3936a74cff779a4c84cbd165c7ab7d7c247a6d593bc792e58
+    home: https://truecharts.org/charts/stable/sickgear
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/sickgear.png
+    keywords:
+    - sickgear
+    - manager
+    - tv
+    - shows
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: sickgear
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/sickgear
+    - https://hub.docker.com/sickgear/sickgear
+    - https://github.com/SickGear/SickGear
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/sickgear-6.0.2/sickgear-6.0.2.tgz
+    version: 6.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-09T21:51:10.602683947Z"
     dependencies:
     - name: common
@@ -36438,4 +36474,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-09T21:51:48.565143338Z"
+generated: "2023-02-09T21:53:15.993986968Z"
