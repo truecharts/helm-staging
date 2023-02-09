@@ -1,0 +1,31 @@
+image:
+  repository: tccr.io/truecharts/actualserver
+  pullPolicy: IfNotPresent
+  tag: 23.2.6@sha256:751ba5e15c8e024d302a8ef6ce8686a658098f6512f7e9dfd701482bc2a70181
+
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 10293
+        protocol: HTTP
+        targetPort: 5006
+
+persistence:
+  server-files:
+    enabled: true
+    mountPath: "/app/server-files"
+  user-files:
+    enabled: true
+    mountPath: "/app/user-files"
+
+portal:
+  enabled: true

@@ -1,0 +1,48 @@
+image:
+  repository: tccr.io/truecharts/ersatztv
+  pullPolicy: IfNotPresent
+  tag: 0.7.3@sha256:10072b2ef03b4b50f27d9ca311fddc9b7195c1c2f971a83d380997a55cf59af5
+nvidiaImage:
+  repository: tccr.io/truecharts/ersatztv-nvidia
+  tag: 0.7.3@sha256:d8e194a852b92d6f43516e33b5dc8ad1b36a5d31fd7ea42b0b78416b6ec62dda
+  pullPolicy: Always
+vaapiImage:
+  repository: tccr.io/truecharts/ersatztv-vaapi
+  tag: 0.7.3@sha256:61d5194cff6f0496d53fae19ca6a34c472be925d66737372928cc404fa424bc0
+  pullPolicy: Always
+
+imageSelector: image
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+probes:
+  liveness:
+    type: HTTP
+  readiness:
+    type: HTTP
+  startup:
+    type: HTTP
+
+service:
+  main:
+    ports:
+      main:
+        protocol: HTTP
+        targetPort: 8409
+        port: 10607
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /root/.local/share/ersatztv
+  varrun:
+    enabled: true
+
+portal:
+  enabled: true
