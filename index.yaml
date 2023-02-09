@@ -11991,6 +11991,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.45.0
+    created: "2023-02-09T22:02:15.690513987Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.truecharts.org/
+      version: 11.0.22
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.truecharts.org
+      version: 5.0.29
+    description: High performance self-hosted photo and video backup solution.
+    digest: 32a8740e7f18c7bfac3c011c4ad39a2f32f58ecefa040b26de5a887f5811ffa4
+    home: https://truecharts.org/charts/stable/immich
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/immich.png
+    keywords:
+    - photos
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: immich
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/immich
+    - https://github.com/immich-app/immich
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/immich-5.0.9/immich-5.0.9.tgz
+    version: 5.0.9
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.45.0
     created: "2023-02-09T21:50:31.445333544Z"
     dependencies:
     - name: common
@@ -36512,4 +36550,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-09T21:58:54.973951216Z"
+generated: "2023-02-09T22:02:15.691740065Z"
