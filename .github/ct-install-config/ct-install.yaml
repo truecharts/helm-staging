@@ -3,6 +3,9 @@ target-branch: main
 helm-extra-args: --timeout 600s --debug
 chart-yaml-schema: .github/ct-install-config/chart_schema.yaml
 chart-dirs:
-  - charts
+  - charts/stable
+  - charts/incubator
+  - charts/enterprise
+  - charts/dependency
 excluded-charts: []
 kubectl-timeout: 120s
