@@ -20020,6 +20020,36 @@ entries:
       truecharts.org/catagories: |
         - productivity
     apiVersion: v2
+    appVersion: 3.47.1
+    created: "2023-02-10T04:12:28.381374681Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Sonatype Nexus open source is a artifact repository manager
+    digest: f260676b4cd802ffe0e49c13ac9b9b8265fae03f901fcff3204043d039e6ac7c
+    home: https://truecharts.org/charts/incubator/nexus-oss
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nexus-oss.png
+    keywords:
+    - nexus-oss
+    - productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nexus-oss
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/nexus-oss
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nexus-oss-2.0.12/nexus-oss-2.0.12.tgz
+    version: 2.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+    apiVersion: v2
     appVersion: 3.46.0
     created: "2023-02-09T21:50:48.099393064Z"
     dependencies:
@@ -36617,4 +36647,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-09T23:01:57.238767856Z"
+generated: "2023-02-10T04:13:00.868521874Z"
