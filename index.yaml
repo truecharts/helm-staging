@@ -40485,6 +40485,39 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.10.0
+    created: "2023-02-10T14:03:51.656035824Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A self-hosted file sharing platform and an alternative for WeTransfer.
+    digest: 50e7f27bc6ec31cdff3cc4ee56122c53f142ddbb670e2cea33013ddf33431d51
+    home: https://truecharts.org/charts/incubator/pingvin-share
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pingvin-share.png
+    keywords:
+    - pingvin-share
+    - productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pingvin-share
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/pingvin-share
+    - https://hub.docker.com/r/stonith404/pingvin-share
+    - https://github.com/stonith404/pingvin-share
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pingvin-share-0.0.21/pingvin-share-0.0.21.tgz
+    version: 0.0.21
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.9.0
     created: "2023-02-10T10:16:10.828802473Z"
     dependencies:
@@ -64575,4 +64608,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-10T13:59:21.917978892Z"
+generated: "2023-02-10T14:03:51.659212806Z"
