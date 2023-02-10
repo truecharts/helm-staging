@@ -26064,6 +26064,39 @@ entries:
         - cloud
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.15.7
+    created: "2023-02-10T07:54:05.427684105Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A timed task management panel that supports typescript, javaScript,
+      python3, and shell
+    digest: bdbf41046adda896ed2d9b41c7d88a47c4fece33661fab6689880697250572a1
+    home: https://truecharts.org/charts/stable/qinglong
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/qinglong.png
+    keywords:
+    - qinglong
+    - task
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: qinglong
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/qinglong
+    - https://hub.docker.com/r/whyour/qinglong
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/qinglong-4.0.17/qinglong-4.0.17.tgz
+    version: 4.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.15.6
     created: "2023-02-09T21:51:01.280950265Z"
     dependencies:
@@ -36723,4 +36756,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-10T07:50:35.540007948Z"
+generated: "2023-02-10T07:54:05.42934161Z"
