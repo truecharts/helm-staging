@@ -12167,6 +12167,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 23.0.1
+    created: "2023-02-10T21:57:36.649330601Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Dedicated App for using Docker-Compose on TrueNAS SCALE
+    digest: 7a99560d0c33fdc3d3e83d70bca9c0a659c13adad4f839b093acfbdcc20003d7
+    home: https://truecharts.org/charts/stable/docker-compose
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/docker-compose.png
+    keywords:
+    - docker-compose
+    - docker
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: docker-compose
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/docker-compose
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/docker-compose-5.0.24/docker-compose-5.0.24.tgz
+    version: 5.0.24
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - docker
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 23.0.1
     created: "2023-02-10T20:55:07.271611967Z"
     dependencies:
     - name: common
@@ -64865,4 +64896,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-10T21:07:26.251642083Z"
+generated: "2023-02-10T21:57:36.651962934Z"
