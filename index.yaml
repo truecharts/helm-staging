@@ -18594,6 +18594,46 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.33.7
+    created: "2023-02-10T21:07:26.248871974Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.25
+    description: Ghost is an open source, professional publishing platform built on
+      a modern Node.js technology stack designed for teams who need power, flexibility
+      and performance.
+    digest: 8c9410e194feaeef48e37109e4655db3bff19e9b053b19b81bbc968cc0710e63
+    home: https://truecharts.org/charts/incubator/ghost
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ghost.png
+    keywords:
+    - ghost
+    - blog
+    - cms
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ghost
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/ghost
+    - https://hub.docker.com/_/ghost
+    - https://github.com/TryGhost/Ghost
+    - https://ghost.org/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ghost-6.0.48/ghost-6.0.48.tgz
+    version: 6.0.48
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.33.7
     created: "2023-02-10T10:15:27.31188779Z"
     dependencies:
     - name: common
@@ -64825,4 +64865,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-10T20:58:27.489909686Z"
+generated: "2023-02-10T21:07:26.251642083Z"
