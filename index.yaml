@@ -34397,6 +34397,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.0.15
+    created: "2023-02-10T23:52:55.983199662Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Eclipse Mosquitto - An open source MQTT broker
+    digest: e81cbe31fd2fa87cbed05924552e65e6280750ee4c3f3518ecc7265d341ca2c4
+    home: https://truecharts.org/charts/stable/mosquitto
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mosquitto.png
+    keywords:
+    - mosquitto
+    - MQTT
+    - eclipse-iot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mosquitto
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mosquitto
+    - https://github.com/eclipse/mosquitto
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mosquitto-8.0.10/mosquitto-8.0.10.tgz
+    version: 8.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - homeautomation
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.0.15
     created: "2023-02-10T10:15:56.099990014Z"
     dependencies:
     - name: common
@@ -64936,4 +64969,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-10T23:07:24.388284234Z"
+generated: "2023-02-10T23:52:55.987637247Z"
