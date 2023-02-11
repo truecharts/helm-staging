@@ -12433,6 +12433,46 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: "2"
+    created: "2023-02-11T07:52:11.635143613Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: 'Docker Registry is used to store and distribute Docker images using
+      HTTP API. This allows you host your own private Registry and store your images.
+      Uses official Chart Registry image @ https://hub.Chart.com/_/registry/ '
+    digest: 93d30366290c560e30b6cfade321fbd834f23b3fc487d738f3c5dc219f3c8a09
+    home: https://truecharts.org/charts/incubator/dockerregistry
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/dockerregistry.png
+    keywords:
+    - dockerregistry
+    - Cloud
+    - Network-Management
+    - Productivity
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: dockerregistry
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/dockerregistry
+    - https://github.com/distribution/distribution
+    - https://registry.hub.docker.com/_/registry/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/dockerregistry-2.0.10/dockerregistry-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Cloud
+        - Network-Management
+        - Productivity
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: "2"
     created: "2023-02-10T10:15:13.373020126Z"
     dependencies:
     - name: common
@@ -65168,4 +65208,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T04:55:01.639911862Z"
+generated: "2023-02-11T07:52:11.638390438Z"
