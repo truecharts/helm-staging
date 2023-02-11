@@ -27418,6 +27418,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.1.2.2935
+    created: "2023-02-11T22:51:44.842893867Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Looks and smells like Sonarr but made for music
+    digest: d87e231345ceb5e31cb4c1b60117d32cd9a46bf9a8f0f23957daafdce985c1e9
+    home: https://truecharts.org/charts/stable/lidarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/lidarr.png
+    keywords:
+    - lidarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: lidarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/lidarr
+    - https://github.com/Lidarr/Lidarr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/lidarr-13.0.13/lidarr-13.0.13.tgz
+    version: 13.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.1.2.2935
     created: "2023-02-10T10:15:46.219116681Z"
     dependencies:
     - name: common
@@ -65460,4 +65493,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T19:58:14.954062211Z"
+generated: "2023-02-11T22:51:44.84634985Z"
