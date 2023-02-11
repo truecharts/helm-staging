@@ -49837,6 +49837,41 @@ entries:
         - Tools-Utilities
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 5.1.3
+    created: "2023-02-11T03:15:36.599976528Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Interact with Ring Inc products (cameras/alarms/smart lighting) via
+      MQTT.
+    digest: 5746695400aa5605a6f8c494c4020e75af1983a114f65b5df650b777196ad80c
+    home: https://truecharts.org/charts/stable/ring-mqtt
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.png
+    keywords:
+    - ring-mqtt
+    - HomeAutomation
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ring-mqtt
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ring-mqtt
+    - https://github.com/tsightler/ring-mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ring-mqtt-3.0.11/ring-mqtt-3.0.11.tgz
+    version: 3.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Tools-Utilities
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 5.1.2
     created: "2023-02-10T10:16:24.586505053Z"
     dependencies:
@@ -65071,4 +65106,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T02:23:49.298538417Z"
+generated: "2023-02-11T03:15:36.603129342Z"
