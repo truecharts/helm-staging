@@ -59240,6 +59240,39 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.3.0
+    created: "2023-02-11T14:02:12.645223855Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Traggo is a tag-based time tracking tool. In Traggo there are no
+      tasks, only tagged time spans.
+    digest: 30073662b1e743edcfe4d8938d894bcd9e338b792132265cb5ac0bf7916a7909
+    home: https://truecharts.org/charts/stable/traggo
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/traggo.png
+    keywords:
+    - time-tracking
+    - tag
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traggo
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/traggo
+    - https://github.com/traggo/server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traggo-1.0.8/traggo-1.0.8.tgz
+    version: 1.0.8
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.2.3
     created: "2023-02-10T10:16:42.451108828Z"
     dependencies:
@@ -65356,4 +65389,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T10:38:44.410745527Z"
+generated: "2023-02-11T14:02:12.647714316Z"
