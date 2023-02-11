@@ -11683,6 +11683,39 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 18.04.1
+    created: "2023-02-11T03:19:56.643931924Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Deluge App for TrueNAS SCALE
+    digest: 3a60688a49cd16d882b494731d688caceba15f5c28f10b309ea122b2332e0e78
+    home: https://truecharts.org/charts/stable/deluge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/deluge.png
+    keywords:
+    - transmission
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: deluge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/deluge
+    - https://github.com/deluge-torrent/deluge
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/deluge-13.0.10/deluge-13.0.10.tgz
+    version: 13.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.1.1
     created: "2023-02-11T02:23:49.295273913Z"
     dependencies:
@@ -65106,4 +65139,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T03:15:36.603129342Z"
+generated: "2023-02-11T03:19:56.646444719Z"
