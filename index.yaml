@@ -63678,6 +63678,35 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.109.0
+    created: "2023-02-11T04:55:01.637342583Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Xen-Orchestra is a Web-UI for managing your existing XenServer infrastructure.
+    digest: 043895baee2995753e9797742411148867f5f40a711152905e7dc8d4b52a17c4
+    home: https://truecharts.org/charts/stable/xen-orchestra
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/xen-orchestra.png
+    keywords:
+    - xen-orchestra
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: xen-orchestra
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/xen-orchestra
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/xen-orchestra-3.0.21/xen-orchestra-3.0.21.tgz
+    version: 3.0.21
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - management
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.109.0
     created: "2023-02-10T10:16:53.034764996Z"
     dependencies:
     - name: common
@@ -65139,4 +65168,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T03:19:56.646444719Z"
+generated: "2023-02-11T04:55:01.639911862Z"
