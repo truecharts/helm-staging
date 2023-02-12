@@ -48373,6 +48373,43 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.4.7
+    created: "2023-02-12T22:59:05.49338653Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: Recipes is a Django application to manage, tag and search recipes
+      using either built in models or external storage providers hosting PDF's, Images
+      or other files.
+    digest: ad85db0ce7fb7eab9c2d07cbec84d082e02adf58ecfeb26b9097f0d45fbf9206
+    home: https://truecharts.org/charts/stable/recipes
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/recipes.png
+    keywords:
+    - recipes
+    - cooking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: recipes
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/recipes
+    - https://github.com/vabene1111/recipes
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/recipes-11.0.30/recipes-11.0.30.tgz
+    version: 11.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.4.6
     created: "2023-02-10T10:16:21.755384158Z"
     dependencies:
@@ -66084,4 +66121,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T22:55:44.934019562Z"
+generated: "2023-02-12T22:59:05.495844758Z"
