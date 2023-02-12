@@ -43136,6 +43136,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 14.7.0
+    created: "2023-02-12T22:52:06.898016553Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: PostgresSQL
+    digest: d6573fb7b5af60ec6d95454fc44fccac1681864d4fccf85a90fd206c1df98d13
+    home: https://truecharts.org/charts/dependency/postgresql
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png
+    keywords:
+    - postgres
+    - postgressql
+    - dtabase
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: postgresql
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/postgresql
+    - https://www.postgresql.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/postgresql-11.0.29/postgresql-11.0.29.tgz
+    version: 11.0.29
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 14.7.0
     created: "2023-02-10T10:16:14.176482086Z"
     dependencies:
     - name: common
@@ -65986,4 +66020,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T21:07:42.026855763Z"
+generated: "2023-02-12T22:52:06.900945377Z"
