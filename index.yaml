@@ -30455,6 +30455,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.0.11
+    created: "2023-02-12T11:53:01.270710028Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An automatic Video Library Manager for TV Shows
+    digest: e5d48eb4129c830e53fee82276ad4bd0e498bda9e2ce3156ed206c134c60f376
+    home: https://truecharts.org/charts/stable/medusa
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.png
+    keywords:
+    - medusa
+    - video
+    - library
+    - manager
+    - tv
+    - shows
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: medusa
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/medusa
+    - https://github.com/linuxserver/docker-medusa
+    - https://pymedusa.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/medusa-5.0.15/medusa-5.0.15.tgz
+    version: 5.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.11
     created: "2023-02-10T10:15:50.510178662Z"
     dependencies:
     - name: common
@@ -65709,4 +65746,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T07:10:36.345758984Z"
+generated: "2023-02-12T11:53:01.273492574Z"
