@@ -2555,6 +2555,37 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.2.15
+    created: "2023-02-12T00:59:14.080609807Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Audiobookshelf is a self-hosted audiobook server for managing and
+      playing your audiobooks.
+    digest: 969eebc46e7b29c01b72d8b47bc627545328812260e39a6fdd4a627aea30403e
+    home: https://truecharts.org/charts/stable/audiobookshelf
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/audiobookshelf.png
+    keywords:
+    - audiobookshelf
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: audiobookshelf
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/audiobookshelf
+    - https://github.com/advplyr/audiobookshelf
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/audiobookshelf-4.0.19/audiobookshelf-4.0.19.tgz
+    version: 4.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.2.14
     created: "2023-02-10T10:14:53.201326265Z"
     dependencies:
@@ -65526,4 +65557,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-11T23:54:29.112115727Z"
+generated: "2023-02-12T00:59:14.172203668Z"
