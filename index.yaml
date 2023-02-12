@@ -41394,6 +41394,39 @@ entries:
         - networking
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023.02.1
+    created: "2023-02-12T18:54:44.268408535Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: DNS and Ad-filtering for your network
+    digest: d2db12019274dcf4d72979c62baad2f0fcd7d314c7cdcb85282f3000c8330934
+    home: https://truecharts.org/charts/stable/pihole
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png
+    keywords:
+    - DNS
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pihole
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pihole
+    - https://pi-hole.net/
+    - https://github.com/pi-hole
+    - https://github.com/pi-hole/docker-pi-hole
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pihole-8.0.18/pihole-8.0.18.tgz
+    version: 8.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2023.02.0
     created: "2023-02-10T20:58:27.487303588Z"
     dependencies:
@@ -65884,4 +65917,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T15:08:01.648505038Z"
+generated: "2023-02-12T18:54:44.270922528Z"
