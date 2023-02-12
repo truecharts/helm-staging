@@ -41567,6 +41567,38 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.10.1
+    created: "2023-02-12T22:55:44.795662445Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A self-hosted file sharing platform and an alternative for WeTransfer.
+    digest: 15f30697a8b322955bd3e0664d1ae35815fd93e0c78ce3b42cd235ed1f70a297
+    home: https://truecharts.org/charts/incubator/pingvin-share
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pingvin-share.png
+    keywords:
+    - pingvin-share
+    - productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pingvin-share
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/pingvin-share
+    - https://github.com/stonith404/pingvin-share
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pingvin-share-0.0.22/pingvin-share-0.0.22.tgz
+    version: 0.0.22
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.10.0
     created: "2023-02-10T14:03:51.656035824Z"
     dependencies:
@@ -57970,6 +58002,38 @@ entries:
         - MediaServer-Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-12T22:55:44.931523059Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: The official Tachidesk Chart-Chart.
+    digest: ddba76dd2461e4c37f74151f97403460d2e689150740c38ec6ea5a28f7d920d2
+    home: https://truecharts.org/charts/incubator/tachidesk-docker
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tachidesk-docker.png
+    keywords:
+    - tachidesk-docker
+    - MediaServer-Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tachidesk-docker
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/tachidesk-docker
+    - https://github.com/Suwayomi/Tachidesk-Server
+    - https://github.com/suwayomi/docker-tachidesk
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tachidesk-docker-2.0.12/tachidesk-docker-2.0.12.tgz
+    version: 2.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:38.175786552Z"
     dependencies:
     - name: common
@@ -66020,4 +66084,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T22:52:06.900945377Z"
+generated: "2023-02-12T22:55:44.934019562Z"
