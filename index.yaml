@@ -2337,6 +2337,43 @@ entries:
         - Productivity
         - Tools-Utilities
     apiVersion: v2
+    appVersion: 7.49.8
+    created: "2023-02-12T13:57:12.555403068Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: JFrog’s Artifactory open source project was created to speed up development
+      cycles using binary repositories. It’s the world’s most advanced repository
+      manager, creating a single place for teams to manage all their binary artifacts
+      efficiently.
+    digest: 42a348eddba0d677b0a6b41f23e14cecd177cb9304e57ec5f38ec8c4928412a0
+    home: https://truecharts.org/charts/incubator/artifactory-oss
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/artifactory-oss.png
+    keywords:
+    - artifactory-oss
+    - Productivity
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: artifactory-oss
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/artifactory-oss
+    - https://jfrog.com/
+    - https://registry.hub.docker.com/r/docker.bintray.io/jfrog/artifactory-oss
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/artifactory-oss-2.0.18/artifactory-oss-2.0.18.tgz
+    version: 2.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Tools-Utilities
+    apiVersion: v2
     appVersion: 7.49.6
     created: "2023-02-10T10:14:52.745068668Z"
     dependencies:
@@ -65810,4 +65847,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T12:57:36.04346339Z"
+generated: "2023-02-12T13:57:12.55896845Z"
