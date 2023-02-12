@@ -46634,6 +46634,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 4.5.1
+    created: "2023-02-12T18:58:01.22965274Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: qBittorrent is a cross-platform free and open-source BitTorrent client
+    digest: 6af7e1de9201768768b5dcc3f77f84f0e4b2d5a33b77ef944147fa24cc39db84
+    home: https://truecharts.org/charts/stable/qbittorrent
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png
+    keywords:
+    - qbittorrent
+    - torrrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: qbittorrent
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent
+    - https://github.com/qbittorrent/qBittorrent
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/qbittorrent-14.0.5/qbittorrent-14.0.5.tgz
+    version: 14.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 4.5.0
     created: "2023-02-10T10:16:18.423404704Z"
     dependencies:
@@ -65917,4 +65949,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-12T18:54:44.270922528Z"
+generated: "2023-02-12T18:58:01.232562175Z"
