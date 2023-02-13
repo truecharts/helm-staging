@@ -60697,6 +60697,42 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.58.8
+    created: "2023-02-13T22:52:54.022660809Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Trilium Notes is a hierarchical note taking application with focus
+      on building large personal knowledge bases.
+    digest: 7ef5170d4ef9bbca5de80869f319d1837fccb11167056a0a0176078f5dcd0a08
+    home: https://truecharts.org/charts/stable/trilium-notes
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/trilium-notes.png
+    keywords:
+    - trilium
+    - notes
+    - note
+    - information
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: trilium-notes
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/trilium-notes
+    - https://ghcr.io/zadam/trilium
+    - https://github.com/zadam/trilium
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/trilium-notes-7.0.13/trilium-notes-7.0.13.tgz
+    version: 7.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.58.7
     created: "2023-02-10T10:16:43.063196364Z"
     dependencies:
@@ -66560,4 +66596,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-13T21:54:09.673886232Z"
+generated: "2023-02-13T22:52:54.025521144Z"
