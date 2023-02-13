@@ -14419,6 +14419,40 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.7.4
+    created: "2023-02-13T02:47:30.533482232Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: ErsatzTV configuring and streaming custom live channels using your
+      media library.
+    digest: ae9f08a3543f1c7e8e00e8e4d70cbc37579edeb14eb065a534d4645ffbbcdb1d
+    home: https://truecharts.org/charts/incubator/ersatztv
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ersatztv.png
+    keywords:
+    - ersatztv
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ersatztv
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/ersatztv
+    - https://hub.docker.com/r/jasongdove/ersatztv
+    - https://github.com/jasongdove/ErsatzTV
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ersatztv-0.0.5/ersatztv-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.7.3
     created: "2023-02-10T10:15:17.433838717Z"
     dependencies:
@@ -66222,4 +66256,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-13T02:39:30.124401567Z"
+generated: "2023-02-13T02:47:30.536688177Z"
