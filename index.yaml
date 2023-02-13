@@ -17215,6 +17215,38 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-02-13T14:54:25.747379674Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A database-less note taking web app that utilizes a flat folder of
+      markdown files for storage.
+    digest: 9b7216f6b3c02af96acdc27290640b570e5b4d1685070f0d6166a58c4bce43c2
+    home: https://truecharts.org/charts/incubator/flatnotes
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/flatnotes.png
+    keywords:
+    - notes
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: flatnotes
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/flatnotes
+    - https://hub.docker.com/r/dullage/flatnotes
+    - https://github.com/Dullage/flatnotes
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/flatnotes-2.0.10/flatnotes-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.1.0
     created: "2023-02-10T10:15:23.507183332Z"
     dependencies:
@@ -66354,4 +66386,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-13T11:53:17.713440728Z"
+generated: "2023-02-13T14:54:25.750597187Z"
