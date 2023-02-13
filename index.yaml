@@ -38747,6 +38747,38 @@ entries:
         - test
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.4.2
+    created: "2023-02-13T05:56:54.030476852Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: OpenHab is a home-automation application
+    digest: bce09edcb6b916910d569c206f381badfd010b00fd822143aff97d33dea6d6d8
+    home: https://truecharts.org/charts/stable/openhab
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/openhab.png
+    keywords:
+    - openhab
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: openhab
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/openhab
+    - https://hub.docker.com/r/openhab/openhab
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/openhab-4.0.12/openhab-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - test
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.4.1
     created: "2023-02-10T10:16:04.502320945Z"
     dependencies:
@@ -66256,4 +66288,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-13T02:47:30.536688177Z"
+generated: "2023-02-13T05:56:54.033273324Z"
