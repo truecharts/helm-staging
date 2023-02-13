@@ -14225,6 +14225,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.2.0
+    created: "2023-02-13T15:56:17.369060087Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Embystat is a personal web server that can calculate all kinds of
+      statistics from your (local) Emby server.
+    digest: 331089eb88b773850ecf7cec78d442492a4c917c6673d68a968a8aea83fae2eb
+    home: https://truecharts.org/charts/stable/embystat
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/embystat.png
+    keywords:
+    - embystat
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: embystat
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/embystat
+    - https://ghcr.io/linuxserver/embystat
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/embystat-4.0.11/embystat-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.2.0
     created: "2023-02-10T10:15:16.975767889Z"
     dependencies:
     - name: common
@@ -66424,4 +66456,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-13T15:07:07.228015801Z"
+generated: "2023-02-13T15:56:17.371897278Z"
