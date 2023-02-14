@@ -56509,6 +56509,39 @@ entries:
         - MediaApp-Music
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-14T14:55:07.763184144Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Official SongKong Chart repository, Identify your songs and add metadata
+      and artwork automatically
+    digest: ad0de35f6c7e39a8de0ed726109324972567396c276cbfc343d2d6fdc30b8dd1
+    home: https://truecharts.org/charts/incubator/songkong
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/songkong.png
+    keywords:
+    - songkong
+    - MediaApp-Music
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: songkong
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/songkong
+    - https://hub.docker.com/r/songkong/songkong
+    - http://www.jthink.net/songkong
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/songkong-2.0.16/songkong-2.0.16.tgz
+    version: 2.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaApp-Music
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:33.505440763Z"
     dependencies:
     - name: common
@@ -67067,4 +67100,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T11:58:43.358683345Z"
+generated: "2023-02-14T14:55:07.765757092Z"
