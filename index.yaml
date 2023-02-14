@@ -60732,6 +60732,40 @@ entries:
         - utilities
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.2.1
+    created: "2023-02-14T22:57:34.771938495Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An open source time-tracker with an interactive user experience and
+      powerful reporting.
+    digest: 4a4e40b83615c7bc31bbe7e508350712148984f10ce9546c9a04c5ab1e0ba0ba
+    home: https://truecharts.org/charts/incubator/timetagger
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/timetagger.png
+    keywords:
+    - time
+    - timetagger
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: timetagger
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/timetagger
+    - https://ghcr.io/almarklein/timetagger
+    - https://timetagger.app
+    - https://github.com/almarklein/timetagger
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/timetagger-2.0.14/timetagger-2.0.14.tgz
+    version: 2.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.1.1
     created: "2023-02-10T10:16:41.481408574Z"
     dependencies:
@@ -67500,4 +67534,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T21:04:35.926802434Z"
+generated: "2023-02-14T22:57:34.775077061Z"
