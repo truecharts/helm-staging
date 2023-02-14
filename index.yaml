@@ -53199,6 +53199,41 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-14T14:59:34.311903721Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this
+      fork is a community effort to keep the project up-to-date and alive.
+    digest: dbbbda4d694e1c4d6933276d8bdeba59ea4491c9270c8a76b66d4d67d1f118bc
+    home: https://truecharts.org/charts/incubator/send
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/send.png
+    keywords:
+    - send
+    - Cloud
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: send
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/send
+    - https://gitlab.com/timvisee/send
+    - https://gitlab.com/timvisee/send
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/send-2.0.10/send-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Cloud
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:28.37434322Z"
     dependencies:
     - name: common
@@ -66249,6 +66284,38 @@ entries:
         - ProjectManagement
     apiVersion: v2
     appVersion: 2022.3.653
+    created: "2023-02-14T14:59:34.437002744Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: YouTrack is a project management tool that can be adapted to your
+      processes to help you deliver great products.
+    digest: 007b7480e1bbbb0500aa6ddd2bbe4620cf834c1a182435d4baf6c93f6d738217
+    home: https://truecharts.org/charts/stable/youtrack
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/youtrack.png
+    keywords:
+    - youtrack
+    - ProjectManagement
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: youtrack
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/youtrack
+    - https://hub.docker.com/r/jetbrains/youtrack
+    - https://www.jetbrains.com/youtrack/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/youtrack-1.0.4/youtrack-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - ProjectManagement
+    apiVersion: v2
+    appVersion: 2022.3.653
     created: "2023-02-10T18:58:10.767287675Z"
     dependencies:
     - name: common
@@ -67100,4 +67167,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T14:55:07.765757092Z"
+generated: "2023-02-14T14:59:34.439857642Z"
