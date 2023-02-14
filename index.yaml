@@ -2906,6 +2906,47 @@ entries:
         - authentication
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023.2.1
+    created: "2023-02-14T21:04:35.923559516Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.29
+    description: authentik is an open-source Identity Provider focused on flexibility
+      and versatility.
+    digest: 3fb1d8f7ef71b6291ba955b6002527f057e57bbfd09f725a662e3e4bd4bd9aae
+    home: https://truecharts.org/charts/stable/authentik
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/authentik.png
+    keywords:
+    - authentik
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: authentik
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/authentik
+    - https://ghcr.io/goauthentik/server
+    - https://github.com/goauthentik/authentik
+    - https://goauthentik.io/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/authentik-10.0.41/authentik-10.0.41.tgz
+    version: 10.0.41
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - authentication
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2023.2.0
     created: "2023-02-14T17:13:37.104230581Z"
     dependencies:
@@ -67459,4 +67500,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T20:58:51.290821559Z"
+generated: "2023-02-14T21:04:35.926802434Z"
