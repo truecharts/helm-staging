@@ -721,6 +721,44 @@ entries:
         - cloud
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.11.0
+    created: "2023-02-14T16:59:01.714466578Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Alist program that supports multiple storage, powered by Gin and
+      React
+    digest: f5c92f44f463f01eb5cb3cb8247fe21b90c9933a400e06bb97e518486f316f6b
+    home: https://truecharts.org/charts/stable/alist
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/alist.png
+    keywords:
+    - alist
+    - storage
+    - webdav
+    - google driver
+    - aliyun driver
+    - baiduyun
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: alist
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/alist
+    - https://hub.docker.com/r/xhofe/alist
+    - https://github.com/Xhofe/alist
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/alist-4.0.18/alist-4.0.18.tgz
+    version: 4.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.10.1
     created: "2023-02-10T10:14:48.985540988Z"
     dependencies:
@@ -67245,4 +67283,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T15:10:19.354924629Z"
+generated: "2023-02-14T16:59:01.717102886Z"
