@@ -19719,6 +19719,41 @@ entries:
         - cloud
         - utilities
     apiVersion: v2
+    appVersion: 1.6.2
+    created: "2023-02-14T02:23:00.24384618Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Gokapi is a lightweight server to share files, which expire after
+      a set amount of downloads or days.
+    digest: ae95b71afc12e0698f44f5594e24b824cebb1868753c8f2b2052c7608fa45e89
+    home: https://truecharts.org/charts/incubator/gokapi
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/gokapi.png
+    keywords:
+    - gokapi
+    - cloud
+    - utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: gokapi
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/gokapi
+    - https://hub.docker.com/r/f0rc3/gokapi
+    - https://github.com/Forceu/gokapi
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/gokapi-2.0.10/gokapi-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+        - utilities
+    apiVersion: v2
     appVersion: 1.6.1
     created: "2023-02-10T10:15:28.751088165Z"
     dependencies:
@@ -66667,4 +66702,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T00:01:07.820717363Z"
+generated: "2023-02-14T02:23:00.246568073Z"
