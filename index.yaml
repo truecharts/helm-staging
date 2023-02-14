@@ -62821,6 +62821,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.20.0
+    created: "2023-02-14T05:52:33.142498595Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A fancy self-hosted monitoring tool
+    digest: a14b640c7118131d574f41dab1886d7e4880885aaf2c64032f880e9cfb3c29c6
+    home: https://truecharts.org/charts/stable/uptime-kuma
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png
+    keywords:
+    - monitoring
+    - uptime
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: uptime-kuma
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/uptime-kuma
+    - https://hub.docker.com/r/louislam/uptime-kuma
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/uptime-kuma-5.0.19/uptime-kuma-5.0.19.tgz
+    version: 5.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - monitoring
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.20.0
     created: "2023-02-13T10:59:15.19224888Z"
     dependencies:
     - name: common
@@ -66916,4 +66949,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T04:59:41.948160871Z"
+generated: "2023-02-14T05:52:33.145935047Z"
