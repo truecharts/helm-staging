@@ -38832,6 +38832,50 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 7.3.2
+    created: "2023-02-14T10:01:48.938140717Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.29
+    description: 'ONLYOFFICE Document Server is an online office suite comprising
+      viewers and editors for texts, spreadsheets and presentations, fully compatible
+      with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative
+      editing in real time.'
+    digest: 4352f6ce69340870670aa93db68be45f24f38bbc757cca119e1eea51acb32656
+    home: https://truecharts.org/charts/stable/onlyoffice-document-server
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/onlyoffice-document-server.png
+    keywords:
+    - onlyoffice
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: onlyoffice-document-server
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/onlyoffice-document-server
+    - https://github.com/ONLYOFFICE/DocumentServer
+    - https://github.com/ONLYOFFICE/Docker-DocumentServer
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/onlyoffice-document-server-9.0.24/onlyoffice-document-server-9.0.24.tgz
+    version: 9.0.24
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - office
+        - documents
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 7.3.0
     created: "2023-02-10T10:16:03.844797333Z"
     dependencies:
@@ -66982,4 +67026,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T05:56:01.794909058Z"
+generated: "2023-02-14T10:01:48.941569958Z"
