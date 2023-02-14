@@ -22253,6 +22253,39 @@ entries:
         - inventory
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.8.0
+    created: "2023-02-14T05:56:01.791592246Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Inventory and organization system built for the Home User.
+    digest: e6c1a73dc4d56b701068d180ce4a72fa906ff659c744dca41d13d4bb24af9d16
+    home: https://truecharts.org/charts/stable/homebox
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/homebox.png
+    keywords:
+    - homebox
+    - inventory
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: homebox
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/homebox
+    - https://ghcr.io/hay-kot/homebox
+    - https://github.com/hay-kot/homebox
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/homebox-1.0.4/homebox-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - inventory
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.7.0
     created: "2023-02-10T10:15:34.142002296Z"
     dependencies:
@@ -66949,4 +66982,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T05:52:33.145935047Z"
+generated: "2023-02-14T05:56:01.794909058Z"
