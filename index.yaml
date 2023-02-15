@@ -60008,6 +60008,40 @@ entries:
         - Network-Management
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T08:54:52.025954168Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: TasmoAdmin is an administrative Website for Home Automation Devices
+      flashed with Tasmota
+    digest: 2fa492c2ee7090ad1b631d3f5c70f0dd2134c99bb39da0f05fefe816548aea78
+    home: https://truecharts.org/charts/incubator/tasmoadmin
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmoadmin.png
+    keywords:
+    - tasmoadmin
+    - HomeAutomation
+    - Network-Management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tasmoadmin
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/tasmoadmin
+    - https://hub.docker.com/r/raymondmm/tasmoadmin
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tasmoadmin-2.0.10/tasmoadmin-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Network-Management
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:38.798649264Z"
     dependencies:
     - name: common
@@ -68058,4 +68092,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T06:27:56.890169934Z"
+generated: "2023-02-15T08:54:52.028630548Z"
