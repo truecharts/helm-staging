@@ -25127,6 +25127,38 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.391.0
+    created: "2023-02-15T11:01:46.095254621Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: The gold standard in devops tools for running CI/CD pipelines.
+    digest: 780893bd8416b8887c0f29c6c6c1524a5059698df36e29a7296cf5bd3a2fae5f
+    home: https://truecharts.org/charts/incubator/jenkins
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jenkins.png
+    keywords:
+    - jenkins
+    - productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jenkins
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/jenkins
+    - https://hub.docker.com/r/jenkins/jenkins
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jenkins-3.0.14/jenkins-3.0.14.tgz
+    version: 3.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.390.0
     created: "2023-02-10T10:15:39.153570937Z"
     dependencies:
@@ -68262,4 +68294,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T10:27:41.060344568Z"
+generated: "2023-02-15T11:01:46.101671654Z"
