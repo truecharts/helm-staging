@@ -61494,6 +61494,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.9.6
+    created: "2023-02-15T05:27:52.865964373Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Traefik is a flexible reverse proxy and Ingress Provider.
+    digest: 1bca26ecc33971f1e6212d7296e4d50f7a86e49161a45b4c703071456c443d89
+    home: https://truecharts.org/charts/enterprise/traefik
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png
+    keywords:
+    - traefik
+    - ingress
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traefik
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/traefik
+    - https://hub.docker.com/_/traefik
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    - https://traefik.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traefik-16.0.14/traefik-16.0.14.tgz
+    version: 16.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.9.6
     created: "2023-02-11T10:22:53.206628233Z"
     dependencies:
     - name: common
@@ -67914,4 +67949,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T05:13:10.934743263Z"
+generated: "2023-02-15T05:27:52.868879402Z"
