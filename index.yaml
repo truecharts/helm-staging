@@ -57459,6 +57459,41 @@ entries:
         - Tools-Utilities
         - Network-Management
     apiVersion: v2
+    appVersion: 9.0.4
+    created: "2023-02-15T05:01:27.381411959Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: This is a Chartfile for Splunk designed for OpenShift and TrueNAS
+      based on Alpine Linux - https://www.splunk.com
+    digest: 1a16edfe17ff643ac17199b4f57798a378a8f4705f362034af02668e99b733e2
+    home: https://truecharts.org/charts/incubator/splunk
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/splunk.png
+    keywords:
+    - splunk
+    - Tools-Utilities
+    - Network-Management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: splunk
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/splunk
+    - https://hub.docker.com/r/atunnecliffe/splunk
+    - https://splunk.github.io/docker-splunk
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/splunk-3.0.9/splunk-3.0.9.tgz
+    version: 3.0.9
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+        - Network-Management
+    apiVersion: v2
     appVersion: 9.0.3
     created: "2023-02-10T10:16:34.371603291Z"
     dependencies:
@@ -67839,4 +67874,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T04:57:46.418913354Z"
+generated: "2023-02-15T05:01:27.384033159Z"
