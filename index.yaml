@@ -33996,6 +33996,42 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.02.5
+    created: "2023-02-15T04:01:26.490703907Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: MKVToolNix is a set of tools to create, alter and inspect Matroska
+      files.
+    digest: 28821cf8147b0e75520c8bd7202e84673dabbf5ce3a961ee8e9c096feae23717
+    home: https://truecharts.org/charts/stable/mkvtoolnix
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mkvtoolnix.png
+    keywords:
+    - media
+    - mkvtoolnix
+    - mkv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mkvtoolnix
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mkvtoolnix
+    - https://hub.docker.com/r/jlesage/mkvtoolnix
+    - https://github.com/jlesage/docker-mkvtoolnix
+    - https://mkvtoolnix.download/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mkvtoolnix-4.0.15/mkvtoolnix-4.0.15.tgz
+    version: 4.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.02.4
     created: "2023-02-14T04:59:41.9448249Z"
     dependencies:
@@ -67738,4 +67774,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T03:57:50.506601693Z"
+generated: "2023-02-15T04:01:26.493407611Z"
