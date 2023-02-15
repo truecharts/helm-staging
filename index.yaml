@@ -46846,6 +46846,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T14:34:17.087738944Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Media display for Plex, Sonarr and Radarr.
+    digest: ff50925209f8c14fb909e7c64f0f9bd2fe0fc2ef67f8b71cd5afc3cdb0397519
+    home: https://truecharts.org/charts/stable/posterr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/posterr.png
+    keywords:
+    - posterr
+    - MediaServer-Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: posterr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/posterr
+    - https://hub.docker.com/r/petersem/posterr
+    - https://github.com/petersem/posterr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/posterr-3.0.12/posterr-3.0.12.tgz
+    version: 3.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Other
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:14.026182241Z"
     dependencies:
     - name: common
@@ -70974,4 +71007,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T14:30:55.221380977Z"
+generated: "2023-02-15T14:34:17.092071482Z"
