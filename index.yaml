@@ -15299,6 +15299,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T01:02:20.059905077Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Allow external services to be used like Apps.
+    digest: 0e7b9e8bc568691747c57d9f9c532f268b5c9dd3cf69c41e9756f67807f6508a
+    home: https://truecharts.org/charts/stable/external-service
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png
+    keywords:
+    - external-service
+    - reverse-proxy
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: external-service
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/external-service
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/external-service-8.0.12/external-service-8.0.12.tgz
+    version: 8.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:18.767242244Z"
     dependencies:
     - name: common
@@ -67534,4 +67565,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-14T22:57:34.775077061Z"
+generated: "2023-02-15T01:02:20.063596285Z"
