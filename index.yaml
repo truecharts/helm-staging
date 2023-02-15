@@ -60385,6 +60385,40 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.00.19.1
+    created: "2023-02-15T10:27:41.057390794Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Audio/Video library transcoding automation
+    digest: b7a2773e8ed9414393139c071712c12461099a823e88b51e931f7f376f6a8afa
+    home: https://truecharts.org/charts/stable/tdarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr.png
+    keywords:
+    - encode
+    - media
+    - tdarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tdarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr
+    - https://hub.docker.com/r/haveagitgat/tdarr
+    - https://github.com/HaveAGitGat/Tdarr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tdarr-4.0.10/tdarr-4.0.10.tgz
+    version: 4.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.00.18.2
     created: "2023-02-10T10:16:39.430499571Z"
     dependencies:
@@ -68228,4 +68262,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T10:00:20.029809254Z"
+generated: "2023-02-15T10:27:41.060344568Z"
