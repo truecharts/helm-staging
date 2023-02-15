@@ -35356,6 +35356,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2023.1.0
+    created: "2023-02-15T15:37:56.761701868Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Minecraft Java Dedicated Server
+    digest: 8492b8516715a7d4cb90d8672a8935e537a94bd315550f6d179d6e62ca11b539
+    home: https://truecharts.org/charts/stable/minecraft-java
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png
+    keywords:
+    - minecraft-java
+    - minecraft
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: minecraft-java
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/minecraft-java
+    - https://hub.docker.com/r/itzg/minecraft-server
+    - https://github.com/itzg/docker-minecraft-server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/minecraft-java-3.0.28/minecraft-java-3.0.28.tgz
+    version: 3.0.28
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - games
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2023.1.0
     created: "2023-02-10T10:15:52.940977885Z"
     dependencies:
     - name: common
@@ -71075,4 +71108,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T15:14:27.022151839Z"
+generated: "2023-02-15T15:37:56.920916306Z"
