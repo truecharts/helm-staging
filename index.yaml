@@ -18344,6 +18344,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 7.6.21
+    created: "2023-02-15T04:54:18.042097597Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Folding@home is a distributed computing project for simulating protein
+      dynamics, including the process of protein folding and the movements of proteins
+      implicated in a variety of diseases.
+    digest: ee34a49c6aa39cc2f8c6fee93f2c467f87aba9f06e2a85761f0b9964a06c1aa1
+    home: https://truecharts.org/charts/stable/foldingathome
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/foldingathome.png
+    keywords:
+    - foldingathome
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: foldingathome
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/foldingathome
+    - https://ghcr.io/linuxserver/foldingathome
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/foldingathome-4.0.11/foldingathome-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 7.6.21
     created: "2023-02-10T10:15:25.277530035Z"
     dependencies:
     - name: common
@@ -67774,4 +67807,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T04:01:26.493407611Z"
+generated: "2023-02-15T04:54:18.045758303Z"
