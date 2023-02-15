@@ -5,6 +5,39 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - MediaServer-Video
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.0.2.8
+    created: "2023-02-15T15:10:49.152062359Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: IPTV service providing streaming, playlist, search engine and epg.
+    digest: 4fc1653e115a1689ccd15060da37e7f04e2af17f18aadc1222ea2ac9b7da592e
+    home: https://truecharts.org/charts/incubator/acestream
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/acestream.png
+    keywords:
+    - acestream
+    - MediaServer-Video
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: acestream
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/acestream
+    - https://hub.docker.com/r/vstavrinov/acestream-service
+    - https://github.com/vstavrinov/acestream-service
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/acestream-3.0.0/acestream-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Video
     apiVersion: v2
     appVersion: latest
     created: "2023-02-15T12:35:48.889028639Z"
@@ -71007,4 +71040,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T14:34:17.092071482Z"
+generated: "2023-02-15T15:10:49.154790032Z"
