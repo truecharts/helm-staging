@@ -5863,6 +5863,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.0.9
+    created: "2023-02-15T13:32:11.331963165Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Budge is an open source 'budgeting with envelopes' personal finance
+      app.
+    digest: 43699a8d90af58879d292afd9db7443208c806b7f466ba972ae7853b3137e8db
+    home: https://truecharts.org/charts/stable/budge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/budge.png
+    keywords:
+    - finance
+    - budge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: budge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/budge
+    - https://ghcr.io/linuxserver/budge
+    - https://github.com/linuxserver/budge
+    - https://github.com/linuxserver/docker-BudgE
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/budge-4.0.17/budge-4.0.17.tgz
+    version: 4.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.0.9
     created: "2023-02-10T10:14:58.968626616Z"
     dependencies:
     - name: common
@@ -23431,6 +23465,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.9.6
+    created: "2023-02-15T13:32:11.508450697Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: HedgeDoc lets you create real-time collaborative markdown notes.
+    digest: ddc500a1102bfc9f80e8e857517d31e2ec60413b80bc3d24ed452a6cf9018729
+    home: https://truecharts.org/charts/stable/hedgedoc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/hedgedoc.png
+    keywords:
+    - hedgedoc
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: hedgedoc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/hedgedoc
+    - https://quay.io/hedgedoc/hedgedoc
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/hedgedoc-7.0.26/hedgedoc-7.0.26.tgz
+    version: 7.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.9.6
     created: "2023-02-10T10:15:33.042793559Z"
     dependencies:
     - name: common
@@ -25579,6 +25648,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:32:11.733846264Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: Open source alternative front-end to YouTube.
+    digest: 9ce8bf1e98e07a019c27af5def9819a423113c15dfd9b105e6eaa9f858da90ca
+    home: https://truecharts.org/charts/stable/invidious
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.png
+    keywords:
+    - invidious
+    - youtube
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: invidious
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
+    - https://quay.io/invidious/invidious
+    - https://github.com/iv-org/invidious
+    - https://docs.invidious.io/installation/#docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/invidious-2.0.8/invidious-2.0.8.tgz
+    version: 2.0.8
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:37.323717661Z"
     dependencies:
     - name: common
@@ -27294,6 +27401,42 @@ entries:
         - Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:32:11.897879486Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Kdenlive(https://kdenlive.org/) is a powerful free and open source
+      cross-platform video editing program made by the KDE community. Feature rich
+      and production ready.
+    digest: b9ceb34a13cce5afe4730a27caf446d0dbb253c0b74cbe56bb9c13eb9f4b0dbc
+    home: https://truecharts.org/charts/incubator/kdenlive
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kdenlive.png
+    keywords:
+    - kdenlive
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kdenlive
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/kdenlive
+    - https://fleet.linuxserver.io/image?name=linuxserver/kdenlive
+    - https://kdenlive.org/
+    - https://github.com/orgs/linuxserver/packages/container/package/kdenlive
+    - https://github.com/linuxserver/docker-kdenlive#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/kdenlive-2.0.18/kdenlive-2.0.18.tgz
+    version: 2.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:40.920529266Z"
     dependencies:
     - name: common
@@ -28849,6 +28992,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:32:12.052490801Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Get all your books, like series with Sonarr...
+    digest: 4216a7194df6f96b01db988346dee88bbfa8feb3ed84d695888b40debc0cd200
+    home: https://truecharts.org/charts/stable/lazylibrarian
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/lazylibrarian.png
+    keywords:
+    - lazylibrarian
+    - ebooks
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: lazylibrarian
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/lazylibrarian
+    - https://ghcr.io/linuxserver/lazylibrarian
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/lazylibrarian-13.0.18/lazylibrarian-13.0.18.tgz
+    version: 13.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:44.315765755Z"
     dependencies:
     - name: common
@@ -29553,6 +29730,45 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/libreddit-3.0.14/libreddit-3.0.14.tgz
     version: 3.0.14
   libremdb:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-15T13:32:12.246711746Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.29
+    description: A free & open source IMDb front-end.
+    digest: fb4362768562c73ac1c11566deaf7bde02b87e52317a73d4d61e83d9b2997a00
+    home: https://truecharts.org/charts/stable/libremdb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.png
+    keywords:
+    - libremdb
+    - media
+    - imdb
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: libremdb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+    - https://quay.io/pussthecatorg/libremdb
+    - https://github.com/zyachel/libremdb
+    - https://github.com/PussTheCat-org/docker-libremdb-quay
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/libremdb-1.0.11/libremdb-1.0.11.tgz
+    version: 1.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -31323,6 +31539,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 10.10.3
+    created: "2023-02-15T13:32:12.396095557Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 3681816c2460cdf74e5f2cc7e987221e22a0ce216bca725ba48362453c50f87b
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://hub.docker.com/r/bitnami/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mariadb-5.0.32/mariadb-5.0.32.tgz
+    version: 5.0.32
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 10.10.3
     created: "2023-02-10T10:15:49.148579274Z"
     dependencies:
     - name: common
@@ -32936,6 +33190,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/mediainfo-3.0.13/mediainfo-3.0.13.tgz
     version: 3.0.13
   medusa:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.11
+    created: "2023-02-15T13:32:12.572743288Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An automatic Video Library Manager for TV Shows
+    digest: 1e449798178a90e41eb18ed40ab99d3967f7595bf6af5bea8dffb475d309e384
+    home: https://truecharts.org/charts/stable/medusa
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.png
+    keywords:
+    - medusa
+    - video
+    - library
+    - manager
+    - tv
+    - shows
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: medusa
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/medusa
+    - https://ghcr.io/linuxserver/medusa
+    - https://github.com/linuxserver/docker-medusa
+    - https://pymedusa.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/medusa-5.0.16/medusa-5.0.16.tgz
+    version: 5.0.16
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -37810,6 +38102,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.11.4
+    created: "2023-02-15T13:32:12.819488771Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A personal music streaming server
+    digest: aff562c6b70759b9fabf8c3b2971a6fde07e990339e4ef07ede46ae57f29e636
+    home: https://truecharts.org/charts/stable/mstream
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mstream.png
+    keywords:
+    - mstream
+    - server
+    - music
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mstream
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mstream
+    - https://ghcr.io/linuxserver/mstream
+    - https://github.com/linuxserver/docker-mstream
+    - https://mstream.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mstream-5.0.12/mstream-5.0.12.tgz
+    version: 5.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.11.4
     created: "2023-02-10T10:15:56.43350692Z"
     dependencies:
     - name: common
@@ -38025,6 +38352,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.7.0
+    created: "2023-02-15T13:32:12.97819919Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Mylar is a automated Comic Book downloader
+    digest: 150f498b8548fbbf36970f12c6923239d661c4234f3b6dbe2379917dfa8e874a
+    home: https://truecharts.org/charts/stable/mylar
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mylar.png
+    keywords:
+    - mylar
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mylar
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mylar
+    - https://github.com/mylar3/mylar3
+    - https://github.com/linuxserver/docker-mylar3
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mylar-8.0.15/mylar-8.0.15.tgz
+    version: 8.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.7.0
     created: "2023-02-10T10:15:56.897704538Z"
     dependencies:
     - name: common
@@ -38150,6 +38508,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/mymediaforalexa-3.0.8/mymediaforalexa-3.0.8.tgz
     version: 3.0.8
   mysql-workbench:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 8.0.32
+    created: "2023-02-15T13:32:13.142703112Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: MySQL Workbench is a unified visual tool for database architects,
+      developers and DBAs.
+    digest: 0ba521c0691b09e667bed7d6fe2f855defc42d1418c478d1ac80a357a0f91ab8
+    home: https://truecharts.org/charts/stable/mysql-workbench
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mysql-workbench.png
+    keywords:
+    - mysql-workbench
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mysql-workbench
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mysql-workbench
+    - https://ghcr.io/linuxserver/mysql-workbench
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mysql-workbench-4.0.15/mysql-workbench-4.0.15.tgz
+    version: 4.0.15
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -40909,6 +41299,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.8.0
+    created: "2023-02-15T13:32:13.311991238Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Omada is a SDN tool for TP-Link Omada hardware
+    digest: f69ac33bc6d6cea51da1ea980c787a464f253be8f2b81cb4d03670029591f54a
+    home: https://truecharts.org/charts/stable/omada-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
+    keywords:
+    - omada-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: omada-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+    - https://hub.docker.com/r/mbentley/omada-controller
+    - https://github.com/mbentley/docker-omada-controller
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/omada-controller-8.0.25/omada-controller-8.0.25.tgz
+    version: 8.0.25
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.8.0
     created: "2023-02-10T10:16:03.319980469Z"
     dependencies:
     - name: common
@@ -41836,6 +42257,42 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/openra-2.0.8/openra-2.0.8.tgz
     version: 2.0.8
   openspeedtest:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+        - test
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-15T13:32:13.478554362Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: HTML5 Network Speed Test Server. You can test download & upload speed
+      from any device within your network with a web browser that is IE10 or new.
+    digest: e6d35897c3298dc8c3bc6543b2a37c50bf2d0802f1e2ee442ec01f23dc57d6ed
+    home: https://truecharts.org/charts/stable/openspeedtest
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/openspeedtest.png
+    keywords:
+    - speedtest
+    - speed test
+    - openspeedtest
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: openspeedtest
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/openspeedtest
+    - https://hub.docker.com/r/openspeedtest/latest
+    - https://github.com/openspeedtest/Speed-Test
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/openspeedtest-3.0.18/openspeedtest-3.0.18.tgz
+    version: 3.0.18
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -42883,6 +43340,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/papermerge-6.0.18/papermerge-6.0.18.tgz
     version: 6.0.18
   passwordpusherephemeral:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Security
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-15T13:32:13.647097487Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Ephemeral version requires no other database Chart! PasswordPusher
+      or PWPush is an opensource application to communicate passwords over the web.
+      Links to passwords expire after a certain number of views and/or time has passed.
+    digest: d12d31e9fcc111ea160891381452970b7b0e9f4078acb18bcd6164ea6b8e51dc
+    home: https://truecharts.org/charts/incubator/passwordpusherephemeral
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/passwordpusherephemeral.png
+    keywords:
+    - passwordpusherephemeral
+    - Productivity
+    - Security
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: passwordpusherephemeral
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/passwordpusherephemeral
+    - https://hub.docker.com/r/pglombardo/pwpush-ephemeral
+    - https://github.com/pglombardo/PasswordPusher
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/passwordpusherephemeral-2.0.24/passwordpusherephemeral-2.0.24.tgz
+    version: 2.0.24
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -47547,6 +48042,45 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.5.1
+    created: "2023-02-15T13:32:13.838462929Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: PrivateBin is a minimalist, open source online pastebin where the
+      server has zero knowledge of pasted data.
+    digest: 7bf844ab8602f707ac532867c5e7586468693151e9c0c0aa6cbdc5efa2276b9b
+    home: https://truecharts.org/charts/incubator/privatebin
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/privatebin.png
+    keywords:
+    - privatebin
+    - pastebin
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: privatebin
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/privatebin
+    - https://hub.docker.com/r/privatebin/pdo
+    - https://privatebin.info/
+    - https://github.com/PrivateBin/PrivateBin
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/privatebin-3.0.26/privatebin-3.0.26.tgz
+    version: 3.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.5.1
     created: "2023-02-10T10:16:14.943942926Z"
     dependencies:
     - name: common
@@ -49302,6 +49836,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.0.1
+    created: "2023-02-15T13:32:14.067408099Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Pwndrop is a self-deployable file hosting service for sending out
+      red teaming payloads or securely sharing your private files over HTTP and WebDAV.
+    digest: dc1a9d617d22ab2c728f924a7cfb661d09a3244b71ba2255bc5590c1004341f7
+    home: https://truecharts.org/charts/stable/pwndrop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pwndrop.png
+    keywords:
+    - pwndrop
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pwndrop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pwndrop
+    - https://ghcr.io/linuxserver/pwndrop
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pwndrop-4.0.11/pwndrop-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.1
     created: "2023-02-10T10:16:17.479461124Z"
     dependencies:
     - name: common
@@ -49506,6 +50072,42 @@ entries:
         - Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:32:14.230219021Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: pyLoad(https://pyload.net/) is a Free and Open Source download manager
+      written in Python and designed to be extremely lightweight, easily extensible
+      and fully manageable via web.
+    digest: 0c7ce5083612b9cd400d1f57937bdbeaec378919e0e08a06b66d4367b8cb72c8
+    home: https://truecharts.org/charts/incubator/pyload-ng
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pyload-ng.png
+    keywords:
+    - pyload-ng
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pyload-ng
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/pyload-ng
+    - https://fleet.linuxserver.io/image?name=linuxserver/pyload-ng
+    - https://pyload.net/
+    - https://github.com/orgs/linuxserver/packages/container/package/pyload-ng
+    - https://github.com/linuxserver/docker-pyload-ng#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pyload-ng-2.0.18/pyload-ng-2.0.18.tgz
+    version: 2.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:17.963057078Z"
     dependencies:
     - name: common
@@ -49573,6 +50175,37 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/pyload-ng-2.0.16/pyload-ng-2.0.16.tgz
     version: 2.0.16
   pylon:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.9.0
+    created: "2023-02-15T13:32:14.401181048Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Pylon is a web based integrated development environment.
+    digest: 10ed80b850dba137c80b28e7951dc72da8511fb211dc0aa9317606aafcb6be76
+    home: https://truecharts.org/charts/stable/pylon
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pylon.png
+    keywords:
+    - pylon
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pylon
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pylon
+    - https://ghcr.io/linuxserver/pylon
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pylon-4.0.13/pylon-4.0.13.tgz
+    version: 4.0.13
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -69863,4 +70496,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T13:28:09.388971603Z"
+generated: "2023-02-15T13:32:14.40408805Z"
