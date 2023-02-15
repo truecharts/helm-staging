@@ -372,6 +372,40 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:23:25.678743914Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Adminer (formerly phpMinAdmin) is a full-featured database management
+      tool written in PHP.
+    digest: bda46cbccc959dda33c3d3c3d82514f4304c71b09b1a738c26377795a01e4a61
+    home: https://truecharts.org/charts/stable/adminer
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/adminer.png
+    keywords:
+    - adminer
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: adminer
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
+    - https://hub.docker.com/_/adminer
+    - https://github.com/vrana/adminer
+    - http://hub.docker.com/_/adminer/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/adminer-3.0.15/adminer-3.0.15.tgz
+    version: 3.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:14:47.958094255Z"
     dependencies:
     - name: common
@@ -3419,6 +3453,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T13:23:25.814301948Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Autoscan replaces the default Plex and Emby behaviour for picking
+      up file changes on the file system.
+    digest: 2dd094ebb71338cc04a46d59d132d35984842e925e6f949d51914e9214057406
+    home: https://truecharts.org/charts/stable/autoscan
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/autoscan.png
+    keywords:
+    - autoscan
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: autoscan
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/autoscan
+    - https://hotio.dev/containers/autoscan
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/autoscan-3.0.10/autoscan-3.0.10.tgz
+    version: 3.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:14:54.359570148Z"
     dependencies:
     - name: common
@@ -3691,6 +3758,47 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/awesome-ttrss-3.0.20/awesome-ttrss-3.0.20.tgz
     version: 3.0.20
   babybuddy:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.14.0
+    created: "2023-02-15T13:23:25.953121093Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: Helps caregivers track sleep, feedings, diaper changes, tummy time
+      and more to learn about and predict baby's needs without (as much) guess work.
+    digest: 5c353d286748f3fc7c1e216675809e34c1849ea0e4d963f2021d5236dd420485
+    home: https://truecharts.org/charts/stable/babybuddy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/babybuddy.png
+    keywords:
+    - baby
+    - buddy
+    - tracker
+    - parents
+    - parenting
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: babybuddy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/babybuddy
+    - https://ghcr.io/linuxserver/babybuddy
+    - https://github.com/babybuddy/babybuddy
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/babybuddy-11.0.28/babybuddy-11.0.28.tgz
+    version: 11.0.28
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -4269,6 +4377,43 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/bazarr-13.0.17/bazarr-13.0.17.tgz
     version: 13.0.17
   beets:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.0
+    created: "2023-02-15T13:23:26.066020554Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A music library manager and not, for the most part, a music player.
+    digest: e10a741ce64aca61610fb56a7703285c29a5586a2102c328b08213716dbfb8f0
+    home: https://truecharts.org/charts/stable/beets
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/beets.png
+    keywords:
+    - music
+    - library
+    - manager
+    - player
+    - beets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: beets
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/beets
+    - https://ghcr.io/linuxserver/beets
+    - https://github.com/linuxserver/docker-beets
+    - https://beets.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/beets-6.0.14/beets-6.0.14.tgz
+    version: 6.0.14
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -4993,6 +5138,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/blog-6.0.22/blog-6.0.22.tgz
     version: 6.0.22
   boinc:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-15T13:23:26.180693021Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: BOINC is a platform for high-throughput computing on a large scale
+      (thousands or millions of computers).
+    digest: fdff66abf094a2d8a80e053f10984b0d831d69d6da9aaf7e406c2960c396f4e8
+    home: https://truecharts.org/charts/stable/boinc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/boinc.png
+    keywords:
+    - boinc
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: boinc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/boinc
+    - https://ghcr.io/linuxserver/boinc
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/boinc-4.0.19/boinc-4.0.19.tgz
+    version: 4.0.19
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -8130,6 +8307,41 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/cloudflared-3.0.14/cloudflared-3.0.14.tgz
     version: 3.0.14
   cloudflareddns:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-15T13:23:26.344044144Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Automate Cloudflare DNS records for those with a dynamic IP.
+    digest: 045d240978c545d69e491a5d12448fd7fc5198520898c7cc648cf789358b840f
+    home: https://truecharts.org/charts/stable/cloudflareddns
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.png
+    keywords:
+    - cloudflareddns
+    - ddns
+    - cloudflare
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cloudflareddns
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflareddns
+    - https://ghcr.io/hotio/cloudflareddns
+    - https://github.com/hotio/cloudflareddns
+    - https://hotio.dev/containers/cloudflareddns/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cloudflareddns-4.0.5/cloudflareddns-4.0.5.tgz
+    version: 4.0.5
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -68426,4 +68638,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T13:17:45.48612191Z"
+generated: "2023-02-15T13:23:26.346757853Z"
