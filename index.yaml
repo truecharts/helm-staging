@@ -54743,6 +54743,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2023.1.2
+    created: "2023-02-15T01:05:40.977009742Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An Automatic Video Library Manager for TV Shows
+    digest: 2d500de9b777cc7f7487471d63bd893b18c037fcab9fe126a25390ef421ef774
+    home: https://truecharts.org/charts/stable/sickchill
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/sickchill.png
+    keywords:
+    - sickchill
+    - video
+    - library
+    - manager
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: sickchill
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/sickchill
+    - https://ghcr.io/linuxserver/sickchill
+    - https://github.com/linuxserver/docker-sickchill
+    - https://github.com/SickChill/SickChill
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/sickchill-5.0.16/sickchill-5.0.16.tgz
+    version: 5.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2023.1.2
     created: "2023-02-10T10:16:31.139208751Z"
     dependencies:
     - name: common
@@ -67565,4 +67601,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T01:02:20.063596285Z"
+generated: "2023-02-15T01:05:40.98125358Z"
