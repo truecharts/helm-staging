@@ -29385,6 +29385,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.02.3
+    created: "2023-02-15T03:57:50.503888606Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: MakeMKV is your one-click solution to convert video that you own
+      into free and patents-unencumbered format that can be played everywhere.
+    digest: 3afa8c425b7c6c1975a97ecffdf9b3232051b4b23159f980556dc98d9672c388
+    home: https://truecharts.org/charts/stable/makemkv
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/makemkv.png
+    keywords:
+    - mkv
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: makemkv
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/makemkv
+    - https://hub.docker.com/r/jlesage/makemkv
+    - https://github.com/jlesage/docker-makemkv
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/makemkv-4.0.13/makemkv-4.0.13.tgz
+    version: 4.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.02.2
     created: "2023-02-14T04:55:25.457193163Z"
     dependencies:
@@ -67706,4 +67738,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T02:29:41.261272085Z"
+generated: "2023-02-15T03:57:50.506601693Z"
