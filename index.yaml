@@ -5303,6 +5303,40 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.57.0
+    created: "2023-02-15T02:29:41.140564013Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Browserless is a web-service that allows for remote clients to connect,
+      drive, and execute headless work
+    digest: d6934a8b961ab2fdd83c5d6c85432e554c2d6f15c1b5e649e08c5f19d2c9738e
+    home: https://truecharts.org/charts/stable/browserless-chrome
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/browserless-chrome.png
+    keywords:
+    - browserless
+    - chrome
+    - puppeteer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: browserless-chrome
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/browserless-chrome
+    - https://hub.docker.com/r/browserless/chrome
+    - https://docs.browserless.io/docs/docker.html
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/browserless-chrome-4.0.12/browserless-chrome-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.54.0
     created: "2023-02-10T10:14:58.671943078Z"
     dependencies:
@@ -52325,6 +52359,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-15T02:29:41.258595799Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.29
+    description: RSSHub can generate RSS feeds from pretty much everything
+    digest: 8ba20bf7bf250b7115ea102d3f3d8e62830fa537110e50030d6fd4d1aecceb44
+    home: https://truecharts.org/charts/stable/rsshub
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+    keywords:
+    - rsshub
+    - rss
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rsshub
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
+    - https://hub.docker.com/r/diygod/rsshub
+    - https://docs.rsshub.app/en/install/
+    - https://github.com/DIYgod/RSSHub
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rsshub-6.0.34/rsshub-6.0.34.tgz
+    version: 6.0.34
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:25.723947672Z"
     dependencies:
     - name: common
@@ -67634,4 +67706,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T02:18:54.946991252Z"
+generated: "2023-02-15T02:29:41.261272085Z"
