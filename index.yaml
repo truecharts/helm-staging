@@ -62770,6 +62770,41 @@ entries:
       truecharts.org/catagories: |
         - HomeAutomation
         - Network-Management
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.4.2
+    created: "2023-02-15T15:14:27.018513331Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A administrative platform for devices flashed with Tasmota.
+    digest: a61992a2512c5a4ea94b43b4a8dcee7bc339260307b44398a310a3505360c2dd
+    home: https://truecharts.org/charts/incubator/tasmoadmin
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmoadmin.png
+    keywords:
+    - tasmoadmin
+    - HomeAutomation
+    - Network-Management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tasmoadmin
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/tasmoadmin
+    - https://github.com/TasmoAdmin/TasmoAdmin
+    - https://ghcr.io/tasmoadmin/tasmoadmin
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tasmoadmin-3.0.0/tasmoadmin-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Network-Management
     apiVersion: v2
     appVersion: latest
     created: "2023-02-15T08:54:52.025954168Z"
@@ -71040,4 +71075,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T15:10:49.154790032Z"
+generated: "2023-02-15T15:14:27.022151839Z"
