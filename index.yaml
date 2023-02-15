@@ -39543,6 +39543,55 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 25.0.2
+    created: "2023-02-15T13:35:48.777645166Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    - condition: collabora.enabled
+      name: collabora-online
+      repository: https://deps.truecharts.org/
+      version: 14.0.15
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.29
+    description: A private cloud server that puts the control and security of your
+      own data back into your hands.
+    digest: ef643ce22a5e8b9f6235a6c9bd526e5fd332b933a592d2a07f88a16ff0841e56
+    home: https://truecharts.org/charts/stable/nextcloud
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nextcloud
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud
+    - https://github.com/nextcloud/docker
+    - https://github.com/nextcloud/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nextcloud-19.0.47/nextcloud-19.0.47.tgz
+    version: 19.0.47
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 25.0.2
     created: "2023-02-10T10:15:59.106739106Z"
     dependencies:
     - name: common
@@ -48358,6 +48407,50 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/promcord-6.0.12/promcord-6.0.12.tgz
     version: 6.0.12
   prometheus:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.42.0
+    created: "2023-02-15T13:35:48.948062876Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.2.8
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.2.8
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 72c236608ce60a465cd1ea497c421a936ad43c4aea6cfaf1e65b1fd70e85ad33
+    home: https://truecharts.org/charts/enterprise/prometheus
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png
+    keywords:
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prometheus
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/prometheus
+    - https://hub.docker.com/r/bitnami/prometheus
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/prometheus-7.0.55/prometheus-7.0.55.tgz
+    version: 7.0.55
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -70496,4 +70589,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-15T13:32:14.40408805Z"
+generated: "2023-02-15T13:35:48.952509591Z"
