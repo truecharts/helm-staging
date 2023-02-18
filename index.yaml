@@ -52073,6 +52073,43 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-18T00:32:00.471956462Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Raneto(http://raneto.com/) - is an open source Knowledgebase platform
+      that uses static Markdown files to power your Knowledgebase.
+    digest: ec0ebe9fde2eea85384acd7d689e4bfd99c65535b47f78d6072d56e65adcb237
+    home: https://truecharts.org/charts/incubator/raneto
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/raneto.png
+    keywords:
+    - raneto
+    - Productivity
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: raneto
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/raneto
+    - https://fleet.linuxserver.io/image?name=linuxserver/raneto
+    - http://raneto.com/
+    - https://github.com/orgs/linuxserver/packages/container/package/raneto
+    - https://github.com/linuxserver/docker-raneto#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/raneto-2.0.13/raneto-2.0.13.tgz
+    version: 2.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:20.588719483Z"
     dependencies:
     - name: common
@@ -71246,4 +71283,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-17T11:29:01.226107329Z"
+generated: "2023-02-18T00:32:00.585181516Z"
