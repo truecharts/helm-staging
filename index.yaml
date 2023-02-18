@@ -61598,6 +61598,43 @@ entries:
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
+        - cms
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.6.1
+    created: "2023-02-18T20:14:07.269935046Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: Open-source headless CMS. JavaScript, fully customizable and developer-first.
+    digest: a279414203a07c6b7392b195fc8f5d87dcd5fc4cde4e286d01a6f67061e66b10
+    home: https://truecharts.org/charts/stable/strapi
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png
+    keywords:
+    - strapi
+    - cms
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: strapi
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/strapi
+    - https://hub.docker.com/r/naskio/strapi
+    - https://truecharts.org/docs/charts/stable/strapi
+    - https://github.com/naskio/docker-strapi
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/strapi-8.0.30/strapi-8.0.30.tgz
+    version: 8.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
         - media
       truecharts.org/grade: U
     apiVersion: v2
@@ -71283,4 +71320,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-18T00:32:00.585181516Z"
+generated: "2023-02-18T20:14:07.274207519Z"
