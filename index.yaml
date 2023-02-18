@@ -38629,6 +38629,42 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/multi-scrobbler-2.0.8/multi-scrobbler-2.0.8.tgz
     version: 2.0.8
+  muse:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - discord-bot
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.1.9
+    created: "2023-02-18T20:17:26.959750819Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A self-hosted midwestern Discord music bot that doesn't suck.
+    digest: a0cbba7b70e5aa9ac38f8a18b366e41bb85fc5fdb04d4857dc918c1abd53b5c1
+    home: https://truecharts.org/charts/incubator/muse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/muse.png
+    keywords:
+    - muse
+    - media
+    - discord-bot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: muse
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/muse
+    - https://github.com/codetheweb/muse
+    - https://hub.docker.com/r/codetheweb/muse
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/muse-0.0.1/muse-0.0.1.tgz
+    version: 0.0.1
   muximux:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -71320,4 +71356,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-18T20:14:07.274207519Z"
+generated: "2023-02-18T20:17:26.965626041Z"
