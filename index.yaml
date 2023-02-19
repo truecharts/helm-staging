@@ -22575,6 +22575,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.4.0
+    created: "2023-02-19T19:22:04.663975286Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.22
+    description: Apache Guacamole is a clientless remote desktop gateway.
+    digest: 985d93b3f63a8bd9d1070d459c6a344b698e85f8b2928792f3d2ce351cb15380
+    home: https://truecharts.org/charts/stable/guacamole-client
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/guacamole-client.png
+    keywords:
+    - guacamole
+    - remote
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: guacamole-client
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/guacamole-client
+    - https://hub.docker.com/r/guacamole/guacamole
+    - https://github.com/apache/guacamole-client
+    - http://guacamole.incubator.apache.org/doc/gug/introduction.html
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/guacamole-client-7.0.22/guacamole-client-7.0.22.tgz
+    version: 7.0.22
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.4.0
     created: "2023-02-10T10:15:30.79568801Z"
     dependencies:
     - name: common
@@ -71392,4 +71430,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-18T21:11:49.360092439Z"
+generated: "2023-02-19T19:22:04.924446323Z"
