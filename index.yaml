@@ -67145,6 +67145,40 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/unturned-2.0.8/unturned-2.0.8.tgz
     version: 2.0.8
+  upsnap:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.0.5
+    created: "2023-02-19T20:54:47.069911506Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A simple wake on lan app written with SvelteKit, Go, PocketBase and
+      nmap.
+    digest: 5a79b1586733ffcbc5d1d6be6064114f255f9c37f952431bc3774258b39c94c7
+    home: https://truecharts.org/charts/incubator/upsnap
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/upsnap.png
+    keywords:
+    - upsnap
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: upsnap
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/upsnap
+    - https://github.com/seriousm4x/UpSnap
+    - https://ghcr.io/seriousm4x/upsnap
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/upsnap-0.0.1/upsnap-0.0.1.tgz
+    version: 0.0.1
   uptime-kuma:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -71500,4 +71534,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-19T19:59:22.80426978Z"
+generated: "2023-02-19T20:54:47.073247554Z"
