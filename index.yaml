@@ -297,6 +297,39 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - Other
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.4.12
+    created: "2023-02-19T19:59:22.801559147Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Synchronize AdGuardHome config to replica instances.
+    digest: 1289d48991e0d7f8d9d464ce53d3d17f13c74698c437ed368cca05f2236728b3
+    home: https://truecharts.org/charts/incubator/adguardhome-sync
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/adguardhome-sync.png
+    keywords:
+    - adguardhome-sync
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: adguardhome-sync
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/adguardhome-sync
+    - https://github.com/bakito/adguardhome-sync/
+    - https://ghcr.io/bakito/adguardhome-sync
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/adguardhome-sync-3.0.0/adguardhome-sync-3.0.0.tgz
+    version: 3.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Other
     apiVersion: v2
     appVersion: latest
     created: "2023-02-15T12:41:43.296575343Z"
@@ -71467,4 +71500,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-19T19:29:19.816156846Z"
+generated: "2023-02-19T19:59:22.80426978Z"
