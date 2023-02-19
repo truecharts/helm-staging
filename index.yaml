@@ -65023,6 +65023,45 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/traefik-16.0.11/traefik-16.0.11.tgz
     version: 16.0.11
+  traefik-forward-auth:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.2.0
+    created: "2023-02-19T20:58:08.137224569Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A minimal forward authentication service that provides OAuth/SSO
+      login and authentication for the traefik reverse proxy/load balancer. An example
+      for a typical setup is included in the source (docs/how-to.md).
+    digest: fa51712041dbf5b9f3ae41362f6ff564579356fb05bfa222d5ccccfc9e6e7421
+    home: https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
+    icon: https://raw.githubusercontent.com/truecharts/charts/master/incubator/traefik-forward-auth/icon.png?raw=true
+    keywords:
+    - traefik-forward-auth
+    - traefik
+    - forward-auth
+    - auth
+    - ingress
+    - middleware
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traefik-forward-auth
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
+    - https://github.com/thomseddon/traefik-forward-auth
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traefik-forward-auth-0.1.0/traefik-forward-auth-0.1.0.tgz
+    version: 0.1.0
   traggo:
   - annotations:
       truecharts.org/SCALE-support: "true"
@@ -71534,4 +71573,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-19T20:54:47.073247554Z"
+generated: "2023-02-19T20:58:08.140743711Z"
