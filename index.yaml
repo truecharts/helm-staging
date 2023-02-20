@@ -25611,6 +25611,45 @@ entries:
         - home-automation
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023.2.5
+    created: "2023-02-20T09:01:45.611606412Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: home-assistant App for TrueNAS SCALE
+    digest: fe93aff760351ec8e3806430f687112b17f5a283c3c92e3a06ed4ba5fcd5904f
+    home: https://truecharts.org/charts/stable/home-assistant
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: home-assistant
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/home-assistant
+    - https://hub.docker.com/r/homeassistant/home-assistant
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/home-assistant-18.0.41/home-assistant-18.0.41.tgz
+    version: 18.0.41
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - home-automation
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2023.2.4
     created: "2023-02-19T22:31:17.999217622Z"
     dependencies:
@@ -41513,6 +41552,47 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/mysql-workbench-4.0.13/mysql-workbench-4.0.13.tgz
     version: 4.0.13
   n8n:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.216.0
+    created: "2023-02-20T09:01:45.860844029Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: n8n is an extendable workflow automation tool.
+    digest: 2a9525bb939eb868349efe735f3a4e81aeb0d124a5d50a1138c3f86bb08ded0a
+    home: https://truecharts.org/charts/stable/n8n
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png
+    keywords:
+    - workflows
+    - automation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: n8n
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/n8n
+    - https://hub.docker.com/r/n8nio/n8n
+    - https://docs.n8n.io/
+    - https://github.com/n8n-io/n8n
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/n8n-7.0.46/n8n-7.0.46.tgz
+    version: 7.0.46
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -61348,6 +61428,48 @@ entries:
         - utilities
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.5.2
+    created: "2023-02-20T09:01:46.395988112Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: A PHP-based self-hosted URL shortener that can be used to serve shortened
+      URLs under your own custom domain.
+    digest: 440766d42e7515a88e15733972fd09e421bc9f1db7998dc5f5901200a8240309
+    home: https://truecharts.org/charts/stable/shlink
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/shlink.png
+    keywords:
+    - url
+    - shortener
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: shlink
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/shlink
+    - https://hub.docker.com/r/shlinkio/shlink
+    - https://github.com/shlinkio/shlink
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/shlink-7.0.26/shlink-7.0.26.tgz
+    version: 7.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.5.1
     created: "2023-02-19T22:31:29.547655256Z"
     dependencies:
@@ -76039,4 +76161,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T08:57:55.039053088Z"
+generated: "2023-02-20T09:01:46.39973347Z"
