@@ -3303,6 +3303,47 @@ entries:
         - authentication
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023.2.2
+    created: "2023-02-20T23:24:06.134969417Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: authentik is an open-source Identity Provider focused on flexibility
+      and versatility.
+    digest: ec63588949eab851e2e65d8a7b74171bf8eb130d2fc5da2c4b1ce8f968eafd8c
+    home: https://truecharts.org/charts/stable/authentik
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/authentik.png
+    keywords:
+    - authentik
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: authentik
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/authentik
+    - https://ghcr.io/goauthentik/server
+    - https://github.com/goauthentik/authentik
+    - https://goauthentik.io/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/authentik-10.0.43/authentik-10.0.43.tgz
+    version: 10.0.43
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - authentication
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2023.2.1
     created: "2023-02-19T22:31:10.948837971Z"
     dependencies:
@@ -27334,6 +27375,44 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.47.3
+    created: "2023-02-20T23:24:06.320991508Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: High performance self-hosted photo and video backup solution.
+    digest: ad03f723e257694541e68e7c20f5a9ca4d67598c5fea33d3bc463f2afd3f74ed
+    home: https://truecharts.org/charts/stable/immich
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/immich.png
+    keywords:
+    - photos
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: immich
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/immich
+    - https://github.com/immich-app/immich
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/immich-5.0.14/immich-5.0.14.tgz
+    version: 5.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.47.2
     created: "2023-02-19T22:31:18.457336567Z"
     dependencies:
@@ -47531,6 +47610,51 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/owntracks-0.0.6/owntracks-0.0.6.tgz
     version: 0.0.6
   paperless-ng:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2023-02-20T23:24:06.512106068Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Paperless-ngx is an application by Daniel Quinn and contributors
+      that indexes your scanned documents.
+    digest: e08bdd1a0f3659ccb92ac89a56790cbb1c97eb295416d248a2892796ea2333ae
+    home: https://truecharts.org/charts/stable/paperless-ng
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ng.png
+    keywords:
+    - paperless-ng
+    - paperless-ngx
+    - documents
+    - paper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: paperless-ng
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/paperless-ng
+    - https://ghcr.io/paperless-ngx/paperless-ngx
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://paperless-ngx.readthedocs.io/en/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/paperless-ng-7.0.31/paperless-ng-7.0.31.tgz
+    version: 7.0.31
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -77438,4 +77562,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T23:20:32.063365741Z"
+generated: "2023-02-20T23:24:06.51613838Z"
