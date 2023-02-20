@@ -22137,6 +22137,46 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 5.35.0
+    created: "2023-02-20T23:32:09.377907688Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: Ghost is an open source, professional publishing platform built on
+      a modern Node.js technology stack designed for teams who need power, flexibility
+      and performance.
+    digest: 507c69d0cf0f555418c73d3cb03ebbf6aba067af27baadb8ac089918d57a79f4
+    home: https://truecharts.org/charts/incubator/ghost
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ghost.png
+    keywords:
+    - ghost
+    - blog
+    - cms
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ghost
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/ghost
+    - https://hub.docker.com/_/ghost
+    - https://github.com/TryGhost/Ghost
+    - https://ghost.org/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ghost-6.0.54/ghost-6.0.54.tgz
+    version: 6.0.54
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 5.34.0
     created: "2023-02-19T22:31:16.46173502Z"
     dependencies:
@@ -32041,6 +32081,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/leaf2mqtt-6.0.7/leaf2mqtt-6.0.7.tgz
     version: 6.0.7
   leantime:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - management
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.3.13
+    created: "2023-02-20T23:32:09.500135101Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: Straightforward open source project management system to make your
+      ideas reality.
+    digest: 243efda12f832ce7dbbf1851e6bb49cf4504feaf01fd436e3f8513fbf4ef9d13
+    home: https://truecharts.org/charts/stable/leantime
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/leantime.png
+    keywords:
+    - leantime
+    - project
+    - management
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: leantime
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/leantime
+    - https://hub.docker.com/r/leantime/leantime
+    - https://leantime.io/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/leantime-7.0.31/leantime-7.0.31.tgz
+    version: 7.0.31
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -70356,6 +70434,41 @@ entries:
         - network
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.9.8
+    created: "2023-02-20T23:32:09.619246372Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Traefik is a flexible reverse proxy and Ingress Provider.
+    digest: d1787b81f0e3fe0400efd3ef9fcd949259721299cd7af9bee368c19a67ba25f1
+    home: https://truecharts.org/charts/enterprise/traefik
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik.png
+    keywords:
+    - traefik
+    - ingress
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traefik
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/traefik
+    - https://hub.docker.com/_/traefik
+    - https://github.com/traefik/traefik
+    - https://github.com/traefik/traefik-helm-chart
+    - https://traefik.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traefik-16.0.16/traefik-16.0.16.tgz
+    version: 16.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.9.7
     created: "2023-02-15T06:27:56.887297599Z"
     dependencies:
@@ -77712,4 +77825,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T23:28:39.594248692Z"
+generated: "2023-02-20T23:32:09.623306388Z"
