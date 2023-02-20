@@ -7063,6 +7063,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-20T23:28:39.087242988Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Certificate management for Kubernetes
+    digest: de8707da9c396b8eafb19ef7c42cbdec9d66f2f30b6d3352fed5482ee56feeef
+    home: https://truecharts.org/charts/enterprise/cert-manager
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png
+    keywords:
+    - metallb
+    - loadbalancer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cert-manager
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/cert-manager
+    - https://cert-manager.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cert-manager-0.0.7/cert-manager-0.0.7.tgz
+    version: 0.0.7
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - core
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:14:59.969932081Z"
     dependencies:
     - name: common
@@ -22420,6 +22452,52 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/ghost-6.0.46/ghost-6.0.46.tgz
     version: 6.0.46
   gitea:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - GIT
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.18.4
+    created: "2023-02-20T23:28:39.302866237Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://deps.truecharts.org/
+      version: 5.0.29
+    description: Self hosted GIT repositories
+    digest: 96cb2ac0434cac68e7e2f4446a53c73d6837df4e6177cf609f43629d16ec7ee9
+    home: https://truecharts.org/charts/stable/gitea
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: gitea
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/gitea
+    - https://hub.docker.com/r/gitea/gitea
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/gitea-12.0.29/gitea-12.0.29.tgz
+    version: 12.0.29
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -37939,6 +38017,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-20T23:28:39.437386134Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    digest: bbb6a1d64333767d72360cab5e213a5eacaf294a2489d85e32ce6cbe34c1c394
+    home: https://truecharts.org/charts/enterprise/metallb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png
+    keywords:
+    - metallb
+    - loadbalancer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: metallb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/metallb
+    - https://github.com/metallb/metallb
+    - https://metallb.universe.tf
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/metallb-7.0.12/metallb-7.0.12.tgz
+    version: 7.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - core
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:51.693245132Z"
     dependencies:
     - name: common
@@ -46430,6 +46542,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/openldap-9.0.8/openldap-9.0.8.tgz
     version: 9.0.8
   openproject:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 12.4.4
+    created: "2023-02-20T23:28:39.591002222Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: OpenProject is a web-based project management system for location-independent
+      team collaboration.
+    digest: ba44912859726c9fb8588bc94adcbc9e1cf405ac3de6dc110ba5868a9b7696aa
+    home: https://truecharts.org/charts/incubator/openproject
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/openproject.png
+    keywords:
+    - openproject
+    - Productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: openproject
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/openproject
+    - https://hub.docker.com/r/openproject/community
+    - http://openproject.org
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/openproject-3.0.25/openproject-3.0.25.tgz
+    version: 3.0.25
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -77562,4 +77712,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T23:24:06.51613838Z"
+generated: "2023-02-20T23:28:39.594248692Z"
