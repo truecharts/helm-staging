@@ -29269,6 +29269,42 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.7.1
+    created: "2023-02-20T08:57:54.927541457Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Kavita is a rocket fueled self-hosted digital library which supports
+      a vast array of file formats
+    digest: 52789717b017336d189251a350a4a6a5cc5aad8b282facfee5a7e4b315223aa5
+    home: https://truecharts.org/charts/stable/kavita
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png
+    keywords:
+    - kavita
+    - manga
+    - library
+    - book
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kavita
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/kavita
+    - https://hub.docker.com/r/kizaing/kavita
+    - https://www.kavitareader.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/kavita-4.0.9/kavita-4.0.9.tgz
+    version: 4.0.9
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.6.1
     created: "2023-02-10T10:15:40.613712873Z"
     dependencies:
@@ -48401,6 +48437,40 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/pigallery2-2.0.10/pigallery2-2.0.10.tgz
     version: 2.0.10
   pihole:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2023.02.2
+    created: "2023-02-20T08:57:55.035832878Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: DNS and Ad-filtering for your network
+    digest: 9f0f310d8d17e6d99d463353099ef6dd1d8b48aeca0c42c22f9a67338f4a5dd5
+    home: https://truecharts.org/charts/stable/pihole
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png
+    keywords:
+    - DNS
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pihole
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pihole
+    - https://hub.docker.com/r/pihole/pihole
+    - https://pi-hole.net/
+    - https://github.com/pi-hole
+    - https://github.com/pi-hole/docker-pi-hole
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pihole-8.0.19/pihole-8.0.19.tgz
+    version: 8.0.19
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -75969,4 +76039,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T08:54:34.664268335Z"
+generated: "2023-02-20T08:57:55.039053088Z"
