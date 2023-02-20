@@ -56159,6 +56159,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.1.2.1558
+    created: "2023-02-20T17:25:43.08717084Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A fork of Radarr to work with Books & AudioBooks
+    digest: fb74bad9bc86ba3865d596563d797215e072ffab1a0cb03b0f3988c8cffb6227
+    home: https://truecharts.org/charts/stable/readarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png
+    keywords:
+    - readarr
+    - torrent
+    - usenet
+    - AudioBooks
+    - ebooks
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: readarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
+    - https://ghcr.io/onedr0p/readarr-develop
+    - https://github.com/Readarr/Readarr
+    - https://readarr.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/readarr-13.0.13/readarr-13.0.13.tgz
+    version: 13.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.1.2.1558
     created: "2023-02-10T10:16:21.575080779Z"
     dependencies:
     - name: common
@@ -76194,4 +76231,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T16:59:37.999023291Z"
+generated: "2023-02-20T17:25:43.090335628Z"
