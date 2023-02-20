@@ -18365,6 +18365,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.0.9
+    created: "2023-02-20T04:57:03.99109881Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An application that lets you automatically process files through
+      a simple rule flow.
+    digest: 5bb4d0ed6e193d8d5ae2882dab6d659cea105c206fe6536292582491048bc96e
+    home: https://truecharts.org/charts/stable/fileflows
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png
+    keywords:
+    - fileflows
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: fileflows
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/fileflows
+    - https://hub.docker.com/r/revenz/fileflows
+    - https://github.com/revenz/FileFlows
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/fileflows-4.0.12/fileflows-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.0.8
     created: "2023-02-10T10:15:20.772931873Z"
     dependencies:
@@ -75904,4 +75936,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T04:53:41.118636197Z"
+generated: "2023-02-20T04:57:03.99531552Z"
