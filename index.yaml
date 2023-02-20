@@ -37389,6 +37389,39 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023-02
+    created: "2023-02-20T16:59:37.996134938Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Web GUI for youtube-dl.
+    digest: 7aa4b3ba56d2cce58824881ce8284c468b61e506b4d01a963461e1613f826980
+    home: https://truecharts.org/charts/stable/metube
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/metube.png
+    keywords:
+    - metube
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: metube
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/metube
+    - https://hub.docker.com/r/alexta69/metube
+    - https://github.com/alexta69/metube
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/metube-6.0.0/metube-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: "2022"
     created: "2023-02-10T10:15:51.991995217Z"
     dependencies:
@@ -76161,4 +76194,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T09:01:46.39973347Z"
+generated: "2023-02-20T16:59:37.999023291Z"
