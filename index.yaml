@@ -77492,6 +77492,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.8.2
+    created: "2023-02-20T23:58:15.899367924Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Znc is an IRC network bouncer or BNC. It can detach the client from
+      the actual IRC server, and also from selected channels.
+    digest: f6011680631cc1836f8e143a8a245f6168c82eab04a7944869d4e8472ed20190
+    home: https://truecharts.org/charts/stable/znc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/znc.png
+    keywords:
+    - znc
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: znc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/znc
+    - https://ghcr.io/linuxserver/znc
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/znc-4.0.11/znc-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.8.2
     created: "2023-02-10T10:16:55.63658723Z"
     dependencies:
     - name: common
@@ -77825,4 +77857,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-20T23:32:09.623306388Z"
+generated: "2023-02-20T23:58:15.902781324Z"
