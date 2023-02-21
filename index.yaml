@@ -44539,6 +44539,46 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.105.3
+    created: "2023-02-21T13:04:08.616478706Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a
+      smart-spreadsheet.
+    digest: b6260173f28d321459447faea33d93d2352a6e8cb53190233fb8e8a4b4e5193c
+    home: https://truecharts.org/charts/stable/nocodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nocodb.png
+    keywords:
+    - nocodb
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nocodb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/nocodb
+    - https://hub.docker.com/r/nocodb/nocodb
+    - https://github.com/nocodb/nocodb
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nocodb-6.0.33/nocodb-6.0.33.tgz
+    version: 6.0.33
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.105.2
     created: "2023-02-20T23:20:31.097249553Z"
     dependencies:
@@ -78131,4 +78171,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T12:59:50.767363658Z"
+generated: "2023-02-21T13:04:08.62040631Z"
