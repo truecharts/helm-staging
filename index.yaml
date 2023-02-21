@@ -63158,6 +63158,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 4.1.2
+    created: "2023-02-21T10:59:52.521232224Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Anime cataloging program designed to automate the cataloging of your
+      collection.
+    digest: 8bfe264410e4f1c7010afe9b56a2e380bd8396833b395a562dc2229925844c9f
+    home: https://truecharts.org/charts/stable/shoko-server
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/shoko-server.png
+    keywords:
+    - shoko-server
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: shoko-server
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/shoko-server
+    - https://hub.docker.com/r/shokoanime/server
+    - https://github.com/ShokoAnime/ShokoServer
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/shoko-server-4.0.0/shoko-server-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - Tools-Utilities
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.1.2
     created: "2023-02-10T10:16:30.516875659Z"
     dependencies:
     - name: common
@@ -77996,4 +78031,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T01:08:41.030579981Z"
+generated: "2023-02-21T10:59:52.525384555Z"
