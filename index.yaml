@@ -73130,6 +73130,41 @@ entries:
         - metrics
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.7.11
+    created: "2023-02-21T14:10:30.385326542Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Collect your UniFi controller data and report it to an InfluxDB instance,
+      or export it for Prometheus collection.
+    digest: 22ef18b73ff268ee1de9d9096c59f4e16f80247da679ff500fafe867b61880d1
+    home: https://truecharts.org/charts/stable/unpoller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/unpoller.png
+    keywords:
+    - unifi
+    - unifi-poller
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: unpoller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/unpoller
+    - https://github.com/unifi-poller/unifi-poller
+    - https://ghcr.io/unpoller/unpoller
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/unpoller-5.1.0/unpoller-5.1.0.tgz
+    version: 5.1.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.1.3
     created: "2023-02-10T10:16:46.806063555Z"
     dependencies:
@@ -78242,4 +78277,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T13:08:33.370783966Z"
+generated: "2023-02-21T14:10:30.390251138Z"
