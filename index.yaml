@@ -2129,6 +2129,43 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.9.8
+    created: "2023-02-21T13:08:33.266879552Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Turn any datasource into an internal app in minutes. Appsmith lets
+      you drag-and-drop UI components to build pages, connect to any API, database
+      or GraphQL source and write logic with JavaScript objects.
+    digest: 963fc32fd8bd19a31394a3a969b9979c83cd1b342b008f8d62a2ab1d80a3988a
+    home: https://truecharts.org/charts/incubator/appsmith
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/appsmith.png
+    keywords:
+    - appsmith
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: appsmith
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/appsmith
+    - https://hub.docker.com/r/appsmith/appsmith-ce
+    - https://github.com/appsmithorg/appsmith
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/appsmith-5.0.32/appsmith-5.0.32.tgz
+    version: 5.0.32
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.9.7
     created: "2023-02-19T22:31:10.443381217Z"
     dependencies:
@@ -61759,6 +61796,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.6.16
+    created: "2023-02-21T13:08:33.367636447Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Scrypted is a high performance home video integration and automation
+      platform.
+    digest: f28a29cf078cd98192090f94997f76a4a22c61530299a14bd7f04d4cd493ee9d
+    home: https://truecharts.org/charts/incubator/scrypted
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/scrypted.png
+    keywords:
+    - scrypted
+    - automation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: scrypted
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/scrypted
+    - https://github.com/koush/scrypted
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/scrypted-0.0.2/scrypted-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - automation
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.6.16
     created: "2023-02-18T21:11:49.356010835Z"
     dependencies:
     - name: common
@@ -78171,4 +78242,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T13:04:08.62040631Z"
+generated: "2023-02-21T13:08:33.370783966Z"
