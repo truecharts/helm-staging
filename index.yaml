@@ -12312,6 +12312,43 @@ entries:
         - files
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.02.3
+    created: "2023-02-21T12:59:50.598122919Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Czkawka is a simple, fast and free app to remove unnecessary files
+      from your computer.
+    digest: 5795139192e2248ae87dcbaff0f73d85e067dd30339d4beac37cadd63457f61a
+    home: https://truecharts.org/charts/stable/czkawka
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/czkawka.png
+    keywords:
+    - duplicates
+    - file management
+    - czkawka
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: czkawka
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/czkawka
+    - https://hub.docker.com/r/jlesage/czkawka
+    - https://github.com/jlesage/docker-czkawka
+    - https://github.com/qarmin/czkawka
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/czkawka-3.0.17/czkawka-3.0.17.tgz
+    version: 3.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - duplicates
+        - files
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.02.2
     created: "2023-02-10T10:15:08.734613475Z"
     dependencies:
@@ -26729,6 +26766,37 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/homelablabelmaker-3.0.8/homelablabelmaker-3.0.8.tgz
     version: 3.0.8
   homepage:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - dashboard
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.6.9
+    created: "2023-02-21T12:59:50.764321776Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A highly customizable homepage
+    digest: 8ac40281e1e47e1a059c53a01d96bc205f12d7bfa3790de2e3828c3af438ed36
+    home: https://truecharts.org/charts/stable/homepage
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png
+    keywords:
+    - homepage
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: homepage
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/homepage
+    - https://ghcr.io/benphelps/homepage
+    - https://github.com/benphelps/homepage
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/homepage-2.0.24/homepage-2.0.24.tgz
+    version: 2.0.24
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -78063,4 +78131,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T12:56:23.013688385Z"
+generated: "2023-02-21T12:59:50.767363658Z"
