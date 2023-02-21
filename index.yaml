@@ -59864,6 +59864,37 @@ entries:
         - Downloaders
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-21T00:35:44.520480316Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Chart with rTorrent and the Flood UI.
+    digest: 4df8867f4c27bdb003d1221fa883154fd430043693b73f61ac1164be4f8bd362
+    home: https://truecharts.org/charts/incubator/rflood
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rflood.png
+    keywords:
+    - rflood
+    - downloaders
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rflood
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/rflood
+    - https://hotio.dev/containers/rflood
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rflood-2.0.10/rflood-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Downloaders
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:24.094785037Z"
     dependencies:
     - name: common
@@ -77892,4 +77923,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T00:02:34.50831251Z"
+generated: "2023-02-21T00:35:44.879598293Z"
