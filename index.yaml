@@ -234,6 +234,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.107.25
+    created: "2023-02-21T23:52:20.428377133Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Free and open source, powerful network-wide ads & trackers blocking
+      DNS server.
+    digest: dc3457ffe2550483c4cf26f7606671436044776c035230d74542301753d7cd4b
+    home: https://truecharts.org/charts/stable/adguard-home
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/adguard-home.png
+    keywords:
+    - adblock
+    - adguard
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: adguard-home
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/adguard-home
+    - https://hub.docker.com/r/adguard/adguardhome
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/adguard-home-4.0.16/adguard-home-4.0.16.tgz
+    version: 4.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.107.24
     created: "2023-02-20T23:16:38.490632149Z"
     dependencies:
@@ -78348,4 +78380,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T18:06:10.521744738Z"
+generated: "2023-02-21T23:52:20.431572362Z"
