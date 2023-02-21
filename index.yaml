@@ -26668,6 +26668,41 @@ entries:
         - test
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: "2023"
+    created: "2023-02-21T14:13:29.740510231Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A lightweight NodeJS server that emulates the iOS HomeKit API
+    digest: 48c3651e8c3adb3caab216ad0cf857215bdb2f37426ba7dc94c68cde1d4f39c3
+    home: https://truecharts.org/charts/incubator/homebridge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/homebridge.png
+    keywords:
+    - homebridge
+    - homekit
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: homebridge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/homebridge
+    - https://ghcr.io/oznu/homebridge
+    - https://homebridge.io/
+    - https://github.com/oznu/docker-homebridge
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/homebridge-3.1.0/homebridge-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - test
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: "2022"
     created: "2023-02-10T10:15:34.296943682Z"
     dependencies:
@@ -78277,4 +78312,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-21T14:10:30.390251138Z"
+generated: "2023-02-21T14:13:29.744247624Z"
