@@ -51846,6 +51846,37 @@ entries:
         - management
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.17.1
+    created: "2023-02-22T05:55:23.0496419Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Container management made easy
+    digest: e62b00edf391726d083295f3f93afc0b049c9b59e2160e9608c543f2ec283eb2
+    home: https://truecharts.org/charts/stable/portainer-ce
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/portainer-ce.png
+    keywords:
+    - portainer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: portainer-ce
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/portainer-ce
+    - https://hub.docker.com/r/portainer/portainer-ce
+    - https://docs.portainer.io/v/ce-2.11/start/install/server/kubernetes/baremetal
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/portainer-ce-3.0.12/portainer-ce-3.0.12.tgz
+    version: 3.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - management
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.17.0
     created: "2023-02-10T10:16:13.55939419Z"
     dependencies:
@@ -78637,4 +78668,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T04:57:29.19893955Z"
+generated: "2023-02-22T05:55:23.05259068Z"
