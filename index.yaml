@@ -14276,6 +14276,44 @@ entries:
         - discord
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.11.0
+    created: "2023-02-22T10:45:58.429238562Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: A discord bot that monitors your game server and tracks the live
+      data of your game servers.
+    digest: 98453292f38ee2cac73255a8ab10da724afc66af31191bad19bac51dc2bb5784
+    home: https://truecharts.org/charts/stable/discordgsm
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.png
+    keywords:
+    - discordgsm
+    - game-server
+    - monitor
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: discordgsm
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/discordgsm
+    - https://github.com/DiscordGSM/GameServerMonitor
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/discordgsm-1.0.6/discordgsm-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - monitor
+        - discord
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.10.0
     created: "2023-02-19T22:31:13.781896173Z"
     dependencies:
@@ -78917,4 +78955,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T09:15:10.154366412Z"
+generated: "2023-02-22T10:45:58.432232577Z"
