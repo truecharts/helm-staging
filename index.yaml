@@ -42701,6 +42701,40 @@ entries:
         - MediaServer-Music
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-22T19:52:38.507602891Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Track your music listening history from many sources and record to
+      many scrobble clients.
+    digest: 3cb074b0f914d1528f075ce6ab02dbd87bad448c0155b871a2acbe6139f4d125
+    home: https://truecharts.org/charts/incubator/multi-scrobbler
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/multi-scrobbler.png
+    keywords:
+    - multi-scrobbler
+    - Network-Web
+    - MediaServer-Music
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: multi-scrobbler
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/multi-scrobbler
+    - https://hub.docker.com/r/foxxmd/multi-scrobbler
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/multi-scrobbler-2.0.10/multi-scrobbler-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Network-Web
+        - MediaServer-Music
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:56.589997939Z"
     dependencies:
     - name: common
@@ -79280,4 +79314,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T17:56:53.081236543Z"
+generated: "2023-02-22T19:52:38.510769069Z"
