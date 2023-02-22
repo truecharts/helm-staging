@@ -43657,6 +43657,47 @@ entries:
         - network
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.4.5
+    created: "2023-02-22T09:10:27.551761285Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: NetBox is the leading solution for modeling and documenting modern
+      networks.
+    digest: 6cefc3685f55fa89396dc7163f706c2d27db89662e9f555b5aa97bb48cc14cd1
+    home: https://truecharts.org/charts/incubator/netbox
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/netbox.png
+    keywords:
+    - network
+    - netbox
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: netbox
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/netbox
+    - https://hub.docker.com/r/netboxcommunity/netbox
+    - https://github.com/netbox-community/netbox-docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/netbox-3.0.35/netbox-3.0.35.tgz
+    version: 3.0.35
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.4.4
     created: "2023-02-19T22:31:23.555664152Z"
     dependencies:
@@ -78805,4 +78846,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T07:57:23.052796746Z"
+generated: "2023-02-22T09:10:27.555059782Z"
