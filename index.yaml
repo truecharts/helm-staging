@@ -78164,6 +78164,38 @@ entries:
         - ProjectManagement
     apiVersion: v2
     appVersion: 2022.3.653
+    created: "2023-02-22T17:56:53.077918839Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: YouTrack is a project management tool that can be adapted to your
+      processes to help you deliver great products.
+    digest: 83c3439c585765772a34d69fb1cb04cfdf894542c1d297eae6ac95ce1f958d15
+    home: https://truecharts.org/charts/stable/youtrack
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/youtrack.png
+    keywords:
+    - youtrack
+    - ProjectManagement
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: youtrack
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/youtrack
+    - https://hub.docker.com/r/jetbrains/youtrack
+    - https://www.jetbrains.com/youtrack/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/youtrack-1.0.5/youtrack-1.0.5.tgz
+    version: 1.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - ProjectManagement
+    apiVersion: v2
+    appVersion: 2022.3.653
     created: "2023-02-14T14:59:34.437002744Z"
     dependencies:
     - name: common
@@ -79248,4 +79280,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T15:35:19.826820102Z"
+generated: "2023-02-22T17:56:53.081236543Z"
