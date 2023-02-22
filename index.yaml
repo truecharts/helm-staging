@@ -57731,6 +57731,53 @@ entries:
         - to-do
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.1.8.1
+    created: "2023-02-22T20:54:33.681990057Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Radicale is a small but powerful CalDAV (calendars, to-do lists)
+      and CardDAV (contacts) server.
+    digest: 7d956cf23b841c78268d606c5ebea028b639fc04aae0f928539bfa4b64141a97
+    home: https://truecharts.org/charts/incubator/radicale
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/radicale.png
+    keywords:
+    - radicale
+    - CalDAV
+    - CardDAV
+    - calendars
+    - contacts
+    - tasks
+    - to-do
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: radicale
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/radicale
+    - https://hub.docker.com/r/tomsquest/docker-radicale
+    - https://radicale.org/
+    - https://github.com/Kozea/Radicale
+    - https://github.com/tomsquest/docker-radicale
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/radicale-2.0.10/radicale-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - radicale
+        - CalDAV
+        - CardDAV
+        - calendars
+        - contacts
+        - tasks
+        - to-do
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.1.8.0
     created: "2023-02-10T10:16:20.432425421Z"
     dependencies:
@@ -79314,4 +79361,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T19:52:38.510769069Z"
+generated: "2023-02-22T20:54:33.685141337Z"
