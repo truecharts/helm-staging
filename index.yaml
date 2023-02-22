@@ -74861,6 +74861,39 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.16.0
+    created: "2023-02-22T11:55:33.936121373Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: very sync is an easy-to-use multi-platform file synchronization software
+    digest: 4f930f9a525e88cbaa31a8afee1514ea4ebcf2d05e0ab2456a0502466e51a522
+    home: https://truecharts.org/charts/stable/verysync
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/verysync.png
+    keywords:
+    - verysync
+    - sync
+    - btsync
+    - bittorrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: verysync
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/verysync
+    - https://hub.docker.com/r/jonnyan404/verysync
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/verysync-4.0.10/verysync-4.0.10.tgz
+    version: 4.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.14.0
     created: "2023-02-10T10:16:48.743011729Z"
     dependencies:
@@ -79062,4 +79095,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T11:01:57.563695796Z"
+generated: "2023-02-22T11:55:33.939874225Z"
