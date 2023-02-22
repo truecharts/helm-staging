@@ -22645,6 +22645,52 @@ entries:
         - GIT
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.18.5
+    created: "2023-02-22T02:34:46.161167687Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://deps.truecharts.org/
+      version: 5.0.29
+    description: Self hosted GIT repositories
+    digest: c2692a05fd9c5d0d572e50f7418e0f2cacd000b950d0ba381f3a435f0e7672fc
+    home: https://truecharts.org/charts/stable/gitea
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: gitea
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/gitea
+    - https://hub.docker.com/r/gitea/gitea
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/gitea-12.0.30/gitea-12.0.30.tgz
+    version: 12.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - GIT
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.18.4
     created: "2023-02-20T23:28:39.302866237Z"
     dependencies:
@@ -78476,4 +78522,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T02:21:30.757146241Z"
+generated: "2023-02-22T02:34:46.164332627Z"
