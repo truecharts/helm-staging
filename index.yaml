@@ -27047,6 +27047,40 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.02.2
+    created: "2023-02-22T03:18:24.328176346Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A dead simple static homepage for your server to keep your services
+      on hand.
+    digest: 42f7d5d96c856c8f683504efad3c82073e6b4e2ce5d2161c149e0d005f835cb0
+    home: https://truecharts.org/charts/stable/homer
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/homer.png
+    keywords:
+    - homer
+    - dashboard
+    - launcher
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: homer
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/homer
+    - https://hub.docker.com/r/b4bz/homer
+    - https://github.com/bastienwirtz/homer
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/homer-4.0.12/homer-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.02.1
     created: "2023-02-10T10:15:34.776032376Z"
     dependencies:
@@ -78522,4 +78556,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T02:34:46.164332627Z"
+generated: "2023-02-22T03:18:24.332180253Z"
