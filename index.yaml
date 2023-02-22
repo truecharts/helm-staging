@@ -67306,6 +67306,37 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.19.1
+    created: "2023-02-22T07:53:43.44233911Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An organizer for your porn, written in Go
+    digest: 1034646118da2ab56e2fd6353044d8063784bcea00a45a3c1c872f2f4fe05ede
+    home: https://truecharts.org/charts/stable/stash
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/stash.png
+    keywords:
+    - porn
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: stash
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/stash
+    - https://hub.docker.com/r/stashapp/stash
+    - https://github.com/stashapp/stash
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/stash-9.0.11/stash-9.0.11.tgz
+    version: 9.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.19.0
     created: "2023-02-14T02:26:42.942197167Z"
     dependencies:
@@ -78741,4 +78772,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T06:53:18.469781947Z"
+generated: "2023-02-22T07:53:43.44621927Z"
