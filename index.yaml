@@ -64947,6 +64947,39 @@ entries:
         - git
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.4.6
+    created: "2023-02-22T06:53:18.465750312Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A tasty, self-hostable Git server for the command line.
+    digest: c2b65d854ba5536807ee5fa06af86f8024be2951691fc638eec1095725b525cc
+    home: https://truecharts.org/charts/stable/soft-serve
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/soft-serve.png
+    keywords:
+    - soft-serve
+    - git
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: soft-serve
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/soft-serve
+    - https://hub.docker.com/r/charmcli/soft-serve
+    - https://github.com/charmbracelet/soft-serve
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/soft-serve-1.0.4/soft-serve-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - git
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.4.5
     created: "2023-02-10T10:16:32.888982202Z"
     dependencies:
@@ -78708,4 +78741,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T06:11:28.9258682Z"
+generated: "2023-02-22T06:53:18.469781947Z"
