@@ -5707,6 +5707,45 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: "0.19"
+    created: "2023-02-22T09:15:09.978968439Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Blocky is a DNS proxy, DNS enhancer and ad-blocker for the local
+      network written in Go
+    digest: b52bd0928cc0486e73215cd8c7d3affdc01155cf7ad0a9efc0b6d6ca94378221
+    home: https://truecharts.org/charts/enterprise/blocky
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/blocky.png
+    keywords:
+    - dns
+    - blocky
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: blocky
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/blocky
+    - https://hub.docker.com/r/spx01/blocky
+    - https://0xerr0r.github.io/blocky/
+    - https://github.com/0xERR0R/blocky
+    - https://github.com/Mozart409/blocky-frontend
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/blocky-4.0.23/blocky-4.0.23.tgz
+    version: 4.0.23
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: "0.19"
     created: "2023-02-19T22:31:11.836153937Z"
     dependencies:
     - name: common
@@ -30177,6 +30216,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/jupyter-3.0.15/jupyter-3.0.15.tgz
     version: 3.0.15
   k8s-gateway:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.3.3
+    created: "2023-02-22T09:15:10.151090139Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A Helm chart for the k8s_gateway CoreDNS plugin
+    digest: c6c37394903118398151284b2892629e71eee5fecc9e6f282f79d3fd87d37fc4
+    home: https://truecharts.org/charts/stable/k8s-gateway
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/k8s-gateway.png
+    keywords:
+    - DNS
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: k8s-gateway
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/k8s-gateway
+    - https://github.com/ori-edge/k8s_gateway
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/k8s-gateway-8.0.10/k8s-gateway-8.0.10.tgz
+    version: 8.0.10
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -78846,4 +78917,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T09:10:27.555059782Z"
+generated: "2023-02-22T09:15:10.154366412Z"
