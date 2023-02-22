@@ -49198,6 +49198,47 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.17.1
+    created: "2023-02-22T12:59:54.148868609Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Open Source design and prototyping platform.
+    digest: ab23a1b3ef710dd751593f2b8aeb034eb070046f1666fe9da2ad7f348ba2140e
+    home: https://truecharts.org/charts/stable/penpot
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/penpot.png
+    keywords:
+    - penpot
+    - media
+    - design
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: penpot
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/penpot
+    - https://github.com/penpot/penpot
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/penpot-2.0.10/penpot-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.16.2
     created: "2023-02-19T22:31:26.299074783Z"
     dependencies:
@@ -79127,4 +79168,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T12:00:10.406796712Z"
+generated: "2023-02-22T12:59:54.152143282Z"
