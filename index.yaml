@@ -25990,6 +25990,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.9.7
+    created: "2023-02-22T11:01:57.560254319Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: HedgeDoc lets you create real-time collaborative markdown notes.
+    digest: b3801c32e01d568985a040dba16f03610498e6597ff7493137dbf40e9e31bd6f
+    home: https://truecharts.org/charts/stable/hedgedoc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/hedgedoc.png
+    keywords:
+    - hedgedoc
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: hedgedoc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/hedgedoc
+    - https://quay.io/hedgedoc/hedgedoc
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/hedgedoc-7.0.30/hedgedoc-7.0.30.tgz
+    version: 7.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.9.7
     created: "2023-02-21T00:02:34.505147411Z"
     dependencies:
     - name: common
@@ -79027,4 +79062,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-22T10:58:11.350191112Z"
+generated: "2023-02-22T11:01:57.563695796Z"
