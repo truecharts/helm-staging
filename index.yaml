@@ -30913,6 +30913,41 @@ entries:
         - relay
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.1.14
+    created: "2023-02-23T20:51:21.173275357Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Simple email relay server for kavita.
+    digest: 6edd5675562a6275a1ec1514b49a257adc5164c019c3fd439d6d3b909662adc3
+    home: https://truecharts.org/charts/incubator/kavitaemail
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kavitaemail.png
+    keywords:
+    - kavitaemail
+    - email
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kavitaemail
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/kavitaemail
+    - https://hub.docker.com/r/kizaing/kavitaemail
+    - https://truecharts.org/docs/charts/incubator/kavitaemail
+    - https://github.com/Kareadita/KavitaEmail
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/kavitaemail-2.0.12/kavitaemail-2.0.12.tgz
+    version: 2.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - email
+        - relay
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.1.12
     created: "2023-02-10T10:15:40.766702274Z"
     dependencies:
@@ -80022,4 +80057,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T19:57:10.886306186Z"
+generated: "2023-02-23T20:51:21.176734551Z"
