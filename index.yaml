@@ -60882,6 +60882,43 @@ entries:
         - Productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.5.0
+    created: "2023-02-23T14:53:14.549659789Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Allows smart free video streaming in real time.
+    digest: edefefb33da64d358d79d0a20ce4c61efbcc5ccb413fca8d552394a5fb20dd88
+    home: https://truecharts.org/charts/incubator/restreamer
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/restreamer.png
+    keywords:
+    - restreamer
+    - Network-Other
+    - MediaApp-Video
+    - Productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: restreamer
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/restreamer
+    - https://hub.docker.com/r/datarhei/restreamer
+    - https://datarhei.github.io/restreamer/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/restreamer-2.0.13/restreamer-2.0.13.tgz
+    version: 2.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Network-Other
+        - MediaApp-Video
+        - Productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.4.2
     created: "2023-02-10T10:16:23.78510068Z"
     dependencies:
@@ -79807,4 +79844,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T13:58:27.998008348Z"
+generated: "2023-02-23T14:53:14.554113933Z"
