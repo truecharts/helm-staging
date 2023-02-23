@@ -43588,6 +43588,47 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.216.2
+    created: "2023-02-23T22:59:27.739045464Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: n8n is an extendable workflow automation tool.
+    digest: 5d896662239db93d2dfefd63c1676bfb3816c6d5509344d442b4e2ede6ff4ae6
+    home: https://truecharts.org/charts/stable/n8n
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png
+    keywords:
+    - workflows
+    - automation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: n8n
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/n8n
+    - https://hub.docker.com/r/n8nio/n8n
+    - https://docs.n8n.io/
+    - https://github.com/n8n-io/n8n
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/n8n-7.0.48/n8n-7.0.48.tgz
+    version: 7.0.48
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.216.1
     created: "2023-02-22T04:57:29.193143209Z"
     dependencies:
@@ -80135,4 +80176,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T22:02:32.645035662Z"
+generated: "2023-02-23T22:59:27.743059174Z"
