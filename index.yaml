@@ -66967,6 +66967,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.2.9
+    created: "2023-02-23T21:36:36.300939526Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Somfy Protect to MQTT
+    digest: 330a4576a7209a712988aed7d92273745c5bcf29d095a24dfc001ecc8dc7f4b6
+    home: https://truecharts.org/charts/incubator/somfyprotect2mqtt
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/somfyprotect2mqtt.png
+    keywords:
+    - somfyprotect2mqtt
+    - mqtt
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: somfyprotect2mqtt
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/somfyprotect2mqtt
+    - https://github.com/Minims/SomfyProtect2MQTT
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/somfyprotect2mqtt-0.0.2/somfyprotect2mqtt-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - homeautomation
+        - mqtt
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.2.9
     created: "2023-02-22T15:35:19.823496924Z"
     dependencies:
     - name: common
@@ -80057,4 +80090,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T20:51:21.176734551Z"
+generated: "2023-02-23T21:36:36.305034344Z"
