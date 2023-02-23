@@ -66989,6 +66989,45 @@ entries:
         - Productivity
         - Tools-Utilities
     apiVersion: v2
+    appVersion: 4.5.0
+    created: "2023-02-23T12:58:25.43842783Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Sourcegraph Chart.
+    digest: 7b7534f7f358e73c79dd11a4ffab4a1aca52d0b472ebc12a6045db8c9d14f973
+    home: https://truecharts.org/charts/incubator/sourcegraph
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/sourcegraph.png
+    keywords:
+    - sourcegraph
+    - Backup
+    - Cloud
+    - Network-Web
+    - Productivity
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: sourcegraph
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/sourcegraph
+    - https://hub.docker.com/r/sourcegraph/server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/sourcegraph-2.0.16/sourcegraph-2.0.16.tgz
+    version: 2.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Backup
+        - Cloud
+        - Network-Web
+        - Productivity
+        - Tools-Utilities
+    apiVersion: v2
     appVersion: 4.4.2
     created: "2023-02-10T10:16:33.663441907Z"
     dependencies:
@@ -79731,4 +79770,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T12:03:01.639469674Z"
+generated: "2023-02-23T12:58:25.441813017Z"
