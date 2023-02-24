@@ -47907,6 +47907,44 @@ entries:
         - Productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 12.4.5
+    created: "2023-02-24T00:08:02.759346633Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: OpenProject is a web-based project management system for location-independent
+      team collaboration.
+    digest: fc2e334ab719644e532229082e259d018d49897573d045d6bc30f77042c31d99
+    home: https://truecharts.org/charts/incubator/openproject
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/openproject.png
+    keywords:
+    - openproject
+    - Productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: openproject
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/openproject
+    - https://hub.docker.com/r/openproject/community
+    - http://openproject.org
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/openproject-3.0.26/openproject-3.0.26.tgz
+    version: 3.0.26
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 12.4.4
     created: "2023-02-20T23:28:39.591002222Z"
     dependencies:
@@ -80176,4 +80214,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-23T22:59:27.743059174Z"
+generated: "2023-02-24T00:08:02.76288828Z"
