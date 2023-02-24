@@ -78990,6 +78990,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 15.0.0
+    created: "2023-02-24T07:59:55.287134035Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: XWiki is a free wiki software platform written in Java with a design
+      emphasis on extensibility
+    digest: 1860c47208c5955b0653091c8d4d3aca8aeed36a99e2eb853584c86a24978f59
+    home: https://truecharts.org/charts/stable/xwiki
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/xwiki.png
+    keywords:
+    - xwiki
+    - wiki
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: xwiki
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/xwiki
+    - https://hub.docker.com/_/xwiki
+    - https://github.com/xwiki/xwiki-docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/xwiki-6.0.29/xwiki-6.0.29.tgz
+    version: 6.0.29
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 15.0.0
     created: "2023-02-19T22:31:34.026512777Z"
     dependencies:
     - name: common
@@ -80428,4 +80465,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T07:28:17.938516617Z"
+generated: "2023-02-24T07:59:55.290434034Z"
