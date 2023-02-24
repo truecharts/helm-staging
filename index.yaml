@@ -13480,6 +13480,40 @@ entries:
         - cloud
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 4.5.5
+    created: "2023-02-24T19:00:24.522675435Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Automatically obtain your public network IPv4 or IPv6 address and
+      resolve it to the corresponding domain name service
+    digest: 307748115af1d9a57a47b1cb9df9b16f9229f31999f1b2ea7ecad695501f2800
+    home: https://truecharts.org/charts/stable/ddns-go
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ddns-go.png
+    keywords:
+    - ddns-go
+    - ddns
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ddns-go
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ddns-go
+    - https://hub.docker.com/r/jeessy/ddns-go
+    - https://github.com/jeessy2/ddns-go
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ddns-go-4.0.21/ddns-go-4.0.21.tgz
+    version: 4.0.21
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 4.5.4
     created: "2023-02-23T15:53:18.748712684Z"
     dependencies:
@@ -80759,4 +80793,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T18:55:37.839786285Z"
+generated: "2023-02-24T19:00:24.526001649Z"
