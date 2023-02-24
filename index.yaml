@@ -2090,6 +2090,40 @@ entries:
         - notifications
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-02-24T02:23:48.665338655Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Push notifications that work with just about every platform!
+    digest: 09062d4ad0ad77c02307bad718829e9e83cf5f217cf1377b7ebb810468a464e0
+    home: https://truecharts.org/charts/incubator/apprise-api
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/apprise-api.png
+    keywords:
+    - apprise-api
+    - notifications
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: apprise-api
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/apprise-api
+    - https://hub.docker.com/r/caronc/apprise
+    - https://github.com/caronc/apprise-api
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/apprise-api-3.0.1/apprise-api-3.0.1.tgz
+    version: 3.0.1
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - notifications
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.8.3
     created: "2023-02-23T15:04:53.855934652Z"
     dependencies:
@@ -80287,4 +80321,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T02:19:26.124841208Z"
+generated: "2023-02-24T02:23:48.668767695Z"
