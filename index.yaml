@@ -35129,6 +35129,38 @@ entries:
         - logs
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.7.4
+    created: "2023-02-24T18:55:37.836558901Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: c5594dde961ea1a97ad6ae46d0612889a8c010366713bb50fecf8d8b5018b618
+    home: https://truecharts.org/charts/stable/loki
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/loki.png
+    keywords:
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: loki
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/loki
+    - https://hub.docker.com/r/grafana/loki
+    - https://github.com/grafana/loki
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/loki-10.0.2/loki-10.0.2.tgz
+    version: 10.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.7.3
     created: "2023-02-10T10:15:47.816712355Z"
     dependencies:
@@ -80727,4 +80759,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T17:54:04.088719368Z"
+generated: "2023-02-24T18:55:37.839786285Z"
