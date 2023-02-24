@@ -30982,6 +30982,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.7.1
+    created: "2023-02-24T17:54:04.085471607Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Kavita is a rocket fueled self-hosted digital library which supports
+      a vast array of file formats
+    digest: 656244c536ba9894ba3f23b78950e97a210de7509fa6cf9ee62d8b5dd801a3f9
+    home: https://truecharts.org/charts/stable/kavita
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kavita.png
+    keywords:
+    - kavita
+    - manga
+    - library
+    - book
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kavita
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/kavita
+    - https://hub.docker.com/r/kizaing/kavita
+    - https://www.kavitareader.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/kavita-4.0.10/kavita-4.0.10.tgz
+    version: 4.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.7.1
     created: "2023-02-20T08:57:54.927541457Z"
     dependencies:
     - name: common
@@ -80691,4 +80727,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T16:59:37.519762069Z"
+generated: "2023-02-24T17:54:04.088719368Z"
