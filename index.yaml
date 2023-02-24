@@ -63695,6 +63695,40 @@ entries:
         - automation
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.6.20
+    created: "2023-02-24T20:03:24.608960329Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Scrypted is a high performance home video integration and automation
+      platform.
+    digest: 08690e31e8b490050a8836391a81979598cc7d0e98dc002dddafd1b56a26c13d
+    home: https://truecharts.org/charts/incubator/scrypted
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/scrypted.png
+    keywords:
+    - scrypted
+    - automation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: scrypted
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/scrypted
+    - https://github.com/koush/scrypted
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/scrypted-0.0.3/scrypted-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - automation
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.6.16
     created: "2023-02-21T13:08:33.367636447Z"
     dependencies:
@@ -80869,4 +80903,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T19:53:06.140213936Z"
+generated: "2023-02-24T20:03:24.612123123Z"
