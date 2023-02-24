@@ -52496,6 +52496,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-24T07:28:17.935382378Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Plex to AniList Sync.
+    digest: a8c28d205ea840e04670beb99569a05213b098726983f90e77ebc6ba4cdb2310
+    home: https://truecharts.org/charts/incubator/plexanisync
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png
+    keywords:
+    - plexanisync
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: plexanisync
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/plexanisync
+    - https://ghcr.io/rickdb/plexanisync
+    - https://github.com/RickDB/PlexAniSync
+    - https://github.com/RickDB/PlexAniSync/pkgs/container/plexanisync
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/plexanisync-0.0.5/plexanisync-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:12.753910894Z"
     dependencies:
     - name: common
@@ -80394,4 +80428,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T03:19:48.124703888Z"
+generated: "2023-02-24T07:28:17.938516617Z"
