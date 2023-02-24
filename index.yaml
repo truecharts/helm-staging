@@ -56000,6 +56000,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.0.17
+    created: "2023-02-24T03:19:48.121059053Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Container for protonmail bridge to work on the network.
+    digest: 11d342c4d3b3f47a99f549e85392b3df537cc724d4fe33ebbb92950f9d42808d
+    home: https://truecharts.org/charts/stable/protonmail-bridge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/protonmail-bridge.png
+    keywords:
+    - protonmail
+    - protonmail-bridge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: protonmail-bridge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/protonmail-bridge
+    - https://hub.docker.com/r/shenxn/protonmail-bridge
+    - https://github.com/shenxn/protonmail-bridge-docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/protonmail-bridge-9.0.11/protonmail-bridge-9.0.11.tgz
+    version: 9.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.4.8
     created: "2023-02-10T10:16:15.941582279Z"
     dependencies:
@@ -80362,4 +80394,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T02:28:36.817694162Z"
+generated: "2023-02-24T03:19:48.124703888Z"
