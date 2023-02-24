@@ -55676,6 +55676,43 @@ entries:
         - logs
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.7.4
+    created: "2023-02-24T19:49:01.041381222Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Promtail is an agent which ships the contents of local logs to a
+      Loki instance
+    digest: 73fb864c0168f6277b83de61f28cea77f83121af37c29becb78ab05aee4402be
+    home: https://truecharts.org/charts/dependency/promtail
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/promtail.png
+    keywords:
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: promtail
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/promtail
+    - https://hub.docker.com/r/grafana/promtail
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/promtail-6.0.16/promtail-6.0.16.tgz
+    version: 6.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.7.3
     created: "2023-02-10T10:16:15.781392549Z"
     dependencies:
@@ -80793,4 +80830,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-24T19:00:24.526001649Z"
+generated: "2023-02-24T19:49:01.045075996Z"
