@@ -29636,6 +29636,39 @@ entries:
         - security
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 4.5.3.0
+    created: "2023-02-25T09:51:31.701692305Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: iSpy's Agent DVR, a standalone DVR service to manage IP cameras.
+    digest: e80dd571f8eaba56a3df208051847cbea0e209ea09a1659ad5c4faef7c1da8b1
+    home: https://truecharts.org/charts/stable/ispy-agent-dvr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ispy-agent-dvr.png
+    keywords:
+    - dvr
+    - ispy
+    - agent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ispy-agent-dvr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ispy-agent-dvr
+    - https://hub.docker.com/r/doitandbedone/ispyagentdvr
+    - https://github.com/doitandbedone/ispyagentdvr-docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ispy-agent-dvr-4.0.19/ispy-agent-dvr-4.0.19.tgz
+    version: 4.0.19
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - security
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 4.5.2.0
     created: "2023-02-20T23:16:39.716019026Z"
     dependencies:
@@ -81176,4 +81209,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-25T03:20:57.145627857Z"
+generated: "2023-02-25T09:51:31.7048044Z"
