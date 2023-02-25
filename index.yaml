@@ -43157,6 +43157,38 @@ entries:
         - networking
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 5.1.1
+    created: "2023-02-25T03:20:57.142283958Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A location-based pluggable DNS forwarder/splitter.
+    digest: 73710e5cc797c61f36cf40c2c5a515a3752f1c60bad9c77b4a93e90298445351
+    home: https://truecharts.org/charts/stable/mosdns
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mosdns.png
+    keywords:
+    - mosdns
+    - dns
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mosdns
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mosdns
+    - https://hub.docker.com/r/601096721/mosdns
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mosdns-4.0.15/mosdns-4.0.15.tgz
+    version: 4.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 5.1.0
     created: "2023-02-10T13:59:21.914314856Z"
     dependencies:
@@ -81144,4 +81176,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-25T03:17:37.384141533Z"
+generated: "2023-02-25T03:20:57.145627857Z"
