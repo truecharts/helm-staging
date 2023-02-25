@@ -78896,6 +78896,43 @@ entries:
         - Other
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.0.1
+    created: "2023-02-25T19:51:19.570306264Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A automatic user invitation system for Plex.
+    digest: 39711b7eeb44fa13b06873f9ed8e152a1511fc905409aa2a49cc7806855a6035
+    home: https://truecharts.org/charts/incubator/wizarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/wizarr.png
+    keywords:
+    - wizarr
+    - HomeAutomation
+    - Tools-Utilities
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: wizarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/wizarr
+    - https://ghcr.io/wizarrrr/wizarr
+    - https://github.com/Wizarrrr/wizarr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/wizarr-1.0.6/wizarr-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Tools-Utilities
+        - Other
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.0.0
     created: "2023-02-25T02:23:59.253203536Z"
     dependencies:
@@ -81320,4 +81357,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-25T13:56:24.241378705Z"
+generated: "2023-02-25T19:51:19.57474238Z"
