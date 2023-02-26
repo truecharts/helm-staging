@@ -4853,6 +4853,42 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-26T22:47:01.094175112Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: '&lt;b&gt;Barcode Buddy is a Grocy companion app/plugin, which allows
+      you to install the Barcode Buddy app and scan products directly to your Grocy
+      library.&lt;/b&gt;'
+    digest: 466cbe4f71a53b5a031030b1bb9350bb6ae1ea98815c254e0356005897205299
+    home: https://truecharts.org/charts/incubator/barcodebuddy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/barcodebuddy.png
+    keywords:
+    - barcodebuddy
+    - Productivity
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: barcodebuddy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/barcodebuddy
+    - https://hub.docker.com/r/f0rc3/barcodebuddy-docker
+    - https://github.com/Forceu/barcodebuddy
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/barcodebuddy-2.0.11/barcodebuddy-2.0.11.tgz
+    version: 2.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-25T03:17:37.380684984Z"
     dependencies:
     - name: common
@@ -82001,4 +82037,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T22:39:48.471663582Z"
+generated: "2023-02-26T22:47:01.097653162Z"
