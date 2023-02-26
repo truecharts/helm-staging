@@ -4719,6 +4719,41 @@ entries:
         - Network-Web
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-26T23:26:21.081568186Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: BackupPC is a high-performance, enterprise-grade system for backing
+      up Linux, Windows and macOS PCs and laptops to a server's disk.
+    digest: 967e982fb44fec4dea5cc075dc11132754533328f04e23ed14b2cdf8ff0bbfb7
+    home: https://truecharts.org/charts/incubator/backuppc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/backuppc.png
+    keywords:
+    - backuppc
+    - Backup
+    - Network-Web
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: backuppc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/backuppc
+    - https://hub.docker.com/r/tiredofit/backuppc
+    - https://backuppc.github.io/backuppc/index.html
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/backuppc-2.0.15/backuppc-2.0.15.tgz
+    version: 2.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Backup
+        - Network-Web
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:14:55.16327943Z"
     dependencies:
     - name: common
@@ -5248,6 +5283,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.1.4
+    created: "2023-02-26T23:26:21.276615336Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Bazarr is a companion application to Sonarr and Radarr. It manages
+      and downloads subtitles based on your requirements
+    digest: 469cdf9a6fc4624f8d17f7719ed0de8429304499210307748668db04d5dec1de
+    home: https://truecharts.org/charts/stable/bazarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - sonarr
+    - subtitles
+    - usenet
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: bazarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/bazarr
+    - https://ghcr.io/onedr0p/bazarr
+    - https://github.com/morpheus65535/bazarr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/bazarr-13.0.20/bazarr-13.0.20.tgz
+    version: 13.0.20
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.1.4
     created: "2023-02-15T13:28:04.291071638Z"
     dependencies:
     - name: common
@@ -5356,6 +5429,43 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/bazarr-13.0.17/bazarr-13.0.17.tgz
     version: 13.0.17
   beets:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.0
+    created: "2023-02-26T23:26:21.411014641Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A music library manager and not, for the most part, a music player.
+    digest: 7bac667cde02c1af5537f2c4807ac715499433937998592bd9f5fc880af90c3c
+    home: https://truecharts.org/charts/stable/beets
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/beets.png
+    keywords:
+    - music
+    - library
+    - manager
+    - player
+    - beets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: beets
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/beets
+    - https://ghcr.io/linuxserver/beets
+    - https://github.com/linuxserver/docker-beets
+    - https://beets.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/beets-6.0.15/beets-6.0.15.tgz
+    version: 6.0.15
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -10007,6 +10117,41 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/cloudflared-3.0.14/cloudflared-3.0.14.tgz
     version: 3.0.14
   cloudflareddns:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-26T23:26:21.554831013Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Automate Cloudflare DNS records for those with a dynamic IP.
+    digest: 0b6fe4bc3168376b50b0eb7b0b826bb75e31353fa85c47a18eff85e2e6817633
+    home: https://truecharts.org/charts/stable/cloudflareddns
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.png
+    keywords:
+    - cloudflareddns
+    - ddns
+    - cloudflare
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cloudflareddns
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflareddns
+    - https://ghcr.io/hotio/cloudflareddns
+    - https://github.com/hotio/cloudflareddns
+    - https://hotio.dev/containers/cloudflareddns/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cloudflareddns-4.0.6/cloudflareddns-4.0.6.tgz
+    version: 4.0.6
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -82069,4 +82214,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T23:21:03.456972511Z"
+generated: "2023-02-26T23:26:21.558283765Z"
