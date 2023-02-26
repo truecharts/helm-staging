@@ -76232,6 +76232,39 @@ entries:
         - networking
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 3.0.6
+    created: "2023-02-26T14:10:48.898258306Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A simple wake on lan app written with SvelteKit, Go, PocketBase and
+      nmap.
+    digest: d1a7051b4074cca327795c74bfef34e49847ad04b75fc6ee9308c3d9693cf187
+    home: https://truecharts.org/charts/incubator/upsnap
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/upsnap.png
+    keywords:
+    - upsnap
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: upsnap
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/upsnap
+    - https://ghcr.io/seriousm4x/upsnap
+    - https://github.com/seriousm4x/UpSnap
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/upsnap-0.0.2/upsnap-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 3.0.5
     created: "2023-02-19T20:54:47.069911506Z"
     dependencies:
@@ -81695,4 +81728,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T09:52:44.962873218Z"
+generated: "2023-02-26T14:10:48.901718552Z"
