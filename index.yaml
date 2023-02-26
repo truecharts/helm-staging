@@ -46987,6 +46987,38 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-02-26T04:05:21.685708779Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: ntfy is a simple HTTP-based pub-sub notification service. It allows
+      you to send notifications to your phone or desktop via scripts from any computer.
+    digest: 5b9af1ac3e9f4cd96e09e63dd23f6b9b8d82c52d2a5f48307b949534f41d4d3b
+    home: https://truecharts.org/charts/stable/ntfy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ntfy.png
+    keywords:
+    - ntfy
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ntfy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ntfy
+    - https://hub.docker.com/r/binwiederhier/ntfy
+    - https://github.com/binwiederhier/ntfy/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ntfy-4.0.14/ntfy-4.0.14.tgz
+    version: 4.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.0.1
     created: "2023-02-20T23:20:31.42394712Z"
     dependencies:
@@ -59856,6 +59888,43 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/reactive-resume-2.0.9/reactive-resume-2.0.9.tgz
     version: 2.0.9
   readarr:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.1.4.1596
+    created: "2023-02-26T04:05:21.98977446Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A fork of Radarr to work with Books & AudioBooks
+    digest: b335ac626f0d408a84d20f21a946fb58ac2484815c3952cc1b8b08ec5c925332
+    home: https://truecharts.org/charts/stable/readarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png
+    keywords:
+    - readarr
+    - torrent
+    - usenet
+    - AudioBooks
+    - ebooks
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: readarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
+    - https://ghcr.io/onedr0p/readarr-develop
+    - https://github.com/Readarr/Readarr
+    - https://readarr.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/readarr-13.0.15/readarr-13.0.15.tgz
+    version: 13.0.15
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -81496,4 +81565,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T04:00:59.797665945Z"
+generated: "2023-02-26T04:05:21.993688868Z"
