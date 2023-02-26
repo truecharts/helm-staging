@@ -22015,6 +22015,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.3.3
+    created: "2023-02-26T23:42:37.800961104Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: Fleet provides an online web interface which displays a set of maintained
+      images from one or more owned repositories.
+    digest: c5d1b0519d0c6dca03196a09fbc0c55f826928bfcd901790eb90c1c494c92f54
+    home: https://truecharts.org/charts/stable/fleet
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/fleet.png
+    keywords:
+    - fleet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: fleet
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/fleet
+    - https://ghcr.io/linuxserver/fleet
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/fleet-6.0.24/fleet-6.0.24.tgz
+    version: 6.0.24
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.3.3
     created: "2023-02-19T22:31:15.809066143Z"
     dependencies:
     - name: common
@@ -39077,6 +39113,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 4.13.3
+    created: "2023-02-26T23:42:37.988245205Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: Matomo is the leading Free/Libre open analytics platform
+    digest: 48a3813766d800174a09e5abf84f771fb3be1dbf326373198f4deb84f75eaf52
+    home: https://truecharts.org/charts/stable/matomo
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/matomo.png
+    keywords:
+    - analytics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: matomo
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/matomo
+    - https://hub.docker.com/r/bitnami/matomo
+    - https://github.com/bitnami/bitnami-docker-matomo
+    - https://github.com/matomo-org/matomo
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/matomo-6.0.41/matomo-6.0.41.tgz
+    version: 6.0.41
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.13.3
     created: "2023-02-19T22:31:21.570675594Z"
     dependencies:
     - name: common
@@ -45032,6 +45104,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 4.0.0
+    created: "2023-02-26T23:42:38.174294089Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: Monica is a great open source personal relationship management system.
+    digest: 5e54721b908ebb03fa394ff267d2f092664b59948fd8c9e382508a0e8e9649bc
+    home: https://truecharts.org/charts/stable/monica
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/monica.png
+    keywords:
+    - crm
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: monica
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/monica
+    - https://hub.docker.com/_/monica
+    - https://github.com/monicahq/monica
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/monica-6.0.29/monica-6.0.29.tgz
+    version: 6.0.29
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - crm
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 4.0.0
     created: "2023-02-19T22:31:23.079560556Z"
     dependencies:
     - name: common
@@ -47115,6 +47222,47 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/neko-2.0.23/neko-2.0.23.tgz
     version: 2.0.23
   netbox:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.4.5
+    created: "2023-02-26T23:42:38.385847153Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: NetBox is the leading solution for modeling and documenting modern
+      networks.
+    digest: e75195768e969c368174fde8be5876c4e78484a0af09c3ec9faf21827c4eb847
+    home: https://truecharts.org/charts/incubator/netbox
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/netbox.png
+    keywords:
+    - network
+    - netbox
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: netbox
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/netbox
+    - https://hub.docker.com/r/netboxcommunity/netbox
+    - https://github.com/netbox-community/netbox-docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/netbox-3.0.37/netbox-3.0.37.tgz
+    version: 3.0.37
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -84380,4 +84528,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T23:38:39.789516797Z"
+generated: "2023-02-26T23:42:38.390901129Z"
