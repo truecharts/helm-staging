@@ -36173,6 +36173,39 @@ entries:
         - MediaServer-Music
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-26T17:52:19.531932097Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Self-hosted music scrobble database to create personal listening
+      statistics and charts as a substitute for Last.fm / Libre.fm / GNU FM.
+    digest: b41aeb322c6f4fed7d568e3f3e3e4dd03ff8144b42021c0adfd157510f4a1f13
+    home: https://truecharts.org/charts/incubator/maloja
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/maloja.png
+    keywords:
+    - maloja
+    - MediaServer-Music
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: maloja
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/maloja
+    - https://hub.docker.com/r/krateng/maloja
+    - https://maloja.krateng.ch/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/maloja-2.0.10/maloja-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Music
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:48.823055686Z"
     dependencies:
     - name: common
@@ -81814,4 +81847,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T15:00:53.912370958Z"
+generated: "2023-02-26T17:52:19.536404187Z"
