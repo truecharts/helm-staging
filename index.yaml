@@ -6399,6 +6399,47 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 23.02.2023
+    created: "2023-02-26T14:11:56.423846658Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: A simple, self-hosted, easy-to-use platform for organising and storing
+      information.
+    digest: a4b9b6cb4f61d6e11db695f2400acd154f63e288fcbb6976439649dc4e7756dc
+    home: https://truecharts.org/charts/stable/bookstack
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/bookstack.png
+    keywords:
+    - bookstack
+    - book
+    - stack
+    - organizer
+    - server
+    - hosted
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: bookstack
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/bookstack
+    - https://ghcr.io/linuxserver/bookstack
+    - https://www.bookstackapp.com/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/bookstack-6.0.22/bookstack-6.0.22.tgz
+    version: 6.0.22
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 23.01.2023
     created: "2023-02-19T22:31:12.288951089Z"
     dependencies:
@@ -81728,4 +81769,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T14:10:48.901718552Z"
+generated: "2023-02-26T14:11:56.427090264Z"
