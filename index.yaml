@@ -47705,6 +47705,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.8.6
+    created: "2023-02-26T17:56:34.685675096Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: OctoPrint is the snappy web interface for your 3D printer
+    digest: 70256da5aa3fe8ee4084fd8c8a6824d1ad2fae3667438eafe20a5e7acb076b97
+    home: https://truecharts.org/charts/stable/octoprint
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/octoprint.png
+    keywords:
+    - octoprint
+    - 3d
+    - printer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: octoprint
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/octoprint
+    - https://hub.docker.com/r/octoprint/octoprint
+    - https://github.com/OctoPrint/OctoPrint
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/octoprint-8.0.10/octoprint-8.0.10.tgz
+    version: 8.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.8.6
     created: "2023-02-10T10:16:02.971583236Z"
     dependencies:
     - name: common
@@ -81847,4 +81880,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T17:52:19.536404187Z"
+generated: "2023-02-26T17:56:34.689670537Z"
