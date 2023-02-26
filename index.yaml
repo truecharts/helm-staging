@@ -26940,6 +26940,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.5.5
+    created: "2023-02-26T23:21:03.452382483Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: An Application dashboard and launcher
+    digest: 0b0c9e8779a34a711c5cb545f0c6d5d0283f6a6e62d10f024420de1962c5d771
+    home: https://truecharts.org/charts/stable/heimdall
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/heimdall.png
+    keywords:
+    - heimdall
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: heimdall
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/heimdall
+    - https://hub.docker.com/r/linuxserver/heimdall
+    - https://github.com/linuxserver/Heimdall/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/heimdall-14.0.9/heimdall-14.0.9.tgz
+    version: 14.0.9
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - organizers
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.5.5
     created: "2023-02-15T13:17:45.483272162Z"
     dependencies:
     - name: common
@@ -82037,4 +82069,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T22:47:01.097653162Z"
+generated: "2023-02-26T23:21:03.456972511Z"
