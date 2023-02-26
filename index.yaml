@@ -40900,6 +40900,51 @@ entries:
       truecharts.org/catagories: |
         - Social
     apiVersion: v2
+    appVersion: 13.8.1
+    created: "2023-02-26T15:00:53.909084797Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Misskey is an open source, decentralized social media platform that's
+      free forever!
+    digest: a4064c4382d3cb38e548f34d77234ec233fb7be9b22ba477ba6647135fcb57d0
+    home: https://truecharts.org/charts/incubator/misskey
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/misskey.png
+    keywords:
+    - Misskey
+    - Social
+    - Friend
+    - Social Media
+    - Fediverse
+    - ActivityPub
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: misskey
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/misskey
+    - https://hub.docker.com/r/misskey/misskey
+    - https://github.com/misskey-dev/misskey/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/misskey-3.0.42/misskey-3.0.42.tgz
+    version: 3.0.42
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Social
+    apiVersion: v2
     appVersion: 13.7.5
     created: "2023-02-24T08:03:25.057205425Z"
     dependencies:
@@ -81769,4 +81814,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T14:11:56.427090264Z"
+generated: "2023-02-26T15:00:53.912370958Z"
