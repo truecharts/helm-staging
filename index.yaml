@@ -7217,6 +7217,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 0.0.9
+    created: "2023-02-26T23:38:39.10692018Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Budge is an open source 'budgeting with envelopes' personal finance
+      app.
+    digest: 27c576a34f3ed36f937435c7a682263318ac3273a75fbd27f20079dc47871ffc
+    home: https://truecharts.org/charts/stable/budge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/budge.png
+    keywords:
+    - finance
+    - budge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: budge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/budge
+    - https://ghcr.io/linuxserver/budge
+    - https://github.com/linuxserver/budge
+    - https://github.com/linuxserver/docker-BudgE
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/budge-4.0.18/budge-4.0.18.tgz
+    version: 4.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.0.9
     created: "2023-02-15T13:32:11.331963165Z"
     dependencies:
     - name: common
@@ -41877,6 +41911,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2023.1.0
+    created: "2023-02-26T23:38:39.289803157Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Minecraft Java Dedicated Server
+    digest: f3289591b70f86d70919f979a863dc7a868fafac69c2db06206d5c32ccc7dfe3
+    home: https://truecharts.org/charts/stable/minecraft-java
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-java.png
+    keywords:
+    - minecraft-java
+    - minecraft
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: minecraft-java
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/minecraft-java
+    - https://hub.docker.com/r/itzg/minecraft-server
+    - https://github.com/itzg/docker-minecraft-server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/minecraft-java-3.0.29/minecraft-java-3.0.29.tgz
+    version: 3.0.29
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - games
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2023.1.0
     created: "2023-02-15T15:37:56.761701868Z"
     dependencies:
     - name: common
@@ -47528,6 +47595,55 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/newyearcountdownclock-2.0.9/newyearcountdownclock-2.0.9.tgz
     version: 2.0.9
   nextcloud:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 25.0.2
+    created: "2023-02-26T23:38:39.559854346Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: collabora.enabled
+      name: collabora-online
+      repository: https://deps.truecharts.org/
+      version: 14.0.17
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: A private cloud server that puts the control and security of your
+      own data back into your hands.
+    digest: e05b82f4bf58a1544fba3f30a606b6af4a7f80a8001eba5d32562bc39f7a644c
+    home: https://truecharts.org/charts/stable/nextcloud
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nextcloud
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud
+    - https://github.com/nextcloud/docker
+    - https://github.com/nextcloud/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nextcloud-19.0.49/nextcloud-19.0.49.tgz
+    version: 19.0.49
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -61102,6 +61218,41 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/quake3-2.0.8/quake3-2.0.8.tgz
     version: 2.0.8
   quassel-core:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 0.14.0
+    created: "2023-02-26T23:38:39.785283072Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: Quassel-core is a modern, cross-platform, distributed IRC client.
+    digest: 78abfab88e5c2f6f002cc98ff512dafac15bd59001dae6154e11575727da0a2f
+    home: https://truecharts.org/charts/stable/quassel-core
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/quassel-core.png
+    keywords:
+    - quassel-core
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: quassel-core
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
+    - https://ghcr.io/linuxserver/quassel-core
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/quassel-core-6.0.25/quassel-core-6.0.25.tgz
+    version: 6.0.25
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -84229,4 +84380,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-26T23:34:51.43172985Z"
+generated: "2023-02-26T23:38:39.789516797Z"
