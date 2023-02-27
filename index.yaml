@@ -79830,6 +79830,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.1.2
+    created: "2023-02-27T15:30:19.863097022Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Ubooquity is a free, lightweight and easy-to-use home server for
+      your comics and ebooks.
+    digest: 47fdffd1e2adf7c56da0e0397326d8f0754f1e5ffd77a5b56d06c28de9a6fb49
+    home: https://truecharts.org/charts/stable/ubooquity
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.png
+    keywords:
+    - ubooquity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ubooquity
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
+    - https://ghcr.io/linuxserver/ubooquity
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ubooquity-5.0.12/ubooquity-5.0.12.tgz
+    version: 5.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.1.2
     created: "2023-02-22T01:01:37.775089052Z"
     dependencies:
     - name: common
@@ -86240,4 +86272,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T15:27:19.21137798Z"
+generated: "2023-02-27T15:30:19.866885368Z"
