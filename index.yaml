@@ -46966,6 +46966,47 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 0.217.2
+    created: "2023-02-27T18:06:31.9261677Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: n8n is an extendable workflow automation tool.
+    digest: e62c41862775ab1080074448d8420ba5bef5644372651bac09964b268ec8d423
+    home: https://truecharts.org/charts/stable/n8n
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/n8n.png
+    keywords:
+    - workflows
+    - automation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: n8n
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/n8n
+    - https://hub.docker.com/r/n8nio/n8n
+    - https://docs.n8n.io/
+    - https://github.com/n8n-io/n8n
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/n8n-7.0.51/n8n-7.0.51.tgz
+    version: 7.0.51
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 0.217.1
     created: "2023-02-24T16:59:37.5152844Z"
     dependencies:
@@ -50706,6 +50747,37 @@ entries:
         - media
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 5.9.0
+    created: "2023-02-27T18:06:32.066510933Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Omada is a SDN tool for TP-Link Omada hardware
+    digest: a1f18e74ce1cbaf1f4685bd8136ab18503428e2e22bcb2acdeda0decc6bf1184
+    home: https://truecharts.org/charts/stable/omada-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
+    keywords:
+    - omada-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: omada-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+    - https://hub.docker.com/r/mbentley/omada-controller
+    - https://github.com/mbentley/docker-omada-controller
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/omada-controller-8.0.28/omada-controller-8.0.28.tgz
+    version: 8.0.28
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 5.8.0
     created: "2023-02-27T13:00:05.748417924Z"
     dependencies:
@@ -53643,6 +53715,47 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/pavlovvr-2.0.8/pavlovvr-2.0.8.tgz
     version: 2.0.8
   penpot:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.17.1
+    created: "2023-02-27T18:06:32.263771419Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Open Source design and prototyping platform.
+    digest: f257f0d300e70f148f82e1d89266c3728d0f7633daf07b2c900770a7cf9833e4
+    home: https://truecharts.org/charts/stable/penpot
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/penpot.png
+    keywords:
+    - penpot
+    - media
+    - design
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: penpot
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/penpot
+    - https://github.com/penpot/penpot
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/penpot-2.0.11/penpot-2.0.11.tgz
+    version: 2.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -67084,6 +67197,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/rss-to-telegram-2.0.8/rss-to-telegram-2.0.8.tgz
     version: 2.0.8
   rsshub:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-27T18:06:32.419710866Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: RSSHub can generate RSS feeds from pretty much everything
+    digest: f333d9a8a975cc47aba01d3989cf8cc4ba5ae2b3a0f0bad493cd43c9dede5833
+    home: https://truecharts.org/charts/stable/rsshub
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+    keywords:
+    - rsshub
+    - rss
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rsshub
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
+    - https://hub.docker.com/r/diygod/rsshub
+    - https://docs.rsshub.app/en/install/
+    - https://github.com/DIYgod/RSSHub
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rsshub-6.0.39/rsshub-6.0.39.tgz
+    version: 6.0.39
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -86629,4 +86780,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T18:02:48.863202361Z"
+generated: "2023-02-27T18:06:32.423519769Z"
