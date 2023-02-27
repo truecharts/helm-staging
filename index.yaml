@@ -82865,6 +82865,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T17:29:40.043444929Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Webtop full desktop environments in officially supported flavors
+      accessible via any modern web browser.
+    digest: 54d1fab2b46c6ba5546199e9d1e8b432d09cd395805a4201a87ff2660eebcfcb
+    home: https://truecharts.org/charts/stable/webtop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/webtop.png
+    keywords:
+    - webtop
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: webtop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/webtop
+    - https://fleet.linuxserver.io/image?name=linuxserver/webtop
+    - https://github.com/linuxserver/gclient
+    - https://github.com/orgs/linuxserver/packages/container/package/webtop
+    - https://github.com/linuxserver/docker-webtop#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/webtop-4.0.10/webtop-4.0.10.tgz
+    version: 4.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:50.83209901Z"
     dependencies:
     - name: common
@@ -86414,4 +86450,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T16:56:48.93929113Z"
+generated: "2023-02-27T17:29:40.046984849Z"
