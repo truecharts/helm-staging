@@ -63423,6 +63423,38 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: full
+    created: "2023-02-27T07:29:52.954751407Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: 'The newest Red-Discordbot in a convenient multi-arch Chart '
+    digest: 1416c63fc7c5594673da55b5ea7c21f48dcd73474913fd495047aaeca24903dc
+    home: https://truecharts.org/charts/incubator/red-discordbot
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/red-discordbot.png
+    keywords:
+    - red-discordbot
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: red-discordbot
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/red-discordbot
+    - https://hub.docker.com/r/phasecorex/red-discordbot
+    - https://github.com/PhasecoreX/docker-red-discordbot
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/red-discordbot-2.0.15/red-discordbot-2.0.15.tgz
+    version: 2.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: full
     created: "2023-02-10T10:16:22.055419928Z"
     dependencies:
     - name: common
@@ -84852,4 +84884,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T07:26:33.977432969Z"
+generated: "2023-02-27T07:29:52.959033741Z"
