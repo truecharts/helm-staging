@@ -66465,6 +66465,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.4.4
+    created: "2023-02-27T09:29:05.075970791Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Rsnapshot is a filesystem snapshot utility based on rsync.
+    digest: 0b4b5813c43f4f94d3bbdd82fca4f87fbfb4b451ad57740a9c1f4eea3c85853f
+    home: https://truecharts.org/charts/stable/rsnapshot
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsnapshot.png
+    keywords:
+    - rsnapshot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rsnapshot
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rsnapshot
+    - https://ghcr.io/linuxserver/rsnapshot
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rsnapshot-4.0.15/rsnapshot-4.0.15.tgz
+    version: 4.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.4.4
     created: "2023-02-10T10:16:25.063206245Z"
     dependencies:
     - name: common
@@ -85401,4 +85432,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T08:59:15.632476511Z"
+generated: "2023-02-27T09:29:05.080510623Z"
