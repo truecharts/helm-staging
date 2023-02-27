@@ -48061,6 +48061,55 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 25.0.2
+    created: "2023-02-27T08:03:27.238843536Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    - condition: collabora.enabled
+      name: collabora-online
+      repository: https://deps.truecharts.org/
+      version: 14.0.17
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: A private cloud server that puts the control and security of your
+      own data back into your hands.
+    digest: 361f21c813167f25bd90efe3d8e8d7effc6e7695b80fec8cd164c28da8f2ba85
+    home: https://truecharts.org/charts/stable/nextcloud
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextcloud.png
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nextcloud
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/nextcloud
+    - https://github.com/nextcloud/docker
+    - https://github.com/nextcloud/helm
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nextcloud-19.0.50/nextcloud-19.0.50.tgz
+    version: 19.0.50
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 25.0.2
     created: "2023-02-26T23:38:39.559854346Z"
     dependencies:
     - name: common
@@ -85163,4 +85212,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T07:59:18.78432778Z"
+generated: "2023-02-27T08:03:27.242338228Z"
