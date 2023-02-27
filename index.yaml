@@ -68218,6 +68218,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T10:26:54.888648445Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Meta search engine which aggregates results from more than 70 search
+      services.
+    digest: 6b6f6e265c6fa8393a6add4738fb1b0703fd9760c0d085de12030a3e1876d24c
+    home: https://truecharts.org/charts/incubator/searxng
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.png
+    keywords:
+    - searxng
+    - Productivity
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: searxng
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/searxng
+    - https://hub.docker.com/r/searxng/searxng
+    - https://github.com/searxng/searxng
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/searxng-2.0.21/searxng-2.0.21.tgz
+    version: 2.0.21
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Other
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:27.877252558Z"
     dependencies:
     - name: common
@@ -85534,4 +85570,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T10:23:33.591470766Z"
+generated: "2023-02-27T10:26:54.892237035Z"
