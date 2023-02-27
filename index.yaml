@@ -68705,6 +68705,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T11:24:51.115584118Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Search Engine Position Tracking App.
+    digest: 552ba6b3eed6e3406d21f794f430a456b472dcff61e1e5c59df28dd5edf09456
+    home: https://truecharts.org/charts/incubator/serpbear
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/serpbear.png
+    keywords:
+    - serpbear
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: serpbear
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/serpbear
+    - https://hub.docker.com/r/towfiqi/serpbear
+    - https://github.com/towfiqi/serpbear
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/serpbear-0.0.10/serpbear-0.0.10.tgz
+    version: 0.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:28.824287236Z"
     dependencies:
     - name: common
@@ -85570,4 +85603,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T10:26:54.892237035Z"
+generated: "2023-02-27T11:24:51.119035901Z"
