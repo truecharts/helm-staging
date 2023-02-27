@@ -83387,6 +83387,40 @@ entries:
         - Network-Web
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T02:48:22.245714202Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: YaCy decentralized search engine (https://yacy.net)
+    digest: 9d1288ffaa703eb4e9f5a6043ac2a7970c3cca5dc42bbaf6f8bb9ee2f4026bb9
+    home: https://truecharts.org/charts/incubator/yacy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/yacy.png
+    keywords:
+    - yacy
+    - Tools-Utilities
+    - Network-Web
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: yacy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/yacy
+    - https://hub.docker.com/r/yacy/yacy_search_server
+    - https://yacy.net/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/yacy-2.0.15/yacy-2.0.15.tgz
+    version: 2.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+        - Network-Web
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:54.128385322Z"
     dependencies:
     - name: common
@@ -84714,4 +84748,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T01:58:09.146761551Z"
+generated: "2023-02-27T02:48:22.249899006Z"
