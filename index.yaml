@@ -35824,6 +35824,45 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T08:59:15.628783457Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: A free & open source IMDb front-end.
+    digest: 0b85caa029688f5d930d336f0528da1e57a537e0bc3f07e78f75fdc029ef6df4
+    home: https://truecharts.org/charts/stable/libremdb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.png
+    keywords:
+    - libremdb
+    - media
+    - imdb
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: libremdb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+    - https://quay.io/pussthecatorg/libremdb
+    - https://github.com/zyachel/libremdb
+    - https://github.com/PussTheCat-org/docker-libremdb-quay
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/libremdb-1.0.15/libremdb-1.0.15.tgz
+    version: 1.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-27T07:59:18.780508898Z"
     dependencies:
     - name: common
@@ -85362,4 +85401,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T08:40:46.574738502Z"
+generated: "2023-02-27T08:59:15.632476511Z"
