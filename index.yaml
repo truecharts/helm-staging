@@ -70524,6 +70524,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T12:27:49.128248755Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Snapdrop A local file sharing in your browser. Inspired by Apple's
+      Airdrop.
+    digest: 8031325b42c2ee091e18f92c3dc1df543e4a98c55178707045b539ecafe46b2c
+    home: https://truecharts.org/charts/stable/snapdrop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/snapdrop.png
+    keywords:
+    - snapdrop
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: snapdrop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/snapdrop
+    - https://hub.docker.com/r/linuxserver/snapdrop
+    - https://github.com/linuxserver/docker-snapdrop
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/snapdrop-4.0.17/snapdrop-4.0.17.tgz
+    version: 4.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:32.07423247Z"
     dependencies:
     - name: common
@@ -85639,4 +85671,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T11:28:06.586166205Z"
+generated: "2023-02-27T12:27:49.132757868Z"
