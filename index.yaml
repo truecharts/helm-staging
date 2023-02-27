@@ -81001,6 +81001,50 @@ entries:
         - Network-FTP
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T00:38:11.471051637Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: This is a Server based on Golang, which allows you to serve WebP
+      images on the fly. It will convert jpg,jpeg,png files by default, this can be
+      customized by editing the config.json.
+    digest: 597c4774dd79ccaad6b90dfd0fc6af61b5054a186eaa91926615e700cf2138ab
+    home: https://truecharts.org/charts/incubator/webp-server
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/webp-server.png
+    keywords:
+    - webp-server
+    - Cloud
+    - Productivity
+    - Tools-Utilities
+    - MediaServer-Photos
+    - Network-Web
+    - Network-FTP
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: webp-server
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/webp-server
+    - https://hub.docker.com/r/webpsh/webps
+    - https://github.com/webp-sh/webp_server_go
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/webp-server-2.0.15/webp-server-2.0.15.tgz
+    version: 2.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Cloud
+        - Productivity
+        - Tools-Utilities
+        - MediaServer-Photos
+        - Network-Web
+        - Network-FTP
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:50.516537628Z"
     dependencies:
     - name: common
@@ -84594,4 +84638,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T00:34:08.467270148Z"
+generated: "2023-02-27T00:38:11.474425227Z"
