@@ -76104,6 +76104,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.11.1
+    created: "2023-02-27T13:36:01.324217918Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A Python based monitoring and tracking tool for Plex Media Server
+    digest: 648516a4f96b64ebea8857345de0bc6d77d73dc0f541eb34474176ec6fb3cef6
+    home: https://truecharts.org/charts/stable/tautulli
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tautulli.png
+    keywords:
+    - tautulli
+    - plex
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tautulli
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/tautulli
+    - https://ghcr.io/onedr0p/tautulli
+    - https://github.com/Tautulli/Tautulli
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tautulli-13.0.18/tautulli-13.0.18.tgz
+    version: 13.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.11.1
     created: "2023-02-10T10:16:39.27668987Z"
     dependencies:
     - name: common
@@ -85881,4 +85914,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T13:32:30.393855223Z"
+generated: "2023-02-27T13:36:01.33936385Z"
