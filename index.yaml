@@ -67504,6 +67504,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 3.7.2
+    created: "2023-02-27T10:23:33.587164551Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Free and easy binary newsreader
+    digest: e389649a1ce67431ab65063304cfb929d75aa2ade2debd0fc9824e25be3b6426
+    home: https://truecharts.org/charts/stable/sabnzbd
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/sabnzbd.png
+    keywords:
+    - sabnzbd
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: sabnzbd
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/sabnzbd
+    - https://ghcr.io/onedr0p/sabnzbd
+    - https://sabnzbd.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/sabnzbd-13.0.18/sabnzbd-13.0.18.tgz
+    version: 13.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.7.2
     created: "2023-02-12T12:51:46.946996094Z"
     dependencies:
     - name: common
@@ -85501,4 +85534,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T09:57:04.996425297Z"
+generated: "2023-02-27T10:23:33.591470766Z"
