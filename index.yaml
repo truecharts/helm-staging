@@ -84296,6 +84296,45 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 6.1.1
+    created: "2023-02-27T17:51:20.847378377Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.32
+    description: The WordPress rich content management system can utilize plugins,
+      widgets, and themes.
+    digest: 1da62c0f98565de984fbf1de619570755cee675963618cb30061787090a0fbd8
+    home: https://truecharts.org/charts/stable/wordpress
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png
+    keywords:
+    - wordpress
+    - cms
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: wordpress
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
+    - https://hub.docker.com/r/bitnami/wordpress
+    - https://www.wordpress.org
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/wordpress-1.1.16/wordpress-1.1.16.tgz
+    version: 1.1.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - website
+        - CMS
+        - Hosting
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 6.1.1
     created: "2023-02-19T22:31:33.624935696Z"
     dependencies:
     - name: common
@@ -86488,4 +86527,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T17:44:09.631502534Z"
+generated: "2023-02-27T17:51:20.851243936Z"
