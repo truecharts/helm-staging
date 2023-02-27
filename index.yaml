@@ -72678,6 +72678,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T12:31:21.216299035Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: A self-hosted internet performance tracking application that runs
+      speedtest checks against Ookla's Speedtest service.
+    digest: 95d5b92f11f5af59660cbc669a0ab139517f2829d3ef1bed7d2cf36cddfcf5ac
+    home: https://truecharts.org/charts/incubator/speedtest-tracker
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/speedtest-tracker.png
+    keywords:
+    - speedtest
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: speedtest-tracker
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/speedtest-tracker
+    - https://ghcr.io/alexjustesen/speedtest-tracker
+    - https://github.com/alexjustesen/speedtest-tracker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/speedtest-tracker-3.0.30/speedtest-tracker-3.0.30.tgz
+    version: 3.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - speedtest
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-19T22:31:30.018247307Z"
     dependencies:
     - name: common
@@ -85671,4 +85707,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T12:27:49.132757868Z"
+generated: "2023-02-27T12:31:21.220152643Z"
