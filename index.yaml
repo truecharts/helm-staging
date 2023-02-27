@@ -66879,6 +66879,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T14:08:50.773988327Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: RSSHub can generate RSS feeds from pretty much everything
+    digest: a6f8a302f6944447b814165e64f9baef8a8c55632ff65998d76567f65ec97aad
+    home: https://truecharts.org/charts/stable/rsshub
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+    keywords:
+    - rsshub
+    - rss
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rsshub
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
+    - https://hub.docker.com/r/diygod/rsshub
+    - https://docs.rsshub.app/en/install/
+    - https://github.com/DIYgod/RSSHub
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rsshub-6.0.38/rsshub-6.0.38.tgz
+    version: 6.0.38
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-27T13:04:03.886577757Z"
     dependencies:
     - name: common
@@ -86016,4 +86054,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T14:04:26.756372489Z"
+generated: "2023-02-27T14:08:50.777990309Z"
