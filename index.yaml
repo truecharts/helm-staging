@@ -79422,6 +79422,45 @@ entries:
         - MediaServer-Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T14:31:32.30700727Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: TwonkyMedia server (TMS) is DLNA-compliant UPnP AV server software
+      from PacketVideo. TwonkyMedia server can be used to share and stream media to
+      most UPnP AV or DLNA-compliant clients, in addition to non-UPnP devices through
+      the HTML, RSS, and JSON supported front ends.
+    digest: 7b1aa9fc0656f65c5d0d7870665871d7bba0d0fb5db8b910b549bc4476020bcd
+    home: https://truecharts.org/charts/incubator/twonky-server
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/twonky-server.png
+    keywords:
+    - twonky-server
+    - MediaServer-Video
+    - MediaServer-Music
+    - MediaServer-Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: twonky-server
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/twonky-server
+    - https://hub.docker.com/r/dtjs48jkt/twonkyserver
+    - https://github.com/H2CK/twonkyserver
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/twonky-server-2.0.18/twonky-server-2.0.18.tgz
+    version: 2.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Video
+        - MediaServer-Music
+        - MediaServer-Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:45.10858096Z"
     dependencies:
     - name: common
@@ -86094,4 +86133,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T14:27:44.174944718Z"
+generated: "2023-02-27T14:31:32.310967125Z"
