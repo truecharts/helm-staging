@@ -2091,6 +2091,43 @@ entries:
         - utilities
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 4.2.3
+    created: "2023-02-27T18:02:48.714858527Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: AppDaemon is a loosely coupled, multi-threaded, sandboxed python
+      execution environment for writing automation apps.
+    digest: f24b1295bbad3b0d02270e02215a8fa1121eaa41a007b6c72f11d4475826ee9b
+    home: https://truecharts.org/charts/stable/appdaemon
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/appdaemon.png
+    keywords:
+    - appdaemon
+    - homeautomation
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    - email: 20650065+warllo54@users.noreply.github.com
+      name: warllo54
+      url: truecharts.org
+    name: appdaemon
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/appdaemon
+    - https://hub.docker.com/r/acockburn/appdaemon
+    - https://github.com/AppDaemon/appdaemon
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/appdaemon-11.0.11/appdaemon-11.0.11.tgz
+    version: 11.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 4.2.1
     created: "2023-02-10T10:14:51.193947638Z"
     dependencies:
@@ -32591,6 +32628,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/jump-2.0.8/jump-2.0.8.tgz
     version: 2.0.8
   jupyter:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Cloud
+    apiVersion: v2
+    appVersion: "2023"
+    created: "2023-02-27T18:02:48.857127747Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Jupyter a web based IDE
+    digest: 3dca3f913d3f91f769e8543e378e9ad24941106419c11201905c8c0a1a3d04dd
+    home: https://truecharts.org/charts/stable/jupyter
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jupyter.png
+    keywords:
+    - Jupyter
+    - Notebook
+    - Lab
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jupyter
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/jupyter
+    - https://github.com/jupyter/docker-stacks
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jupyter-3.0.18/jupyter-3.0.18.tgz
+    version: 3.0.18
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -86560,4 +86629,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T17:58:05.722479813Z"
+generated: "2023-02-27T18:02:48.863202361Z"
