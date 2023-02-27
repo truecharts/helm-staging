@@ -13322,6 +13322,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.55.0
+    created: "2023-02-27T07:51:18.15817959Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: CyberChef is a simple, intuitive web app for carrying out all manner
+      of "cyber" operations within a web browser.
+    digest: d85b968743bbc4149c0b24a9ff581b75a8ec0cd301a76a95c84e858b67c13114
+    home: https://truecharts.org/charts/stable/cyberchef
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cyberchef.png
+    keywords:
+    - cyberchef
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cyberchef
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/cyberchef
+    - https://hub.docker.com/r/mpepping/cyberchef
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cyberchef-4.0.31/cyberchef-4.0.31.tgz
+    version: 4.0.31
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.55.0
     created: "2023-02-26T23:30:37.294501232Z"
     dependencies:
     - name: common
@@ -84884,4 +84915,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T07:29:52.959033741Z"
+generated: "2023-02-27T07:51:18.161916633Z"
