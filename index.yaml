@@ -58958,6 +58958,50 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.42.0
+    created: "2023-02-27T15:27:19.2078607Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.3.1
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.3.1
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 6fcbac2c18f7f96afe719f5dbc39f40e5f9bb73ca62f652753929e74b8cde9ac
+    home: https://truecharts.org/charts/enterprise/prometheus
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png
+    keywords:
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prometheus
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/prometheus
+    - https://hub.docker.com/r/bitnami/prometheus
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/prometheus-7.0.59/prometheus-7.0.59.tgz
+    version: 7.0.59
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.42.0
     created: "2023-02-27T01:54:37.280647885Z"
     dependencies:
     - name: common
@@ -86196,4 +86240,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T14:55:01.389987162Z"
+generated: "2023-02-27T15:27:19.21137798Z"
