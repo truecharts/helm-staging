@@ -12654,6 +12654,42 @@ entries:
         - Security
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T07:59:18.349684914Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: CryptPad is the Zero Knowledge realtime collaborative editor.[br]mkdir
+      -p /mnt/user/appdata/cryptpad/config [/br]wget -O /mnt/user/appdata/cryptpad/config/config.js
+      https://raw.githubusercontent.com/xwiki-labs/cryptpad/main/config/config.example.js
+    digest: 8408b8ef979bf3cc71ad9806e9bcd2a927fe02789fcd19a0e6bda172a91889ae
+    home: https://truecharts.org/charts/incubator/cryptpad
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cryptpad.png
+    keywords:
+    - cryptpad
+    - Productivity
+    - Security
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cryptpad
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/cryptpad
+    - https://hub.docker.com/r/promasu/cryptpad
+    - https://cryptpad.fr/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cryptpad-2.0.25/cryptpad-2.0.25.tgz
+    version: 2.0.25
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Productivity
+        - Security
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-26T23:30:36.880408222Z"
     dependencies:
     - name: common
@@ -13955,6 +13991,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/dashmachine-2.0.8/dashmachine-2.0.8.tgz
     version: 2.0.8
   dashy:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - dashboard
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-02-27T07:59:18.549395394Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Dashy helps you organize your self-hosted services by making them
+      accessible from a single place
+    digest: 60e0c75f080262b78d0a699fd6372d0b4349e9742c0d30abaa1ee0ac9cecef5c
+    home: https://truecharts.org/charts/incubator/dashy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/dashy.png
+    keywords:
+    - dashboard
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: dashy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/dashy
+    - https://hub.docker.com/r/lissy93/dashy
+    - https://github.com/airsonic/airsonic
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/dashy-2.0.20/dashy-2.0.20.tgz
+    version: 2.0.20
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -35712,6 +35780,45 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/libreddit-3.0.14/libreddit-3.0.14.tgz
     version: 3.0.14
   libremdb:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-02-27T07:59:18.780508898Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: A free & open source IMDb front-end.
+    digest: a30f1390eda69d65595bb566b530d9878bec7c1350578b3ee4fd3e6f16f5dedf
+    home: https://truecharts.org/charts/stable/libremdb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.png
+    keywords:
+    - libremdb
+    - media
+    - imdb
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: libremdb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+    - https://quay.io/pussthecatorg/libremdb
+    - https://github.com/zyachel/libremdb
+    - https://github.com/PussTheCat-org/docker-libremdb-quay
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/libremdb-1.0.14/libremdb-1.0.14.tgz
+    version: 1.0.14
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -85056,4 +85163,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T07:54:43.73389618Z"
+generated: "2023-02-27T07:59:18.78432778Z"
