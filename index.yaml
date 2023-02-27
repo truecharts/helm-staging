@@ -50531,6 +50531,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.8.0
+    created: "2023-02-27T13:00:05.748417924Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Omada is a SDN tool for TP-Link Omada hardware
+    digest: 740d39176b0456d4de33f39f6e83173775f153149cdfb05842e98b785e9414bf
+    home: https://truecharts.org/charts/stable/omada-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
+    keywords:
+    - omada-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: omada-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+    - https://hub.docker.com/r/mbentley/omada-controller
+    - https://github.com/mbentley/docker-omada-controller
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/omada-controller-8.0.27/omada-controller-8.0.27.tgz
+    version: 8.0.27
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.8.0
     created: "2023-02-26T23:34:49.754380949Z"
     dependencies:
     - name: common
@@ -71100,6 +71131,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.1.1
+    created: "2023-02-27T13:00:05.979139548Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Apache Solr
+    digest: c7f65f8f2555ffd02903b30bf51396a7e89fd60a9a7e3a5c20ba9e8f89abe947
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://hub.docker.com/r/bitnami/solr
+    - https://github.com/apache/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/solr-2.0.31/solr-2.0.31.tgz
+    version: 2.0.31
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.1.1
     created: "2023-02-10T10:16:33.041047616Z"
     dependencies:
     - name: common
@@ -85743,4 +85808,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T12:56:22.773652282Z"
+generated: "2023-02-27T13:00:05.983343521Z"
