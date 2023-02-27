@@ -45966,6 +45966,41 @@ entries:
         - discord-bot
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.2.0
+    created: "2023-02-27T05:53:12.96345906Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A self-hosted midwestern Discord music bot that doesn't suck.
+    digest: 2a9ec769805520d80e70c4d9a00c23cbbff1345b6b3aa36fd162cd420d23e026
+    home: https://truecharts.org/charts/incubator/muse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/muse.png
+    keywords:
+    - muse
+    - media
+    - discord-bot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: muse
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/muse
+    - https://hub.docker.com/r/codetheweb/muse
+    - https://github.com/codetheweb/muse
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/muse-0.0.2/muse-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - discord-bot
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.1.9
     created: "2023-02-18T20:17:26.959750819Z"
     dependencies:
@@ -84780,4 +84815,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T02:52:19.999126815Z"
+generated: "2023-02-27T05:53:12.967092904Z"
