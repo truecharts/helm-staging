@@ -79098,6 +79098,38 @@ entries:
         - MediaServer-Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T14:41:22.002364113Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: This is a dependancy Chart for the application "TubeArchivist"
+    digest: 66487f05ea898abd9d41b748345d5060b5850bbcff192e1657489ee293240b1b
+    home: https://truecharts.org/charts/incubator/tubearchivist-redisjson
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tubearchivist-redisjson.png
+    keywords:
+    - tubearchivist-redisjson
+    - MediaServer-Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tubearchivist-redisjson
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/tubearchivist-redisjson
+    - https://hub.docker.com/r/redislabs/rejson
+    - https://github.com/RedisJSON/RedisJSON
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tubearchivist-redisjson-2.0.14/tubearchivist-redisjson-2.0.14.tgz
+    version: 2.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - MediaServer-Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:44.489165359Z"
     dependencies:
     - name: common
@@ -86133,4 +86165,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T14:31:32.310967125Z"
+generated: "2023-02-27T14:41:22.008026062Z"
