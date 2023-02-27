@@ -38410,6 +38410,44 @@ entries:
         - database
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 10.11.2
+    created: "2023-02-27T18:57:04.870803775Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 3cf56ab0715fb97b2f631b86d57c92a6e0916c7b2a14d6b074ba9c4d8275af0d
+    home: https://truecharts.org/charts/dependency/mariadb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mariadb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
+    - https://hub.docker.com/r/bitnami/mariadb
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mariadb-5.0.35/mariadb-5.0.35.tgz
+    version: 5.0.35
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 10.10.3
     created: "2023-02-27T07:54:43.332760571Z"
     dependencies:
@@ -86877,4 +86915,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T18:37:44.253234802Z"
+generated: "2023-02-27T18:57:04.879345122Z"
