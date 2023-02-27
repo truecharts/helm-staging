@@ -2380,6 +2380,43 @@ entries:
         - productivity
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 1.9.9
+    created: "2023-02-27T18:09:43.007075333Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.32
+    description: Turn any datasource into an internal app in minutes. Appsmith lets
+      you drag-and-drop UI components to build pages, connect to any API, database
+      or GraphQL source and write logic with JavaScript objects.
+    digest: 41d04c64eccedef1a3dd9b3836683184295cdd920617ddb8306b6950143e527d
+    home: https://truecharts.org/charts/incubator/appsmith
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/appsmith.png
+    keywords:
+    - appsmith
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: appsmith
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/appsmith
+    - https://hub.docker.com/r/appsmith/appsmith-ce
+    - https://github.com/appsmithorg/appsmith
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/appsmith-5.0.33/appsmith-5.0.33.tgz
+    version: 5.0.33
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 1.9.8
     created: "2023-02-21T13:08:33.266879552Z"
     dependencies:
@@ -48750,6 +48787,36 @@ entries:
       truecharts.org/catagories: |
         - productivity
     apiVersion: v2
+    appVersion: 3.48.0
+    created: "2023-02-27T18:09:43.107621404Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Sonatype Nexus open source is a artifact repository manager
+    digest: 4ce0de08f3ee751fdd304a122bd549a83225b84e4fed2aa43f4cc102488eae57
+    home: https://truecharts.org/charts/incubator/nexus-oss
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nexus-oss.png
+    keywords:
+    - nexus-oss
+    - productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nexus-oss
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/nexus-oss
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nexus-oss-2.0.14/nexus-oss-2.0.14.tgz
+    version: 2.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+    apiVersion: v2
     appVersion: 3.47.1
     created: "2023-02-10T10:15:59.437831239Z"
     dependencies:
@@ -86780,4 +86847,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T18:06:32.423519769Z"
+generated: "2023-02-27T18:09:43.112592567Z"
