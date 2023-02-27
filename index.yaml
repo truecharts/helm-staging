@@ -75963,6 +75963,41 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T13:32:30.388727789Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: TasmoCompiler is a simple web GUI which allows you to compile fantastic
+      Tasmota firmware with your own settings
+    digest: a12cd9ad1c9578772356bfdf7bbcd55d7fa279f53a80fb193032de00c19dd16b
+    home: https://truecharts.org/charts/incubator/tasmocompiler
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmocompiler.png
+    keywords:
+    - tasmocompiler
+    - HomeAutomation
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tasmocompiler
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/tasmocompiler
+    - https://hub.docker.com/r/benzino77/tasmocompiler
+    - https://github.com/benzino77/tasmocompiler
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tasmocompiler-2.0.13/tasmocompiler-2.0.13.tgz
+    version: 2.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-20T23:16:40.617701755Z"
     dependencies:
     - name: common
@@ -85846,4 +85881,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T13:04:03.889954745Z"
+generated: "2023-02-27T13:32:30.393855223Z"
