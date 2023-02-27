@@ -66659,6 +66659,39 @@ entries:
         - Other
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T20:11:12.351125062Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Self-hosted Rickrolls. Image is based on Nginx stable alpine, and
+      all the content is local to the Chart.
+    digest: 1bf5d6b5d78259ba8f10aa7ab866a1c30efc4fc9c741d8a8f2c750e5352c58c4
+    home: https://truecharts.org/charts/incubator/rickroll
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rickroll.png
+    keywords:
+    - rickroll
+    - Other
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rickroll
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/rickroll
+    - https://hub.docker.com/r/modem7/docker-rickroll
+    - https://github.com/modem7/docker-rickroll
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rickroll-2.0.12/rickroll-2.0.12.tgz
+    version: 2.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Other
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:24.246105757Z"
     dependencies:
     - name: common
@@ -86989,4 +87022,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T20:07:45.334700931Z"
+generated: "2023-02-27T20:11:12.354766989Z"
