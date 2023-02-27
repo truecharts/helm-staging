@@ -66223,6 +66223,37 @@ entries:
         - Network-Web
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T14:55:01.386390274Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Alternative Imgur front-end
+    digest: 62313a6ccc7c5d0383412fb544c0238162f9129391b0912e21193df74fa7823c
+    home: https://truecharts.org/charts/incubator/rimgo
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.png
+    keywords:
+    - rimgo
+    - Network-Web
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rimgo
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/rimgo
+    - https://quay.io/pussthecatorg/rimgo
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rimgo-2.0.23/rimgo-2.0.23.tgz
+    version: 2.0.23
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Network-Web
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-27T09:57:04.993049634Z"
     dependencies:
     - name: common
@@ -86165,4 +86196,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T14:41:22.008026062Z"
+generated: "2023-02-27T14:55:01.389987162Z"
