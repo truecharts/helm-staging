@@ -82307,6 +82307,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.0.1
+    created: "2023-02-27T16:28:30.393759808Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Webgrabplus is a multi-site incremental xmltv epg grabber.
+    digest: c04295443ac6cac02f14e04330c626b37c2d9736e9b0685be1a684c811111987
+    home: https://truecharts.org/charts/stable/webgrabplus
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.png
+    keywords:
+    - webgrabplus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: webgrabplus
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/webgrabplus
+    - https://ghcr.io/linuxserver/webgrabplus
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/webgrabplus-4.0.13/webgrabplus-4.0.13.tgz
+    version: 4.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.0.1
     created: "2023-02-22T02:21:30.754080011Z"
     dependencies:
     - name: common
@@ -86307,4 +86338,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T15:57:51.148640969Z"
+generated: "2023-02-27T16:28:30.397666546Z"
