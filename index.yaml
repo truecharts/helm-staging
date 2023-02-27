@@ -65157,6 +65157,47 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.0.4
+    created: "2023-02-27T08:29:39.26373398Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.29
+    description: Redmine is a flexible project management web application written
+      using Ruby on Rails framework.
+    digest: 3f18fa7be62a275f5b7ab30673c2f2fd648fca3f3b660685cfa1e2e52a0517b7
+    home: https://truecharts.org/charts/stable/redmine
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redmine.png
+    keywords:
+    - project
+    - management
+    - time
+    - tracking
+    - ticket
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redmine
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/redmine
+    - https://hub.docker.com/_/redmine
+    - https://github.com/redmine/redmine
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/redmine-6.0.31/redmine-6.0.31.tgz
+    version: 6.0.31
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.0.4
     created: "2023-02-19T22:31:28.677347049Z"
     dependencies:
     - name: common
@@ -85285,4 +85326,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T08:25:34.449661138Z"
+generated: "2023-02-27T08:29:39.267067617Z"
