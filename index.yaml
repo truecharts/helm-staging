@@ -47844,6 +47844,36 @@ entries:
         - media
     apiVersion: v2
     appVersion: latest
+    created: "2023-02-27T18:37:44.24783833Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A self hosted virtual browser that runs in Chart
+    digest: 44f84b4bb6a9249a2eec2edf4c811b86e3e0397f830f4ab9db7a26d1a35a2781
+    home: https://truecharts.org/charts/incubator/neko
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/neko.png
+    keywords:
+    - neko
+    - video
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: neko
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/neko
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/neko-2.0.25/neko-2.0.25.tgz
+    version: 2.0.25
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:15:58.221187981Z"
     dependencies:
     - name: common
@@ -86847,4 +86877,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T18:09:43.112592567Z"
+generated: "2023-02-27T18:37:44.253234802Z"
