@@ -75135,6 +75135,38 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.2.5
+    created: "2023-02-27T13:45:22.856072112Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Synclounge is a third party tool that allows you to watch Plex in
+      sync with your friends/family, wherever you are.
+    digest: 8063fa3ce6df7cdc42927d562bb39c227ca9a209b22a09bb59d9c871c39e9e07
+    home: https://truecharts.org/charts/stable/synclounge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/synclounge.png
+    keywords:
+    - synclounge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: synclounge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/synclounge
+    - https://ghcr.io/linuxserver/synclounge
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/synclounge-4.0.16/synclounge-4.0.16.tgz
+    version: 4.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.2.5
     created: "2023-02-10T10:16:37.55290254Z"
     dependencies:
     - name: common
@@ -85914,4 +85946,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-02-27T13:36:01.33936385Z"
+generated: "2023-02-27T13:45:22.859634192Z"
