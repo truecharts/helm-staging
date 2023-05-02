@@ -81219,6 +81219,38 @@ entries:
         - Networking
     apiVersion: v2
     appVersion: 7.3.83
+    created: "2023-05-02T21:56:08.626284666Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Ubiquiti Network's Unifi Controller
+    digest: 779a475d40848eafd9738b13cce31f9d1b7d649a21d188ca31ea2dbe23d9e758
+    home: https://truecharts.org/charts/stable/unifi
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/unifi.png
+    keywords:
+    - ubiquiti
+    - unifi
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: unifi
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/unifi
+    - https://github.com/jacobalberty/unifi-docker
+    - https://unifi-network.ui.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/unifi-14.0.11/unifi-14.0.11.tgz
+    version: 14.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Networking
+    apiVersion: v2
+    appVersion: 7.3.83
     created: "2023-05-02T21:01:20.10569156Z"
     dependencies:
     - name: common
@@ -87607,4 +87639,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-02T21:01:20.110546445Z"
+generated: "2023-05-02T21:56:08.630891554Z"
