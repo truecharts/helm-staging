@@ -74979,6 +74979,38 @@ entries:
         - GameServers
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-02T11:06:20.481045877Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: This Chart will download and install SteamCMD. It will also install
+      Stationeers and run it.
+    digest: 8f1fb670c5e0c465df7bfefdedc1bcf9f4882b505f9756986ca1a5824687bed7
+    home: https://truecharts.org/charts/incubator/stationeers
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/stationeers.png
+    keywords:
+    - stationeers
+    - GameServers
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: stationeers
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/stationeers
+    - https://www.steampowered.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/stationeers-2.0.10/stationeers-2.0.10.tgz
+    version: 2.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - GameServers
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:35.934429977Z"
     dependencies:
     - name: common
@@ -87543,4 +87575,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-02T11:03:05.462943613Z"
+generated: "2023-05-02T11:06:20.486289021Z"
