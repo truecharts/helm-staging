@@ -15689,6 +15689,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 3.8.1
+    created: "2023-05-03T11:22:17.269540062Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Darktable is an open source photography workflow application and
+      raw developer.
+    digest: 44f301e5c4e64075ee9565d9edf82e13fec4ef81b89ca5ff6a6839ae435b78dc
+    home: https://truecharts.org/charts/stable/darktable
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/darktable.png
+    keywords:
+    - darktable
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: darktable
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/darktable
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/darktable-5.0.13/darktable-5.0.13.tgz
+    version: 5.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.8.1
     created: "2023-02-10T10:15:09.176839122Z"
     dependencies:
     - name: common
@@ -24157,6 +24188,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 3.59.0
+    created: "2023-05-03T11:22:17.418192154Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A Helm chart for Kubernetes
+    digest: dbc7e6d51d709cd40bbacf16e4663ffb0bbffa74075465534ed711c79696c66f
+    home: https://truecharts.org/charts/stable/filezilla
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/filezilla.png
+    keywords:
+    - filezilla
+    - ftp
+    - sftp
+    - ftps
+    - client
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: filezilla
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/filezilla
+    - https://filezilla-project.org/
+    - https://github.com/linuxserver/docker-filezilla
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/filezilla-6.0.14/filezilla-6.0.14.tgz
+    version: 6.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 3.59.0
     created: "2023-02-10T10:15:21.567472249Z"
     dependencies:
     - name: common
@@ -24454,6 +24521,36 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/fireflyiii-data-importer-2.0.7/fireflyiii-data-importer-2.0.7.tgz
     version: 2.0.7
   firefox:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 101.0.1
+    created: "2023-05-03T11:22:17.552196Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Firefox Browser, also known as Mozilla Firefox or simply Firefox,
+    digest: 1cc969419b77b0a4c60cd5993ead6a6ad3d4f92bb5d4e12c67dcad67cf70a676
+    home: https://truecharts.org/charts/stable/firefox
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png
+    keywords:
+    - firefox
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: firefox
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/firefox
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/firefox-4.0.11/firefox-4.0.11.tgz
+    version: 4.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -31167,6 +31264,37 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/h5ai-2.0.8/h5ai-2.0.8.tgz
     version: 2.0.8
   habridge:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.4.1
+    created: "2023-05-03T11:22:17.697085254Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Habridge emulates Philips Hue API to other home automation gateways
+      such as an Amazon Echo/Dot or other systems that support Philips Hue.
+    digest: bea8c277ef8d60473f8c071416a03b66b94d64c531454d4b4c2d316a297e9b6b
+    home: https://truecharts.org/charts/stable/habridge
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/habridge.png
+    keywords:
+    - habridge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: habridge
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/habridge
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/habridge-4.0.18/habridge-4.0.18.tgz
+    version: 4.0.18
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -95694,6 +95822,40 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-03T11:22:17.987709171Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Webtop full desktop environments in officially supported flavors
+      accessible via any modern web browser.
+    digest: fcfc21b69336e88386cca592a9d856067ab976931989e4320072dd60340adcd5
+    home: https://truecharts.org/charts/stable/webtop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/webtop.png
+    keywords:
+    - webtop
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: webtop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/webtop
+    - https://github.com/linuxserver/gclient
+    - https://github.com/orgs/linuxserver/packages/container/package/webtop
+    - https://github.com/linuxserver/docker-webtop#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/webtop-5.0.15/webtop-5.0.15.tgz
+    version: 5.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:48.44117386Z"
     dependencies:
     - name: common
@@ -100048,4 +100210,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T11:14:48.080603106Z"
+generated: "2023-05-03T11:22:17.992972224Z"
