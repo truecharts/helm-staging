@@ -4227,6 +4227,46 @@ entries:
         - authentication
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2023.4.1
+    created: "2023-05-03T12:17:19.204839436Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.33
+    description: authentik is an open-source Identity Provider focused on flexibility
+      and versatility.
+    digest: d978b9e954f30fe4305aed7ecd75824c7aa8e7d4341bc0ac72141064f609dce2
+    home: https://truecharts.org/charts/stable/authentik
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/authentik.png
+    keywords:
+    - authentik
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: authentik
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/authentik
+    - https://github.com/goauthentik/authentik
+    - https://goauthentik.io/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/authentik-10.0.46/authentik-10.0.46.tgz
+    version: 10.0.46
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - authentication
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2023.2.3
     created: "2023-05-03T11:36:35.316787809Z"
     dependencies:
@@ -100076,6 +100116,37 @@ entries:
       truecharts.org/catagories: |
         - ProjectManagement
     apiVersion: v2
+    appVersion: 2023.1.903
+    created: "2023-05-03T12:17:19.362393596Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: YouTrack is a project management tool that can be adapted to your
+      processes to help you deliver great products.
+    digest: 4cbe89889d0af4a07047869b4e35b889e4e4314f116ee79d08ac0182cc6aa2a6
+    home: https://truecharts.org/charts/stable/youtrack
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/youtrack.png
+    keywords:
+    - youtrack
+    - ProjectManagement
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: youtrack
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/youtrack
+    - https://www.jetbrains.com/youtrack/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/youtrack-1.0.7/youtrack-1.0.7.tgz
+    version: 1.0.7
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - ProjectManagement
+    apiVersion: v2
     appVersion: 2022.3.653
     created: "2023-05-03T11:36:38.597495823Z"
     dependencies:
@@ -101512,4 +101583,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T12:13:02.699274746Z"
+generated: "2023-05-03T12:17:19.36938445Z"
