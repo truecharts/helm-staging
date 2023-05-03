@@ -7666,6 +7666,35 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - media
+    apiVersion: v2
+    appVersion: 6.17.0
+    created: "2023-05-03T08:01:06.778208409Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.1
+    description: Calibre is a powerful and easy to use e-book manager.
+    digest: 1cc535209755db99d69d0314fbdb035e7f0341e69e8226202358e9081df23c70
+    home: https://truecharts.org/charts/stable/calibre
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre.png
+    keywords:
+    - calibre
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: calibre
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/calibre
+    - https://github.com/kovidgoyal/calibre/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/calibre-10.0.10/calibre-10.0.10.tgz
+    version: 10.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 6.13.0
@@ -87962,4 +87991,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T06:51:33.008413569Z"
+generated: "2023-05-03T08:01:06.782890416Z"
