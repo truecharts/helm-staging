@@ -64952,6 +64952,41 @@ entries:
         - cache
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 7.0.11
+    created: "2023-05-03T03:08:40.663348261Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Open source, advanced key-value store.
+    digest: 4a70513dfd5fef1e96470414286b9a106fdfad279b07b7b0c7f1833be45f8d09
+    home: https://truecharts.org/charts/dependency/redis
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: redis
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/redis
+    - https://github.com/bitnami/bitnami-docker-redis
+    - http://redis.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/redis-6.0.37/redis-6.0.37.tgz
+    version: 6.0.37
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 7.0.8
     created: "2023-02-27T08:40:46.570044278Z"
     dependencies:
@@ -87639,4 +87674,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-02T21:56:08.630891554Z"
+generated: "2023-05-03T03:08:40.666895767Z"
