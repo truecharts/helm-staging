@@ -35720,6 +35720,43 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-03T11:29:36.252544106Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    description: Open source alternative front-end to YouTube.
+    digest: f86acf803b826dce0b9089a00a2ea7a60e1dc85dc8e6a59eb0256749ea44946d
+    home: https://truecharts.org/charts/stable/invidious
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.png
+    keywords:
+    - invidious
+    - youtube
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: invidious
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
+    - https://github.com/iv-org/invidious
+    - https://docs.invidious.io/installation/#docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/invidious-2.0.12/invidious-2.0.12.tgz
+    version: 2.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T08:32:52.127541121Z"
     dependencies:
     - name: common
@@ -39484,6 +39521,44 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-03T11:29:36.413088536Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.35
+    description: Koel is a simple web-based personal audio streaming service written
+      in Vue on the client side and Laravel on the server side.
+    digest: f2642974de560a76ab67ddac1b9c3aefd5d487279c4b37005bbaafd74801b172
+    home: https://truecharts.org/charts/stable/koel
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/koel.png
+    keywords:
+    - koel
+    - music
+    - stream
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: koel
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/koel
+    - https://github.com/koel/docker
+    - https://github.com/koel/koel
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/koel-6.0.27/koel-6.0.27.tgz
+    version: 6.0.27
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T08:32:52.776040575Z"
     dependencies:
     - name: common
@@ -42009,6 +42084,37 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 7.2.7
+    created: "2023-05-03T11:29:36.514120183Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: LibreOffice is a free and powerful office suite, and a successor
+      to OpenOffice.org.
+    digest: d7f77954de8f7d918e5f837d0f353b3c48f1aea7777aa911328cc183c353bde4
+    home: https://truecharts.org/charts/stable/libreoffice
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/libreoffice.png
+    keywords:
+    - libreoffice
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: libreoffice
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/libreoffice
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/libreoffice-4.0.12/libreoffice-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 7.2.7
     created: "2023-02-10T10:15:45.701448667Z"
     dependencies:
     - name: common
@@ -43546,6 +43652,37 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/logitech-media-server-6.1.13/logitech-media-server-6.1.13.tgz
     version: 6.1.13
   loki:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - logs
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.8.1
+    created: "2023-05-03T11:29:36.714342234Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 9e16be2b07dbd2f907e439f38ff46d90bccd9f2445feb138e38f7c9480b71026
+    home: https://truecharts.org/charts/stable/loki
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/loki.png
+    keywords:
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: loki
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/loki
+    - https://github.com/grafana/loki
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/loki-10.0.5/loki-10.0.5.tgz
+    version: 10.0.5
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -46914,6 +47051,41 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/megasync-2.0.8/megasync-2.0.8.tgz
     version: 2.0.8
   memcached:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - cache
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.6.19
+    created: "2023-05-03T11:29:36.842372208Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Memcached is a memory-backed database caching solution
+    digest: 924ce28f6fccec350bce3eba2e16ceb6a4d15f10479be536fc4308b9bb568042
+    home: https://truecharts.org/charts/dependency/memcached
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+    keywords:
+    - memcached
+    - database
+    - cache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: memcached
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/memcached-6.0.32/memcached-6.0.32.tgz
+    version: 6.0.32
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -51382,6 +51554,41 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/mongo-express-0.0.2/mongo-express-0.0.2.tgz
     version: 0.0.2
   mongodb:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 6.0.5
+    created: "2023-05-03T11:29:36.956746265Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Fast, reliable, scalable, and easy to use open-source no-sql database
+      system.
+    digest: 03f853251ee0a8ebf1104ce68518c2bd9f6103312846a35cb40ea817349a9023
+    home: https://truecharts.org/charts/dependency/mongodb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongodb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/mongodb
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://www.mongodb.com
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mongodb-6.0.21/mongodb-6.0.21.tgz
+    version: 6.0.21
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -63331,6 +63538,39 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-03T11:29:37.187875135Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Monitoring your WIFI/LAN network and alerting of new (intruder or
+      hacker) devices.
+    digest: 655d27c5fff7c9ea2087019352517a2eafd550e110c067938143f2ce67e29bac
+    home: https://truecharts.org/charts/stable/pialert
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pialert.png
+    keywords:
+    - pialert
+    - networking
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pialert
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pialert
+    - https://github.com/jokob-sk/Pi.Alert
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pialert-1.0.5/pialert-1.0.5.tgz
+    version: 1.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-02-10T10:16:09.862217774Z"
     dependencies:
     - name: common
@@ -63555,6 +63795,37 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/picoshare-4.0.10/picoshare-4.0.10.tgz
     version: 4.0.10
   pidgin:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.14.9
+    created: "2023-05-03T11:29:37.287375436Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Pidgin is a chat program which lets you log into accounts on multiple
+      chat networks simultaneously.
+    digest: 6db28b55c858e45727e3ad08b526afb1a33eb0f7ac7ad65ed51d136be59af8e3
+    home: https://truecharts.org/charts/stable/pidgin
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/pidgin.png
+    keywords:
+    - pidgin
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: pidgin
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/pidgin
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/pidgin-4.0.11/pidgin-4.0.11.tgz
+    version: 4.0.11
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -65201,6 +65472,39 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/plex-utills-3.0.9/plex-utills-3.0.9.tgz
     version: 3.0.9
   plexanisync:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-03T11:29:37.398561682Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Plex to AniList Sync.
+    digest: 58abac3a363ac704adcc56e64e5eb33d881961f7adf74397e8a503b337ef1070
+    home: https://truecharts.org/charts/stable/plexanisync
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/plexanisync.png
+    keywords:
+    - plexanisync
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: plexanisync
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/plexanisync
+    - https://github.com/RickDB/PlexAniSync
+    - https://github.com/RickDB/PlexAniSync/pkgs/container/plexanisync
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/plexanisync-1.0.1/plexanisync-1.0.1.tgz
+    version: 1.0.1
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -100210,4 +100514,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T11:22:17.992972224Z"
+generated: "2023-05-03T11:29:37.507018165Z"
