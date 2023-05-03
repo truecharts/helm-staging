@@ -30693,6 +30693,48 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.0.9
+    created: "2023-05-03T20:27:03.778025561Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.33
+    description: Grist is a modern relational spreadsheet. It combine the flexibility
+      of a spreadsheet with the robustness of a database to organize your data.
+    digest: d91835fd91987818fc1e700f82d961ef2fb9eeaecd2c97fbb6975473d9dada49
+    home: https://truecharts.org/charts/stable/grist
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/grist.png
+    keywords:
+    - grist
+    - spreadsheet
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: grist
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/grist
+    - https://github.com/gristlabs/grist-core
+    - https://support.getgrist.com/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/grist-7.0.31/grist-7.0.31.tgz
+    version: 7.0.31
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.9
     created: "2023-05-03T11:36:35.936623313Z"
     dependencies:
     - name: common
@@ -87761,6 +87803,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.82.0
+    created: "2023-05-03T20:27:03.92318769Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
+    digest: a5cd07b0409464f240f638e967a695423d1aab336070310a99e88fbcef278b99
+    home: https://truecharts.org/charts/stable/synapse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/synapse.png
+    keywords:
+    - chat
+    - matrix
+    - synapse
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: synapse
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/synapse
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/synapse-7.0.32/synapse-7.0.32.tgz
+    version: 7.0.32
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.82.0
     created: "2023-05-03T11:36:38.002148993Z"
     dependencies:
     - name: common
@@ -89712,6 +89790,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: "8.1"
+    created: "2023-05-03T20:27:04.059329613Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Technitium DNS Server is an open source authoritative as well as
+      recursive DNS server that can be used for self hosting a DNS server for privacy
+      & security.
+    digest: 2cd1e37d5aeff221ee4a24a6c4ccae63493e0bf0553b802fe0435b115d843d2d
+    home: https://truecharts.org/charts/incubator/technitium
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/technitium.png
+    keywords:
+    - DNS
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: technitium
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/technitium
+    - https://github.com/TechnitiumSoftware/DnsServer
+    - https://technitium.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/technitium-3.0.11/technitium-3.0.11.tgz
+    version: 3.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: "8.1"
     created: "2023-05-03T06:51:32.76354014Z"
     dependencies:
     - name: common
@@ -91393,6 +91505,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/traefik-16.0.11/traefik-16.0.11.tgz
     version: 16.0.11
   traefik-forward-auth:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-03T20:27:04.177292019Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A minimal forward authentication service that provides OAuth/SSO
+      login and authentication for the traefik reverse proxy/load balancer. An example
+      for a typical setup is included in the source (docs/how-to.md).
+    digest: 0375ecb88dd8c8b1bcd22418b9a865bcc13856822e3499769f1c961e531cad80
+    home: https://truecharts.org/charts/incubator/traefik-forward-auth
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik-forward-auth.png
+    keywords:
+    - traefik-forward-auth
+    - traefik
+    - forward-auth
+    - auth
+    - ingress
+    - middleware
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traefik-forward-auth
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
+    - https://github.com/thomseddon/traefik-forward-auth
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traefik-forward-auth-0.1.2/traefik-forward-auth-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -101621,4 +101771,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T12:20:36.741015969Z"
+generated: "2023-05-03T20:27:04.182081429Z"
