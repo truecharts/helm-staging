@@ -15328,6 +15328,38 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - AI
+    apiVersion: v2
+    appVersion: 2022.01.1
+    created: "2023-05-03T06:51:32.097862409Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.1
+    description: DeepStack AI provides AI features including Face Recognition, Object
+      Detection, Scene Recognition and custom AI Models
+    digest: f9d9dc8865763dc3f6d7471d9a8a9f999bcd491e9951bc23a233b8eb890ad7f5
+    home: https://truecharts.org/charts/stable/deepstack
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/deepstack.png
+    keywords:
+    - AI
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: deepstack
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/deepstack
+    - https://github.com/johnolafenwa/DeepStack
+    - https://www.deepstack.cc/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/deepstack-7.0.11/deepstack-7.0.11.tgz
+    version: 7.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - AI
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2022.01.1
@@ -24385,6 +24417,45 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 5.35.1
+    created: "2023-05-03T06:51:32.228843795Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 5.0.35
+    description: Ghost is an open source, professional publishing platform built on
+      a modern Node.js technology stack designed for teams who need power, flexibility
+      and performance.
+    digest: 132a7a39a2ce6321f6ea5b1701e861fe8c82a7dcf615e7cbc34a2f574d7bf50a
+    home: https://truecharts.org/charts/incubator/ghost
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ghost.png
+    keywords:
+    - ghost
+    - blog
+    - cms
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ghost
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/ghost
+    - https://github.com/TryGhost/Ghost
+    - https://ghost.org/docs/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ghost-6.0.58/ghost-6.0.58.tgz
+    version: 6.0.58
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 5.35.1
     created: "2023-02-22T06:11:28.922686488Z"
     dependencies:
     - name: common
@@ -26690,6 +26761,48 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/gridcoinwalletgui-2.0.9/gridcoinwalletgui-2.0.9.tgz
     version: 2.0.9
   grist:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.0.7
+    created: "2023-05-03T06:51:32.379317278Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 5.0.33
+    description: Grist is a modern relational spreadsheet. It combine the flexibility
+      of a spreadsheet with the robustness of a database to organize your data.
+    digest: f976dc5b36bcbbb52514ee27d9944a77e3548fce8acecf32cde9b9218a9b68d9
+    home: https://truecharts.org/charts/stable/grist
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/grist.png
+    keywords:
+    - grist
+    - spreadsheet
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: grist
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/grist
+    - https://github.com/gristlabs/grist-core
+    - https://support.getgrist.com/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/grist-7.0.28/grist-7.0.28.tgz
+    version: 7.0.28
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -50339,6 +50452,36 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/novnc-5.0.7/novnc-5.0.7.tgz
     version: 5.0.7
   ntfy:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 2.4.0
+    created: "2023-05-03T06:51:32.518736111Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.1
+    description: ntfy is a simple HTTP-based pub-sub notification service. It allows
+      you to send notifications to your phone or desktop via scripts from any computer.
+    digest: 0c5e903bddc4c7a50d5df2a1896dfbb019e7e32bc2b503ea742f3706f0264ba8
+    home: https://truecharts.org/charts/stable/ntfy
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ntfy.png
+    keywords:
+    - ntfy
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ntfy
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ntfy
+    - https://github.com/binwiederhier/ntfy/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ntfy-5.0.2/ntfy-5.0.2.tgz
+    version: 5.0.2
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -76152,6 +76295,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 1.77.0
+    created: "2023-05-03T06:51:32.64437981Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://deps.truecharts.org/
+      version: 11.0.31
+    description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
+    digest: c01018a9421c3eec60700bea40dc332e901acc6d664df4cd96923496e5ab0589
+    home: https://truecharts.org/charts/stable/synapse
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/synapse.png
+    keywords:
+    - chat
+    - matrix
+    - synapse
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: synapse
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/synapse
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/synapse-7.0.30/synapse-7.0.30.tgz
+    version: 7.0.30
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - cloud
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 1.77.0
     created: "2023-02-19T22:31:30.813573183Z"
     dependencies:
     - name: common
@@ -77742,6 +77921,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: "8.1"
+    created: "2023-05-03T06:51:32.76354014Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: Technitium DNS Server is an open source authoritative as well as
+      recursive DNS server that can be used for self hosting a DNS server for privacy
+      & security.
+    digest: 50832f562927979556e4cc3e67945188d53d380de17e010a522d02d825820beb
+    home: https://truecharts.org/charts/incubator/technitium
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/technitium.png
+    keywords:
+    - DNS
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: technitium
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/technitium
+    - https://github.com/TechnitiumSoftware/DnsServer
+    - https://technitium.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/technitium-3.0.10/technitium-3.0.10.tgz
+    version: 3.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: "8.1"
     created: "2023-02-10T10:16:39.893716651Z"
     dependencies:
     - name: common
@@ -79197,6 +79410,44 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/traefik-16.0.11/traefik-16.0.11.tgz
     version: 16.0.11
   traefik-forward-auth:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-03T06:51:32.862540967Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 11.1.2
+    description: A minimal forward authentication service that provides OAuth/SSO
+      login and authentication for the traefik reverse proxy/load balancer. An example
+      for a typical setup is included in the source (docs/how-to.md).
+    digest: a893159509d9b23b45da100fe5218c6852a671ec6cfd650a6a205b0146f85e29
+    home: https://truecharts.org/charts/incubator/traefik-forward-auth
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik-forward-auth.png
+    keywords:
+    - traefik-forward-auth
+    - traefik
+    - forward-auth
+    - auth
+    - ingress
+    - middleware
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: traefik-forward-auth
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
+    - https://github.com/thomseddon/traefik-forward-auth
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/traefik-forward-auth-0.1.1/traefik-forward-auth-0.1.1.tgz
+    version: 0.1.1
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -83576,6 +83827,43 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - media
+    apiVersion: v2
+    appVersion: 4.16.4
+    created: "2023-05-03T06:51:33.004798686Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.1
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 6.0.32
+    description: Weblate is a copylefted libre software web-based continuous localization
+      system
+    digest: 1b609bdcd4826785592d025435751be24496cd150abfc31590236a3c79d5074b
+    home: https://truecharts.org/charts/stable/weblate
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/weblate.png
+    keywords:
+    - translate
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: weblate
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/weblate
+    - https://github.com/WeblateOrg/weblate
+    - https://github.com/WeblateOrg/docker
+    - https://github.com/WeblateOrg/docker-compose
+    - https://docs.weblate.org/en/latest/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/weblate-8.0.11/weblate-8.0.11.tgz
+    version: 8.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 4.15.2
@@ -87674,4 +87962,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T03:08:40.666895767Z"
+generated: "2023-05-03T06:51:33.008413569Z"
