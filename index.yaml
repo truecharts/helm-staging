@@ -50111,6 +50111,36 @@ entries:
         - games
     apiVersion: v2
     appVersion: 5.7.0
+    created: "2023-05-04T11:58:41.073848179Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Minetest (server) is a near-infinite-world block sandbox game and
+      a game engine.
+    digest: 5735c36ee2a0f1e31bead71d0c4f80158b7895d30ec530d95dd19b745615b9ed
+    home: https://truecharts.org/charts/stable/minetest
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/minetest.png
+    keywords:
+    - minetest
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: minetest
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/minetest
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/minetest-4.0.13/minetest-4.0.13.tgz
+    version: 4.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - games
+    apiVersion: v2
+    appVersion: 5.7.0
     created: "2023-05-03T10:01:25.573208272Z"
     dependencies:
     - name: common
@@ -101809,4 +101839,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-03T22:07:01.589048028Z"
+generated: "2023-05-04T11:58:41.079384019Z"
