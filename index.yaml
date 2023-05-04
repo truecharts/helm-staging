@@ -40834,6 +40834,38 @@ entries:
         - gaming
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-04T18:59:38.789027579Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: A monolithic lancache service capable of caching all CDNs in a single
+      instance.
+    digest: 529f4a0b2ef7843395ed132dc890bbaecb2063cf5156f4445e6c4aceeb54ccf5
+    home: https://truecharts.org/charts/stable/lancache-monolithic
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/lancache-monolithic.png
+    keywords:
+    - monolithic
+    - lancache
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: lancache-monolithic
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/lancache-monolithic
+    - https://github.com/lancachenet/monolithic
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/lancache-monolithic-4.0.2/lancache-monolithic-4.0.2.tgz
+    version: 4.0.2
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - gaming
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:21.680078555Z"
     dependencies:
     - name: common
@@ -101872,4 +101904,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-04T16:57:15.739313593Z"
+generated: "2023-05-04T18:59:38.798233666Z"
