@@ -40736,6 +40736,37 @@ entries:
         - networking
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-04T20:59:20.318187829Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.1
+    description: DNS Chart service for a steam cache.
+    digest: 5992b93e5d60a38f4a5cc63a1f4c36115d823dc90ea7e1a0d229d8ed8ef843d9
+    home: https://truecharts.org/charts/stable/lancache-dns
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/lancache-dns.png
+    keywords:
+    - lancache-dns
+    - dns
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: lancache-dns
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/lancache-dns
+    - https://github.com/lancachenet/lancache-dns
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/lancache-dns-4.0.10/lancache-dns-4.0.10.tgz
+    version: 4.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - networking
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:21.563697476Z"
     dependencies:
     - name: common
@@ -101935,4 +101966,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-04T19:37:40.22917654Z"
+generated: "2023-05-04T20:59:20.32399974Z"
