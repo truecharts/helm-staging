@@ -15112,6 +15112,39 @@ entries:
         - Productivity
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T05:57:53.803694607Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Enjoy Cura directly in your browser with this easy to use Chart
+    digest: 8ac31f62c0db795f48fb06f4263e98d6a63412da0b16ddfab18d6ba421a92b02
+    home: https://truecharts.org/charts/stable/cura-novnc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cura-novnc.png
+    keywords:
+    - cura-novnc
+    - HomeAutomation
+    - Productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cura-novnc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/cura-novnc
+    - https://ultimaker.com/software/ultimaker-cura
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cura-novnc-4.0.11/cura-novnc-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Productivity
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:07.689823434Z"
     dependencies:
     - name: common
@@ -102002,4 +102035,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-04T21:03:21.06976728Z"
+generated: "2023-05-05T05:57:53.808616756Z"
