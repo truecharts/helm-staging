@@ -563,6 +563,39 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T11:02:15.501763666Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Adminer (formerly phpMinAdmin) is a full-featured database management
+      tool written in PHP.
+    digest: bf23cfa91b34c87fb7ef19172c306a7c1ce34ab1feba5409046f8936ccd7676e
+    home: https://truecharts.org/charts/stable/adminer
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/adminer.png
+    keywords:
+    - adminer
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: adminer
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
+    - https://github.com/vrana/adminer
+    - http://hub.docker.com/_/adminer/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/adminer-4.0.12/adminer-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:01.062679227Z"
     dependencies:
     - name: common
@@ -9241,6 +9274,38 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/calibre-web-13.0.15/calibre-web-13.0.15.tgz
     version: 13.0.15
   cert-manager:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - core
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-05T11:02:15.670676055Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Certificate management for Kubernetes
+    digest: f1c895be23653eaa4844877ecab1b69fd900c1461ecc24a00639bc608a9af493
+    home: https://truecharts.org/charts/enterprise/cert-manager
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png
+    keywords:
+    - metallb
+    - loadbalancer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: cert-manager
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/cert-manager
+    - https://cert-manager.io/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/cert-manager-1.0.29/cert-manager-1.0.29.tgz
+    version: 1.0.29
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -49242,6 +49307,40 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T11:02:15.835972443Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: A network load-balancer implementation for Kubernetes using standard
+      routing protocols
+    digest: fb8e72577f3107be17e63595409f80d28b67351108faf1961892a8a23ddfa4e7
+    home: https://truecharts.org/charts/enterprise/metallb
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png
+    keywords:
+    - metallb
+    - loadbalancer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: metallb
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/metallb
+    - https://github.com/metallb/metallb
+    - https://metallb.universe.tf
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/metallb-8.0.24/metallb-8.0.24.tgz
+    version: 8.0.24
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - core
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:24.914838806Z"
     dependencies:
     - name: common
@@ -67503,6 +67602,39 @@ entries:
         - database
     apiVersion: v2
     appVersion: 14.7.0
+    created: "2023-05-05T11:02:16.011999528Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: PostgresSQL
+    digest: 5b11b59c65d5ce00161a8aa1826c4e9cd9d704fbc254b737604df298ef0d4eeb
+    home: https://truecharts.org/charts/stable/postgresql
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png
+    keywords:
+    - postgres
+    - postgressql
+    - dtabase
+    - sql
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: postgresql
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/postgresql
+    - https://www.postgresql.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/postgresql-13.0.14/postgresql-13.0.14.tgz
+    version: 13.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+    apiVersion: v2
+    appVersion: 14.7.0
     created: "2023-05-03T10:01:34.429331685Z"
     dependencies:
     - name: common
@@ -71181,6 +71313,40 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/prpdf-2.0.11/prpdf-2.0.11.tgz
     version: 2.0.11
   prusaslicer-novnc:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - HomeAutomation
+        - Productivity
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-05T11:02:16.181527651Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Enjoy Prusaslicer directly in your browser with this easy to use
+      Chart Chart.
+    digest: 6aae13e4110909035b0cb2c2ccf7a6e99fad761506e919c465bcb808799bb461
+    home: https://truecharts.org/charts/stable/prusaslicer-novnc
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/prusaslicer-novnc.png
+    keywords:
+    - prusaslicer-novnc
+    - HomeAutomation
+    - Productivity
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prusaslicer-novnc
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/prusaslicer-novnc
+    - https://www.prusa3d.com/prusaslicer/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/prusaslicer-novnc-4.0.12/prusaslicer-novnc-4.0.12.tgz
+    version: 4.0.12
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -102166,4 +102332,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-05T10:58:46.923151637Z"
+generated: "2023-05-05T11:02:16.186131807Z"
