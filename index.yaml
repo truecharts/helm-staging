@@ -37158,6 +37158,39 @@ entries:
         - test
     apiVersion: v2
     appVersion: 0.20.2297
+    created: "2023-05-05T20:55:30.225614929Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: API Support for your favorite torrent trackers.
+    digest: aef2a436439daf904e1675513065f02acaf46b08983e31f707bf225c57d47473
+    home: https://truecharts.org/charts/stable/jackett
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png
+    keywords:
+    - jackett
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jackett
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/jackett
+    - https://github.com/Jackett/Jackett
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jackett-14.0.12/jackett-14.0.12.tgz
+    version: 14.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - test
+    apiVersion: v2
+    appVersion: 0.20.2297
     created: "2023-05-05T20:37:45.355784028Z"
     dependencies:
     - name: common
@@ -102765,4 +102798,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-05T20:43:51.73055021Z"
+generated: "2023-05-05T20:55:30.231366436Z"
