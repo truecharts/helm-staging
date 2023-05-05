@@ -43863,6 +43863,37 @@ entries:
         - social
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T11:06:29.908854491Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Easy platform to combine all your social links
+    digest: 4dd55718d96e599f477c90cc7d25c608e4efc3ca88297406a8fad77af553e7b5
+    home: https://truecharts.org/charts/stable/littlelink
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/littlelink.png
+    keywords:
+    - littlelink
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: littlelink
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/littlelink
+    - https://github.com/techno-tim/littlelink-server
+    - https://github.com/sethcottle/littlelink
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/littlelink-9.0.14/littlelink-9.0.14.tgz
+    version: 9.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - social
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:23.387542457Z"
     dependencies:
     - name: common
@@ -59709,6 +59740,35 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/odoo-11.0.20/odoo-11.0.20.tgz
     version: 11.0.20
   omada-controller:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 5.9.0
+    created: "2023-05-05T11:06:30.029712031Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Omada is a SDN tool for TP-Link Omada hardware
+    digest: b87e155b61d749ef7b814bf00125de6510da927b4d00aae0b3b07a89be32e197
+    home: https://truecharts.org/charts/stable/omada-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
+    keywords:
+    - omada-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: omada-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+    - https://github.com/mbentley/docker-omada-controller
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/omada-controller-9.0.13/omada-controller-9.0.13.tgz
+    version: 9.0.13
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -79066,6 +79126,42 @@ entries:
         - media
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T11:06:30.179561743Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 6.0.37
+    description: RSSHub can generate RSS feeds from pretty much everything
+    digest: f953bec8f97794a353546ee1a0ad1c98b80da7e57b8a571f130ec5850f0796f2
+    home: https://truecharts.org/charts/stable/rsshub
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+    keywords:
+    - rsshub
+    - rss
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rsshub
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
+    - https://docs.rsshub.app/en/install/
+    - https://github.com/DIYgod/RSSHub
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rsshub-7.0.18/rsshub-7.0.18.tgz
+    version: 7.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T11:36:37.719282104Z"
     dependencies:
     - name: common
@@ -82756,6 +82852,40 @@ entries:
         - media
     apiVersion: v2
     appVersion: 2023.1.2
+    created: "2023-05-05T11:06:30.29700678Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: An Automatic Video Library Manager for TV Shows
+    digest: 78feddf5ca34f617359fa3cdabb6a1a09b244f062580c651cc025875a707f513
+    home: https://truecharts.org/charts/stable/sickchill
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/sickchill.png
+    keywords:
+    - sickchill
+    - video
+    - library
+    - manager
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: sickchill
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/sickchill
+    - https://github.com/linuxserver/docker-sickchill
+    - https://github.com/SickChill/SickChill
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/sickchill-6.0.12/sickchill-6.0.12.tgz
+    version: 6.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 2023.1.2
     created: "2023-05-03T10:01:40.132698956Z"
     dependencies:
     - name: common
@@ -83463,6 +83593,36 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/smokeping-5.0.7/smokeping-5.0.7.tgz
     version: 5.0.7
   snapdrop:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-05T11:06:30.416920691Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Snapdrop A local file sharing in your browser. Inspired by Apple's
+      Airdrop.
+    digest: a8b217e225605857bc9e6693644be93c7a25348bb042d91801afb66a270a3caa
+    home: https://truecharts.org/charts/stable/snapdrop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/snapdrop.png
+    keywords:
+    - snapdrop
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: snapdrop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/snapdrop
+    - https://github.com/linuxserver/docker-snapdrop
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/snapdrop-5.0.10/snapdrop-5.0.10.tgz
+    version: 5.0.10
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -102332,4 +102492,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-05T11:02:16.186131807Z"
+generated: "2023-05-05T11:06:30.424935333Z"
