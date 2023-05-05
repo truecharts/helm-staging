@@ -74665,6 +74665,40 @@ entries:
         - desktops
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-05T10:55:19.901531117Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.4
+    description: Full desktop environments in many popular flavors for Alpine, Ubuntu,
+      Arch, and Fedora accessible via RDP.
+    digest: a3600f5d2af1ced34a55581822c931a743d804a937d172fbd9d764ad24859b1e
+    home: https://truecharts.org/charts/stable/rdesktop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdesktop.png
+    keywords:
+    - rdesktop
+    - desktops
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rdesktop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rdesktop
+    - http://xrdp.org/
+    - https://github.com/orgs/linuxserver/packages/container/package/rdesktop
+    - https://github.com/linuxserver/docker-rdesktop#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rdesktop-4.0.16/rdesktop-4.0.16.tgz
+    version: 4.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - desktops
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-03T10:01:37.158751725Z"
     dependencies:
     - name: common
@@ -102095,4 +102129,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-05T09:55:51.451472915Z"
+generated: "2023-05-05T10:55:19.90897032Z"
