@@ -19884,6 +19884,39 @@ entries:
         - hardware
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-06T18:36:39.415056061Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Control your Dell PowerEdge fans via IPMI
+    digest: c3100890bc19add35826742958fad4c447f3089acad9683b5467517942a8abcd
+    home: https://truecharts.org/charts/incubator/dell-idrac-fan-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/dell-idrac-fan-controller.png
+    keywords:
+    - iDrac
+    - Dell
+    - fan-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: dell-idrac-fan-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/dell-idrac-fan-controller
+    - https://github.com/tigerblue77/Dell_iDRAC_fan_controller_Docker
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/dell-idrac-fan-controller-1.0.0/dell-idrac-fan-controller-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+        - hardware
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:52:50.689944301Z"
     dependencies:
     - name: common
@@ -114270,4 +114303,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-06T11:10:06.96891096Z"
+generated: "2023-05-06T18:36:39.421638055Z"
