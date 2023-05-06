@@ -37642,6 +37642,39 @@ entries:
         - home-automation
     apiVersion: v2
     appVersion: 2023.4.6
+    created: "2023-05-06T18:52:29.712294323Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: home-assistant App for TrueNAS SCALE
+    digest: ab7b6d1c8cc668589c77e4af3073a5503c7ff1951107a2dc2c5796bb127ebd60
+    home: https://truecharts.org/charts/stable/home-assistant
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: home-assistant
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/home-assistant
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/home-assistant-19.0.16/home-assistant-19.0.16.tgz
+    version: 19.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - home-automation
+    apiVersion: v2
+    appVersion: 2023.4.6
     created: "2023-05-06T06:47:45.70536907Z"
     dependencies:
     - name: common
@@ -114303,4 +114336,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-06T18:36:39.421638055Z"
+generated: "2023-05-06T18:52:29.718804555Z"
