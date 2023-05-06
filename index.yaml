@@ -19438,6 +19438,41 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 2.22.00
+    created: "2023-05-06T11:10:06.963296196Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: deCONZ is an easy to use control software, with which you can set
+      up and control Zigbee networks of any size without further programming effort.
+    digest: 193dd5a07b4cefa8d565b6f7555325e3cc47a738914fadc4d6256a9702b1780e
+    home: https://truecharts.org/charts/stable/deconz
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/deconz.png
+    keywords:
+    - deconz
+    - home-automation
+    - zigbee
+    - conbee
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: deconz
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/deconz
+    - https://github.com/dresden-elektronik/deconz-rest-plugin
+    - https://github.com/marthoc/docker-deconz
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/deconz-11.0.0/deconz-11.0.0.tgz
+    version: 11.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 2.22.00
     created: "2023-05-03T11:36:35.522777538Z"
     dependencies:
     - name: common
@@ -114235,4 +114270,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-06T06:51:13.762034565Z"
+generated: "2023-05-06T11:10:06.96891096Z"
