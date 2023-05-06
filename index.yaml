@@ -37574,6 +37574,39 @@ entries:
         - home-automation
     apiVersion: v2
     appVersion: 2023.4.6
+    created: "2023-05-06T06:47:45.70536907Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: home-assistant App for TrueNAS SCALE
+    digest: 7ff07800bde1f802e9433f837f8e29c76378ebfa8ea5452e06ddf97f9f28bb64
+    home: https://truecharts.org/charts/stable/home-assistant
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/home-assistant.png
+    keywords:
+    - home-assistant
+    - hass
+    - homeassistant
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: home-assistant
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/home-assistant
+    - https://github.com/home-assistant/home-assistant
+    - https://github.com/cdr/code-server
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/home-assistant-19.0.15/home-assistant-19.0.15.tgz
+    version: 19.0.15
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - home-automation
+    apiVersion: v2
+    appVersion: 2023.4.6
     created: "2023-05-05T22:52:56.894260822Z"
     dependencies:
     - name: common
@@ -66563,6 +66596,35 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/odoo-11.0.20/odoo-11.0.20.tgz
     version: 11.0.20
   omada-controller:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 5.9.0
+    created: "2023-05-06T06:47:45.878906988Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Omada is a SDN tool for TP-Link Omada hardware
+    digest: 7fae386cb74fd6a26d60e04e55c5af22f3dfe30b5931359efad0606e51c597e4
+    home: https://truecharts.org/charts/stable/omada-controller
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
+    keywords:
+    - omada-controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: omada-controller
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+    - https://github.com/mbentley/docker-omada-controller
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/omada-controller-9.0.15/omada-controller-9.0.15.tgz
+    version: 9.0.15
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -113138,6 +113200,36 @@ entries:
         - network
     apiVersion: v2
     appVersion: 1.10.6
+    created: "2023-05-06T06:47:46.034623743Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: ZeroTier is a smart programmable Ethernet switch for planet Earth
+    digest: 71366334c1006a686378af9c6086340caedc6bfee46024bc6aeba20222ec299e
+    home: https://truecharts.org/charts/stable/zerotier
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/zerotier.png
+    keywords:
+    - zerotier
+    - network
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: zerotier
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/zerotier
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/zerotier-5.0.11/zerotier-5.0.11.tgz
+    version: 5.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+    apiVersion: v2
+    appVersion: 1.10.6
     created: "2023-05-05T22:53:24.451283375Z"
     dependencies:
     - name: common
@@ -114113,4 +114205,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-05T22:53:24.881330099Z"
+generated: "2023-05-06T06:47:46.039808061Z"
