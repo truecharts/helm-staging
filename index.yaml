@@ -57514,6 +57514,37 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 0.26.4
+    created: "2023-05-07T22:59:42.517454717Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: A management console for minio server and operator
+    digest: f81d082a3976a722818e4f0e8ef215e7d4f0ce2fa203faa58baa34373aecfd23
+    home: https://truecharts.org/charts/stable/minio-console
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/minio-console.png
+    keywords:
+    - minio-console
+    - minio
+    - s3
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: minio-console
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/minio-console
+    - https://github.com/minio/console
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/minio-console-6.0.13/minio-console-6.0.13.tgz
+    version: 6.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 0.26.3
     created: "2023-05-05T22:53:04.160177027Z"
     dependencies:
@@ -114914,4 +114945,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T21:51:44.520521899Z"
+generated: "2023-05-07T22:59:42.523032288Z"
