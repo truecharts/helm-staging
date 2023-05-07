@@ -22961,6 +22961,35 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 21.2.9
+    created: "2023-05-07T15:50:55.974724718Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Drawio is free online diagram software.
+    digest: 2a7a1c060543a6b152747fd56e669aad3b2edbaff9bffc96f39a759e3729bc2d
+    home: https://truecharts.org/charts/stable/drawio
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/drawio.png
+    keywords:
+    - drawio
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: drawio
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/drawio
+    - https://github.com/jgraph/drawio
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/drawio-5.0.13/drawio-5.0.13.tgz
+    version: 5.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 21.2.1
     created: "2023-05-05T22:52:52.143882845Z"
     dependencies:
@@ -114556,4 +114585,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T15:38:24.05353066Z"
+generated: "2023-05-07T15:50:55.980179122Z"
