@@ -63814,6 +63814,37 @@ entries:
         - media
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-07T13:42:06.367349721Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: NextPVR is a personal video recorder application, with the goal making
+      it easy to watch or record live TV.
+    digest: fa61cda6c891e8b32053e4b6589dfdc5d0d44d7403fe360b0bd12fe25542d162
+    home: https://truecharts.org/charts/stable/nextpvr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/nextpvr.png
+    keywords:
+    - pvr
+    - recorder
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: nextpvr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/nextpvr
+    - https://github.com/sub3/NextPVR/wiki/Install-Docker
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/nextpvr-5.0.3/nextpvr-5.0.3.tgz
+    version: 5.0.3
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:53:05.996076251Z"
     dependencies:
     - name: common
@@ -114394,4 +114425,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T12:01:21.281320526Z"
+generated: "2023-05-07T13:42:06.372696141Z"
