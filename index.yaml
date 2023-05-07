@@ -25056,6 +25056,37 @@ entries:
       truecharts.org/catagories: |
         - tools
     apiVersion: v2
+    appVersion: 2023.4.4
+    created: "2023-05-07T16:44:10.783592512Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful
+      configuration files and control them remotely through Home Automation systems.
+    digest: f45bb6edb7648bc9358e88fd031eed0ba54cea41d9dc05cad58f69f4b5b19eb4
+    home: https://truecharts.org/charts/stable/esphome
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/esphome.png
+    keywords:
+    - esphome
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: esphome
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/esphome
+    - https://github.com/esphome/esphome
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/esphome-14.0.13/esphome-14.0.13.tgz
+    version: 14.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - tools
+    apiVersion: v2
     appVersion: 2023.4.2
     created: "2023-05-05T22:52:52.902807495Z"
     dependencies:
@@ -114585,4 +114616,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T15:50:55.980179122Z"
+generated: "2023-05-07T16:44:10.790753847Z"
