@@ -41303,6 +41303,37 @@ entries:
       truecharts.org/catagories: |
         - storage
     apiVersion: v2
+    appVersion: 0.19.2
+    created: "2023-05-07T18:42:45.170892566Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: IPFS is a global, versioned, peer-to-peer Interplanetary Filesystem.
+    digest: f056b1849e82fe6ec84fabd421f57e1e66b24200d7332e74481db6b818c4f2a1
+    home: https://truecharts.org/charts/stable/ipfs
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/ipfs.png
+    keywords:
+    - ipfs
+    - kubo
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: ipfs
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/ipfs
+    - https://github.com/ipfs/kubo
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/ipfs-6.0.13/ipfs-6.0.13.tgz
+    version: 6.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - storage
+    apiVersion: v2
     appVersion: 0.19.1
     created: "2023-05-05T22:52:57.845555911Z"
     dependencies:
@@ -114758,4 +114789,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T18:07:02.601857455Z"
+generated: "2023-05-07T18:42:45.181525939Z"
