@@ -22281,6 +22281,36 @@ entries:
         - incubator
     apiVersion: v2
     appVersion: 2023.1.202
+    created: "2023-05-07T15:38:24.04846629Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Domoticz is a Home Automation System that lets you monitor and configure
+      various devices like Lights, Switches and much more.
+    digest: 8565845867ecd76883690b8d2207e11a0c16c45959fe8201e9f89d525735b76f
+    home: https://truecharts.org/charts/stable/domoticz
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/domoticz.png
+    keywords:
+    - domoticz
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: domoticz
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/domoticz
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/domoticz-5.0.4/domoticz-5.0.4.tgz
+    version: 5.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+    apiVersion: v2
+    appVersion: 2023.1.202
     created: "2023-05-05T22:52:51.723864286Z"
     dependencies:
     - name: common
@@ -114526,4 +114556,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T14:54:51.593258966Z"
+generated: "2023-05-07T15:38:24.05353066Z"
