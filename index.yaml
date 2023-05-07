@@ -53503,6 +53503,38 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 23.04.2
+    created: "2023-05-07T21:51:44.514643219Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: MediaInfo is a convenient unified display of the most relevant technical
+      and tag data for video and audio files.
+    digest: b868244d1036d92dc90bdde5425854487facd6d173b7586b7a4a7b0c6d77e9e3
+    home: https://truecharts.org/charts/stable/mediainfo
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mediainfo.png
+    keywords:
+    - info
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mediainfo
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/mediainfo
+    - https://github.com/jlesage/docker-mediainfo
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mediainfo-4.0.4/mediainfo-4.0.4.tgz
+    version: 4.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 23.04.1
     created: "2023-05-05T22:53:02.505291423Z"
     dependencies:
@@ -114882,4 +114914,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T21:45:23.078482343Z"
+generated: "2023-05-07T21:51:44.520521899Z"
