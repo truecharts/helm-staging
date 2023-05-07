@@ -58933,6 +58933,44 @@ entries:
         - utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-07T18:07:02.596498784Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://deps.truecharts.org/
+      version: 6.0.23
+    description: mongo-express is a web-based MongoDB admin interface written in Node.js,
+      Express.js, and Bootstrap3.
+    digest: f2b01698f4952c26b1b5eec6225955fed4284bcd0b08feac7e2ff4aa78e49706
+    home: https://truecharts.org/charts/incubator/mongo-express
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongo-express.png
+    keywords:
+    - mongo
+    - mongodb
+    - database
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: mongo-express
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/mongo-express
+    - https://github.com/mongo-express/mongo-express
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/mongo-express-0.0.4/mongo-express-0.0.4.tgz
+    version: 0.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - database
+        - utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:53:04.618654032Z"
     dependencies:
     - name: common
@@ -114720,4 +114758,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T18:00:35.922446361Z"
+generated: "2023-05-07T18:07:02.601857455Z"
