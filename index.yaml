@@ -38795,6 +38795,35 @@ entries:
       truecharts.org/catagories: |
         - dashboard
     apiVersion: v2
+    appVersion: 0.6.17
+    created: "2023-05-07T18:45:49.002273175Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: A highly customizable homepage
+    digest: 56c1522720a1c2dfb10b18baedb2297bc8609a4e482cd2358a5be8cdd64e0a47
+    home: https://truecharts.org/charts/stable/homepage
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png
+    keywords:
+    - homepage
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: homepage
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/homepage
+    - https://github.com/benphelps/homepage
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/homepage-3.0.13/homepage-3.0.13.tgz
+    version: 3.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - dashboard
+    apiVersion: v2
     appVersion: 0.6.16
     created: "2023-05-05T22:52:57.31352387Z"
     dependencies:
@@ -114789,4 +114818,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-07T18:42:45.181525939Z"
+generated: "2023-05-07T18:45:49.007863521Z"
