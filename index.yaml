@@ -106676,6 +106676,42 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 0.11.2
+    created: "2023-05-08T04:48:47.76134606Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: This application runs as a daemon on your download host. It checks
+      for completed downloads and extracts them so Radarr, Lidarr, Sonarr, and Readarr
+      may import them
+    digest: 8b4b4c74277e0f01672cbb31dc36e6b45641a5c0f6071af38096d33b1d5214d9
+    home: https://truecharts.org/charts/stable/unpackerr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png
+    keywords:
+    - unpackerr
+    - sonarr
+    - radarr
+    - lidarr
+    - readarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: unpackerr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/unpackerr
+    - https://github.com/davidnewhall/unpackerr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/unpackerr-9.0.12/unpackerr-9.0.12.tgz
+    version: 9.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 0.11.1
     created: "2023-05-05T22:53:21.613346998Z"
     dependencies:
@@ -115243,4 +115279,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T04:44:36.381936803Z"
+generated: "2023-05-08T04:48:47.769135695Z"
