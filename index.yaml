@@ -70803,6 +70803,45 @@ entries:
       truecharts.org/catagories: |
         - productivity
     apiVersion: v2
+    appVersion: 1.14.4
+    created: "2023-05-08T01:08:56.65540953Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 6.0.39
+    description: Paperless-ngx is an application by Daniel Quinn and contributors
+      that indexes your scanned documents.
+    digest: c9dfc1291820448042e338804017e5d4f244358bdeab118501d9fef59f3835ed
+    home: https://truecharts.org/charts/stable/paperless-ngx
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ngx.png
+    keywords:
+    - paperless-ng
+    - paperless-ngx
+    - documents
+    - paper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: paperless-ngx
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/paperless-ngx
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://paperless-ngx.readthedocs.io/en/latest/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/paperless-ngx-1.0.14/paperless-ngx-1.0.14.tgz
+    version: 1.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+    apiVersion: v2
     appVersion: 1.14.2
     created: "2023-05-05T22:53:09.213230396Z"
     dependencies:
@@ -115046,4 +115085,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T01:04:59.236105084Z"
+generated: "2023-05-08T01:08:56.660742963Z"
