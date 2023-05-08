@@ -36382,6 +36382,40 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T08:46:19.201606037Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: HandBrake is a tool for converting video from nearly any format to
+      a selection of modern, widely supported codecs.
+    digest: 8f7811d17421006a3d9bcbbc5ab5bae47bca7bd7603804dbb695c9fef301a42a
+    home: https://truecharts.org/charts/stable/handbrake
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/handbrake.png
+    keywords:
+    - handbrake
+    - encode
+    - media
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: handbrake
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/handbrake
+    - https://github.com/jlesage/docker-handbrake
+    - https://handbrake.fr/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/handbrake-16.0.4/handbrake-16.0.4.tgz
+    version: 16.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 23.03.2
     created: "2023-05-05T22:52:56.124742284Z"
     dependencies:
@@ -115471,4 +115505,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T08:42:25.79866234Z"
+generated: "2023-05-08T08:46:19.215367155Z"
