@@ -82526,6 +82526,38 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T11:44:12.643127791Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: QDirStat is a graphical application to show where your disk space
+      has gone and to help you to clean it up.
+    digest: 52f26727174ac9c5166ac6f8982ca469625d217e03da2ad9d49095eea79bf43c
+    home: https://truecharts.org/charts/stable/qdirstat
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/qdirstat.png
+    keywords:
+    - stats
+    - qdirstat
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: qdirstat
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/qdirstat
+    - https://github.com/jlesage/docker-qdirstat
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/qdirstat-4.0.4/qdirstat-4.0.4.tgz
+    version: 4.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 23.03.1
     created: "2023-05-05T22:53:13.743718607Z"
     dependencies:
@@ -115573,4 +115605,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T10:55:04.586516044Z"
+generated: "2023-05-08T11:44:12.648076512Z"
