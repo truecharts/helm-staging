@@ -136,6 +136,37 @@ entries:
       truecharts.org/catagories: |
         - finance
     apiVersion: v2
+    appVersion: 23.5.0
+    created: "2023-05-08T06:42:22.092853611Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Actual is a super fast privacy-focused app for managing your finances.
+    digest: 806dd535321d5b315fa6674987328b3cb56d4f3a7e736ca8143d5f8fc40c79bb
+    home: https://truecharts.org/charts/stable/actualserver
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/actualserver.png
+    keywords:
+    - actualserver
+    - finance
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: actualserver
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/actualserver
+    - https://github.com/Kippenhof/docker-templates
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/actualserver-4.0.13/actualserver-4.0.13.tgz
+    version: 4.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - finance
+    apiVersion: v2
     appVersion: 23.4.2
     created: "2023-05-05T22:52:43.434674236Z"
     dependencies:
@@ -115311,4 +115342,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T05:35:49.832717161Z"
+generated: "2023-05-08T06:42:22.098277886Z"
