@@ -5973,6 +5973,38 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T07:43:26.42386783Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Avidemux is a free video editor designed for simple cutting, filtering
+      and encoding tasks.
+    digest: 636ea862629e2d00d164c14ff8796bf19feb21559a0454af7f853c75217c779c
+    home: https://truecharts.org/charts/stable/avidemux
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/avidemux.png
+    keywords:
+    - media
+    - avidemux
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: avidemux
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/avidemux
+    - https://github.com/jlesage/docker-avidemux
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/avidemux-4.0.12/avidemux-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 23.03.1
     created: "2023-05-05T22:52:45.999990498Z"
     dependencies:
@@ -115373,4 +115405,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T06:46:16.497425203Z"
+generated: "2023-05-08T07:43:26.429640625Z"
