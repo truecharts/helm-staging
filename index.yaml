@@ -104967,6 +104967,37 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T12:44:53.714262917Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: tsMuxer is a Transport Stream muxer.
+    digest: 66806587a44aad802b10b26306712f6f2dd9a88dd35e452276c20f8af7748cb3
+    home: https://truecharts.org/charts/stable/tsmuxer
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tsmuxer.png
+    keywords:
+    - media
+    - tsmuxer
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tsmuxer
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/tsmuxer
+    - https://github.com/jlesage/docker-tsmuxer
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tsmuxer-4.0.4/tsmuxer-4.0.4.tgz
+    version: 4.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 23.03.1
     created: "2023-05-05T22:53:20.786069367Z"
     dependencies:
@@ -115668,4 +115699,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T12:41:30.062882205Z"
+generated: "2023-05-08T12:44:53.719762229Z"
