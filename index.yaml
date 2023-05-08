@@ -17739,6 +17739,41 @@ entries:
         - duplicates
         - files
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T07:46:38.884034618Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Czkawka is a simple, fast and free app to remove unnecessary files
+      from your computer.
+    digest: f01bea689ccc8802dfe6604b881a6d7a8fabea36895abb144e486d74a517be88
+    home: https://truecharts.org/charts/stable/czkawka
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/czkawka.png
+    keywords:
+    - duplicates
+    - file management
+    - czkawka
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: czkawka
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/czkawka
+    - https://github.com/jlesage/docker-czkawka
+    - https://github.com/qarmin/czkawka
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/czkawka-4.0.14/czkawka-4.0.14.tgz
+    version: 4.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - duplicates
+        - files
+    apiVersion: v2
     appVersion: 23.03.1
     created: "2023-05-05T22:52:49.815407453Z"
     dependencies:
@@ -115405,4 +115440,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T07:43:26.429640625Z"
+generated: "2023-05-08T07:46:38.893966831Z"
