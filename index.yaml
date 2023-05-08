@@ -42400,6 +42400,40 @@ entries:
       truecharts.org/catagories: |
         - downloads
     apiVersion: v2
+    appVersion: 23.04.1
+    created: "2023-05-08T09:58:14.925425724Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: JDownloader is a free, open-source download management tool with
+      a huge community of developers that makes downloading as easy and fast as it
+      should be.
+    digest: a1e97bfae3b743f6b4dcfe598ddf11e12fd2873288737be41414a00d5603fe90
+    home: https://truecharts.org/charts/stable/jdownloader2
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jdownloader2.png
+    keywords:
+    - jdownloader
+    - download
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jdownloader2
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/jdownloader2
+    - https://github.com/jlesage/docker-jdownloader-2
+    - https://jdownloader.org/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jdownloader2-11.0.4/jdownloader2-11.0.4.tgz
+    version: 11.0.4
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - downloads
+    apiVersion: v2
     appVersion: 23.03.1
     created: "2023-05-05T22:52:59.175319314Z"
     dependencies:
@@ -115505,4 +115539,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T08:46:19.215367155Z"
+generated: "2023-05-08T09:58:14.932683939Z"
