@@ -115496,6 +115496,40 @@ entries:
       truecharts.org/catagories: |
         - tools
     apiVersion: v2
+    appVersion: 8.15.0
+    created: "2023-05-08T14:43:09.673080993Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Fully configurable Zwave to MQTT gateway and Control Panel using
+      NodeJS and Vue
+    digest: a8a697fa682252583d41f57f4a8bd829ccbd95f8ab40b1bc0764b803a176e6dc
+    home: https://truecharts.org/charts/stable/zwavejs2mqtt
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/zwavejs2mqtt.png
+    keywords:
+    - zwavejs2mqtt
+    - zwave-js
+    - z-wave
+    - zwave
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: zwavejs2mqtt
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/zwavejs2mqtt
+    - https://github.com/zwave-js/zwavejs2mqtt
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-15.0.13/zwavejs2mqtt-15.0.13.tgz
+    version: 15.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - tools
+    apiVersion: v2
     appVersion: 8.14.2
     created: "2023-05-05T22:53:24.874707596Z"
     dependencies:
@@ -115699,4 +115733,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T12:44:53.719762229Z"
+generated: "2023-05-08T14:43:09.681876037Z"
