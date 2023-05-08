@@ -72461,6 +72461,43 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: "230506"
+    created: "2023-05-08T15:43:44.027904085Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://deps.truecharts.org/
+      version: 7.0.22
+    description: PhotoPrismÂ® is a server-based application for browsing, organizing
+      and sharing your personal photo collection
+    digest: 24d77a92b1c6d27a0035c68071132572916925de1c0c8241ae89b868e30951e8
+    home: https://truecharts.org/charts/stable/photoprism
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/photoprism.png
+    keywords:
+    - photos
+    - photoprism
+    - pictures
+    - sharing
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: photoprism
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/photoprism
+    - https://github.com/photoprism/photoprism
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/photoprism-14.0.12/photoprism-14.0.12.tgz
+    version: 14.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: "221118"
     created: "2023-05-05T22:53:09.753206003Z"
     dependencies:
@@ -115765,4 +115802,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T14:46:35.957043627Z"
+generated: "2023-05-08T15:43:44.034444017Z"
