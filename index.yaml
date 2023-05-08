@@ -109030,6 +109030,36 @@ entries:
       truecharts.org/catagories: |
         - network
     apiVersion: v2
+    appVersion: 0.9.2
+    created: "2023-05-08T04:44:36.375950002Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Lightweight network IP scanner with web GUI
+    digest: 869ddcc545af117571555b68f6756333b55aaca89c674f2e2d6f00d3238333ba
+    home: https://truecharts.org/charts/stable/watchyourlan
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/watchyourlan.png
+    keywords:
+    - network
+    - monitor
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: watchyourlan
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/watchyourlan
+    - https://github.com/aceberg/WatchYourLAN
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/watchyourlan-4.0.12/watchyourlan-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+    apiVersion: v2
     appVersion: 0.9.1
     created: "2023-05-05T22:53:22.525263873Z"
     dependencies:
@@ -115213,4 +115243,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T03:42:51.3673678Z"
+generated: "2023-05-08T04:44:36.381936803Z"
