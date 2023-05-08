@@ -114492,6 +114492,38 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 1.30.4
+    created: "2023-05-08T05:35:49.827436615Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Bridges events and allows you to control your Zigbee devices via
+      MQTT
+    digest: 5caad9b684b395ba3a82eceaba9c04a8d485f49be073b262bb227626ae87d00d
+    home: https://truecharts.org/charts/stable/zigbee2mqtt
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/zigbee2mqtt.png
+    keywords:
+    - zigbee
+    - mqtt
+    - home-assistant
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: zigbee2mqtt
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/zigbee2mqtt
+    - https://github.com/Koenkk/zigbee2mqtt
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/zigbee2mqtt-7.0.13/zigbee2mqtt-7.0.13.tgz
+    version: 7.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 1.30.3
     created: "2023-05-05T22:53:24.556997731Z"
     dependencies:
@@ -115279,4 +115311,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T04:48:47.769135695Z"
+generated: "2023-05-08T05:35:49.832717161Z"
