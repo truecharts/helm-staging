@@ -94749,6 +94749,39 @@ entries:
         - search
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 9.2.1
+    created: "2023-05-08T03:42:51.361958832Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Apache Solr
+    digest: a6974fe4745ab1402c69fba2feef71b9a36679300b5bd1b627b5a7ec995ce1ea
+    home: https://truecharts.org/charts/dependency/solr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
+    keywords:
+    - solr
+    - apache
+    - search
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: solr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+    - https://github.com/apache/solr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/solr-4.0.22/solr-4.0.22.tgz
+    version: 4.0.22
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - search
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 9.2.0
     created: "2023-05-05T21:14:30.531605136Z"
     dependencies:
@@ -115180,4 +115213,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T03:00:13.670175274Z"
+generated: "2023-05-08T03:42:51.3673678Z"
