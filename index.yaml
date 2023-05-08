@@ -18187,6 +18187,37 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 5.2.1
+    created: "2023-05-08T08:42:25.793320129Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: dash. (or dashdot) is a modern server dashboard, running on the latest
+      tech, designed with glassmorphism in mind.
+    digest: 4d493ec7b403fbbb8d3472e33748388ed8b5cf779b9e7334f318a22a46d858ca
+    home: https://truecharts.org/charts/stable/dashdot
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/dashdot.png
+    keywords:
+    - dashboard
+    - dashdot
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: dashdot
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/dashdot
+    - https://github.com/MauriceNino/dashdot
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/dashdot-4.0.13/dashdot-4.0.13.tgz
+    version: 4.0.13
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 5.1.3
     created: "2023-05-05T22:52:49.915508938Z"
     dependencies:
@@ -115440,4 +115471,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T07:46:38.893966831Z"
+generated: "2023-05-08T08:42:25.79866234Z"
