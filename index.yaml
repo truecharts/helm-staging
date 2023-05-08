@@ -5479,6 +5479,37 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 1.25.0
+    created: "2023-05-08T06:46:16.492066598Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: The modern download automation tool for torrents.
+    digest: 0825662dd6e59cf28063020749d3dbb27fa42bee2c110338aa5a59d8686ef4d7
+    home: https://truecharts.org/charts/stable/autobrr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/autobrr.png
+    keywords:
+    - autobrr
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: autobrr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/autobrr
+    - https://github.com/autobrr/autobrr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/autobrr-4.0.11/autobrr-4.0.11.tgz
+    version: 4.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 1.24.1
     created: "2023-05-05T22:52:45.622873382Z"
     dependencies:
@@ -115342,4 +115373,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-08T06:42:22.098277886Z"
+generated: "2023-05-08T06:46:16.497425203Z"
