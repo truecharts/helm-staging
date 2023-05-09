@@ -17318,6 +17318,35 @@ entries:
       truecharts.org/catagories: |
         - custom
     apiVersion: v2
+    appVersion: 0.20.2814
+    created: "2023-05-09T10:08:47.755161867Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Advanced tool to create your own TrueCharts-based App
+    digest: 401bb54405a5a6dcc5953246a22cb6b9187024e5254f577f559e5436d0b8ee38
+    home: https://truecharts.org/charts/stable/custom-app
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png
+    keywords:
+    - custom
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: custom-app
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/custom-app
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/custom-app-8.0.6/custom-app-8.0.6.tgz
+    version: 8.0.6
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - custom
+    apiVersion: v2
     appVersion: 0.20.2297
     created: "2023-05-07T12:01:21.276199967Z"
     dependencies:
@@ -42119,6 +42148,39 @@ entries:
     - https://github.com/truecharts/helm-staging/releases/download/iyuuplus-4.0.7/iyuuplus-4.0.7.tgz
     version: 4.0.7
   jackett:
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+        - test
+    apiVersion: v2
+    appVersion: 0.20.2814
+    created: "2023-05-09T10:08:47.956718525Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: API Support for your favorite torrent trackers.
+    digest: f75d31d03412efa1dcc1f8d1de405469295e1d85f0b43838b9c4feb33ec66c8c
+    home: https://truecharts.org/charts/stable/jackett
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jackett.png
+    keywords:
+    - jackett
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jackett
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/jackett
+    - https://github.com/Jackett/Jackett
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jackett-14.0.14/jackett-14.0.14.tgz
+    version: 14.0.14
   - annotations:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
@@ -115874,4 +115936,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-09T09:02:38.240064964Z"
+generated: "2023-05-09T10:08:47.964075531Z"
