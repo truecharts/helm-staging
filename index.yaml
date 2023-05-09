@@ -34867,6 +34867,40 @@ entries:
         - media
     apiVersion: v2
     appVersion: 1.7.40
+    created: "2023-05-09T20:05:27.337953237Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: A Fast, Simple, and Flexible, file-based Web-platform.
+    digest: bd54a164f3b3f879f2eddf857bc2d35ceba6ef649ad0e4a52995e2e6bb6ffed6
+    home: https://truecharts.org/charts/stable/grav
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/grav.png
+    keywords:
+    - grav
+    - web
+    - platform
+    - file
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: grav
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/grav
+    - https://github.com/linuxserver/docker-grav
+    - https://github.com/getgrav/grav/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/grav-7.0.11/grav-7.0.11.tgz
+    version: 7.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 1.7.40
     created: "2023-05-09T18:57:10.182706138Z"
     dependencies:
     - name: common
@@ -115970,4 +116004,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-09T18:57:10.188779535Z"
+generated: "2023-05-09T20:05:27.344399605Z"
