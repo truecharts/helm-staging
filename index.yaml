@@ -109168,6 +109168,39 @@ entries:
         - productivity
     apiVersion: v2
     appVersion: 0.20.4
+    created: "2023-05-10T06:30:14.54449691Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    - condition: redis.enabled
+      name: redis
+      repository: https://deps.truecharts.org
+      version: 6.0.39
+    description: The to-do app to organize your life.
+    digest: a0d9ca71c82df9b6307bf3d2a5b18fa621cd2c4742a64d89d7dd72d3229db4cf
+    home: https://truecharts.org/charts/stable/vikunja
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.png
+    keywords:
+    - vikunja
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: vikunja
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
+    - https://vikunja.io/docs
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/vikunja-8.0.5/vikunja-8.0.5.tgz
+    version: 8.0.5
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - productivity
+    apiVersion: v2
+    appVersion: 0.20.4
     created: "2023-05-05T22:53:22.42444072Z"
     dependencies:
     - name: common
@@ -116004,4 +116037,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-09T20:05:27.344399605Z"
+generated: "2023-05-10T06:30:14.550618983Z"
