@@ -80614,6 +80614,39 @@ entries:
         - media
     apiVersion: v2
     appVersion: 1.4.1.3258
+    created: "2023-05-10T09:57:44.085041238Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Indexer manager/proxy built on the popular arr net base stack to
+      integrate with your various PVR apps.
+    digest: 0af99091c04602dcdb95221ba52e6a5b6a50fd7f142ac57dd6d081fe85d35e49
+    home: https://truecharts.org/charts/stable/prowlarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/prowlarr.png
+    keywords:
+    - prowlarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prowlarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr
+    - https://github.com/Prowlarr/Prowlarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/prowlarr-11.0.10/prowlarr-11.0.10.tgz
+    version: 11.0.10
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 1.4.1.3258
     created: "2023-05-08T02:09:56.561505143Z"
     dependencies:
     - name: common
@@ -116037,4 +116070,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-10T06:30:14.550618983Z"
+generated: "2023-05-10T09:57:44.090637876Z"
