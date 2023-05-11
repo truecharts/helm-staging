@@ -100977,6 +100977,37 @@ entries:
       truecharts.org/catagories: |
         - network
     apiVersion: v2
+    appVersion: 1.40.1
+    created: "2023-05-11T02:58:34.796027263Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Tailscale lets you connect your devices and users together in your
+      own secure virtual private network
+    digest: 098046fc250c09fb07e6fa0eaaf45ddef4fdb76e808a19c2fab7cb7bb2d2fc58
+    home: https://truecharts.org/charts/stable/tailscale
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/tailscale.png
+    keywords:
+    - vpn
+    - tailscale
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: tailscale
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/tailscale
+    - https://github.com/tailscale/tailscale/blob/main/docs/k8s/run.sh
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/tailscale-4.0.17/tailscale-4.0.17.tgz
+    version: 4.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+    apiVersion: v2
     appVersion: 1.40.0
     created: "2023-05-05T22:53:19.240051263Z"
     dependencies:
@@ -116070,4 +116101,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-10T09:57:44.090637876Z"
+generated: "2023-05-11T02:58:34.806294063Z"
