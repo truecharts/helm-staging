@@ -45380,6 +45380,38 @@ entries:
         - utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-11T21:55:31.211002181Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: KitchenOwl is a smart self-hosted grocery list and recipe manager.
+    digest: a0d56abd9d9f5e8cbfaaea038062ba930a07d16a38f9f9edd2ce329e28b8b65a
+    home: https://truecharts.org/charts/stable/kitchenowl
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/kitchenowl.png
+    keywords:
+    - recipes
+    - kitchen
+    - grocery
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: kitchenowl
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/kitchenowl
+    - https://tombursch.github.io/kitchenowl
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/kitchenowl-4.0.12/kitchenowl-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:53:00.095174777Z"
     dependencies:
     - name: common
@@ -116194,4 +116226,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-11T20:57:11.487694739Z"
+generated: "2023-05-11T21:55:31.217904301Z"
