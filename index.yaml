@@ -7306,6 +7306,42 @@ entries:
         - media
     apiVersion: v2
     appVersion: 1.2.1
+    created: "2023-05-11T23:56:44.951554796Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.8
+    description: Bazarr is a companion application to Sonarr and Radarr. It manages
+      and downloads subtitles based on your requirements
+    digest: e0abc51e156b4686d7be3564d2c9d8dc3dc8296119914acc4bcd42d8569428d6
+    home: https://truecharts.org/charts/stable/bazarr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - sonarr
+    - subtitles
+    - usenet
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: bazarr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/bazarr
+    - https://github.com/morpheus65535/bazarr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/bazarr-14.0.16/bazarr-14.0.16.tgz
+    version: 14.0.16
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
+    appVersion: 1.2.1
     created: "2023-05-11T23:02:14.756036874Z"
     dependencies:
     - name: common
@@ -116294,4 +116330,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-11T23:02:14.764509697Z"
+generated: "2023-05-11T23:56:44.956926854Z"
