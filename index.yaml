@@ -101078,6 +101078,36 @@ entries:
       truecharts.org/catagories: |
         - incubator
     apiVersion: v2
+    appVersion: 4.2.0
+    created: "2023-05-12T05:02:40.92821337Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: syslog-ng allows you to flexibly collect, parse, classify, rewrite
+      and correlate logs.
+    digest: 726e37977f7790737113de9eb675e04a58442cfb2e6ea6e044c8387e28945c4d
+    home: https://truecharts.org/charts/stable/syslog-ng
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/syslog-ng.png
+    keywords:
+    - syslog-ng
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: syslog-ng
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/syslog-ng
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/syslog-ng-5.0.11/syslog-ng-5.0.11.tgz
+    version: 5.0.11
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - incubator
+    apiVersion: v2
     appVersion: 4.1.1
     created: "2023-05-05T22:53:19.135249908Z"
     dependencies:
@@ -116426,4 +116456,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-12T03:58:42.968101645Z"
+generated: "2023-05-12T05:02:40.936241365Z"
