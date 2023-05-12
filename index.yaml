@@ -43853,6 +43853,38 @@ entries:
         - Cloud
     apiVersion: v2
     appVersion: "2023"
+    created: "2023-05-12T13:00:16.145728981Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Jupyter a web based IDE
+    digest: 63ee51b12785d2e88b9d68e9417a7a34ffbe9c10f9a0abdf865a4095e1665e80
+    home: https://truecharts.org/charts/stable/jupyter
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/jupyter.png
+    keywords:
+    - Jupyter
+    - Notebook
+    - Lab
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: jupyter
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/jupyter
+    - https://github.com/jupyter/docker-stacks
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/jupyter-4.0.18/jupyter-4.0.18.tgz
+    version: 4.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Cloud
+    apiVersion: v2
+    appVersion: "2023"
     created: "2023-05-12T11:59:15.370284991Z"
     dependencies:
     - name: common
@@ -116621,4 +116653,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-12T11:59:15.377201835Z"
+generated: "2023-05-12T13:00:16.150937985Z"
