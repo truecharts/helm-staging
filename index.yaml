@@ -17391,6 +17391,35 @@ entries:
         - custom
     apiVersion: v2
     appVersion: 0.20.2814
+    created: "2023-05-12T09:55:58.587406017Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Advanced tool to create your own TrueCharts-based App
+    digest: e8cdd7366c7df6eb0de141c38f4c3ff1d264df4cccf99943afc8534f34c003fb
+    home: https://truecharts.org/charts/stable/custom-app
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/custom-app.png
+    keywords:
+    - custom
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: custom-app
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/custom-app
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/custom-app-8.0.8/custom-app-8.0.8.tgz
+    version: 8.0.8
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - custom
+    apiVersion: v2
+    appVersion: 0.20.2814
     created: "2023-05-11T19:58:30.127624737Z"
     dependencies:
     - name: common
@@ -116529,4 +116558,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-12T08:53:55.309783563Z"
+generated: "2023-05-12T09:55:58.595030593Z"
