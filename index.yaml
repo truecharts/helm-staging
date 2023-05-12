@@ -75344,6 +75344,37 @@ entries:
       truecharts.org/catagories: |
         - media
     apiVersion: v2
+    appVersion: 1.32.1.699
+    created: "2023-05-12T00:01:04.770170959Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Plex Media Server
+    digest: b864734f4d13706d4a2248b7d1c4c458cdfca34b495d52bb507a418e9c279bb6
+    home: https://truecharts.org/charts/stable/plex
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex.png
+    keywords:
+    - plex
+    - plex-media-server
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: plex
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/plex
+    - https://github.com/k8s-at-home/container-images/pkgs/container/plex
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/plex-13.0.17/plex-13.0.17.tgz
+    version: 13.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
+    apiVersion: v2
     appVersion: 1.32.0.697
     created: "2023-05-05T22:53:10.572625038Z"
     dependencies:
@@ -116330,4 +116361,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-11T23:56:44.956926854Z"
+generated: "2023-05-12T00:01:04.7758591Z"
