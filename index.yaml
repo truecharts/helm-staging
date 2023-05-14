@@ -34566,6 +34566,42 @@ entries:
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: 9.5.2
+    created: "2023-05-14T05:55:43.509400301Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Grafana is an open source, feature rich metrics dashboard and graph
+      editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
+    digest: a8a0f67f3153d948782b8bfc5938c9b5d72d9fa8ce3bda969f278f0f26db5d7d
+    home: https://truecharts.org/charts/enterprise/grafana
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/grafana.png
+    keywords:
+    - analytics
+    - monitoring
+    - metrics
+    - logs
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: grafana
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/grafana
+    - https://github.com/bitnami/bitnami-docker-grafana
+    - https://grafana.com/
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/grafana-7.0.33/grafana-7.0.33.tgz
+    version: 7.0.33
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
+    appVersion: 9.5.2
     created: "2023-05-12T07:54:13.277120329Z"
     dependencies:
     - name: common
@@ -116962,4 +116998,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-14T03:57:01.297889993Z"
+generated: "2023-05-14T05:55:43.517848435Z"
