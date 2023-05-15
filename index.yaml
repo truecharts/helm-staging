@@ -11019,6 +11019,35 @@ entries:
       truecharts.org/SCALE-support: "true"
       truecharts.org/catagories: |
         - media
+    apiVersion: v2
+    appVersion: latest
+    created: "2023-05-15T08:08:09.908713562Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Channels DVR Server
+    digest: 8126ef713cfc3784f837a9c424cae84d9653184b5773cc14b03031cfd15ceffd
+    home: https://truecharts.org/charts/incubator/channels-dvr
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/channels-dvr.png
+    keywords:
+    - channels-dvr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: channels-dvr
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/incubator/channels-dvr
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/channels-dvr-1.0.0/channels-dvr-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - media
       truecharts.org/grade: U
     apiVersion: v2
     appVersion: latest
@@ -113242,6 +113271,37 @@ entries:
         - network
     apiVersion: v2
     appVersion: 1.0.202109
+    created: "2023-05-15T08:08:10.111529784Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: WireGuard® is an extremely simple yet fast and modern VPN that utilizes
+      state-of-the-art cryptography.
+    digest: 381b98f7fb280223a1536a5bd1b09900eebf2a91a06ba35d729328a9f4355dc6
+    home: https://truecharts.org/charts/stable/wireguard
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/wireguard.png
+    keywords:
+    - wireguard
+    - vpn
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: wireguard
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/wireguard
+    - https://github.com/k8s-at-home/container-images/tree/main/apps/wireguard
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/wireguard-4.0.12/wireguard-4.0.12.tgz
+    version: 4.0.12
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - network
+    apiVersion: v2
+    appVersion: 1.0.202109
     created: "2023-05-05T22:53:23.76911802Z"
     dependencies:
     - name: common
@@ -117104,4 +117164,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-15T08:04:00.226387129Z"
+generated: "2023-05-15T08:08:10.118500397Z"
