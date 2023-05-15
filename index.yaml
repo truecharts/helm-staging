@@ -88625,6 +88625,37 @@ entries:
         - utilities
     apiVersion: v2
     appVersion: "2"
+    created: "2023-05-15T09:02:46.930102341Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Docker registry v2 command line client and repo listing generator
+      with security checks.
+    digest: 3d9a74958e62d2c5465b878b7c07d94969cc7fac2b77321e4a5acee0c13efbfb
+    home: https://truecharts.org/charts/stable/reg
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/reg.png
+    keywords:
+    - reg
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: reg
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/reg
+    - https://github.com/genuinetools/reg
+    - https://github.com/k8s-at-home/container-images/
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/reg-9.0.14/reg-9.0.14.tgz
+    version: 9.0.14
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - utilities
+    apiVersion: v2
+    appVersion: "2"
     created: "2023-05-05T22:53:14.840416534Z"
     dependencies:
     - name: common
@@ -117164,4 +117195,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-15T08:08:10.118500397Z"
+generated: "2023-05-15T09:02:46.935880552Z"
