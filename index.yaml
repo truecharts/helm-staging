@@ -85916,6 +85916,40 @@ entries:
         - desktops
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-15T09:07:19.393839951Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Full desktop environments in many popular flavors for Alpine, Ubuntu,
+      Arch, and Fedora accessible via RDP.
+    digest: 42d68f002c7efe448de4dc554ce478c567565eb44448a346c83def89470cde82
+    home: https://truecharts.org/charts/stable/rdesktop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdesktop.png
+    keywords:
+    - rdesktop
+    - desktops
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: rdesktop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/rdesktop
+    - http://xrdp.org/
+    - https://github.com/orgs/linuxserver/packages/container/package/rdesktop
+    - https://github.com/linuxserver/docker-rdesktop#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/rdesktop-4.0.18/rdesktop-4.0.18.tgz
+    version: 4.0.18
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - desktops
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:53:14.411673189Z"
     dependencies:
     - name: common
@@ -111899,6 +111933,40 @@ entries:
         - Tools-Utilities
     apiVersion: v2
     appVersion: latest
+    created: "2023-05-15T09:07:19.596697492Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: Webtop full desktop environments in officially supported flavors
+      accessible via any modern web browser.
+    digest: 754dbc8892139cf5fa7007500cc4c12cfcbe45ad6f0db0fe436d86a1181e13dd
+    home: https://truecharts.org/charts/stable/webtop
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/webtop.png
+    keywords:
+    - webtop
+    - Tools-Utilities
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: webtop
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/webtop
+    - https://github.com/linuxserver/gclient
+    - https://github.com/orgs/linuxserver/packages/container/package/webtop
+    - https://github.com/linuxserver/docker-webtop#readme
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/webtop-5.0.17/webtop-5.0.17.tgz
+    version: 5.0.17
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - Tools-Utilities
+    apiVersion: v2
+    appVersion: latest
     created: "2023-05-05T22:53:23.103967174Z"
     dependencies:
     - name: common
@@ -117195,4 +117263,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-15T09:02:46.935880552Z"
+generated: "2023-05-15T09:07:19.604065834Z"
