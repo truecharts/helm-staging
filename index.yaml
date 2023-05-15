@@ -80888,6 +80888,41 @@ entries:
         - metrics
       truecharts.org/grade: U
     apiVersion: v2
+    appVersion: 2.43.1
+    created: "2023-05-15T12:18:53.313366285Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.truecharts.org
+      version: 12.6.6
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 26529218e7801bca709ce2fd30ec1b2c33445200c578989a5a00a7a5f515a185
+    home: https://truecharts.org/charts/enterprise/prometheus
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/prometheus.png
+    keywords:
+    - metrics
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: prometheus
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/enterprise/prometheus
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://github.com/truecharts/helm-staging/releases/download/prometheus-9.0.1/prometheus-9.0.1.tgz
+    version: 9.0.1
+  - annotations:
+      truecharts.org/SCALE-support: "true"
+      truecharts.org/catagories: |
+        - metrics
+      truecharts.org/grade: U
+    apiVersion: v2
     appVersion: 2.43.0
     created: "2023-05-15T09:31:17.174652484Z"
     dependencies:
@@ -118404,4 +118439,4 @@ entries:
     urls:
     - https://github.com/truecharts/helm-staging/releases/download/zwavejs2mqtt-14.0.17/zwavejs2mqtt-14.0.17.tgz
     version: 14.0.17
-generated: "2023-05-15T10:08:43.14342788Z"
+generated: "2023-05-15T12:18:53.320965835Z"
