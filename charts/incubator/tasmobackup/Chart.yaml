@@ -22,7 +22,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/tasmobackup
   - https://github.com/danmed/TasmoBackupV1
 type: application
-version: 4.0.0
+version: 3.0.3
 annotations:
   truecharts.org/catagories: |
     - HomeAutomation

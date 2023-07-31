@@ -22,7 +22,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/firezone
   - https://github.com/firezone/firezone
 type: application
-version: 1.0.0
+version: 0.0.7
 annotations:
   truecharts.org/catagories: |
     - vpn

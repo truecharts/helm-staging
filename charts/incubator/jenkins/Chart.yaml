@@ -20,7 +20,7 @@ name: jenkins
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/jenkins
 type: application
-version: 4.0.0
+version: 3.0.15
 annotations:
   truecharts.org/catagories: |
     - productivity

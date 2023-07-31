@@ -21,7 +21,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/qwantify
   - https://github.com/wanjohiryan/qwantify
 type: application
-version: 1.0.0
+version: 0.0.4
 annotations:
   truecharts.org/catagories: |
     - games

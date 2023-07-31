@@ -22,7 +22,7 @@ sources:
   - https://github.com/RickDB/PlexAniSync
   - https://github.com/RickDB/PlexAniSync/pkgs/container/plexanisync
 type: application
-version: 4.0.0
+version: 3.0.3
 annotations:
   truecharts.org/catagories: |
     - media
