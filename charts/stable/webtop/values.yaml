@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: lscr.io/linuxserver/webtop
-  tag: latest@sha256:031f610d1cb4378000bcbcd51c629c81193fe3a90130be6a36c5b7247137b2b0
+  tag: latest@sha256:8f486a4d9aeb4f4218b182252786650879dab8328f7c99dc1c9e38f708a7ce1b
 ubuntuXFCEImage:
   repository: lscr.io/linuxserver/webtop
   tag: ubuntu-xfce@sha256:ae83f955a468a2a2cafbd25201c1e410acf757b47e9a1edd4f6e159fa6565018
@@ -36,7 +36,7 @@ alpineMATEImage:
   pullPolicy: Always
 ubuntuMATEImage:
   repository: lscr.io/linuxserver/webtop
-  tag: ubuntu-mate@sha256:01f35a352d46c49979dbd92cc50ff4cc2f447483d8c2c688f97bc5bb245b0a2f
+  tag: ubuntu-mate@sha256:a85f25958dbbd15b6bb9309c19dec3c32c0a07e8d8b4c50e5c2df96bc4bdcd4d
   pullPolicy: Always
 fedoraMATEImage:
   repository: lscr.io/linuxserver/webtop
@@ -92,7 +92,7 @@ fedoraICEWMImage:
   pullPolicy: Always
 archICEWMImage:
   repository: lscr.io/linuxserver/webtop
-  tag: arch-icewm@sha256:3b9644f8c6bd335353d79d42fd5accc6b1644e8575939bdffc325d5b369be53c
+  tag: arch-icewm@sha256:e8f4088785e32bb453159a665e7c952154d8bc8b61d5a8620d1f16f36cbb6776
   pullPolicy: Always
 service:
   main:
