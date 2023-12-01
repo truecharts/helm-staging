@@ -1,29 +1,29 @@
-annotations:
-    truecharts.org/SCALE-support: "true"
-    truecharts.org/category: Productivity
-    truecharts.org/grade: U
 apiVersion: v2
+name: searxng
+version: 4.0.78
 appVersion: latest
-dependencies:
-    - name: common
-      repository: https://library-charts.truecharts.org
-      version: 14.3.5
-deprecated: false
-description: Meta search engine which aggregates results from more than 70 search services.
+description: Meta search engine which aggregates results from more than 70 search
+  services.
 home: https://truecharts.org/charts/stable/searxng
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.png
-keywords:
-    - searxng
-    - Productivity
-    - Other
-kubeVersion: '>=1.16.0-0'
-maintainers:
-    - email: info@truecharts.org
-      name: TrueCharts
-      url: https://truecharts.org
-name: searxng
 sources:
-    - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
-    - https://github.com/searxng/searxng
-type: application
-version: 4.0.78
+- https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+- https://github.com/searxng/searxng
+- https://hub.docker.com/r/searxng/searxng/charts/tree/master/charts/stable/searxng
+maintainers:
+- name: TrueCharts
+  email: info@truecharts.org
+  url: https://truecharts.org
+keywords:
+- searxng
+- Productivity
+- Other
+dependencies:
+- name: common
+  version: 14.3.5
+  repository: https://library-charts.truecharts.org
+  condition: ""
+  tags: []
+annotations:
+  annotations:
+    truecharts.org/train: stable

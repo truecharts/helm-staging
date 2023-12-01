@@ -1,31 +1,29 @@
-annotations:
-    max_scale_version: 23.10.1
-    min_scale_version: 22.12.4
-    truecharts.org/SCALE-support: "true"
-    truecharts.org/category: financial
 apiVersion: v2
+name: fireflyiii-data-importer
+version: 2.0.8
 appVersion: 0.9.16
-dependencies:
-    - name: common
-      repository: https://library-charts.truecharts.org
-      version: 11.1.2
-deprecated: false
 description: Firefly III Data Importer.
 home: https://truecharts.org/charts/incubator/fireflyiii-data-importer
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii-data-importer.png
-keywords:
-    - fireflyiii-data-importer
-    - data
-    - tool
-kubeVersion: '>=1.16.0-0'
-maintainers:
-    - email: info@truecharts.org
-      name: TrueCharts
-      url: https://truecharts.org
-name: fireflyiii-data-importer
 sources:
-    - https://github.com/truecharts/charts/tree/master/charts/incubator/fireflyiii-data-importer
-    - https://docs.firefly-iii.org/data-importer/install/configure/
-    - https://github.com/firefly-iii/data-importer
-type: application
-version: 2.0.8
+- https://github.com/firefly-iii/data-importer
+- https://github.com/truecharts/containers/tree/master/mirrorfireflyiii-fidi/charts/tree/master/charts/incubator/fireflyiii-data-importer
+- https://github.com/truecharts/charts/tree/master/charts/incubator/fireflyiii-data-importer
+- https://docs.firefly-iii.org/data-importer/install/configure/
+maintainers:
+- name: TrueCharts
+  email: info@truecharts.org
+  url: https://truecharts.org
+keywords:
+- fireflyiii-data-importer
+- data
+- tool
+dependencies:
+- name: common
+  version: 11.1.2
+  repository: https://library-charts.truecharts.org
+  condition: ""
+  tags: []
+annotations:
+  annotations:
+    truecharts.org/train: incubator

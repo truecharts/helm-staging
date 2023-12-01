@@ -1,28 +1,26 @@
-annotations:
-    max_scale_version: 23.10.1
-    min_scale_version: 22.12.4
-    truecharts.org/SCALE-support: "true"
-    truecharts.org/category: home-automation
 apiVersion: v2
+name: wyoming-whisper
+version: 1.0.6
 appVersion: latest
-dependencies:
-    - name: common
-      repository: https://library-charts.truecharts.org
-      version: 13.2.2
-deprecated: false
 description: The Wyoming integration of whisper
 home: https://truecharts.org/charts/stable/wyoming-whisper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wyoming-whisper.png
-keywords:
-    - wyoming-whisper
-kubeVersion: '>=1.16.0-0'
-maintainers:
-    - email: info@truecharts.org
-      name: TrueCharts
-      url: https://truecharts.org
-name: wyoming-whisper
 sources:
-    - https://github.com/truecharts/charts/tree/master/charts/stable/wyoming-whisper
-    - https://github.com/home-assistant/addons/tree/master/whisper
-type: application
-version: 1.0.6
+- https://github.com/truecharts/charts/tree/master/charts/stable/wyoming-whisper
+- https://github.com/home-assistant/addons/tree/master/whisper
+- https://hub.docker.com/r/rhasspy/wyoming-whisper/charts/tree/master/charts/stable/wyoming-whisper
+maintainers:
+- name: TrueCharts
+  email: info@truecharts.org
+  url: https://truecharts.org
+keywords:
+- wyoming-whisper
+dependencies:
+- name: common
+  version: 13.2.2
+  repository: https://library-charts.truecharts.org
+  condition: ""
+  tags: []
+annotations:
+  annotations:
+    truecharts.org/train: stable
