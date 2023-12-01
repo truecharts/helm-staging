@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/endlessh.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/endlessh
 - https://ghcr.io/linuxserver/endlessh/charts/tree/master/charts/stable/endlessh
+- https://ghcr.io/linuxserver/endlessh
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

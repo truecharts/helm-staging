@@ -7,9 +7,10 @@ description: This Chart will download and install SteamCMD. It will also install
 home: https://truecharts.org/charts/incubator/avorion
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/avorion.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirroravorion/charts/tree/master/charts/incubator/avorion
+- https://github.com/truecharts/containers/tree/master/mirroravorion
 - https://github.com/truecharts/charts/tree/master/charts/incubator/avorion
 - https://www.steampowered.com/
-- https://github.com/truecharts/containers/tree/master/mirroravorion/charts/tree/master/charts/incubator/avorion
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

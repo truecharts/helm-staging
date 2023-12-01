@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/ferdi-server
 - https://github.com/getferdi/server
 - https://hub.docker.com/r/getferdi/ferdi-server/charts/tree/master/charts/stable/ferdi-server
+- https://hub.docker.com/r/getferdi/ferdi-server
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

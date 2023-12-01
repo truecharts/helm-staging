@@ -6,9 +6,10 @@ description: Baikal is a lightweight CalDAV+CardDAV server
 home: https://truecharts.org/charts/incubator/baikal
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/baikal.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/baikal
 - https://github.com/ckulka/baikal-docker
 - https://github.com/truecharts/containers/tree/master/mirrorbaikal/charts/tree/master/charts/incubator/baikal
+- https://github.com/truecharts/containers/tree/master/mirrorbaikal
+- https://github.com/truecharts/charts/tree/master/charts/incubator/baikal
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

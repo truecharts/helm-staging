@@ -7,9 +7,10 @@ description: 'This Chart will download and install SteamCMD. It will also instal
 home: https://truecharts.org/charts/incubator/americasarmy-pg
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/americasarmy-pg.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/americasarmy-pg
 - https://www.americasarmy.com/
 - https://github.com/truecharts/containers/tree/master/mirroramericasarmy-pg/charts/tree/master/charts/incubator/americasarmy-pg
+- https://github.com/truecharts/containers/tree/master/mirroramericasarmy-pg
+- https://github.com/truecharts/charts/tree/master/charts/incubator/americasarmy-pg
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

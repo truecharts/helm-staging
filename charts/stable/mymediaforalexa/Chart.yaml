@@ -7,9 +7,10 @@ description: This is the multi-platform Docker image for My Media for Alexa - ht
 home: https://truecharts.org/charts/stable/mymediaforalexa
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mymediaforalexa.png
 sources:
+- https://hub.docker.com/r/bizmodeller/mymediaforalexa/charts/tree/master/charts/stable/mymediaforalexa
+- https://hub.docker.com/r/bizmodeller/mymediaforalexa
 - https://github.com/truecharts/charts/tree/master/charts/stable/mymediaforalexa
 - https://www.mymediaalexa.com/home/docker#dockerhub
-- https://hub.docker.com/r/bizmodeller/mymediaforalexa/charts/tree/master/charts/stable/mymediaforalexa
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

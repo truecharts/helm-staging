@@ -11,6 +11,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/googlephotossync.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/googlephotossync
 - https://github.com/truecharts/containers/tree/master/mirrorgooglephotossync/charts/tree/master/charts/incubator/googlephotossync
+- https://github.com/truecharts/containers/tree/master/mirrorgooglephotossync
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,6 +6,7 @@ description: Actual is a super fast privacy-focused app for managing your financ
 home: https://truecharts.org/charts/stable/actualserver
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/actualserver.png
 sources:
+- https://hub.docker.com/r/jlongster/actual-server
 - https://github.com/truecharts/charts/tree/master/charts/stable/actualserver
 - https://github.com/Kippenhof/docker-templates
 - https://hub.docker.com/r/jlongster/actual-server/charts/tree/master/charts/stable/actualserver

@@ -10,6 +10,7 @@ sources:
 - https://hub.docker.com/r/zedeus/nitter/charts/tree/master/charts/incubator/nitter
 - https://github.com/truecharts/charts/tree/master/charts/incubator/nitter
 - https://github.com/zedeus/nitter
+- https://hub.docker.com/r/zedeus/nitter
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

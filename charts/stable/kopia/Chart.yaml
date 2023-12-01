@@ -12,6 +12,7 @@ sources:
 - https://kopia.io/docs/installation/#docker-images
 - https://github.com/kopia/kopia
 - https://github.com/truecharts/containers/tree/master/mirrorkopia/charts/tree/master/charts/stable/kopia
+- https://github.com/truecharts/containers/tree/master/mirrorkopia
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

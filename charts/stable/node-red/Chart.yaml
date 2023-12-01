@@ -9,6 +9,7 @@ sources:
 - https://github.com/node-red/node-red-docker
 - https://hub.docker.com/r/nodered/node-red/charts/tree/master/charts/stable/node-red
 - https://github.com/truecharts/charts/tree/master/charts/stable/node-red
+- https://hub.docker.com/r/nodered/node-red
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

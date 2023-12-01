@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/truecommand.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/truecommand
 - https://hub.docker.com/r/ixsystems/truecommand/charts/tree/master/charts/stable/truecommand
+- https://hub.docker.com/r/ixsystems/truecommand
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/prpdf
 - https://github.com/maschhoff/prpdf
 - https://github.com/truecharts/containers/tree/master/mirrorprpdf/charts/tree/master/charts/incubator/prpdf
+- https://github.com/truecharts/containers/tree/master/mirrorprpdf
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

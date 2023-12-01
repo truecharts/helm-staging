@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/dayz
 - https://www.bohemia.net/games/dayz
 - https://github.com/truecharts/containers/tree/master/mirrordayz/charts/tree/master/charts/incubator/dayz
+- https://github.com/truecharts/containers/tree/master/mirrordayz
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

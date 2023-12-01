@@ -8,10 +8,11 @@ description: Ghost is an open source, professional publishing platform built on 
 home: https://truecharts.org/charts/incubator/ghost
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ghost.png
 sources:
+- https://github.com/truecharts/charts/tree/master/charts/incubator/ghost
+- https://github.com/truecharts/containers/tree/master/mirrorghost
 - https://github.com/TryGhost/Ghost
 - https://ghost.org/docs/
 - https://github.com/truecharts/containers/tree/master/mirrorghost/charts/tree/master/charts/incubator/ghost
-- https://github.com/truecharts/charts/tree/master/charts/incubator/ghost
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

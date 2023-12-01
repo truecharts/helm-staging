@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorpure-ftpd/charts/tree/master/charts/incubator/pure-ftpd
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pure-ftpd
 - https://www.pureftpd.org/project/pure-ftpd/
+- https://github.com/truecharts/containers/tree/master/mirrorpure-ftpd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

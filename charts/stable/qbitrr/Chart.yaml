@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/qbitrr
 - https://github.com/Feramance/Qbitrr
 - https://hub.docker.com/r/feramance/qbitrr/charts/tree/master/charts/stable/qbitrr
+- https://hub.docker.com/r/feramance/qbitrr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

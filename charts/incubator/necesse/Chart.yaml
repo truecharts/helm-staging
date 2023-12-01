@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/necesse
 - https://www.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrornecesse/charts/tree/master/charts/incubator/necesse
+- https://github.com/truecharts/containers/tree/master/mirrornecesse
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

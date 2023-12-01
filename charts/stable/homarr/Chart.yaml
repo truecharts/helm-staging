@@ -7,9 +7,10 @@ description: Homarr is a simple and lightweight homepage for your server, that h
 home: https://truecharts.org/charts/stable/homarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/homarr.png
 sources:
+- https://ghcr.io/ajnart/homarr/charts/tree/master/charts/stable/homarr
+- https://ghcr.io/ajnart/homarr
 - https://github.com/truecharts/charts/tree/master/charts/stable/homarr
 - https://github.com/ajnart/homarr
-- https://ghcr.io/ajnart/homarr/charts/tree/master/charts/stable/homarr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,6 +6,7 @@ description: Lightweight self-hosted facebook-styled PHP blog.
 home: https://truecharts.org/charts/stable/blog
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/blog.png
 sources:
+- https://hub.docker.com/r/m1k1o/blog
 - https://github.com/truecharts/charts/tree/master/charts/stable/blog
 - https://github.com/m1k1o/blog
 - https://github.com/nicholaswilde/docker-blog

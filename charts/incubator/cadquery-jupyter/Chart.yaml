@@ -9,9 +9,10 @@ description: CadQuery is an intuitive, easy-to-use Python module for building pa
 home: https://truecharts.org/charts/incubator/cadquery-jupyter
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cadquery-jupyter.png
 sources:
-- https://github.com/bernhard-42/jupyter-cadquery
 - https://github.com/truecharts/containers/tree/master/mirrorcadquery-jupyter/charts/tree/master/charts/incubator/cadquery-jupyter
 - https://github.com/truecharts/charts/tree/master/charts/incubator/cadquery-jupyter
+- https://github.com/truecharts/containers/tree/master/mirrorcadquery-jupyter
+- https://github.com/bernhard-42/jupyter-cadquery
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

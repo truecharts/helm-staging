@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/kerbalspaceprogram-lmp
 - https://github.com/LunaMultiplayer/LunaMultiplayer
 - https://github.com/truecharts/containers/tree/master/mirrorkerbalspaceprogram-lmp/charts/tree/master/charts/incubator/kerbalspaceprogram-lmp
+- https://github.com/truecharts/containers/tree/master/mirrorkerbalspaceprogram-lmp
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

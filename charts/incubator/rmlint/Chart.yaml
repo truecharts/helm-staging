@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorrmlint/charts/tree/master/charts/incubator/rmlint
 - https://github.com/truecharts/charts/tree/master/charts/incubator/rmlint
 - https://github.com/sahib/rmlint
+- https://github.com/truecharts/containers/tree/master/mirrorrmlint
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

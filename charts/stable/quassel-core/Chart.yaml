@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/quassel-core.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
 - https://ghcr.io/linuxserver/quassel-core/charts/tree/master/charts/stable/quassel-core
+- https://ghcr.io/linuxserver/quassel-core
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

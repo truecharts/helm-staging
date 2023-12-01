@@ -11,6 +11,7 @@ sources:
 - https://httpd.apache.org/docs/2.4/mod/mod_dav.html
 - https://github.com/mgutt/docker-apachewebdav
 - https://github.com/truecharts/containers/tree/master/mirrorapache-webdav/charts/tree/master/charts/incubator/apache-webdav
+- https://github.com/truecharts/containers/tree/master/mirrorapache-webdav
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

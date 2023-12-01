@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pixark
 - https://pixark.snail.com/
 - https://github.com/truecharts/containers/tree/master/mirrorpixark/charts/tree/master/charts/incubator/pixark
+- https://github.com/truecharts/containers/tree/master/mirrorpixark
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

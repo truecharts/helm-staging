@@ -10,6 +10,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/foldingathome.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/foldingathome
 - https://ghcr.io/linuxserver/foldingathome/charts/tree/master/charts/stable/foldingathome
+- https://ghcr.io/linuxserver/foldingathome
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

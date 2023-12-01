@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/imgpush
 - https://github.com/hauxir/imgpush
 - https://github.com/truecharts/containers/tree/master/mirrorimgpush/charts/tree/master/charts/incubator/imgpush
+- https://github.com/truecharts/containers/tree/master/mirrorimgpush
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

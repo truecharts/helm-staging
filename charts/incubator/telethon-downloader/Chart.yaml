@@ -7,9 +7,10 @@ description: This is a simple Chart that downloads files sent to a telegram bot 
 home: https://truecharts.org/charts/incubator/telethon-downloader
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/telethon-downloader.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrortelethon-downloader/charts/tree/master/charts/incubator/telethon-downloader
+- https://github.com/truecharts/containers/tree/master/mirrortelethon-downloader
 - https://github.com/truecharts/charts/tree/master/charts/incubator/telethon-downloader
 - https://docs.telethon.dev/
-- https://github.com/truecharts/containers/tree/master/mirrortelethon-downloader/charts/tree/master/charts/incubator/telethon-downloader
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

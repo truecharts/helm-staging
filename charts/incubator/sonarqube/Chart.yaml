@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/sonarqube
 - https://github.com/SonarSource/sonarqube
 - https://github.com/truecharts/containers/tree/master/mirrorsonarqube/charts/tree/master/charts/incubator/sonarqube
+- https://github.com/truecharts/containers/tree/master/mirrorsonarqube
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

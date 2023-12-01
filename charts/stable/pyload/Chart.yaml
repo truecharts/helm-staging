@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/pyload
 - https://github.com/pyload/pyload
 - https://ghcr.io/linuxserver/pyload/charts/tree/master/charts/stable/pyload
+- https://ghcr.io/linuxserver/pyload
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

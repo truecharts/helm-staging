@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/memories-of-mars
 - https://memoriesofmars.com/
 - https://github.com/truecharts/containers/tree/master/mirrormemories-of-mars/charts/tree/master/charts/incubator/memories-of-mars
+- https://github.com/truecharts/containers/tree/master/mirrormemories-of-mars
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

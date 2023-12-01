@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorconvos/charts/tree/master/charts/incubator/convos
 - https://github.com/truecharts/charts/tree/master/charts/incubator/convos
 - https://convos.chat/
+- https://github.com/truecharts/containers/tree/master/mirrorconvos
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

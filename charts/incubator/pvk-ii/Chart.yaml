@@ -10,6 +10,7 @@ sources:
 - https://www.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrorpvk-ii/charts/tree/master/charts/incubator/pvk-ii
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pvk-ii
+- https://github.com/truecharts/containers/tree/master/mirrorpvk-ii
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

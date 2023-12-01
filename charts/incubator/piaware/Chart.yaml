@@ -6,6 +6,7 @@ description: Program for forwarding ADS-B data to FlightAware
 home: https://truecharts.org/charts/incubator/piaware
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/piaware.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorpiaware
 - https://github.com/truecharts/charts/tree/master/charts/incubator/piaware
 - https://github.com/flightaware/piaware
 - https://github.com/truecharts/containers/tree/master/mirrorpiaware/charts/tree/master/charts/incubator/piaware

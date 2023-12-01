@@ -15,6 +15,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/fivem
 - https://fivem.net/
 - https://github.com/truecharts/containers/tree/master/mirrorfivem/charts/tree/master/charts/incubator/fivem
+- https://github.com/truecharts/containers/tree/master/mirrorfivem
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

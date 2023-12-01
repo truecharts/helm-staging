@@ -7,6 +7,7 @@ description: Avidemux is a free video editor designed for simple cutting, filter
 home: https://truecharts.org/charts/stable/avidemux
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/avidemux.png
 sources:
+- https://hub.docker.com/r/jlesage/avidemux
 - https://hub.docker.com/r/jlesage/avidemux/charts/tree/master/charts/stable/avidemux
 - https://github.com/truecharts/charts/tree/master/charts/stable/avidemux
 - https://github.com/jlesage/docker-avidemux

@@ -7,6 +7,7 @@ description: Fleet provides an online web interface which displays a set of main
 home: https://truecharts.org/charts/stable/fleet
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fleet.png
 sources:
+- https://ghcr.io/linuxserver/fleet
 - https://ghcr.io/linuxserver/fleet/charts/tree/master/charts/stable/fleet
 - https://github.com/truecharts/charts/tree/master/charts/stable/fleet
 maintainers:

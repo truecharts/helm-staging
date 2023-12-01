@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/fireflyiii
 - https://github.com/firefly-iii/firefly-iii/
 - https://hub.docker.com/r/fireflyiii/core/charts/tree/master/charts/stable/fireflyiii
+- https://hub.docker.com/r/fireflyiii/core
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

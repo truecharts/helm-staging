@@ -8,9 +8,10 @@ description: Simple Chart that allows MQTT to be used to view data and push sett
 home: https://truecharts.org/charts/incubator/venstar2mqtt
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/venstar2mqtt.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorvenstar2mqtt/charts/tree/master/charts/incubator/venstar2mqtt
+- https://github.com/truecharts/containers/tree/master/mirrorvenstar2mqtt
 - https://github.com/truecharts/charts/tree/master/charts/incubator/venstar2mqtt
 - https://github.com/terafin/mqtt-venstar-bridge
-- https://github.com/truecharts/containers/tree/master/mirrorvenstar2mqtt/charts/tree/master/charts/incubator/venstar2mqtt
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

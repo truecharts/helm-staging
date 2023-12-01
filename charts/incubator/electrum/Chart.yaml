@@ -8,9 +8,10 @@ description: Electrum is a Bitcoin wallet focused on speed and simplicity, with 
 home: https://truecharts.org/charts/incubator/electrum
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/electrum.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorelectrum/charts/tree/master/charts/incubator/electrum
+- https://github.com/truecharts/containers/tree/master/mirrorelectrum
 - https://github.com/truecharts/charts/tree/master/charts/incubator/electrum
 - https://electrum.org/
-- https://github.com/truecharts/containers/tree/master/mirrorelectrum/charts/tree/master/charts/incubator/electrum
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

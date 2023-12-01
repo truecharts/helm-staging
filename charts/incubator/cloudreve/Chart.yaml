@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/cloudreve
 - https://github.com/cloudreve/Cloudreve
 - https://github.com/truecharts/containers/tree/master/mirrorcloudreve/charts/tree/master/charts/incubator/cloudreve
+- https://github.com/truecharts/containers/tree/master/mirrorcloudreve
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

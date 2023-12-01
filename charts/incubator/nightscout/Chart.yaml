@@ -12,6 +12,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrornightscout/charts/tree/master/charts/incubator/nightscout
 - https://github.com/truecharts/charts/tree/master/charts/incubator/nightscout
 - https://github.com/nightscout/cgm-remote-monitor
+- https://github.com/truecharts/containers/tree/master/mirrornightscout
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

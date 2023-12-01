@@ -7,9 +7,10 @@ description: auto-yt-dl is used to automatically download new Videos of specific
 home: https://truecharts.org/charts/incubator/auto-yt-dl
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/auto-yt-dl.png
 sources:
-- https://github.com/xXGuhuXx/auto-yt-dl
 - https://github.com/truecharts/containers/tree/master/mirrorauto-yt-dl/charts/tree/master/charts/incubator/auto-yt-dl
 - https://github.com/truecharts/charts/tree/master/charts/incubator/auto-yt-dl
+- https://github.com/truecharts/containers/tree/master/mirrorauto-yt-dl
+- https://github.com/xXGuhuXx/auto-yt-dl
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

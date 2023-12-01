@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/leantime
 - https://leantime.io/
 - https://github.com/truecharts/containers/tree/master/mirrorleantime/charts/tree/master/charts/incubator/leantime
+- https://github.com/truecharts/containers/tree/master/mirrorleantime
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,6 +6,7 @@ description: Track what you have read, what you are reading and what you want to
 home: https://truecharts.org/charts/incubator/jelu
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/jelu.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorjelu
 - https://github.com/truecharts/charts/tree/master/charts/incubator/jelu
 - https://github.com/bayang/jelu
 - https://github.com/truecharts/containers/tree/master/mirrorjelu/charts/tree/master/charts/incubator/jelu

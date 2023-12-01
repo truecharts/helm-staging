@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/s3sync
 - https://github.com/what-name/docker-s3sync
 - https://github.com/truecharts/containers/tree/master/mirrors3sync/charts/tree/master/charts/incubator/s3sync
+- https://github.com/truecharts/containers/tree/master/mirrors3sync
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

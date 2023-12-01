@@ -6,9 +6,10 @@ description: webNUT (UPS network monitoring web ui).
 home: https://truecharts.org/charts/stable/webnut
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/webnut.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/webnut
 - https://github.com/rshipp/webNUT
 - https://hub.docker.com/r/edgd1er/webnut/charts/tree/master/charts/stable/webnut
+- https://hub.docker.com/r/edgd1er/webnut
+- https://github.com/truecharts/charts/tree/master/charts/stable/webnut
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/traktarr
 - https://github.com/l3uddz/traktarr
 - https://github.com/truecharts/containers/tree/master/mirrortraktarr/charts/tree/master/charts/incubator/traktarr
+- https://github.com/truecharts/containers/tree/master/mirrortraktarr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

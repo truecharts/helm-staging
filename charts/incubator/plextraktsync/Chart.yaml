@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/plextraktsync
 - https://github.com/Taxel/PlexTraktSync
 - https://github.com/truecharts/containers/tree/master/mirrorplextraktsync/charts/tree/master/charts/incubator/plextraktsync
+- https://github.com/truecharts/containers/tree/master/mirrorplextraktsync
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

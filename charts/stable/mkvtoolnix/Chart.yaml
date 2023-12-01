@@ -10,6 +10,7 @@ sources:
 - https://github.com/jlesage/docker-mkvtoolnix
 - https://mkvtoolnix.download/
 - https://hub.docker.com/r/jlesage/mkvtoolnix/charts/tree/master/charts/stable/mkvtoolnix
+- https://hub.docker.com/r/jlesage/mkvtoolnix
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

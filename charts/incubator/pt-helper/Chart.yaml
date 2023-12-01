@@ -7,6 +7,7 @@ description: A tool that can automatically download free seeds and delete them a
 home: https://truecharts.org/charts/incubator/pt-helper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pt-helper.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorpt-helper
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pt-helper
 - https://github.com/truecharts/containers/tree/master/mirrorpt-helper/charts/tree/master/charts/incubator/pt-helper
 maintainers:

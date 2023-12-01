@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.png
 sources:
 - https://ghcr.io/linuxserver/ubooquity/charts/tree/master/charts/stable/ubooquity
 - https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
+- https://ghcr.io/linuxserver/ubooquity
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

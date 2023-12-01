@@ -6,9 +6,10 @@ description: Snippet Box is a simple self-hosted app for organizing your code sn
 home: https://truecharts.org/charts/stable/snippet-box
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/snippet-box.png
 sources:
+- https://hub.docker.com/r/pawelmalak/snippet-box/charts/tree/master/charts/stable/snippet-box
+- https://hub.docker.com/r/pawelmalak/snippet-box
 - https://github.com/truecharts/charts/tree/master/charts/stable/snippet-box
 - https://github.com/pawelmalak/snippet-box
-- https://hub.docker.com/r/pawelmalak/snippet-box/charts/tree/master/charts/stable/snippet-box
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

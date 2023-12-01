@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/dailynotes.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/dailynotes
 - https://github.com/truecharts/containers/tree/master/mirrordailynotes/charts/tree/master/charts/incubator/dailynotes
+- https://github.com/truecharts/containers/tree/master/mirrordailynotes
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

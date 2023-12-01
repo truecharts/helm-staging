@@ -6,6 +6,7 @@ description: Minecraft Bedrock Dedicated Server
 home: https://truecharts.org/charts/stable/minecraft-bedrock
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bedrock.png
 sources:
+- https://hub.docker.com/r/itzg/minecraft-bedrock-server
 - https://hub.docker.com/r/itzg/minecraft-bedrock-server/charts/tree/master/charts/stable/minecraft-bedrock
 - https://github.com/truecharts/charts/tree/master/charts/stable/minecraft-bedrock
 - https://github.com/itzg/docker-minecraft-server

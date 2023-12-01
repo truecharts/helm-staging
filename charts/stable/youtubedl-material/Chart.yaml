@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/youtubedl-material
 - https://github.com/Tzahi12345/YoutubeDL-Material
 - https://ghcr.io/tzahi12345/youtubedl-material/charts/tree/master/charts/stable/youtubedl-material
+- https://ghcr.io/tzahi12345/youtubedl-material
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -7,10 +7,11 @@ description: A real-time collaborative editor scalable to thousands of simultane
 home: https://truecharts.org/charts/stable/etherpad
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/etherpad.png
 sources:
-- https://github.com/ether/etherpad-lite
 - https://ghcr.io/nicholaswilde/etherpad/charts/tree/master/charts/stable/etherpad
 - https://github.com/truecharts/charts/tree/master/charts/stable/etherpad
 - https://etherpad.org/
+- https://ghcr.io/nicholaswilde/etherpad
+- https://github.com/ether/etherpad-lite
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,10 +6,11 @@ description: deemix is a deezer downloader built from the ashes of Deezloader Re
 home: https://truecharts.org/charts/stable/deemix
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/deemix.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/deemix
-- https://gitlab.com/Bockiii/deemix-docker.git
 - https://git.freezerapp.xyz/RemixDev/deemix-py
 - /charts/tree/master/charts/stable/deemix
+- ""
+- https://github.com/truecharts/charts/tree/master/charts/stable/deemix
+- https://gitlab.com/Bockiii/deemix-docker.git
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

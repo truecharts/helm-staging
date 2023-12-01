@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/hedgedoc.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/hedgedoc
 - https://quay.io/hedgedoc/hedgedoc/charts/tree/master/charts/stable/hedgedoc
+- https://quay.io/hedgedoc/hedgedoc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

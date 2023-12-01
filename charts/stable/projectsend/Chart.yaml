@@ -7,6 +7,7 @@ description: ProjectSend is a self-hosted application that lets you upload files
 home: https://truecharts.org/charts/stable/projectsend
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/projectsend.png
 sources:
+- https://ghcr.io/linuxserver/projectsend
 - https://github.com/truecharts/charts/tree/master/charts/stable/projectsend
 - https://github.com/projectsend/projectsend
 - https://ghcr.io/linuxserver/projectsend/charts/tree/master/charts/stable/projectsend

@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/vintage-story
 - https://www.vintagestory.at/
 - https://github.com/truecharts/containers/tree/master/mirrorvintage-story/charts/tree/master/charts/incubator/vintage-story
+- https://github.com/truecharts/containers/tree/master/mirrorvintage-story
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

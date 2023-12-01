@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/facturascripts
 - https://facturascripts.com/
 - https://github.com/truecharts/containers/tree/master/mirrorfacturascripts/charts/tree/master/charts/incubator/facturascripts
+- https://github.com/truecharts/containers/tree/master/mirrorfacturascripts
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

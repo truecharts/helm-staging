@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/rapidphotodownloader
 - https://www.damonlynch.net/rapid/
 - https://github.com/truecharts/containers/tree/master/mirrorrapidphotodownloader/charts/tree/master/charts/incubator/rapidphotodownloader
+- https://github.com/truecharts/containers/tree/master/mirrorrapidphotodownloader
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

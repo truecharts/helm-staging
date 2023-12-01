@@ -6,8 +6,9 @@ description: OpenHab is a home-automation application
 home: https://truecharts.org/charts/stable/openhab
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/openhab.png
 sources:
-- https://hub.docker.com/r/openhab/openhab/charts/tree/master/charts/stable/openhab
 - https://github.com/truecharts/charts/tree/master/charts/stable/openhab
+- https://hub.docker.com/r/openhab/openhab
+- https://hub.docker.com/r/openhab/openhab/charts/tree/master/charts/stable/openhab
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

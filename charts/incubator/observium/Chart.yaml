@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/observium
 - https://www.observium.org/
 - https://github.com/truecharts/containers/tree/master/mirrorobservium/charts/tree/master/charts/incubator/observium
+- https://github.com/truecharts/containers/tree/master/mirrorobservium
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

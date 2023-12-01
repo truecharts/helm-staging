@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/automatic-music-downloader
 - https://github.com/RandomNinjaAtk/docker-amd
 - https://hub.docker.com/r/randomninjaatk/amd/charts/tree/master/charts/stable/automatic-music-downloader
+- https://hub.docker.com/r/randomninjaatk/amd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

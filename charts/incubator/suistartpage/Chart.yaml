@@ -9,6 +9,7 @@ description: SUI Startpage is a simple and clean server start page or homepage t
 home: https://truecharts.org/charts/incubator/suistartpage
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/suistartpage.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorsuistartpage
 - https://github.com/truecharts/charts/tree/master/charts/incubator/suistartpage
 - https://github.com/CorneliousJD/SUI-Startpage
 - https://github.com/truecharts/containers/tree/master/mirrorsuistartpage/charts/tree/master/charts/incubator/suistartpage

@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/retrobot
 - https://github.com/rossimo/retrobot
 - https://hub.docker.com/r/rossimo/retrobot/charts/tree/master/charts/stable/retrobot
+- https://hub.docker.com/r/rossimo/retrobot
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/szabodanika/microbin
 - https://github.com/truecharts/containers/tree/master/mirrormicrobin/charts/tree/master/charts/incubator/microbin
 - https://github.com/truecharts/charts/tree/master/charts/incubator/microbin
+- https://github.com/truecharts/containers/tree/master/mirrormicrobin
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

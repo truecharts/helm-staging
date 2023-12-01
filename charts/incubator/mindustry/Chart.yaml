@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/mindustry
 - https://anuke.itch.io/mindustry
 - https://github.com/truecharts/containers/tree/master/mirrormindustry/charts/tree/master/charts/incubator/mindustry
+- https://github.com/truecharts/containers/tree/master/mirrormindustry
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/sqlitebrowser
 - https://github.com/linuxserver/docker-sqlitebrowser
 - https://sqlitebrowser.org/
+- https://ghcr.io/linuxserver/sqlitebrowser
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

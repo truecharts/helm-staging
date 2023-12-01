@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/boinc.png
 sources:
 - https://ghcr.io/linuxserver/boinc/charts/tree/master/charts/stable/boinc
 - https://github.com/truecharts/charts/tree/master/charts/stable/boinc
+- https://ghcr.io/linuxserver/boinc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

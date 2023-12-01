@@ -10,6 +10,7 @@ sources:
 - https://github.com/pwm-project/pwm
 - https://github.com/truecharts/containers/tree/master/mirrorpwm/charts/tree/master/charts/incubator/pwm
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pwm
+- https://github.com/truecharts/containers/tree/master/mirrorpwm
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

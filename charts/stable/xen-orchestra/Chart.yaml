@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/xen-orchestra.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/xen-orchestra
 - https://hub.docker.com/r/ronivay/xen-orchestra/charts/tree/master/charts/stable/xen-orchestra
+- https://hub.docker.com/r/ronivay/xen-orchestra
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

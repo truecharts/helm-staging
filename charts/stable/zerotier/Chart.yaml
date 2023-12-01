@@ -6,8 +6,9 @@ description: ZeroTier is a smart programmable Ethernet switch for planet Earth
 home: https://truecharts.org/charts/stable/zerotier
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/zerotier.png
 sources:
-- https://hub.docker.com/r/zerotier/zerotier/charts/tree/master/charts/stable/zerotier
 - https://github.com/truecharts/charts/tree/master/charts/stable/zerotier
+- https://hub.docker.com/r/zerotier/zerotier
+- https://hub.docker.com/r/zerotier/zerotier/charts/tree/master/charts/stable/zerotier
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

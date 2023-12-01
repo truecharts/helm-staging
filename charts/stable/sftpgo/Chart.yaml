@@ -9,9 +9,10 @@ description: 'Fully featured and highly configurable SFTP server with optional H
 home: https://truecharts.org/charts/stable/sftpgo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/sftpgo.png
 sources:
+- https://ghcr.io/drakkan/sftpgo/charts/tree/master/charts/stable/sftpgo
+- https://ghcr.io/drakkan/sftpgo
 - https://github.com/truecharts/charts/tree/master/charts/stable/sftpgo
 - https://github.com/drakkan/sftpgo
-- https://ghcr.io/drakkan/sftpgo/charts/tree/master/charts/stable/sftpgo
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/hetzner-ddns
 - https://github.com/kutzilla/docker-hetzner-ddns
 - https://github.com/truecharts/containers/tree/master/mirrorhetzner-ddns/charts/tree/master/charts/incubator/hetzner-ddns
+- https://github.com/truecharts/containers/tree/master/mirrorhetzner-ddns
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

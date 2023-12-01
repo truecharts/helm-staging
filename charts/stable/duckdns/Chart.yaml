@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/duckdns.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/duckdns
 - https://ghcr.io/linuxserver/duckdns/charts/tree/master/charts/stable/duckdns
+- https://ghcr.io/linuxserver/duckdns
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

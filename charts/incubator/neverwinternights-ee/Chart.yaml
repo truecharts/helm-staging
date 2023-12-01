@@ -10,6 +10,7 @@ sources:
 - https://www.beamdog.com/games/neverwinter-nights-enhanced/
 - https://github.com/truecharts/containers/tree/master/mirrorneverwinternights-ee/charts/tree/master/charts/incubator/neverwinternights-ee
 - https://github.com/truecharts/charts/tree/master/charts/incubator/neverwinternights-ee
+- https://github.com/truecharts/containers/tree/master/mirrorneverwinternights-ee
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

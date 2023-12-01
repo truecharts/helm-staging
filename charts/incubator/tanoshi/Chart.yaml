@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/tanoshi
 - https://github.com/faldez/tanoshi
 - https://github.com/truecharts/containers/tree/master/mirrortanoshi/charts/tree/master/charts/incubator/tanoshi
+- https://github.com/truecharts/containers/tree/master/mirrortanoshi
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

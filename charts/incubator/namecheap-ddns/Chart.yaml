@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/namecheap-ddns
 - https://github.com/EdwardChamberlain/namecheap_ddns
 - https://github.com/truecharts/containers/tree/master/mirrornamecheap-ddns/charts/tree/master/charts/incubator/namecheap-ddns
+- https://github.com/truecharts/containers/tree/master/mirrornamecheap-ddns
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

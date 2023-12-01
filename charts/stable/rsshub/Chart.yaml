@@ -6,6 +6,7 @@ description: RSSHub can generate RSS feeds from pretty much everything
 home: https://truecharts.org/charts/stable/rsshub
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
 sources:
+- https://hub.docker.com/r/diygod/rsshub
 - https://github.com/DIYgod/RSSHub
 - https://hub.docker.com/r/diygod/rsshub/charts/tree/master/charts/stable/rsshub
 - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub

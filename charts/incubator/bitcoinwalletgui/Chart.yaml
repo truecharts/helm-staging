@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitcoinwalletgui.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoinwalletgui
 - https://github.com/truecharts/containers/tree/master/mirrorbitcoinwalletgui/charts/tree/master/charts/incubator/bitcoinwalletgui
+- https://github.com/truecharts/containers/tree/master/mirrorbitcoinwalletgui
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

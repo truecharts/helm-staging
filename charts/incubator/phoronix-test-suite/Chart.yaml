@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/phoronix-test-suite
 - https://github.com/phoronix-test-suite/phoronix-test-suite
 - https://github.com/truecharts/containers/tree/master/mirrorphoronix-test-suite/charts/tree/master/charts/incubator/phoronix-test-suite
+- https://github.com/truecharts/containers/tree/master/mirrorphoronix-test-suite
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

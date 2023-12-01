@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/chronograf
 - https://www.influxdata.com/time-series-platform/chronograf/
 - https://github.com/truecharts/containers/tree/master/mirrorchronograf/charts/tree/master/charts/incubator/chronograf
+- https://github.com/truecharts/containers/tree/master/mirrorchronograf
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

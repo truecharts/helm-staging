@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/znc.png
 sources:
 - https://ghcr.io/linuxserver/znc/charts/tree/master/charts/stable/znc
 - https://github.com/truecharts/charts/tree/master/charts/stable/znc
+- https://ghcr.io/linuxserver/znc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoin-node
 - https://github.com/kylemanna/docker-bitcoind
 - https://github.com/truecharts/containers/tree/master/mirrorbitcoin-node/charts/tree/master/charts/incubator/bitcoin-node
+- https://github.com/truecharts/containers/tree/master/mirrorbitcoin-node
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

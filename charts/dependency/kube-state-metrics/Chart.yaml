@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
 - https://hub.docker.com/r/bitnami/kube-state-metrics/charts/tree/master/charts/dependency/kube-state-metrics
+- https://hub.docker.com/r/bitnami/kube-state-metrics
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

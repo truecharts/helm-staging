@@ -6,6 +6,7 @@ description: Self hosted note taking, alternative to Notions. Look at Github for
 home: https://truecharts.org/charts/incubator/notea
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/notea.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrornotea
 - https://github.com/truecharts/charts/tree/master/charts/incubator/notea
 - https://github.com/diamkil/docker-notea
 - https://registry.hub.docker.com/r/diamkil/notea/

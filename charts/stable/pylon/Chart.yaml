@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/pylon.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/pylon
 - https://ghcr.io/linuxserver/pylon/charts/tree/master/charts/stable/pylon
+- https://ghcr.io/linuxserver/pylon
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

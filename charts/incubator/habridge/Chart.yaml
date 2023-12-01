@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/habridge.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/habridge
 - https://github.com/truecharts/containers/tree/master/mirrorhabridge/charts/tree/master/charts/incubator/habridge
+- https://github.com/truecharts/containers/tree/master/mirrorhabridge
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

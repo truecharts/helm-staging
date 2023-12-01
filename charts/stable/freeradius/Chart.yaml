@@ -6,6 +6,7 @@ description: OpenSource Radius implementation
 home: https://truecharts.org/charts/stable/freeradius
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/freeradius.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorfreeradius
 - https://github.com/truecharts/charts/tree/master/charts/stable/freeradius
 - https://freeradius.org/
 - https://github.com/truecharts/containers/tree/master/mirrorfreeradius/charts/tree/master/charts/stable/freeradius

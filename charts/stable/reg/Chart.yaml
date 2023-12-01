@@ -11,6 +11,7 @@ sources:
 - https://github.com/k8s-at-home/container-images/
 - https://hub.docker.com/_/registry/charts/tree/master/charts/stable/reg
 - https://github.com/truecharts/charts/tree/master/charts/stable/reg
+- https://hub.docker.com/_/registry
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

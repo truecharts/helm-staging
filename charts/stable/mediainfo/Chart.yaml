@@ -7,9 +7,10 @@ description: MediaInfo is a convenient unified display of the most relevant tech
 home: https://truecharts.org/charts/stable/mediainfo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mediainfo.png
 sources:
-- https://hub.docker.com/r/jlesage/mediainfo/charts/tree/master/charts/stable/mediainfo
 - https://github.com/truecharts/charts/tree/master/charts/stable/mediainfo
 - https://github.com/jlesage/docker-mediainfo
+- https://hub.docker.com/r/jlesage/mediainfo
+- https://hub.docker.com/r/jlesage/mediainfo/charts/tree/master/charts/stable/mediainfo
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

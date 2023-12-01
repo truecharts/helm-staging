@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/gravity
 - https://github.com/BeryJu/gravity
 - https://github.com/truecharts/containers/tree/master/mirrorgravity/charts/tree/master/charts/incubator/gravity
+- https://github.com/truecharts/containers/tree/master/mirrorgravity
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/dillinger.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/dillinger
 - https://ghcr.io/linuxserver/dillinger/charts/tree/master/charts/stable/dillinger
+- https://ghcr.io/linuxserver/dillinger
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

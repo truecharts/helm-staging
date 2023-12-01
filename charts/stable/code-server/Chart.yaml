@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/code-server
 - https://github.com/cdr/code-server
 - https://hub.docker.com/r/codercom/code-server/charts/tree/master/charts/stable/code-server
+- https://hub.docker.com/r/codercom/code-server
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

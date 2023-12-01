@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorurban-terror/charts/tree/master/charts/incubator/urban-terror
 - https://github.com/truecharts/charts/tree/master/charts/incubator/urban-terror
 - https://www.urbanterror.info/
+- https://github.com/truecharts/containers/tree/master/mirrorurban-terror
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

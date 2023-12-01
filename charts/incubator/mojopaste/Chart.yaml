@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/mojopaste
 - https://github.com/jhthorsen/app-mojopaste
 - https://github.com/truecharts/containers/tree/master/mirrormojopaste/charts/tree/master/charts/incubator/mojopaste
+- https://github.com/truecharts/containers/tree/master/mirrormojopaste
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

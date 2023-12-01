@@ -7,6 +7,7 @@ description: Booksonic is a platform for accessing the audibooks you own whereve
 home: https://truecharts.org/charts/stable/booksonic-air
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/booksonic-air.png
 sources:
+- https://ghcr.io/linuxserver/booksonic-air
 - https://github.com/popeen/Booksonic-Air
 - https://ghcr.io/linuxserver/booksonic-air/charts/tree/master/charts/stable/booksonic-air
 - https://github.com/truecharts/charts/tree/master/charts/stable/booksonic-air

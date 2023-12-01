@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/darktable.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/darktable
 - https://github.com/truecharts/containers/tree/master/mirrordarktable/charts/tree/master/charts/incubator/darktable
+- https://github.com/truecharts/containers/tree/master/mirrordarktable
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

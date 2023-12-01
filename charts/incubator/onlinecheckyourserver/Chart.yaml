@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/onlinecheckyourserver.pn
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/onlinecheckyourserver
 - https://github.com/truecharts/containers/tree/master/mirroronlinecheckyourserver/charts/tree/master/charts/incubator/onlinecheckyourserver
+- https://github.com/truecharts/containers/tree/master/mirroronlinecheckyourserver
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

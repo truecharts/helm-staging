@@ -7,6 +7,7 @@ description: A standalone, self-hosted, fast, free and Open Source Artificial In
 home: https://truecharts.org/charts/incubator/senseai-server
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/senseai-server.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorsenseai-server
 - https://github.com/truecharts/charts/tree/master/charts/incubator/senseai-server
 - https://github.com/codeproject/CodeProject.SenseAI
 - https://github.com/truecharts/containers/tree/master/mirrorsenseai-server/charts/tree/master/charts/incubator/senseai-server

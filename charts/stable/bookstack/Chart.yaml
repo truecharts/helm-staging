@@ -7,9 +7,10 @@ description: A simple, self-hosted, easy-to-use platform for organising and stor
 home: https://truecharts.org/charts/stable/bookstack
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/bookstack.png
 sources:
+- https://ghcr.io/linuxserver/bookstack/charts/tree/master/charts/stable/bookstack
+- https://ghcr.io/linuxserver/bookstack
 - https://github.com/truecharts/charts/tree/master/charts/stable/bookstack
 - https://www.bookstackapp.com/
-- https://ghcr.io/linuxserver/bookstack/charts/tree/master/charts/stable/bookstack
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

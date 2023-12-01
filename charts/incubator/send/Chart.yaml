@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/send
 - https://gitlab.com/timvisee/send
 - https://github.com/truecharts/containers/tree/master/mirrorsend/charts/tree/master/charts/incubator/send
+- https://github.com/truecharts/containers/tree/master/mirrorsend
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/Kareadita/KavitaEmail
 - https://github.com/truecharts/containers/tree/master/mirrorkavitaemail/charts/tree/master/charts/incubator/kavitaemail
 - https://github.com/truecharts/charts/tree/master/charts/incubator/kavitaemail
+- https://github.com/truecharts/containers/tree/master/mirrorkavitaemail
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

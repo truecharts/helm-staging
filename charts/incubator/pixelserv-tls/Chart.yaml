@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pixelserv-tls
 - https://github.com/imTHAI/docker-pixelserv-tls
 - https://github.com/truecharts/containers/tree/master/mirrorpixelserv-tls/charts/tree/master/charts/incubator/pixelserv-tls
+- https://github.com/truecharts/containers/tree/master/mirrorpixelserv-tls
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

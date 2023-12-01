@@ -9,6 +9,7 @@ sources:
 - https://hub.docker.com/r/guacamole/guacd/charts/tree/master/charts/stable/guacd
 - https://github.com/truecharts/charts/tree/master/charts/stable/guacd
 - https://github.com/apache/guacamole-server
+- https://hub.docker.com/r/guacamole/guacd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

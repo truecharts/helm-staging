@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/flowise
 - https://github.com/FlowiseAI/Flowise
 - https://hub.docker.com/r/flowiseai/flowise/charts/tree/master/charts/stable/flowise
+- https://hub.docker.com/r/flowiseai/flowise
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/qinglong.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/qinglong
 - https://hub.docker.com/r/whyour/qinglong/charts/tree/master/charts/stable/qinglong
+- https://hub.docker.com/r/whyour/qinglong
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

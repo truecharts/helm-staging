@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/emulatorjs
 - https://ghcr.io/linuxserver/emulatorjs/charts/tree/master/charts/stable/emulatorjs
+- https://ghcr.io/linuxserver/emulatorjs
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

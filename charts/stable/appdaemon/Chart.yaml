@@ -7,9 +7,10 @@ description: AppDaemon is a loosely coupled, multi-threaded, sandboxed python ex
 home: https://truecharts.org/charts/stable/appdaemon
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/appdaemon.png
 sources:
+- https://hub.docker.com/r/acockburn/appdaemon/charts/tree/master/charts/stable/appdaemon
+- https://hub.docker.com/r/acockburn/appdaemon
 - https://github.com/truecharts/charts/tree/master/charts/stable/appdaemon
 - https://github.com/AppDaemon/appdaemon
-- https://hub.docker.com/r/acockburn/appdaemon/charts/tree/master/charts/stable/appdaemon
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

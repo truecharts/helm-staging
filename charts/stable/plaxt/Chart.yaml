@@ -7,9 +7,10 @@ description: This Tools provides a way to keep your watched history synced FROM 
 home: https://truecharts.org/charts/stable/plaxt
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/plaxt.png
 sources:
+- https://hub.docker.com/r/xanderstrike/goplaxt/charts/tree/master/charts/stable/plaxt
+- https://hub.docker.com/r/xanderstrike/goplaxt
 - https://github.com/truecharts/charts/tree/master/charts/stable/plaxt
 - https://github.com/XanderStrike/goplaxt
-- https://hub.docker.com/r/xanderstrike/goplaxt/charts/tree/master/charts/stable/plaxt
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

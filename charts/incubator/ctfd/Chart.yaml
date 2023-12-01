@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/ctfd
 - https://github.com/CTFd/CTFd
 - https://github.com/truecharts/containers/tree/master/mirrorctfd/charts/tree/master/charts/incubator/ctfd
+- https://github.com/truecharts/containers/tree/master/mirrorctfd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

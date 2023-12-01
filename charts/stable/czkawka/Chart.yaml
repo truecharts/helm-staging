@@ -11,6 +11,7 @@ sources:
 - https://github.com/jlesage/docker-czkawka
 - https://github.com/qarmin/czkawka
 - https://hub.docker.com/r/jlesage/czkawka/charts/tree/master/charts/stable/czkawka
+- https://hub.docker.com/r/jlesage/czkawka
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

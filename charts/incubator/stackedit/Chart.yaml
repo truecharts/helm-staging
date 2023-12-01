@@ -7,6 +7,7 @@ description: StackEdits Markdown syntax highlighting is unique. The refined text
 home: https://truecharts.org/charts/incubator/stackedit
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/stackedit.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorstackedit
 - https://github.com/truecharts/charts/tree/master/charts/incubator/stackedit
 - https://stackedit.io/
 - https://github.com/truecharts/containers/tree/master/mirrorstackedit/charts/tree/master/charts/incubator/stackedit

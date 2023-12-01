@@ -10,6 +10,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/xmrig.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/xmrig
 - https://github.com/truecharts/containers/tree/master/mirrorxmrig/charts/tree/master/charts/incubator/xmrig
+- https://github.com/truecharts/containers/tree/master/mirrorxmrig
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

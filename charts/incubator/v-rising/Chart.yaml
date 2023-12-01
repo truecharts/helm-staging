@@ -10,6 +10,7 @@ sources:
 - https://steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrorv-rising/charts/tree/master/charts/incubator/v-rising
 - https://github.com/truecharts/charts/tree/master/charts/incubator/v-rising
+- https://github.com/truecharts/containers/tree/master/mirrorv-rising
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

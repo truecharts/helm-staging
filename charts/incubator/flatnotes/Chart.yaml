@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/flatnotes
 - https://github.com/Dullage/flatnotes
 - https://github.com/truecharts/containers/tree/master/mirrorflatnotes/charts/tree/master/charts/incubator/flatnotes
+- https://github.com/truecharts/containers/tree/master/mirrorflatnotes
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

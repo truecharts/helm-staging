@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorinsurgencysandstorm/charts/tree/master/charts/incubator/insurgencysandstorm
 - https://github.com/truecharts/charts/tree/master/charts/incubator/insurgencysandstorm
 - https://www.steampowered.com/
+- https://github.com/truecharts/containers/tree/master/mirrorinsurgencysandstorm
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

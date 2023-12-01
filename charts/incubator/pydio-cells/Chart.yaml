@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/pydio-cells.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pydio-cells
 - https://github.com/truecharts/containers/tree/master/mirrorpydio-cells/charts/tree/master/charts/incubator/pydio-cells
+- https://github.com/truecharts/containers/tree/master/mirrorpydio-cells
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/LycheeOrg/Lychee
 - https://github.com/truecharts/containers/tree/master/mirrorlychee-laravel/charts/tree/master/charts/incubator/lychee
 - https://github.com/truecharts/charts/tree/master/charts/incubator/lychee
+- https://github.com/truecharts/containers/tree/master/mirrorlychee-laravel
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

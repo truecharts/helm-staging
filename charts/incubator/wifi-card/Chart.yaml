@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/wifi-card
 - https://github.com/bndw/wifi-card
 - https://github.com/truecharts/containers/tree/master/mirrorwifi-card/charts/tree/master/charts/incubator/wifi-card
+- https://github.com/truecharts/containers/tree/master/mirrorwifi-card
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/anope
 - https://thelounge.chat/
 - https://github.com/truecharts/containers/tree/master/mirroranope/charts/tree/master/charts/incubator/anope
+- https://github.com/truecharts/containers/tree/master/mirroranope
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

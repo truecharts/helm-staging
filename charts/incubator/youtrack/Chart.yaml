@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/youtrack
 - https://www.jetbrains.com/youtrack/
 - https://github.com/truecharts/containers/tree/master/mirroryoutrack/charts/tree/master/charts/incubator/youtrack
+- https://github.com/truecharts/containers/tree/master/mirroryoutrack
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

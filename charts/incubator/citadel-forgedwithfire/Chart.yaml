@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/citadel-forgedwithfire
 - https://www.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrorcitadel-forgedwithfire/charts/tree/master/charts/incubator/citadel-forgedwithfire
+- https://github.com/truecharts/containers/tree/master/mirrorcitadel-forgedwithfire
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

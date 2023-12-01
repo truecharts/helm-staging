@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/keeweb
 - https://github.com/keeweb/keeweb
 - https://github.com/truecharts/containers/tree/master/mirrorkeeweb/charts/tree/master/charts/incubator/keeweb
+- https://github.com/truecharts/containers/tree/master/mirrorkeeweb
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

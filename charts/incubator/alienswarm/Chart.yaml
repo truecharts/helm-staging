@@ -10,6 +10,7 @@ sources:
 - https://www.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirroralienswarm/charts/tree/master/charts/incubator/alienswarm
 - https://github.com/truecharts/charts/tree/master/charts/incubator/alienswarm
+- https://github.com/truecharts/containers/tree/master/mirroralienswarm
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

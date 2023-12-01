@@ -6,9 +6,10 @@ description: YaCy decentralized search engine (https://yacy.net)
 home: https://truecharts.org/charts/incubator/yacy
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/yacy.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirroryacy/charts/tree/master/charts/incubator/yacy
+- https://github.com/truecharts/containers/tree/master/mirroryacy
 - https://github.com/truecharts/charts/tree/master/charts/incubator/yacy
 - https://yacy.net/
-- https://github.com/truecharts/containers/tree/master/mirroryacy/charts/tree/master/charts/incubator/yacy
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

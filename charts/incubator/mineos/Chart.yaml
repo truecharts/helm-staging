@@ -10,6 +10,7 @@ sources:
 - https://github.com/hexparrot/mineos-node
 - https://github.com/truecharts/containers/tree/master/mirrormineos/charts/tree/master/charts/incubator/mineos
 - https://github.com/truecharts/charts/tree/master/charts/incubator/mineos
+- https://github.com/truecharts/containers/tree/master/mirrormineos
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

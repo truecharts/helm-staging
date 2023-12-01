@@ -11,6 +11,7 @@ sources:
 - https://github.com/inventree/InvenTree
 - https://github.com/truecharts/containers/tree/master/mirrorinventree/charts/tree/master/charts/incubator/inventree
 - https://github.com/truecharts/charts/tree/master/charts/incubator/inventree
+- https://github.com/truecharts/containers/tree/master/mirrorinventree
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

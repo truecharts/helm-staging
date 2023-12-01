@@ -6,9 +6,10 @@ description: Deluge App for TrueNAS SCALE
 home: https://truecharts.org/charts/stable/deluge
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/deluge.png
 sources:
-- https://github.com/deluge-torrent/deluge
 - https://ghcr.io/linuxserver/deluge/charts/tree/master/charts/stable/deluge
 - https://github.com/truecharts/charts/tree/master/charts/stable/deluge
+- https://ghcr.io/linuxserver/deluge
+- https://github.com/deluge-torrent/deluge
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

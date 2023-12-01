@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/pwndrop.png
 sources:
 - https://ghcr.io/linuxserver/pwndrop/charts/tree/master/charts/stable/pwndrop
 - https://github.com/truecharts/charts/tree/master/charts/stable/pwndrop
+- https://ghcr.io/linuxserver/pwndrop
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

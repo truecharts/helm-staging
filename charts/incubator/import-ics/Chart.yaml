@@ -10,6 +10,7 @@ sources:
 - https://github.com/Vilhjalmr26/import_ics
 - https://github.com/truecharts/containers/tree/master/mirrorimport-ics/charts/tree/master/charts/incubator/import-ics
 - https://github.com/truecharts/charts/tree/master/charts/incubator/import-ics
+- https://github.com/truecharts/containers/tree/master/mirrorimport-ics
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

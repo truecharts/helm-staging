@@ -7,10 +7,11 @@ description: Make documentation a joy to write using Wiki.js's beautiful and int
 home: https://truecharts.org/charts/stable/wikijs
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wikijs.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/wikijs
 - https://docs.requarks.io/install/docker
 - https://github.com/Requarks/wiki
 - https://hub.docker.com/r/requarks/wiki/charts/tree/master/charts/stable/wikijs
+- https://hub.docker.com/r/requarks/wiki
+- https://github.com/truecharts/charts/tree/master/charts/stable/wikijs
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

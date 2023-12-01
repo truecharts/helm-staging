@@ -11,6 +11,7 @@ sources:
 - https://github.com/tiredofit/docker-backuppc
 - https://backuppc.github.io/backuppc/index.html
 - https://github.com/truecharts/containers/tree/master/mirrorbackuppc/charts/tree/master/charts/incubator/backuppc
+- https://github.com/truecharts/containers/tree/master/mirrorbackuppc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

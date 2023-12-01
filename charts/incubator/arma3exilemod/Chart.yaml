@@ -7,6 +7,7 @@ description: This Chart will download and install SteamCMD. It will also install
 home: https://truecharts.org/charts/incubator/arma3exilemod
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/arma3exilemod.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorarma3exilemod
 - https://github.com/truecharts/charts/tree/master/charts/incubator/arma3exilemod
 - http://www.exilemod.com/
 - https://github.com/truecharts/containers/tree/master/mirrorarma3exilemod/charts/tree/master/charts/incubator/arma3exilemod

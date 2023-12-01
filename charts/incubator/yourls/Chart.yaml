@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/yourls.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/yourls
 - https://github.com/truecharts/containers/tree/master/mirroryourls/charts/tree/master/charts/incubator/yourls
+- https://github.com/truecharts/containers/tree/master/mirroryourls
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

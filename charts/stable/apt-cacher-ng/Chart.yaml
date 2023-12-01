@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/apt-cacher-ng
 - https://www.unix-ag.uni-kl.de/~bloch/acng/
 - https://hub.docker.com/r/sameersbn/apt-cacher-ng/charts/tree/master/charts/stable/apt-cacher-ng
+- https://hub.docker.com/r/sameersbn/apt-cacher-ng
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

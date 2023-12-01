@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoind
 - https://bitcoin.org/
 - https://github.com/truecharts/containers/tree/master/mirrorbitcoind/charts/tree/master/charts/incubator/bitcoind
+- https://github.com/truecharts/containers/tree/master/mirrorbitcoind
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

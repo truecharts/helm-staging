@@ -10,6 +10,7 @@ sources:
 - https://github.com/iv-org/invidious
 - https://docs.invidious.io/installation/#docker
 - https://quay.io/invidious/invidious/charts/tree/master/charts/stable/invidious
+- https://quay.io/invidious/invidious
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

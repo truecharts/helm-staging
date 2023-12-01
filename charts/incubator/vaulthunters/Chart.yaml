@@ -14,6 +14,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorvaulthunters/charts/tree/master/charts/incubator/vaulthunters
 - https://github.com/truecharts/charts/tree/master/charts/incubator/vaulthunters
 - https://vaulthunters.gg
+- https://github.com/truecharts/containers/tree/master/mirrorvaulthunters
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

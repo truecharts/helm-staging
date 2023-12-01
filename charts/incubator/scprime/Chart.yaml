@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/scprime
 - https://scpri.me
 - https://github.com/truecharts/containers/tree/master/mirrorscprime/charts/tree/master/charts/incubator/scprime
+- https://github.com/truecharts/containers/tree/master/mirrorscprime
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

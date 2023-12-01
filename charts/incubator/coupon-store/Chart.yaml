@@ -6,9 +6,10 @@ description: A home for all your coupons and loyalty cards.
 home: https://truecharts.org/charts/incubator/coupon-store
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/coupon-store.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/coupon-store
 - https://github.com/linuxserver/docker-airsonic
 - https://github.com/truecharts/containers/tree/master/mirrorcoupon-store/charts/tree/master/charts/incubator/coupon-store
+- https://github.com/truecharts/containers/tree/master/mirrorcoupon-store
+- https://github.com/truecharts/charts/tree/master/charts/incubator/coupon-store
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

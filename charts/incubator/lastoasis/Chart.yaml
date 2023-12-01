@@ -7,9 +7,10 @@ description: This Chart will download and install SteamCMD. It will also install
 home: https://truecharts.org/charts/incubator/lastoasis
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/lastoasis.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/lastoasis
 - https://store.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrorlastoasis/charts/tree/master/charts/incubator/lastoasis
+- https://github.com/truecharts/containers/tree/master/mirrorlastoasis
+- https://github.com/truecharts/charts/tree/master/charts/incubator/lastoasis
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

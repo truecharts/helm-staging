@@ -11,6 +11,7 @@ sources:
 - https://ghcr.io/linuxserver/muximux/charts/tree/master/charts/stable/muximux
 - https://github.com/truecharts/charts/tree/master/charts/stable/muximux
 - https://github.com/linuxserver/docker-muximux
+- https://ghcr.io/linuxserver/muximux
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

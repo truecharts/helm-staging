@@ -6,6 +6,7 @@ description: Running Boinc? Get some Gridcoins from your Boinc work!
 home: https://truecharts.org/charts/incubator/gridcoinwalletgui
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/gridcoinwalletgui.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirrorgridcoinwalletgui
 - https://github.com/truecharts/charts/tree/master/charts/incubator/gridcoinwalletgui
 - https://gridcoin.us/
 - https://github.com/truecharts/containers/tree/master/mirrorgridcoinwalletgui/charts/tree/master/charts/incubator/gridcoinwalletgui

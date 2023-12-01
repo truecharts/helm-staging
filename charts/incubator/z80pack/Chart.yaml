@@ -11,6 +11,7 @@ sources:
 - https://registry.hub.docker.com/r/dlandon/z80pack/
 - https://github.com/truecharts/containers/tree/master/mirrorz80pack/charts/tree/master/charts/incubator/z80pack
 - https://github.com/truecharts/charts/tree/master/charts/incubator/z80pack
+- https://github.com/truecharts/containers/tree/master/mirrorz80pack
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

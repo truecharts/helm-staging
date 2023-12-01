@@ -12,6 +12,7 @@ sources:
 - https://www.focalboard.com/
 - https://github.com/mattermost/focalboard
 - https://github.com/FlipEnergy/container-images/blob/main/focalboard
+- https://github.com/truecharts/containers/tree/master/mirrorfocalboard
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

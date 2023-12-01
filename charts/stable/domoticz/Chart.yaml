@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/domoticz.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/domoticz
 - https://ghcr.io/linuxserver/domoticz/charts/tree/master/charts/stable/domoticz
+- https://ghcr.io/linuxserver/domoticz
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

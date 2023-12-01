@@ -9,6 +9,7 @@ sources:
 - https://hub.docker.com/r/anonaddy/anonaddy/charts/tree/master/charts/stable/anonaddy
 - https://github.com/truecharts/charts/tree/master/charts/stable/anonaddy
 - https://github.com/anonaddy/docker
+- https://hub.docker.com/r/anonaddy/anonaddy
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

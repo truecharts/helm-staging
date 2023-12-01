@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/arma3
 - https://arma3.com/
 - https://github.com/truecharts/containers/tree/master/mirrorarma3/charts/tree/master/charts/incubator/arma3
+- https://github.com/truecharts/containers/tree/master/mirrorarma3
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

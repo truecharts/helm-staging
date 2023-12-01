@@ -12,6 +12,7 @@ sources:
 - https://mediagoblin.org/
 - https://github.com/truecharts/containers/tree/master/mirrormediagoblin/charts/tree/master/charts/incubator/mediagoblin
 - https://github.com/truecharts/charts/tree/master/charts/incubator/mediagoblin
+- https://github.com/truecharts/containers/tree/master/mirrormediagoblin
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

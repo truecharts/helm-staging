@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/gpodder
 - https://gpodder.github.io/
 - https://github.com/truecharts/containers/tree/master/mirrorgpodder/charts/tree/master/charts/incubator/gpodder
+- https://github.com/truecharts/containers/tree/master/mirrorgpodder
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

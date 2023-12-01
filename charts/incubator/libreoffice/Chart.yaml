@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/libreoffice.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/libreoffice
 - https://github.com/truecharts/containers/tree/master/mirrorlibreoffice/charts/tree/master/charts/incubator/libreoffice
+- https://github.com/truecharts/containers/tree/master/mirrorlibreoffice
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

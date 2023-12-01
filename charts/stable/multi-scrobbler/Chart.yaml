@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/multi-scrobbler.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/multi-scrobbler
 - https://github.com/truecharts/containers/tree/master/mirrormulti-scrobbler/charts/tree/master/charts/stable/multi-scrobbler
+- https://github.com/truecharts/containers/tree/master/mirrormulti-scrobbler
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

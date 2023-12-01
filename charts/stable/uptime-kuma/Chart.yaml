@@ -9,6 +9,7 @@ sources:
 - https://github.com/louislam/uptime-kuma
 - https://hub.docker.com/r/louislam/uptime-kuma/charts/tree/master/charts/stable/uptime-kuma
 - https://github.com/truecharts/charts/tree/master/charts/stable/uptime-kuma
+- https://hub.docker.com/r/louislam/uptime-kuma
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

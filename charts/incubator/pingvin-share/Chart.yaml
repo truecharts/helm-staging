@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pingvin-share
 - https://github.com/stonith404/pingvin-share
 - https://github.com/truecharts/containers/tree/master/mirrorpingvin-share/charts/tree/master/charts/incubator/pingvin-share
+- https://github.com/truecharts/containers/tree/master/mirrorpingvin-share
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

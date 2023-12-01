@@ -6,9 +6,10 @@ description: Snapdrop A local file sharing in your browser. Inspired by Apple's 
 home: https://truecharts.org/charts/stable/snapdrop
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/snapdrop.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/snapdrop
 - https://github.com/linuxserver/docker-snapdrop
 - https://hub.docker.com/r/linuxserver/snapdrop/charts/tree/master/charts/stable/snapdrop
+- https://hub.docker.com/r/linuxserver/snapdrop
+- https://github.com/truecharts/charts/tree/master/charts/stable/snapdrop
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

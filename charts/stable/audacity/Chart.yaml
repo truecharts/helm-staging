@@ -10,6 +10,7 @@ sources:
 - https://github.com/linuxserver/docker-audacity
 - https://www.audacityteam.org/
 - https://ghcr.io/linuxserver/audacity/charts/tree/master/charts/stable/audacity
+- https://ghcr.io/linuxserver/audacity
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

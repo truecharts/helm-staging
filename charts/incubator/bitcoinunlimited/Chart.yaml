@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitcoinunlimited.png
 sources:
 - https://github.com/truecharts/containers/tree/master/mirrorbitcoinunlimited/charts/tree/master/charts/incubator/bitcoinunlimited
 - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoinunlimited
+- https://github.com/truecharts/containers/tree/master/mirrorbitcoinunlimited
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,6 +10,7 @@ sources:
 - https://github.com/HenryQW/Awesome-TTRSS
 - https://github.com/truecharts/containers/tree/master/mirrorawesome-ttrss/charts/tree/master/charts/incubator/awesome-ttrss
 - https://github.com/truecharts/charts/tree/master/charts/incubator/awesome-ttrss
+- https://github.com/truecharts/containers/tree/master/mirrorawesome-ttrss
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

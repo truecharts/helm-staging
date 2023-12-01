@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorwebp-server/charts/tree/master/charts/incubator/webp-server
 - https://github.com/truecharts/charts/tree/master/charts/incubator/webp-server
 - https://github.com/webp-sh/webp_server_go
+- https://github.com/truecharts/containers/tree/master/mirrorwebp-server
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

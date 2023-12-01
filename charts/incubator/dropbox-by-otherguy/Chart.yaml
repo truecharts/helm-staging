@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/dropbox-by-otherguy
 - https://github.com/otherguy/docker-dropbox
 - https://github.com/truecharts/containers/tree/master/mirrordropbox-by-otherguy/charts/tree/master/charts/incubator/dropbox-by-otherguy
+- https://github.com/truecharts/containers/tree/master/mirrordropbox-by-otherguy
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

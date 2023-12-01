@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/batnoter
 - https://github.com/batnoter/batnoter
 - https://github.com/truecharts/containers/tree/master/mirrorbatnoter/charts/tree/master/charts/incubator/batnoter
+- https://github.com/truecharts/containers/tree/master/mirrorbatnoter
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,6 +6,7 @@ description: A self-hosted midwestern Discord music bot that doesn't suck.
 home: https://truecharts.org/charts/stable/muse
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/muse.png
 sources:
+- https://hub.docker.com/r/codetheweb/muse
 - https://github.com/truecharts/charts/tree/master/charts/stable/muse
 - https://github.com/codetheweb/muse
 - https://hub.docker.com/r/codetheweb/muse/charts/tree/master/charts/stable/muse

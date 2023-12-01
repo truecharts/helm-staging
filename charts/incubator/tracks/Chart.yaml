@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/tracks
 - http://www.getontracks.org/
 - https://github.com/truecharts/containers/tree/master/mirrortracks/charts/tree/master/charts/incubator/tracks
+- https://github.com/truecharts/containers/tree/master/mirrortracks
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

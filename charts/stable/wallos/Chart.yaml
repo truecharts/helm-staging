@@ -6,9 +6,10 @@ description: Wallos - Self Hosted Subscription tracker
 home: https://truecharts.org/charts/stable/wallos
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wallos.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/wallos
 - https://github.com/ellite/Wallos
 - https://hub.docker.com/r/bellamy/wallos/charts/tree/master/charts/stable/wallos
+- https://hub.docker.com/r/bellamy/wallos
+- https://github.com/truecharts/charts/tree/master/charts/stable/wallos
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

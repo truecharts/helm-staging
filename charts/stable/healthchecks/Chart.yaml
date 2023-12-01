@@ -11,6 +11,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/healthchecks
 - https://github.com/healthchecks/healthchecks
 - https://ghcr.io/linuxserver/healthchecks/charts/tree/master/charts/stable/healthchecks
+- https://ghcr.io/linuxserver/healthchecks
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

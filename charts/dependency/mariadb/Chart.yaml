@@ -12,6 +12,7 @@ sources:
 - https://hub.docker.com/r/bitnami/mariadb/charts/tree/master/charts/dependency/mariadb
 - https://github.com/truecharts/charts/tree/master/charts/dependency/mariadb
 - https://github.com/bitnami/bitnami-docker-mariadb
+- https://hub.docker.com/r/bitnami/mariadb
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

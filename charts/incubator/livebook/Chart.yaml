@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/livebook
 - https://livebook.dev/
 - https://github.com/truecharts/containers/tree/master/mirrorlivebook/charts/tree/master/charts/incubator/livebook
+- https://github.com/truecharts/containers/tree/master/mirrorlivebook
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -15,6 +15,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/redm
 - https://redm.gg/
 - https://github.com/truecharts/containers/tree/master/mirrorredm/charts/tree/master/charts/incubator/redm
+- https://github.com/truecharts/containers/tree/master/mirrorredm
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,9 +6,10 @@ description: The open source VNC client
 home: https://truecharts.org/charts/stable/novnc
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/novnc.png
 sources:
+- https://ghcr.io/nicholaswilde/novnc/charts/tree/master/charts/stable/novnc
+- https://ghcr.io/nicholaswilde/novnc
 - https://github.com/truecharts/charts/tree/master/charts/stable/novnc
 - https://novnc.com/
-- https://ghcr.io/nicholaswilde/novnc/charts/tree/master/charts/stable/novnc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

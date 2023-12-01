@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/metatube
 - https://github.com/JVT038/MetaTube
 - https://github.com/truecharts/containers/tree/master/mirrormetatube/charts/tree/master/charts/incubator/metatube
+- https://github.com/truecharts/containers/tree/master/mirrormetatube
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

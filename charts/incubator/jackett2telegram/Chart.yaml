@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/jackett2telegram
 - https://github.com/danimart1991/jackett2telegram
 - https://github.com/truecharts/containers/tree/master/mirrorjackett2telegram/charts/tree/master/charts/incubator/jackett2telegram
+- https://github.com/truecharts/containers/tree/master/mirrorjackett2telegram
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

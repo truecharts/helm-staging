@@ -9,6 +9,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
 sources:
 - https://hub.docker.com/r/cloudflare/cloudflared/charts/tree/master/charts/stable/cloudflared
 - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
+- https://hub.docker.com/r/cloudflare/cloudflared
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

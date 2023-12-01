@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/funkwhale
 - https://funkwhale.audio/
 - https://github.com/truecharts/containers/tree/master/mirrorfunkwhale/charts/tree/master/charts/incubator/funkwhale
+- https://github.com/truecharts/containers/tree/master/mirrorfunkwhale
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

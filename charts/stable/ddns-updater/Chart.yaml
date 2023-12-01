@@ -7,6 +7,7 @@ description: Light container updating DNS A and/or AAAA records periodically for
 home: https://truecharts.org/charts/stable/ddns-updater
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ddns-updater.png
 sources:
+- https://hub.docker.com/r/qmcgaw/ddns-updater
 - https://github.com/truecharts/charts/tree/master/charts/stable/ddns-updater
 - https://github.com/qdm12/ddns-updater
 - https://hub.docker.com/r/qmcgaw/ddns-updater/charts/tree/master/charts/stable/ddns-updater

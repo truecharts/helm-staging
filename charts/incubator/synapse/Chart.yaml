@@ -8,6 +8,7 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/synapse.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/synapse
 - https://github.com/truecharts/containers/tree/master/mirrorsynapse/charts/tree/master/charts/incubator/synapse
+- https://github.com/truecharts/containers/tree/master/mirrorsynapse
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

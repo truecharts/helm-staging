@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/van-dam
 - https://github.com/Floppy/van_dam
 - https://github.com/truecharts/containers/tree/master/mirrorvan-dam/charts/tree/master/charts/incubator/van-dam
+- https://github.com/truecharts/containers/tree/master/mirrorvan-dam
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

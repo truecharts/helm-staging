@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/colonysurvival
 - https://www.steampowered.com/
 - https://github.com/truecharts/containers/tree/master/mirrorcolonysurvival/charts/tree/master/charts/incubator/colonysurvival
+- https://github.com/truecharts/containers/tree/master/mirrorcolonysurvival
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

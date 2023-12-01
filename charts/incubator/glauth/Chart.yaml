@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/glauth
 - https://glauth.github.io
 - https://github.com/truecharts/containers/tree/master/mirrorglauth/charts/tree/master/charts/incubator/glauth
+- https://github.com/truecharts/containers/tree/master/mirrorglauth
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

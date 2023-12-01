@@ -7,9 +7,10 @@ description: The WordPress rich content management system can utilize plugins, w
 home: https://truecharts.org/charts/stable/wordpress
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
 - https://www.wordpress.org
 - https://hub.docker.com/r/bitnami/wordpress/charts/tree/master/charts/stable/wordpress
+- https://hub.docker.com/r/bitnami/wordpress
+- https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

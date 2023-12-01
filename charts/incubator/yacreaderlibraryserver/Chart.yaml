@@ -6,6 +6,7 @@ description: Headless version of the YACReaderLibraryServer.
 home: https://truecharts.org/charts/incubator/yacreaderlibraryserver
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/yacreaderlibraryserver.png
 sources:
+- https://github.com/truecharts/containers/tree/master/mirroryacreaderlibraryserver
 - https://github.com/truecharts/charts/tree/master/charts/incubator/yacreaderlibraryserver
 - https://www.yacreader.com
 - https://github.com/truecharts/containers/tree/master/mirroryacreaderlibraryserver/charts/tree/master/charts/incubator/yacreaderlibraryserver

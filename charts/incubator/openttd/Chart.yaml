@@ -12,6 +12,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/openttd
 - https://www.openttd.org/
 - https://github.com/truecharts/containers/tree/master/mirroropenttd/charts/tree/master/charts/incubator/openttd
+- https://github.com/truecharts/containers/tree/master/mirroropenttd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

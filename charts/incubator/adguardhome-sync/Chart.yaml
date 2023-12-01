@@ -9,6 +9,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/adguardhome-sync
 - https://github.com/bakito/adguardhome-sync/
 - https://github.com/truecharts/containers/tree/master/mirroradguardhome-sync/charts/tree/master/charts/incubator/adguardhome-sync
+- https://github.com/truecharts/containers/tree/master/mirroradguardhome-sync
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

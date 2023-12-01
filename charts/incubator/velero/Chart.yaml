@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/velero
 - https://github.com/cert-manager
 - https://cert-manager.io/
+- https://github.com/truecharts/containers/tree/master/mirroralpine
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

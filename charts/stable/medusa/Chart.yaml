@@ -6,10 +6,11 @@ description: An automatic Video Library Manager for TV Shows
 home: https://truecharts.org/charts/stable/medusa
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/medusa.png
 sources:
+- https://ghcr.io/linuxserver/medusa/charts/tree/master/charts/stable/medusa
+- https://ghcr.io/linuxserver/medusa
 - https://github.com/truecharts/charts/tree/master/charts/stable/medusa
 - https://github.com/linuxserver/docker-medusa
 - https://pymedusa.com/
-- https://ghcr.io/linuxserver/medusa/charts/tree/master/charts/stable/medusa
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

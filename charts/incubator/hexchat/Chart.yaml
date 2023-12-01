@@ -14,6 +14,7 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/hexchat
 - https://hexchat.github.io/
 - https://registry.hub.docker.com/r/binhex/arch-hexchat/
+- https://github.com/truecharts/containers/tree/master/mirrorhexchat
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

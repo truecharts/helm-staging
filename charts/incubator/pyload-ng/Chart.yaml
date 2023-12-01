@@ -13,6 +13,7 @@ sources:
 - https://github.com/orgs/linuxserver/packages/container/package/pyload-ng
 - https://github.com/linuxserver/docker-pyload-ng#readme
 - https://github.com/truecharts/containers/tree/master/mirrorpyload-ng/charts/tree/master/charts/incubator/pyload-ng
+- https://github.com/truecharts/containers/tree/master/mirrorpyload-ng
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

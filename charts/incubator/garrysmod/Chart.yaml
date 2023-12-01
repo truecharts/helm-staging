@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorgarrysmod/charts/tree/master/charts/incubator/garrysmod
 - https://github.com/truecharts/charts/tree/master/charts/incubator/garrysmod
 - https://www.steampowered.com/
+- https://github.com/truecharts/containers/tree/master/mirrorgarrysmod
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

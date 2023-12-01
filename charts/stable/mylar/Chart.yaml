@@ -6,10 +6,11 @@ description: Mylar is a automated Comic Book downloader
 home: https://truecharts.org/charts/stable/mylar
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mylar.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/mylar
 - https://github.com/mylar3/mylar3
 - https://github.com/linuxserver/docker-mylar3
 - https://hub.docker.com/r/linuxserver/mylar3/charts/tree/master/charts/stable/mylar
+- https://hub.docker.com/r/linuxserver/mylar3
+- https://github.com/truecharts/charts/tree/master/charts/stable/mylar
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

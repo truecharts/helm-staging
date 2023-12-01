@@ -10,6 +10,7 @@ sources:
 - https://github.com/truecharts/containers/tree/master/mirrorcraftopia/charts/tree/master/charts/incubator/craftopia
 - https://github.com/truecharts/charts/tree/master/charts/incubator/craftopia
 - https://www.steampowered.com/
+- https://github.com/truecharts/containers/tree/master/mirrorcraftopia
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
