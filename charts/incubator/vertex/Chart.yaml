@@ -6,9 +6,8 @@ description: Vertex
 home: https://truecharts.org/charts/incubator/vertex
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/vertex.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/vertex
 - https://gitlab.lswl.in/lswl/vertex
-- https://github.com/truecharts/containers/tree/master/mirrorvertex/charts/tree/master/charts/incubator/vertex
+- https://github.com/truecharts/charts/tree/master/charts/incubator/vertex
 - https://github.com/truecharts/containers/tree/master/mirrorvertex
 maintainers:
 - name: TrueCharts

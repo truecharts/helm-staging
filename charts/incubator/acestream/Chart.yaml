@@ -6,9 +6,8 @@ description: IPTV service providing streaming, playlist, search engine and epg.
 home: https://truecharts.org/charts/incubator/acestream
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/acestream.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirroracestream/charts/tree/master/charts/incubator/acestream
-- https://github.com/truecharts/containers/tree/master/mirroracestream
 - https://github.com/truecharts/charts/tree/master/charts/incubator/acestream
+- https://github.com/truecharts/containers/tree/master/mirroracestream
 - https://github.com/vstavrinov/acestream-service
 maintainers:
 - name: TrueCharts

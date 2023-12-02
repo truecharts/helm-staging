@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/virt-manager
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/virt-manager.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/virt-manager
-- https://github.com/truecharts/containers/tree/master/mirrorvirt-manager/charts/tree/master/charts/incubator/virt-manager
 - https://github.com/truecharts/containers/tree/master/mirrorvirt-manager
 maintainers:
 - name: TrueCharts

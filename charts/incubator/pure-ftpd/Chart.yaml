@@ -8,9 +8,8 @@ description: Pure-FTPd is a free (BSD), secure, production-quality and standard-
 home: https://truecharts.org/charts/incubator/pure-ftpd
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pure-ftpd.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorpure-ftpd/charts/tree/master/charts/incubator/pure-ftpd
-- https://github.com/truecharts/charts/tree/master/charts/incubator/pure-ftpd
 - https://www.pureftpd.org/project/pure-ftpd/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/pure-ftpd
 - https://github.com/truecharts/containers/tree/master/mirrorpure-ftpd
 maintainers:
 - name: TrueCharts

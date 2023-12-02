@@ -6,9 +6,8 @@ description: "Valetudo-RE companion service for generating PNG maps.\r"
 home: https://truecharts.org/charts/incubator/valetudo-mapper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/valetudo-mapper.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/valetudo-mapper
 - https://github.com/rand256/valetudo-mapper
-- https://github.com/truecharts/containers/tree/master/mirrorvaletudo-mapper/charts/tree/master/charts/incubator/valetudo-mapper
+- https://github.com/truecharts/charts/tree/master/charts/incubator/valetudo-mapper
 - https://github.com/truecharts/containers/tree/master/mirrorvaletudo-mapper
 maintainers:
 - name: TrueCharts

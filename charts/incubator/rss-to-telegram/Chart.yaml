@@ -8,10 +8,9 @@ description: A self-hosted telegram JS/TS bot that dumps posts from RSS feeds to
 home: https://truecharts.org/charts/incubator/rss-to-telegram
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/rss-to-telegram.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/rss-to-telegram
-- https://github.com/BoKKeR/RSS-to-Telegram-Bot
-- https://github.com/truecharts/containers/tree/master/mirrorrss-to-telegram/charts/tree/master/charts/incubator/rss-to-telegram
 - https://github.com/truecharts/containers/tree/master/mirrorrss-to-telegram
+- https://github.com/BoKKeR/RSS-to-Telegram-Bot
+- https://github.com/truecharts/charts/tree/master/charts/incubator/rss-to-telegram
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

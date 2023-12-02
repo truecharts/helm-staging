@@ -6,9 +6,8 @@ description: TVheadend - a TV streaming server and digital video recorder
 home: https://truecharts.org/charts/stable/tvheadend
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvheadend.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
 - https://github.com/tvheadend/tvheadend
-- https://ghcr.io/linuxserver/tvheadend/charts/tree/master/charts/stable/tvheadend
+- https://github.com/truecharts/charts/tree/master/charts/stable/tvheadend
 - https://ghcr.io/linuxserver/tvheadend
 maintainers:
 - name: TrueCharts

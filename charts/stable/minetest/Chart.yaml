@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/stable/minetest
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/minetest.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/minetest
-- https://ghcr.io/linuxserver/minetest/charts/tree/master/charts/stable/minetest
 - https://ghcr.io/linuxserver/minetest
 maintainers:
 - name: TrueCharts

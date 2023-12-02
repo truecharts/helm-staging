@@ -6,9 +6,8 @@ description: A simple wake on lan app written with SvelteKit, Go, PocketBase and
 home: https://truecharts.org/charts/incubator/upsnap
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/upsnap.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorupsnap/charts/tree/master/charts/incubator/upsnap
-- https://github.com/truecharts/charts/tree/master/charts/incubator/upsnap
 - https://github.com/seriousm4x/UpSnap
+- https://github.com/truecharts/charts/tree/master/charts/incubator/upsnap
 - https://github.com/truecharts/containers/tree/master/mirrorupsnap
 maintainers:
 - name: TrueCharts

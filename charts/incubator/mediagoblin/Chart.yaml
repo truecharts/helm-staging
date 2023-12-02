@@ -9,10 +9,9 @@ description: 'MediaGoblin is a free software media publishing platform that anyo
 home: https://truecharts.org/charts/incubator/mediagoblin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mediagoblin.png
 sources:
-- https://mediagoblin.org/
-- https://github.com/truecharts/containers/tree/master/mirrormediagoblin/charts/tree/master/charts/incubator/mediagoblin
 - https://github.com/truecharts/charts/tree/master/charts/incubator/mediagoblin
 - https://github.com/truecharts/containers/tree/master/mirrormediagoblin
+- https://mediagoblin.org/
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

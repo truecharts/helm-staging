@@ -7,9 +7,8 @@ description: Endlessh is an SSH tarpit that very slowly sends an endless, random
 home: https://truecharts.org/charts/stable/endlessh
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/endlessh.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/endlessh
-- https://ghcr.io/linuxserver/endlessh/charts/tree/master/charts/stable/endlessh
 - https://ghcr.io/linuxserver/endlessh
+- https://github.com/truecharts/charts/tree/master/charts/stable/endlessh
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

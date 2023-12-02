@@ -8,8 +8,6 @@ home: https://truecharts.org/charts/incubator/tracks
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tracks.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/tracks
-- http://www.getontracks.org/
-- https://github.com/truecharts/containers/tree/master/mirrortracks/charts/tree/master/charts/incubator/tracks
 - https://github.com/truecharts/containers/tree/master/mirrortracks
 maintainers:
 - name: TrueCharts

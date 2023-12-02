@@ -7,9 +7,8 @@ description: Audiobookshelf is a self-hosted audiobook server for managing and p
 home: https://truecharts.org/charts/stable/audiobookshelf
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/audiobookshelf.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/audiobookshelf
 - https://github.com/advplyr/audiobookshelf
-- https://hub.docker.com/r/advplyr/audiobookshelf/charts/tree/master/charts/stable/audiobookshelf
+- https://github.com/truecharts/charts/tree/master/charts/stable/audiobookshelf
 - https://hub.docker.com/r/advplyr/audiobookshelf
 maintainers:
 - name: TrueCharts

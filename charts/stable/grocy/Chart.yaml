@@ -7,9 +7,8 @@ description: ERP beyond your fridge - grocy is a web-based self-hosted groceries
 home: https://truecharts.org/charts/stable/grocy
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/grocy.png
 sources:
-- https://ghcr.io/linuxserver/grocy/charts/tree/master/charts/stable/grocy
-- https://github.com/truecharts/charts/tree/master/charts/stable/grocy
 - https://github.com/grocy/grocy
+- https://github.com/truecharts/charts/tree/master/charts/stable/grocy
 - https://ghcr.io/linuxserver/grocy
 maintainers:
 - name: TrueCharts

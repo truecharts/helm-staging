@@ -6,9 +6,8 @@ description: Couchpotato is an automatic NZB and torrent downloader.
 home: https://truecharts.org/charts/stable/couchpotato
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/couchpotato.png
 sources:
-- https://ghcr.io/linuxserver/couchpotato/charts/tree/master/charts/stable/couchpotato
-- https://ghcr.io/linuxserver/couchpotato
 - https://github.com/truecharts/charts/tree/master/charts/stable/couchpotato
+- https://ghcr.io/linuxserver/couchpotato
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

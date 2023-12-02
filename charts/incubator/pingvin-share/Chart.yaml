@@ -6,9 +6,8 @@ description: A self-hosted file sharing platform and an alternative for WeTransf
 home: https://truecharts.org/charts/incubator/pingvin-share
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pingvin-share.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/pingvin-share
 - https://github.com/stonith404/pingvin-share
-- https://github.com/truecharts/containers/tree/master/mirrorpingvin-share/charts/tree/master/charts/incubator/pingvin-share
+- https://github.com/truecharts/charts/tree/master/charts/incubator/pingvin-share
 - https://github.com/truecharts/containers/tree/master/mirrorpingvin-share
 maintainers:
 - name: TrueCharts

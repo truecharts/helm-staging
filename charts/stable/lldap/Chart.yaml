@@ -6,9 +6,8 @@ description: Lightweight ldap server for authentication and user management
 home: https://truecharts.org/charts/stable/lldap
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/lldap.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/lldap
 - https://github.com/nitnelave/lldap
-- https://hub.docker.com/r/nitnelave/lldap/charts/tree/master/charts/stable/lldap
+- https://github.com/truecharts/charts/tree/master/charts/stable/lldap
 - https://hub.docker.com/r/nitnelave/lldap
 maintainers:
 - name: TrueCharts

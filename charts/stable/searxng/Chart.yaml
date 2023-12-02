@@ -7,10 +7,9 @@ description: Meta search engine which aggregates results from more than 70 searc
 home: https://truecharts.org/charts/stable/searxng
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.png
 sources:
-- https://hub.docker.com/r/searxng/searxng/charts/tree/master/charts/stable/searxng
-- https://hub.docker.com/r/searxng/searxng
-- https://github.com/truecharts/charts/tree/master/charts/stable/searxng
 - https://github.com/searxng/searxng
+- https://github.com/truecharts/charts/tree/master/charts/stable/searxng
+- https://hub.docker.com/r/searxng/searxng
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

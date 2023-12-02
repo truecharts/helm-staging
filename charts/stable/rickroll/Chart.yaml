@@ -6,9 +6,8 @@ description: Self-hosted Rick Roll chart.
 home: https://truecharts.org/charts/stable/rickroll
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/rickroll.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/rickroll
 - https://github.com/modem7/docker-rickroll
-- https://hub.docker.com/r/modem7/docker-rickroll/charts/tree/master/charts/stable/rickroll
+- https://github.com/truecharts/charts/tree/master/charts/stable/rickroll
 - https://hub.docker.com/r/modem7/docker-rickroll
 maintainers:
 - name: TrueCharts

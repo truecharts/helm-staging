@@ -11,9 +11,8 @@ description: Trango self-hosted is a calling and file sharing solution that work
 home: https://truecharts.org/charts/incubator/trango
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/trango.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrortrango/charts/tree/master/charts/incubator/trango
-- https://github.com/truecharts/charts/tree/master/charts/incubator/trango
 - https://trango.io/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/trango
 - https://github.com/truecharts/containers/tree/master/mirrortrango
 maintainers:
 - name: TrueCharts

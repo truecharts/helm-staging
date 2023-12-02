@@ -6,10 +6,9 @@ description: Automate Cloudflare DNS records for those with a dynamic IP.
 home: https://truecharts.org/charts/stable/cloudflareddns
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflareddns.png
 sources:
-- https://hotio.dev/containers/cloudflareddns/
-- https://ghcr.io/hotio/cloudflareddns/charts/tree/master/charts/stable/cloudflareddns
-- https://ghcr.io/hotio/cloudflareddns
 - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflareddns
+- https://ghcr.io/hotio/cloudflareddns
+- https://hotio.dev/containers/cloudflareddns/
 - https://github.com/hotio/cloudflareddns
 maintainers:
 - name: TrueCharts

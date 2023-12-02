@@ -6,9 +6,8 @@ description: Automatic Ripping Machine (ARM) Scripts.
 home: https://truecharts.org/charts/incubator/automatic-ripping-machine
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/automatic-ripping-machine.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/automatic-ripping-machine
 - https://github.com/automatic-ripping-machine/automatic-ripping-machine
-- https://github.com/truecharts/containers/tree/master/mirrorautomatic-ripping-machine/charts/tree/master/charts/incubator/automatic-ripping-machine
+- https://github.com/truecharts/charts/tree/master/charts/incubator/automatic-ripping-machine
 - https://github.com/truecharts/containers/tree/master/mirrorautomatic-ripping-machine
 maintainers:
 - name: TrueCharts

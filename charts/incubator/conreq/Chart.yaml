@@ -6,9 +6,8 @@ description: Conreq, a Content Requesting platform.
 home: https://truecharts.org/charts/incubator/conreq
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/conreq.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/conreq
 - https://hotio.dev/containers/conreq
-- https://github.com/truecharts/containers/tree/master/mirrorconreq/charts/tree/master/charts/incubator/conreq
+- https://github.com/truecharts/charts/tree/master/charts/incubator/conreq
 - https://github.com/truecharts/containers/tree/master/mirrorconreq
 maintainers:
 - name: TrueCharts

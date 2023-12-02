@@ -7,10 +7,9 @@ description: MineOS is a server front-end to ease managing Minecraft administrat
 home: https://truecharts.org/charts/incubator/mineos
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mineos.png
 sources:
-- https://github.com/hexparrot/mineos-node
-- https://github.com/truecharts/containers/tree/master/mirrormineos/charts/tree/master/charts/incubator/mineos
-- https://github.com/truecharts/charts/tree/master/charts/incubator/mineos
 - https://github.com/truecharts/containers/tree/master/mirrormineos
+- https://github.com/hexparrot/mineos-node
+- https://github.com/truecharts/charts/tree/master/charts/incubator/mineos
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

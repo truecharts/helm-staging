@@ -7,9 +7,8 @@ description: FileShelter is a self-hosted software that allows you to easily sha
 home: https://truecharts.org/charts/incubator/fileshelter
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fileshelter.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/fileshelter
 - https://github.com/epoupon/fileshelter
-- https://github.com/truecharts/containers/tree/master/mirrorfileshelter/charts/tree/master/charts/incubator/fileshelter
+- https://github.com/truecharts/charts/tree/master/charts/incubator/fileshelter
 - https://github.com/truecharts/containers/tree/master/mirrorfileshelter
 maintainers:
 - name: TrueCharts

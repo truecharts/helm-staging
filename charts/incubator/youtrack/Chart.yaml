@@ -7,10 +7,9 @@ description: YouTrack is a project management tool that can be adapted to your p
 home: https://truecharts.org/charts/incubator/youtrack
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/youtrack.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/youtrack
-- https://www.jetbrains.com/youtrack/
-- https://github.com/truecharts/containers/tree/master/mirroryoutrack/charts/tree/master/charts/incubator/youtrack
 - https://github.com/truecharts/containers/tree/master/mirroryoutrack
+- https://www.jetbrains.com/youtrack/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/youtrack
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -7,9 +7,8 @@ description: A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this fo
 home: https://truecharts.org/charts/incubator/send
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/send.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/send
 - https://gitlab.com/timvisee/send
-- https://github.com/truecharts/containers/tree/master/mirrorsend/charts/tree/master/charts/incubator/send
+- https://github.com/truecharts/charts/tree/master/charts/incubator/send
 - https://github.com/truecharts/containers/tree/master/mirrorsend
 maintainers:
 - name: TrueCharts

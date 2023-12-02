@@ -7,10 +7,9 @@ description: Linkding is a simple bookmark service that you can host yourself. I
 home: https://truecharts.org/charts/stable/linkding
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/linkding.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/linkding
-- https://github.com/sissbruecker/linkding
-- https://hub.docker.com/r/sissbruecker/linkding/charts/tree/master/charts/stable/linkding
 - https://hub.docker.com/r/sissbruecker/linkding
+- https://github.com/sissbruecker/linkding
+- https://github.com/truecharts/charts/tree/master/charts/stable/linkding
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

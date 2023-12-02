@@ -6,10 +6,9 @@ description: iSpy's Agent DVR, a standalone DVR service to manage IP cameras.
 home: https://truecharts.org/charts/stable/ispy-agent-dvr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ispy-agent-dvr.png
 sources:
-- https://hub.docker.com/r/doitandbedone/ispyagentdvr
-- https://github.com/truecharts/charts/tree/master/charts/stable/ispy-agent-dvr
 - https://github.com/doitandbedone/ispyagentdvr-docker
-- https://hub.docker.com/r/doitandbedone/ispyagentdvr/charts/tree/master/charts/stable/ispy-agent-dvr
+- https://github.com/truecharts/charts/tree/master/charts/stable/ispy-agent-dvr
+- https://hub.docker.com/r/doitandbedone/ispyagentdvr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

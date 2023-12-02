@@ -6,9 +6,8 @@ description: Cloud Database Manager (Official Chart)
 home: https://truecharts.org/charts/incubator/cloudbeaver
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudbeaver.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/cloudbeaver
 - https://github.com/dbeaver/cloudbeaver
-- https://github.com/truecharts/containers/tree/master/mirrorcloudbeaver/charts/tree/master/charts/incubator/cloudbeaver
+- https://github.com/truecharts/charts/tree/master/charts/incubator/cloudbeaver
 - https://github.com/truecharts/containers/tree/master/mirrorcloudbeaver
 maintainers:
 - name: TrueCharts

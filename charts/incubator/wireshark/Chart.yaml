@@ -6,9 +6,8 @@ description: Wireshark is the worlds foremost and widely-used network protocol a
 home: https://truecharts.org/charts/incubator/wireshark
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wireshark.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorwireshark/charts/tree/master/charts/incubator/wireshark
-- https://github.com/truecharts/containers/tree/master/mirrorwireshark
 - https://github.com/truecharts/charts/tree/master/charts/incubator/wireshark
+- https://github.com/truecharts/containers/tree/master/mirrorwireshark
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

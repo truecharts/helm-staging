@@ -7,10 +7,9 @@ description: A high quality, visual, open source tool to create, design, and edi
 home: https://truecharts.org/charts/stable/sqlitebrowser
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/sqlitebrowser.png
 sources:
-- https://ghcr.io/linuxserver/sqlitebrowser/charts/tree/master/charts/stable/sqlitebrowser
-- https://github.com/truecharts/charts/tree/master/charts/stable/sqlitebrowser
 - https://github.com/linuxserver/docker-sqlitebrowser
 - https://sqlitebrowser.org/
+- https://github.com/truecharts/charts/tree/master/charts/stable/sqlitebrowser
 - https://ghcr.io/linuxserver/sqlitebrowser
 maintainers:
 - name: TrueCharts

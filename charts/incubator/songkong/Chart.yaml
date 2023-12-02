@@ -8,8 +8,6 @@ home: https://truecharts.org/charts/incubator/songkong
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/songkong.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/songkong
-- http://www.jthink.net/songkong
-- https://github.com/truecharts/containers/tree/master/mirrorsongkong/charts/tree/master/charts/incubator/songkong
 - https://github.com/truecharts/containers/tree/master/mirrorsongkong
 maintainers:
 - name: TrueCharts

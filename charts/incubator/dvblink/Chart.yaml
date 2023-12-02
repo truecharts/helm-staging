@@ -7,10 +7,8 @@ description: DVBLink need to enjoy your favorite channels and recordings within 
 home: https://truecharts.org/charts/incubator/dvblink
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/dvblink.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/dvblink
-- http://dvblogic.com
-- https://github.com/truecharts/containers/tree/master/mirrordvblink/charts/tree/master/charts/incubator/dvblink
 - https://github.com/truecharts/containers/tree/master/mirrordvblink
+- https://github.com/truecharts/charts/tree/master/charts/incubator/dvblink
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,9 +6,8 @@ description: a xml grabber for enigma with open webif
 home: https://truecharts.org/charts/incubator/owi2plex
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/owi2plex.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/owi2plex
 - https://github.com/alturismo/owi2plex
-- https://github.com/truecharts/containers/tree/master/mirrorowi2plex/charts/tree/master/charts/incubator/owi2plex
+- https://github.com/truecharts/charts/tree/master/charts/incubator/owi2plex
 - https://github.com/truecharts/containers/tree/master/mirrorowi2plex
 maintainers:
 - name: TrueCharts

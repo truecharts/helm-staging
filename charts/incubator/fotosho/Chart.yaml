@@ -9,9 +9,8 @@ home: https://truecharts.org/charts/incubator/fotosho
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fotosho.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/fotosho
-- https://github.com/advplyr/fotosho
-- https://github.com/truecharts/containers/tree/master/mirrorfotosho/charts/tree/master/charts/incubator/fotosho
 - https://github.com/truecharts/containers/tree/master/mirrorfotosho
+- https://github.com/advplyr/fotosho
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

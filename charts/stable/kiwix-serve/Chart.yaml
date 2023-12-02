@@ -6,11 +6,10 @@ description: Kiwix enables you to have the whole Wikipedia at hand wherever you 
 home: https://truecharts.org/charts/stable/kiwix-serve
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kiwix-serve.png
 sources:
-- https://ghcr.io/kiwix/kiwix-serve
-- https://ghcr.io/kiwix/kiwix-serve/charts/tree/master/charts/stable/kiwix-serve
-- https://github.com/truecharts/charts/tree/master/charts/stable/kiwix-serve
 - https://www.kiwix.org/
 - https://github.com/kiwix/kiwix-tools/blob/master/docker/server
+- https://github.com/truecharts/charts/tree/master/charts/stable/kiwix-serve
+- https://ghcr.io/kiwix/kiwix-serve
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,10 +6,9 @@ description: A self-hosted, ad-free, privacy-respecting metasearch engine
 home: https://truecharts.org/charts/stable/whoogle
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/whoogle.png
 sources:
-- https://hub.docker.com/r/benbusby/whoogle-search
-- https://github.com/truecharts/charts/tree/master/charts/stable/whoogle
 - https://github.com/benbusby/whoogle-search
-- https://hub.docker.com/r/benbusby/whoogle-search/charts/tree/master/charts/stable/whoogle
+- https://github.com/truecharts/charts/tree/master/charts/stable/whoogle
+- https://hub.docker.com/r/benbusby/whoogle-search
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

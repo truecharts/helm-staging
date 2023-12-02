@@ -7,9 +7,8 @@ description: This Chart will download and install SteamCMD. It will also install
 home: https://truecharts.org/charts/incubator/survivethenights
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/survivethenights.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/survivethenights
 - https://www.steampowered.com/
-- https://github.com/truecharts/containers/tree/master/mirrorsurvivethenights/charts/tree/master/charts/incubator/survivethenights
+- https://github.com/truecharts/charts/tree/master/charts/incubator/survivethenights
 - https://github.com/truecharts/containers/tree/master/mirrorsurvivethenights
 maintainers:
 - name: TrueCharts

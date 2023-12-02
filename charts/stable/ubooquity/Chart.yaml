@@ -7,9 +7,8 @@ description: Ubooquity is a free, lightweight and easy-to-use home server for yo
 home: https://truecharts.org/charts/stable/ubooquity
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.png
 sources:
-- https://ghcr.io/linuxserver/ubooquity/charts/tree/master/charts/stable/ubooquity
-- https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
 - https://ghcr.io/linuxserver/ubooquity
+- https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

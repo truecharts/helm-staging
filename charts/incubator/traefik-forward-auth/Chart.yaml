@@ -8,9 +8,8 @@ description: A minimal forward authentication service that provides OAuth/SSO lo
 home: https://truecharts.org/charts/incubator/traefik-forward-auth
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik-forward-auth.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
 - https://github.com/thomseddon/traefik-forward-auth
-- https://github.com/truecharts/containers/tree/master/mirrortraefik-forward-auth/charts/tree/master/charts/incubator/traefik-forward-auth
+- https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
 - https://github.com/truecharts/containers/tree/master/mirrortraefik-forward-auth
 maintainers:
 - name: TrueCharts

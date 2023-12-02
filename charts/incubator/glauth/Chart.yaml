@@ -6,10 +6,9 @@ description: GLAuth is a secure, easy-to-use, LDAP server with configurable back
 home: https://truecharts.org/charts/incubator/glauth
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/glauth.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/glauth
-- https://glauth.github.io
-- https://github.com/truecharts/containers/tree/master/mirrorglauth/charts/tree/master/charts/incubator/glauth
 - https://github.com/truecharts/containers/tree/master/mirrorglauth
+- https://glauth.github.io
+- https://github.com/truecharts/charts/tree/master/charts/incubator/glauth
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

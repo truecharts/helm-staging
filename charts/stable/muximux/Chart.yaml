@@ -7,11 +7,10 @@ description: A lightweight portal to view & manage your HTPC apps without having
 home: https://truecharts.org/charts/stable/muximux
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/muximux.png
 sources:
-- https://github.com/mescon/Muximux
-- https://ghcr.io/linuxserver/muximux/charts/tree/master/charts/stable/muximux
-- https://github.com/truecharts/charts/tree/master/charts/stable/muximux
 - https://github.com/linuxserver/docker-muximux
+- https://github.com/truecharts/charts/tree/master/charts/stable/muximux
 - https://ghcr.io/linuxserver/muximux
+- https://github.com/mescon/Muximux
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

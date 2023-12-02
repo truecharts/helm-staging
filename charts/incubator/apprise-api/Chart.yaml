@@ -6,9 +6,8 @@ description: Push notifications that work with just about every platform!
 home: https://truecharts.org/charts/incubator/apprise-api
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/apprise-api.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/apprise-api
 - https://github.com/caronc/apprise-api
-- https://github.com/truecharts/containers/tree/master/mirrorapprise-api/charts/tree/master/charts/incubator/apprise-api
+- https://github.com/truecharts/charts/tree/master/charts/incubator/apprise-api
 - https://github.com/truecharts/containers/tree/master/mirrorapprise-api
 maintainers:
 - name: TrueCharts

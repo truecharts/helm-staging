@@ -6,9 +6,8 @@ description: iCloudPD, syncs photos from iDevices to a single directory on TrueN
 home: https://truecharts.org/charts/incubator/icloudpd
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/icloudpd.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/icloudpd
 - https://github.com/Womabre/-TrueNAS-docker-templates
-- https://github.com/truecharts/containers/tree/master/mirroricloudpd/charts/tree/master/charts/incubator/icloudpd
+- https://github.com/truecharts/charts/tree/master/charts/incubator/icloudpd
 - https://github.com/truecharts/containers/tree/master/mirroricloudpd
 maintainers:
 - name: TrueCharts

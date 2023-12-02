@@ -7,9 +7,8 @@ description: A database-less note taking web app that utilizes a flat folder of 
 home: https://truecharts.org/charts/incubator/flatnotes
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/flatnotes.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/flatnotes
 - https://github.com/Dullage/flatnotes
-- https://github.com/truecharts/containers/tree/master/mirrorflatnotes/charts/tree/master/charts/incubator/flatnotes
+- https://github.com/truecharts/charts/tree/master/charts/incubator/flatnotes
 - https://github.com/truecharts/containers/tree/master/mirrorflatnotes
 maintainers:
 - name: TrueCharts

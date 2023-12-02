@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/incubator/hurtworld
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/hurtworld.png
 sources:
 - https://github.com/truecharts/containers/tree/master/mirrorhurtworld
-- https://github.com/truecharts/containers/tree/master/mirrorhurtworld/charts/tree/master/charts/incubator/hurtworld
-- https://github.com/truecharts/charts/tree/master/charts/incubator/hurtworld
 - https://www.steampowered.com/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/hurtworld
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

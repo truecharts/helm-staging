@@ -8,10 +8,9 @@ description: Lemur manages TLS certificate creation. While not able to issue cer
 home: https://truecharts.org/charts/incubator/lemur-cfssl
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/lemur-cfssl.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorlemur-cfssl/charts/tree/master/charts/incubator/lemur-cfssl
-- https://github.com/truecharts/containers/tree/master/mirrorlemur-cfssl
-- https://github.com/truecharts/charts/tree/master/charts/incubator/lemur-cfssl
 - https://github.com/Netflix/lemur
+- https://github.com/truecharts/charts/tree/master/charts/incubator/lemur-cfssl
+- https://github.com/truecharts/containers/tree/master/mirrorlemur-cfssl
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

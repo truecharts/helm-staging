@@ -8,9 +8,8 @@ description: This application runs as a daemon on your download host. It checks 
 home: https://truecharts.org/charts/stable/unpackerr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/unpackerr.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/unpackerr
 - https://github.com/davidnewhall/unpackerr
-- https://hub.docker.com/r/golift/unpackerr/charts/tree/master/charts/stable/unpackerr
+- https://github.com/truecharts/charts/tree/master/charts/stable/unpackerr
 - https://hub.docker.com/r/golift/unpackerr
 maintainers:
 - name: TrueCharts

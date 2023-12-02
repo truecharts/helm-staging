@@ -7,9 +7,8 @@ description: Meshroom is a free, open-source 3D Reconstruction Software based on
 home: https://truecharts.org/charts/stable/meshroom
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/meshroom.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/meshroom
 - https://github.com/alicevision/meshroom
-- https://hub.docker.com/r/alicevision/meshroom/charts/tree/master/charts/stable/meshroom
+- https://github.com/truecharts/charts/tree/master/charts/stable/meshroom
 - https://hub.docker.com/r/alicevision/meshroom
 maintainers:
 - name: TrueCharts

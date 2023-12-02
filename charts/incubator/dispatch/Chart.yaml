@@ -6,10 +6,9 @@ description: Web-based IRC client in Go.
 home: https://truecharts.org/charts/incubator/dispatch
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/dispatch.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrordispatch
-- https://github.com/truecharts/charts/tree/master/charts/incubator/dispatch
 - https://github.com/khlieng/dispatch
-- https://github.com/truecharts/containers/tree/master/mirrordispatch/charts/tree/master/charts/incubator/dispatch
+- https://github.com/truecharts/charts/tree/master/charts/incubator/dispatch
+- https://github.com/truecharts/containers/tree/master/mirrordispatch
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

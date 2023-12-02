@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/incubator/breitbandmessung-de
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/breitbandmessung-de.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/breitbandmessung-de
-- https://github.com/shneezin/breitbandmessung-node
-- https://github.com/truecharts/containers/tree/master/mirrorbreitbandmessung-de/charts/tree/master/charts/incubator/breitbandmessung-de
 - https://github.com/truecharts/containers/tree/master/mirrorbreitbandmessung-de
+- https://github.com/shneezin/breitbandmessung-node
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

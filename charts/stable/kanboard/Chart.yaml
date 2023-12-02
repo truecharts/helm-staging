@@ -6,9 +6,8 @@ description: Kanboard is a free and open source Kanban project management softwa
 home: https://truecharts.org/charts/stable/kanboard
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kanboard.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/kanboard
 - https://github.com/kanboard/kanboard
-- https://hub.docker.com/r/kanboard/kanboard/charts/tree/master/charts/stable/kanboard
+- https://github.com/truecharts/charts/tree/master/charts/stable/kanboard
 - https://hub.docker.com/r/kanboard/kanboard
 maintainers:
 - name: TrueCharts

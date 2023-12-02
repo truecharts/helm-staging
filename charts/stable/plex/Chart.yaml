@@ -6,9 +6,8 @@ description: Plex Media Server
 home: https://truecharts.org/charts/stable/plex
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/plex
 - https://github.com/k8s-at-home/container-images/pkgs/container/plex
-- https://ghcr.io/onedr0p/plex/charts/tree/master/charts/stable/plex
+- https://github.com/truecharts/charts/tree/master/charts/stable/plex
 - https://ghcr.io/onedr0p/plex
 maintainers:
 - name: TrueCharts

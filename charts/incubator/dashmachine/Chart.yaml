@@ -9,7 +9,6 @@ home: https://truecharts.org/charts/incubator/dashmachine
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/dashmachine.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/dashmachine
-- https://github.com/truecharts/containers/tree/master/mirrordashmachine/charts/tree/master/charts/incubator/dashmachine
 - https://github.com/truecharts/containers/tree/master/mirrordashmachine
 maintainers:
 - name: TrueCharts

@@ -6,9 +6,7 @@ description: "Fenrus is a home page / personal dashboard with smart apps.   \n"
 home: https://truecharts.org/charts/incubator/fenrus
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fenrus.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorfenrus/charts/tree/master/charts/incubator/fenrus
 - https://github.com/truecharts/charts/tree/master/charts/incubator/fenrus
-- http://fenrus.io
 - https://github.com/truecharts/containers/tree/master/mirrorfenrus
 maintainers:
 - name: TrueCharts

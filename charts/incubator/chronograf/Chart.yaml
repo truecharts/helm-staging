@@ -8,9 +8,8 @@ description: Chronograf is InfluxData’s open source web application. Use Chron
 home: https://truecharts.org/charts/incubator/chronograf
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/chronograf.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/chronograf
 - https://www.influxdata.com/time-series-platform/chronograf/
-- https://github.com/truecharts/containers/tree/master/mirrorchronograf/charts/tree/master/charts/incubator/chronograf
+- https://github.com/truecharts/charts/tree/master/charts/incubator/chronograf
 - https://github.com/truecharts/containers/tree/master/mirrorchronograf
 maintainers:
 - name: TrueCharts

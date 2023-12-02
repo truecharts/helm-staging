@@ -7,9 +7,8 @@ description: Synchronized video viewing with chat and other features. Lightweigh
 home: https://truecharts.org/charts/stable/synctube
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/synctube.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/synctube
 - https://github.com/RblSb/SyncTube
-- https://hub.docker.com/r/littlestache/synctube/charts/tree/master/charts/stable/synctube
+- https://github.com/truecharts/charts/tree/master/charts/stable/synctube
 - https://hub.docker.com/r/littlestache/synctube
 maintainers:
 - name: TrueCharts

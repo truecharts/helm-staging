@@ -7,10 +7,9 @@ description: An automated music downloader for NZB and Torrent, written in Pytho
 home: https://truecharts.org/charts/stable/headphones
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/headphones.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/headphones
 - https://github.com/linuxserver/docker-headphones
 - https://github.com/rembo10/headphones
-- https://ghcr.io/linuxserver/headphones/charts/tree/master/charts/stable/headphones
+- https://github.com/truecharts/charts/tree/master/charts/stable/headphones
 - https://ghcr.io/linuxserver/headphones
 maintainers:
 - name: TrueCharts

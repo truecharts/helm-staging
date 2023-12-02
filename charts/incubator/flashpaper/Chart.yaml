@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/incubator/flashpaper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/flashpaper.png
 sources:
 - https://github.com/AndrewPaglusch/FlashPaper
-- https://github.com/truecharts/containers/tree/master/mirrorflashpaper/charts/tree/master/charts/incubator/flashpaper
-- https://github.com/truecharts/containers/tree/master/mirrorflashpaper
 - https://github.com/truecharts/charts/tree/master/charts/incubator/flashpaper
+- https://github.com/truecharts/containers/tree/master/mirrorflashpaper
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

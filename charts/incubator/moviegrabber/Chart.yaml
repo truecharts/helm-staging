@@ -11,12 +11,11 @@ description: MovieGrabber is a fully automated way of downloading movie from use
 home: https://truecharts.org/charts/incubator/moviegrabber
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/moviegrabber.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrormoviegrabber/charts/tree/master/charts/incubator/moviegrabber
-- https://github.com/truecharts/containers/tree/master/mirrormoviegrabber
-- https://github.com/truecharts/charts/tree/master/charts/incubator/moviegrabber
 - https://github.com/binhex/moviegrabber
 - https://registry.hub.docker.com/r/binhex/arch-moviegrabber/
 - https://github.com/binhex/documentation
+- https://github.com/truecharts/charts/tree/master/charts/incubator/moviegrabber
+- https://github.com/truecharts/containers/tree/master/mirrormoviegrabber
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

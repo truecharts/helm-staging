@@ -7,10 +7,9 @@ description: Money Balancer helps you to keep track of who paid for what and cal
 home: https://truecharts.org/charts/incubator/money-balancer
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/money-balancer.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrormoney-balancer
-- https://github.com/truecharts/containers/tree/master/mirrormoney-balancer/charts/tree/master/charts/incubator/money-balancer
-- https://github.com/truecharts/charts/tree/master/charts/incubator/money-balancer
 - https://github.com/dorianim/money-balancer
+- https://github.com/truecharts/charts/tree/master/charts/incubator/money-balancer
+- https://github.com/truecharts/containers/tree/master/mirrormoney-balancer
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

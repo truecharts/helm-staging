@@ -7,9 +7,8 @@ description: WireGuard® is an extremely simple yet fast and modern VPN that uti
 home: https://truecharts.org/charts/stable/wireguard
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wireguard.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/wireguard
 - https://github.com/k8s-at-home/container-images/tree/main/apps/wireguard
-- https://ghcr.io/k8s-at-home/wireguard/charts/tree/master/charts/stable/wireguard
+- https://github.com/truecharts/charts/tree/master/charts/stable/wireguard
 - https://ghcr.io/k8s-at-home/wireguard
 maintainers:
 - name: TrueCharts

@@ -7,9 +7,8 @@ description: mongo-express is a web-based MongoDB admin interface written in Nod
 home: https://truecharts.org/charts/stable/mongo-express
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongo-express.png
 sources:
-- https://hub.docker.com/_/mongo-express/charts/tree/master/charts/stable/mongo-express
-- https://github.com/truecharts/charts/tree/master/charts/stable/mongo-express
 - https://github.com/mongo-express/mongo-express
+- https://github.com/truecharts/charts/tree/master/charts/stable/mongo-express
 - https://hub.docker.com/_/mongo-express
 maintainers:
 - name: TrueCharts

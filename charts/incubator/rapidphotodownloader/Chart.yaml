@@ -6,9 +6,8 @@ description: This Chart will download and install Rapid Photo Downloader.
 home: https://truecharts.org/charts/incubator/rapidphotodownloader
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/rapidphotodownloader.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/rapidphotodownloader
 - https://www.damonlynch.net/rapid/
-- https://github.com/truecharts/containers/tree/master/mirrorrapidphotodownloader/charts/tree/master/charts/incubator/rapidphotodownloader
+- https://github.com/truecharts/charts/tree/master/charts/incubator/rapidphotodownloader
 - https://github.com/truecharts/containers/tree/master/mirrorrapidphotodownloader
 maintainers:
 - name: TrueCharts

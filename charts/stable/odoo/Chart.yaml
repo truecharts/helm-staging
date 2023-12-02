@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/stable/odoo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/odoo.png
 sources:
 - https://github.com/odoo/docker
-- https://hub.docker.com/_/odoo/charts/tree/master/charts/stable/odoo
-- https://hub.docker.com/_/odoo
 - https://github.com/truecharts/charts/tree/master/charts/stable/odoo
+- https://hub.docker.com/_/odoo
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

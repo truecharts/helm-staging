@@ -7,7 +7,6 @@ home: https://truecharts.org/charts/incubator/chowdown
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/chowdown.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/chowdown
-- https://github.com/truecharts/containers/tree/master/mirrorchowdown/charts/tree/master/charts/incubator/chowdown
 - https://github.com/truecharts/containers/tree/master/mirrorchowdown
 maintainers:
 - name: TrueCharts

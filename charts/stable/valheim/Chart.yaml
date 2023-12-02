@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/stable/valheim
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/valheim.png
 sources:
 - https://github.com/lloesche/valheim-server-docker
-- https://ghcr.io/lloesche/valheim-server/charts/tree/master/charts/stable/valheim
-- https://ghcr.io/lloesche/valheim-server
 - https://github.com/truecharts/charts/tree/master/charts/stable/valheim
+- https://ghcr.io/lloesche/valheim-server
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

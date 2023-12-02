@@ -12,9 +12,8 @@ description: 'With this Chart you can run RedM (Red Dead Redemption 2 MOD SERVER
 home: https://truecharts.org/charts/incubator/redm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/redm.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/redm
 - https://redm.gg/
-- https://github.com/truecharts/containers/tree/master/mirrorredm/charts/tree/master/charts/incubator/redm
+- https://github.com/truecharts/charts/tree/master/charts/incubator/redm
 - https://github.com/truecharts/containers/tree/master/mirrorredm
 maintainers:
 - name: TrueCharts

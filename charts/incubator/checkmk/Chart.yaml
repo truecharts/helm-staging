@@ -8,9 +8,8 @@ description: Checkmk is a leading tool for Infrastructure and Application Monito
 home: https://truecharts.org/charts/incubator/checkmk
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/checkmk.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorcheck-mk-raw/charts/tree/master/charts/incubator/checkmk
-- https://github.com/truecharts/charts/tree/master/charts/incubator/checkmk
 - https://github.com/tribe29/checkmk
+- https://github.com/truecharts/charts/tree/master/charts/incubator/checkmk
 - https://github.com/truecharts/containers/tree/master/mirrorcheck-mk-raw
 maintainers:
 - name: TrueCharts

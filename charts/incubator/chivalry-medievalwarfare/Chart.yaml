@@ -7,10 +7,9 @@ description: 'This Chart will download and install SteamCMD. It will also instal
 home: https://truecharts.org/charts/incubator/chivalry-medievalwarfare
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/chivalry-medievalwarfare.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorchivalry-medievalwarfare/charts/tree/master/charts/incubator/chivalry-medievalwarfare
-- https://github.com/truecharts/containers/tree/master/mirrorchivalry-medievalwarfare
-- https://github.com/truecharts/charts/tree/master/charts/incubator/chivalry-medievalwarfare
 - https://www.steampowered.com/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/chivalry-medievalwarfare
+- https://github.com/truecharts/containers/tree/master/mirrorchivalry-medievalwarfare
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

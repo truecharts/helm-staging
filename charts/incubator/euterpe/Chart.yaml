@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/euterpe
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/euterpe.png
 sources:
 - https://github.com/ironsmile/euterpe
-- https://github.com/truecharts/containers/tree/master/mirroreuterpe/charts/tree/master/charts/incubator/euterpe
 - https://github.com/truecharts/charts/tree/master/charts/incubator/euterpe
 - https://github.com/truecharts/containers/tree/master/mirroreuterpe
 maintainers:

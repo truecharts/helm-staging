@@ -7,9 +7,8 @@ description: Trilium Notes is a hierarchical note taking application with focus 
 home: https://truecharts.org/charts/stable/trilium-notes
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/trilium-notes.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/trilium-notes
 - https://github.com/zadam/trilium
-- https://ghcr.io/zadam/trilium/charts/tree/master/charts/stable/trilium-notes
+- https://github.com/truecharts/charts/tree/master/charts/stable/trilium-notes
 - https://ghcr.io/zadam/trilium
 maintainers:
 - name: TrueCharts

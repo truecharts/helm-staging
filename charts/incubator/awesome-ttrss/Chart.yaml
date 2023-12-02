@@ -7,10 +7,9 @@ description: Awesome TTRSS aims to provide a powerful Chartized all-in-one solut
 home: https://truecharts.org/charts/incubator/awesome-ttrss
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/awesome-ttrss.png
 sources:
-- https://github.com/HenryQW/Awesome-TTRSS
-- https://github.com/truecharts/containers/tree/master/mirrorawesome-ttrss/charts/tree/master/charts/incubator/awesome-ttrss
 - https://github.com/truecharts/charts/tree/master/charts/incubator/awesome-ttrss
 - https://github.com/truecharts/containers/tree/master/mirrorawesome-ttrss
+- https://github.com/HenryQW/Awesome-TTRSS
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -10,10 +10,9 @@ description: Ferdi is a destkop app that helps you organize how you use your fav
 home: https://truecharts.org/charts/incubator/ferdi-client
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ferdi-client.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorferdi-client
-- https://github.com/truecharts/charts/tree/master/charts/incubator/ferdi-client
 - https://getferdi.com/
-- https://github.com/truecharts/containers/tree/master/mirrorferdi-client/charts/tree/master/charts/incubator/ferdi-client
+- https://github.com/truecharts/charts/tree/master/charts/incubator/ferdi-client
+- https://github.com/truecharts/containers/tree/master/mirrorferdi-client
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

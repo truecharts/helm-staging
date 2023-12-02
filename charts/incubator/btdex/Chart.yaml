@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/incubator/btdex
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/btdex.png
 sources:
 - https://btdex.trade/
-- https://github.com/truecharts/containers/tree/master/mirrorbtdex/charts/tree/master/charts/incubator/btdex
-- https://github.com/truecharts/containers/tree/master/mirrorbtdex
 - https://github.com/truecharts/charts/tree/master/charts/incubator/btdex
+- https://github.com/truecharts/containers/tree/master/mirrorbtdex
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

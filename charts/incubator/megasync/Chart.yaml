@@ -6,9 +6,8 @@ description: MEGAsync can synchronize all of your devices with your MEGA account
 home: https://truecharts.org/charts/incubator/megasync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/megasync.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/megasync
 - https://github.com/ich777/docker-megasync
-- https://github.com/truecharts/containers/tree/master/mirrormegasync/charts/tree/master/charts/incubator/megasync
+- https://github.com/truecharts/charts/tree/master/charts/incubator/megasync
 - https://github.com/truecharts/containers/tree/master/mirrormegasync
 maintainers:
 - name: TrueCharts

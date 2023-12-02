@@ -6,10 +6,9 @@ description: Search Engine Position Tracking App.
 home: https://truecharts.org/charts/incubator/serpbear
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/serpbear.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorserpbear/charts/tree/master/charts/incubator/serpbear
-- https://github.com/truecharts/containers/tree/master/mirrorserpbear
-- https://github.com/truecharts/charts/tree/master/charts/incubator/serpbear
 - https://github.com/towfiqi/serpbear
+- https://github.com/truecharts/charts/tree/master/charts/incubator/serpbear
+- https://github.com/truecharts/containers/tree/master/mirrorserpbear
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

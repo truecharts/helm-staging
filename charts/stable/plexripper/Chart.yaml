@@ -7,10 +7,9 @@ description: A multi-platform media downloader that indexes and downloads conten
 home: https://truecharts.org/charts/stable/plexripper
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/plexripper.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/plexripper
-- https://github.com/PlexRipper/PlexRipper/
-- https://hub.docker.com/r/plexripper/plexripper/charts/tree/master/charts/stable/plexripper
 - https://hub.docker.com/r/plexripper/plexripper
+- https://github.com/PlexRipper/PlexRipper/
+- https://github.com/truecharts/charts/tree/master/charts/stable/plexripper
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

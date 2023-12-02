@@ -7,9 +7,8 @@ description: Resilio Sync is a fast, reliable, and simple file sync and share so
 home: https://truecharts.org/charts/stable/resilio-sync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/resilio-sync.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/resilio-sync
 - https://github.com/orgs/linuxserver/packages/container/package/resilio-sync
-- https://ghcr.io/linuxserver/resilio-sync/charts/tree/master/charts/stable/resilio-sync
+- https://github.com/truecharts/charts/tree/master/charts/stable/resilio-sync
 - https://ghcr.io/linuxserver/resilio-sync
 maintainers:
 - name: TrueCharts

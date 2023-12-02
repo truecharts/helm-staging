@@ -7,10 +7,9 @@ description: An open-source single page application to view your photos in the e
 home: https://truecharts.org/charts/stable/pixapop
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pixapop.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/pixapop
 - https://github.com/linuxserver/docker-pixapop
 - https://github.com/bierdok/pixapop
-- https://ghcr.io/linuxserver/pixapop/charts/tree/master/charts/stable/pixapop
+- https://github.com/truecharts/charts/tree/master/charts/stable/pixapop
 - https://ghcr.io/linuxserver/pixapop
 maintainers:
 - name: TrueCharts

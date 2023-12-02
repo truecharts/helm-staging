@@ -7,7 +7,6 @@ home: https://truecharts.org/charts/stable/external-service
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/external-service.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/external-service
-- https://hub.docker.com/_/alpine/charts/tree/master/charts/stable/external-service
 - https://hub.docker.com/_/alpine
 maintainers:
 - name: TrueCharts

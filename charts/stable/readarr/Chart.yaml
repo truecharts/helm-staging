@@ -6,9 +6,9 @@ description: A fork of Radarr to work with Books & AudioBooks
 home: https://truecharts.org/charts/stable/readarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/readarr.png
 sources:
-- https://readarr.com
-- https://ghcr.io/onedr0p/readarr-develop
 - https://github.com/truecharts/charts/tree/master/charts/stable/readarr
+- https://ghcr.io/onedr0p/readarr-develop
+- https://readarr.com
 - https://github.com/Readarr/Readarr
 maintainers:
 - name: TrueCharts

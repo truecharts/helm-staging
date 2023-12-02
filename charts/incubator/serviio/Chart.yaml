@@ -8,10 +8,9 @@ description: Serviio is a freeware media server designed to let users stream mus
 home: https://truecharts.org/charts/incubator/serviio
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/serviio.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorserviio/charts/tree/master/charts/incubator/serviio
-- https://github.com/truecharts/containers/tree/master/mirrorserviio
-- https://github.com/truecharts/charts/tree/master/charts/incubator/serviio
 - https://serviio.org/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/serviio
+- https://github.com/truecharts/containers/tree/master/mirrorserviio
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

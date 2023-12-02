@@ -7,11 +7,10 @@ description: Mattermost is an open source platform for secure collaboration acro
 home: https://truecharts.org/charts/stable/mattermost
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mattermost.png
 sources:
-- https://hub.docker.com/r/mattermost/mattermost-enterprise-edition/charts/tree/master/charts/stable/mattermost
-- https://hub.docker.com/r/mattermost/mattermost-enterprise-edition
-- https://github.com/truecharts/charts/tree/master/charts/stable/mattermost
 - https://github.com/mattermost/mattermost-server
 - https://github.com/mattermost/docker
+- https://github.com/truecharts/charts/tree/master/charts/stable/mattermost
+- https://hub.docker.com/r/mattermost/mattermost-enterprise-edition
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

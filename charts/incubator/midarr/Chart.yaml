@@ -6,9 +6,8 @@ description: Midarr is a minimal lightweight media server for enjoying your medi
 home: https://truecharts.org/charts/incubator/midarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/midarr.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/midarr
 - https://github.com/midarrlabs/midarr-server
-- https://github.com/truecharts/containers/tree/master/mirrormidarr-server/charts/tree/master/charts/incubator/midarr
+- https://github.com/truecharts/charts/tree/master/charts/incubator/midarr
 - https://github.com/truecharts/containers/tree/master/mirrormidarr-server
 maintainers:
 - name: TrueCharts

@@ -6,10 +6,9 @@ description: A borg Backup server
 home: https://truecharts.org/charts/stable/borg-server
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/borg-server.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/borg-server
-- https://github.com/AnotherStranger/docker-borg-backup
-- https://ghcr.io/anotherstranger/borg-server/charts/tree/master/charts/stable/borg-server
 - https://ghcr.io/anotherstranger/borg-server
+- https://github.com/AnotherStranger/docker-borg-backup
+- https://github.com/truecharts/charts/tree/master/charts/stable/borg-server
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

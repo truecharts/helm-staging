@@ -8,9 +8,8 @@ description: Mailpile is software, an e-mail client. It runs on your desktop or 
 home: https://truecharts.org/charts/incubator/mailpile
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mailpile.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrormailpile/charts/tree/master/charts/incubator/mailpile
-- https://github.com/truecharts/charts/tree/master/charts/incubator/mailpile
 - https://www.mailpile.is/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/mailpile
 - https://github.com/truecharts/containers/tree/master/mirrormailpile
 maintainers:
 - name: TrueCharts

@@ -7,12 +7,11 @@ description: Kasm Workspaces is a streaming platform for delivering browser-base
 home: https://truecharts.org/charts/stable/kasm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kasm.png
 sources:
+- https://github.com/linuxserver/docker-kasm#readme
 - https://github.com/truecharts/charts/tree/master/charts/stable/kasm
+- https://hub.docker.com/r/kasmweb/workspaces
 - https://www.kasmweb.com/
 - https://github.com/orgs/linuxserver/packages/container/package/kasm
-- https://hub.docker.com/r/kasmweb/workspaces
-- https://github.com/linuxserver/docker-kasm#readme
-- https://hub.docker.com/r/kasmweb/workspaces/charts/tree/master/charts/stable/kasm
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -8,9 +8,8 @@ description: ScPrime is a cryptocurrency project targeting public cloud services
 home: https://truecharts.org/charts/incubator/scprime
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/scprime.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/scprime
 - https://scpri.me
-- https://github.com/truecharts/containers/tree/master/mirrorscprime/charts/tree/master/charts/incubator/scprime
+- https://github.com/truecharts/charts/tree/master/charts/incubator/scprime
 - https://github.com/truecharts/containers/tree/master/mirrorscprime
 maintainers:
 - name: TrueCharts

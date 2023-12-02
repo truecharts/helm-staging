@@ -6,10 +6,9 @@ description: Jellyfin is a Free Software Media System
 home: https://truecharts.org/charts/stable/jellyfin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellyfin.png
 sources:
-- https://hub.docker.com/r/jellyfin/jellyfin
-- https://hub.docker.com/r/jellyfin/jellyfin/charts/tree/master/charts/stable/jellyfin
-- https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
 - https://github.com/jellyfin/jellyfin
+- https://github.com/truecharts/charts/tree/master/charts/stable/jellyfin
+- https://hub.docker.com/r/jellyfin/jellyfin
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

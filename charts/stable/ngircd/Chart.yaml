@@ -7,9 +7,8 @@ description: Ngircd is a free, portable and lightweight Internet Relay Chat serv
 home: https://truecharts.org/charts/stable/ngircd
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ngircd.png
 sources:
-- https://ghcr.io/linuxserver/ngircd
 - https://github.com/truecharts/charts/tree/master/charts/stable/ngircd
-- https://ghcr.io/linuxserver/ngircd/charts/tree/master/charts/stable/ngircd
+- https://ghcr.io/linuxserver/ngircd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -7,10 +7,9 @@ description: Not everyone, especially people new to Linux and Unraid, know what 
 home: https://truecharts.org/charts/incubator/explainshell
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/explainshell.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorexplainshell
-- https://github.com/truecharts/charts/tree/master/charts/incubator/explainshell
 - https://github.com/idank/explainshell
-- https://github.com/truecharts/containers/tree/master/mirrorexplainshell/charts/tree/master/charts/incubator/explainshell
+- https://github.com/truecharts/charts/tree/master/charts/incubator/explainshell
+- https://github.com/truecharts/containers/tree/master/mirrorexplainshell
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

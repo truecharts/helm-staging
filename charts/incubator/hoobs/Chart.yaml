@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/hoobs
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/hoobs.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/hoobs
-- https://github.com/truecharts/containers/tree/master/mirrorhoobs/charts/tree/master/charts/incubator/hoobs
 - https://github.com/truecharts/containers/tree/master/mirrorhoobs
 maintainers:
 - name: TrueCharts

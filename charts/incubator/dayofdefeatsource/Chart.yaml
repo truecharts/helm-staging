@@ -7,9 +7,8 @@ description: 'This Chart will download and install SteamCMD. It will also instal
 home: https://truecharts.org/charts/incubator/dayofdefeatsource
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/dayofdefeatsource.png
 sources:
-- https://www.steampowered.com/
-- https://github.com/truecharts/containers/tree/master/mirrordayofdefeatsource/charts/tree/master/charts/incubator/dayofdefeatsource
 - https://github.com/truecharts/containers/tree/master/mirrordayofdefeatsource
+- https://www.steampowered.com/
 - https://github.com/truecharts/charts/tree/master/charts/incubator/dayofdefeatsource
 maintainers:
 - name: TrueCharts

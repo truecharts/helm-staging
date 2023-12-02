@@ -7,9 +7,8 @@ description: Traggo is a tag-based time tracking tool. In Traggo there are no ta
 home: https://truecharts.org/charts/stable/traggo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/traggo.png
 sources:
-- https://hub.docker.com/r/traggo/server/charts/tree/master/charts/stable/traggo
-- https://github.com/truecharts/charts/tree/master/charts/stable/traggo
 - https://github.com/traggo/server
+- https://github.com/truecharts/charts/tree/master/charts/stable/traggo
 - https://hub.docker.com/r/traggo/server
 maintainers:
 - name: TrueCharts

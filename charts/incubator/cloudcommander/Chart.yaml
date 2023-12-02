@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/cloudcommander
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudcommander.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/cloudcommander
-- https://github.com/truecharts/containers/tree/master/mirrorcloudcommander/charts/tree/master/charts/incubator/cloudcommander
 - https://github.com/truecharts/containers/tree/master/mirrorcloudcommander
 maintainers:
 - name: TrueCharts

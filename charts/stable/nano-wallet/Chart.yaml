@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/stable/nano-wallet
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/nano-wallet.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/nano-wallet
-- https://ghcr.io/linuxserver/nano-wallet/charts/tree/master/charts/stable/nano-wallet
 - https://ghcr.io/linuxserver/nano-wallet
 maintainers:
 - name: TrueCharts

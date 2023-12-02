@@ -7,10 +7,9 @@ description: Fluidd is a free and open-source Klipper web interface for managing
 home: https://truecharts.org/charts/stable/fluidd
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fluidd.png
 sources:
-- https://ghcr.io/fluidd-core/fluidd
-- https://github.com/truecharts/charts/tree/master/charts/stable/fluidd
 - https://github.com/fluidd-core/fluidd
-- https://ghcr.io/fluidd-core/fluidd/charts/tree/master/charts/stable/fluidd
+- https://github.com/truecharts/charts/tree/master/charts/stable/fluidd
+- https://ghcr.io/fluidd-core/fluidd
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

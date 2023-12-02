@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/incubator/orbital-sync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/orbital-sync.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/orbital-sync
-- https://github.com/mattwebbio/orbital-sync/pkgs/container/orbital-sync
-- https://github.com/truecharts/containers/tree/master/mirrororbital-sync/charts/tree/master/charts/incubator/orbital-sync
 - https://github.com/truecharts/containers/tree/master/mirrororbital-sync
+- https://github.com/mattwebbio/orbital-sync/pkgs/container/orbital-sync
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

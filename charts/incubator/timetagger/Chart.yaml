@@ -9,9 +9,8 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/timetagger.png
 sources:
 - https://github.com/truecharts/containers/tree/master/mirrortimetagger
 - https://github.com/almarklein/timetagger
-- https://github.com/truecharts/containers/tree/master/mirrortimetagger/charts/tree/master/charts/incubator/timetagger
-- https://github.com/truecharts/charts/tree/master/charts/incubator/timetagger
 - https://timetagger.app
+- https://github.com/truecharts/charts/tree/master/charts/incubator/timetagger
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

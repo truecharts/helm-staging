@@ -7,10 +7,9 @@ description: This is a Basic Vintage Story Server it will download and install V
 home: https://truecharts.org/charts/incubator/vintage-story
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/vintage-story.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/vintage-story
-- https://www.vintagestory.at/
-- https://github.com/truecharts/containers/tree/master/mirrorvintage-story/charts/tree/master/charts/incubator/vintage-story
 - https://github.com/truecharts/containers/tree/master/mirrorvintage-story
+- https://www.vintagestory.at/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/vintage-story
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

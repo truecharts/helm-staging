@@ -8,10 +8,9 @@ description: Chronos is a small container to run and schedule Python 3.7 scripts
 home: https://truecharts.org/charts/stable/chronos
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/chronos.png
 sources:
-- https://hub.docker.com/r/simsemand/chronos/charts/tree/master/charts/stable/chronos
-- https://hub.docker.com/r/simsemand/chronos
-- https://github.com/truecharts/charts/tree/master/charts/stable/chronos
 - https://github.com/simse/chronos
+- https://github.com/truecharts/charts/tree/master/charts/stable/chronos
+- https://hub.docker.com/r/simsemand/chronos
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

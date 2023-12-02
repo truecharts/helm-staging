@@ -6,10 +6,8 @@ description: Open source, advanced key-value store.
 home: https://truecharts.org/charts/dependency/redis
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/dependency/redis
 - https://github.com/bitnami/bitnami-docker-redis
-- http://redis.io/
-- https://hub.docker.com/r/bitnami/redis/charts/tree/master/charts/dependency/redis
+- https://github.com/truecharts/charts/tree/master/charts/dependency/redis
 - https://hub.docker.com/r/bitnami/redis
 maintainers:
 - name: TrueCharts

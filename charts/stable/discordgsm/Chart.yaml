@@ -7,7 +7,6 @@ description: A discord bot that monitors your game server and tracks the live da
 home: https://truecharts.org/charts/stable/discordgsm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.png
 sources:
-- https://hub.docker.com/r/discordgsm/discord-game-server-monitor/charts/tree/master/charts/stable/discordgsm
 - https://github.com/truecharts/charts/tree/master/charts/stable/discordgsm
 - https://hub.docker.com/r/discordgsm/discord-game-server-monitor
 - https://github.com/DiscordGSM/GameServerMonitor

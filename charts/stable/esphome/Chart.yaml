@@ -7,10 +7,9 @@ description: ESPHome is a system to control your ESP8266/ESP32 by simple yet pow
 home: https://truecharts.org/charts/stable/esphome
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/esphome.png
 sources:
-- https://hub.docker.com/r/esphome/esphome
-- https://github.com/truecharts/charts/tree/master/charts/stable/esphome
 - https://github.com/esphome/esphome
-- https://hub.docker.com/r/esphome/esphome/charts/tree/master/charts/stable/esphome
+- https://github.com/truecharts/charts/tree/master/charts/stable/esphome
+- https://hub.docker.com/r/esphome/esphome
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

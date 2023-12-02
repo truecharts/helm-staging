@@ -7,9 +7,8 @@ description: ciao checks HTTP(S) URL endpoints for a HTTP status code (or errors
 home: https://truecharts.org/charts/incubator/ciao
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ciao.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorciao/charts/tree/master/charts/incubator/ciao
-- https://github.com/truecharts/charts/tree/master/charts/incubator/ciao
 - https://brotandgames.com/ciao/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/ciao
 - https://github.com/truecharts/containers/tree/master/mirrorciao
 maintainers:
 - name: TrueCharts

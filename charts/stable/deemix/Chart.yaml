@@ -9,8 +9,8 @@ sources:
 - https://git.freezerapp.xyz/RemixDev/deemix-py
 - /charts/tree/master/charts/stable/deemix
 - ""
-- https://github.com/truecharts/charts/tree/master/charts/stable/deemix
 - https://gitlab.com/Bockiii/deemix-docker.git
+- https://github.com/truecharts/charts/tree/master/charts/stable/deemix
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

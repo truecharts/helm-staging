@@ -6,9 +6,8 @@ description: Anope is a set of IRC Services designed for flexibility and ease of
 home: https://truecharts.org/charts/incubator/anope
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/anope.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/anope
 - https://thelounge.chat/
-- https://github.com/truecharts/containers/tree/master/mirroranope/charts/tree/master/charts/incubator/anope
+- https://github.com/truecharts/charts/tree/master/charts/incubator/anope
 - https://github.com/truecharts/containers/tree/master/mirroranope
 maintainers:
 - name: TrueCharts

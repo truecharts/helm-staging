@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/pwm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pwm.png
 sources:
 - https://github.com/pwm-project/pwm
-- https://github.com/truecharts/containers/tree/master/mirrorpwm/charts/tree/master/charts/incubator/pwm
 - https://github.com/truecharts/charts/tree/master/charts/incubator/pwm
 - https://github.com/truecharts/containers/tree/master/mirrorpwm
 maintainers:

@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/incubator/observium
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/observium.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/observium
-- https://www.observium.org/
-- https://github.com/truecharts/containers/tree/master/mirrorobservium/charts/tree/master/charts/incubator/observium
 - https://github.com/truecharts/containers/tree/master/mirrorobservium
+- https://www.observium.org/
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

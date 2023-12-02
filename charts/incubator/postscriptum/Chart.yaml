@@ -10,7 +10,6 @@ sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/postscriptum
 - https://github.com/truecharts/containers/tree/master/mirrorpostscriptum
 - https://www.steampowered.com/
-- https://github.com/truecharts/containers/tree/master/mirrorpostscriptum/charts/tree/master/charts/incubator/postscriptum
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

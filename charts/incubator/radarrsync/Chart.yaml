@@ -7,9 +7,8 @@ description: RadarrSync Syncs two Radarr servers through web API. This is a modi
 home: https://truecharts.org/charts/incubator/radarrsync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/radarrsync.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/radarrsync
 - https://github.com/dairefinn/RadarrSync
-- https://github.com/truecharts/containers/tree/master/mirrorradarrsync/charts/tree/master/charts/incubator/radarrsync
+- https://github.com/truecharts/charts/tree/master/charts/incubator/radarrsync
 - https://github.com/truecharts/containers/tree/master/mirrorradarrsync
 maintainers:
 - name: TrueCharts

@@ -12,9 +12,8 @@ icon: https://truecharts.org/img/hotlink-ok/chart-icons/blender.png
 sources:
 - https://github.com/orgs/linuxserver/packages/container/package/blender
 - https://github.com/linuxserver/docker-blender#readme
-- https://github.com/truecharts/containers/tree/master/mirrorblender/charts/tree/master/charts/incubator/blender
-- https://github.com/truecharts/charts/tree/master/charts/incubator/blender
 - https://www.blender.org/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/blender
 - https://github.com/truecharts/containers/tree/master/mirrorblender
 maintainers:
 - name: TrueCharts

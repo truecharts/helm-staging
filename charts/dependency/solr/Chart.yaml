@@ -6,10 +6,9 @@ description: Apache Solr
 home: https://truecharts.org/charts/dependency/solr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
 sources:
-- https://hub.docker.com/r/bitnami/solr
-- https://github.com/truecharts/charts/tree/master/charts/dependency/solr
 - https://github.com/apache/solr
-- https://hub.docker.com/r/bitnami/solr/charts/tree/master/charts/dependency/solr
+- https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+- https://hub.docker.com/r/bitnami/solr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

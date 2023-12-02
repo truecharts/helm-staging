@@ -7,7 +7,6 @@ home: https://truecharts.org/charts/stable/navidrome
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/navidrome.png
 sources:
 - https://github.com/deluan/navidrome
-- https://hub.docker.com/r/deluan/navidrome/charts/tree/master/charts/stable/navidrome
 - https://github.com/truecharts/charts/tree/master/charts/stable/navidrome
 - https://hub.docker.com/r/deluan/navidrome
 maintainers:

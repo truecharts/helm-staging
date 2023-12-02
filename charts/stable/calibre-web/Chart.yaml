@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/stable/calibre-web
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre-web.png
 sources:
 - https://github.com/janeczku/calibre-web
-- https://hub.docker.com/r/linuxserver/calibre-web/charts/tree/master/charts/stable/calibre-web
 - https://github.com/truecharts/charts/tree/master/charts/stable/calibre-web
 - https://hub.docker.com/r/linuxserver/calibre-web
 maintainers:

@@ -6,9 +6,8 @@ description: A small flask based service to sync up Emby clients
 home: https://truecharts.org/charts/incubator/emby-sync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/emby-sync.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/emby-sync
 - https://github.com/cameronurnes/emby-sync
-- https://github.com/truecharts/containers/tree/master/mirroremby-sync/charts/tree/master/charts/incubator/emby-sync
+- https://github.com/truecharts/charts/tree/master/charts/incubator/emby-sync
 - https://github.com/truecharts/containers/tree/master/mirroremby-sync
 maintainers:
 - name: TrueCharts

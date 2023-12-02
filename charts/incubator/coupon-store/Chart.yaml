@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/incubator/coupon-store
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/coupon-store.png
 sources:
 - https://github.com/linuxserver/docker-airsonic
-- https://github.com/truecharts/containers/tree/master/mirrorcoupon-store/charts/tree/master/charts/incubator/coupon-store
-- https://github.com/truecharts/containers/tree/master/mirrorcoupon-store
 - https://github.com/truecharts/charts/tree/master/charts/incubator/coupon-store
+- https://github.com/truecharts/containers/tree/master/mirrorcoupon-store
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

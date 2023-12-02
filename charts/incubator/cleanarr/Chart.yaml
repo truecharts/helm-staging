@@ -7,10 +7,9 @@ description: A simple UI to help find and delete duplicate and sample files from
 home: https://truecharts.org/charts/incubator/cleanarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cleanarr.png
 sources:
+- https://github.com/se1exin/cleanarr
 - https://github.com/truecharts/charts/tree/master/charts/incubator/cleanarr
 - https://github.com/truecharts/containers/tree/master/mirrorcleanarr
-- https://github.com/se1exin/cleanarr
-- https://github.com/truecharts/containers/tree/master/mirrorcleanarr/charts/tree/master/charts/incubator/cleanarr
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

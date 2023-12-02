@@ -8,8 +8,6 @@ home: https://truecharts.org/charts/incubator/kerio-connect
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kerio-connect.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/kerio-connect
-- http://kerio.com
-- https://github.com/truecharts/containers/tree/master/mirrorkerio-connect/charts/tree/master/charts/incubator/kerio-connect
 - https://github.com/truecharts/containers/tree/master/mirrorkerio-connect
 maintainers:
 - name: TrueCharts

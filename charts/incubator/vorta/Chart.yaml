@@ -8,9 +8,8 @@ description: Vorta is a backup client for macOS and Linux desktops. It integrate
 home: https://truecharts.org/charts/incubator/vorta
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/vorta.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/vorta
 - https://github.com/borgbase/vorta-docker
-- https://github.com/truecharts/containers/tree/master/mirrorvorta/charts/tree/master/charts/incubator/vorta
+- https://github.com/truecharts/charts/tree/master/charts/incubator/vorta
 - https://github.com/truecharts/containers/tree/master/mirrorvorta
 maintainers:
 - name: TrueCharts

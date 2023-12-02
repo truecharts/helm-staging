@@ -7,10 +7,9 @@ description: Self-hosted music scrobble database to create personal listening st
 home: https://truecharts.org/charts/incubator/maloja
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/maloja.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/maloja
-- https://maloja.krateng.ch/
 - https://github.com/truecharts/containers/tree/master/mirrormaloja
-- https://github.com/truecharts/containers/tree/master/mirrormaloja/charts/tree/master/charts/incubator/maloja
+- https://maloja.krateng.ch/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/maloja
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -7,7 +7,6 @@ description: Client for Cloudflare Tunnel, a daemon that exposes private service
 home: https://truecharts.org/charts/stable/cloudflared
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
 sources:
-- https://hub.docker.com/r/cloudflare/cloudflared/charts/tree/master/charts/stable/cloudflared
 - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
 - https://hub.docker.com/r/cloudflare/cloudflared
 maintainers:

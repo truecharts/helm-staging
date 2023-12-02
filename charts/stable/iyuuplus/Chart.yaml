@@ -8,9 +8,8 @@ description: The IYUU automatic seeding tool can automatically seed most PT site
 home: https://truecharts.org/charts/stable/iyuuplus
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/iyuuplus.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/iyuuplus
-- https://hub.docker.com/r/iyuucn/iyuuplus/charts/tree/master/charts/stable/iyuuplus
 - https://hub.docker.com/r/iyuucn/iyuuplus
+- https://github.com/truecharts/charts/tree/master/charts/stable/iyuuplus
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

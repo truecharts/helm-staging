@@ -8,10 +8,9 @@ description: Apt-Cacher NG is a caching proxy, specialized for package files fro
 home: https://truecharts.org/charts/stable/apt-cacher-ng
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/apt-cacher-ng.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/apt-cacher-ng
-- https://www.unix-ag.uni-kl.de/~bloch/acng/
-- https://hub.docker.com/r/sameersbn/apt-cacher-ng/charts/tree/master/charts/stable/apt-cacher-ng
 - https://hub.docker.com/r/sameersbn/apt-cacher-ng
+- https://www.unix-ag.uni-kl.de/~bloch/acng/
+- https://github.com/truecharts/charts/tree/master/charts/stable/apt-cacher-ng
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

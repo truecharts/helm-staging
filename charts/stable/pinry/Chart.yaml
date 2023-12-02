@@ -8,9 +8,8 @@ description: The open-source core of Pinry, a tiling image board system for peop
 home: https://truecharts.org/charts/stable/pinry
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pinry.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/pinry
 - https://github.com/pinry/pinry/
-- https://hub.docker.com/r/getpinry/pinry/charts/tree/master/charts/stable/pinry
+- https://github.com/truecharts/charts/tree/master/charts/stable/pinry
 - https://hub.docker.com/r/getpinry/pinry
 maintainers:
 - name: TrueCharts

@@ -6,9 +6,8 @@ description: The modern download automation tool for torrents.
 home: https://truecharts.org/charts/stable/autobrr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/autobrr.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/autobrr
 - https://github.com/autobrr/autobrr
-- https://ghcr.io/autobrr/autobrr/charts/tree/master/charts/stable/autobrr
+- https://github.com/truecharts/charts/tree/master/charts/stable/autobrr
 - https://ghcr.io/autobrr/autobrr
 maintainers:
 - name: TrueCharts

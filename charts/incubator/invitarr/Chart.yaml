@@ -6,9 +6,8 @@ description: A chatbot that invites discord users to plex.
 home: https://truecharts.org/charts/incubator/invitarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/invitarr.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/invitarr
 - https://github.com/Sleepingpirates/Invitarr
-- https://github.com/truecharts/containers/tree/master/mirrorinvitarr/charts/tree/master/charts/incubator/invitarr
+- https://github.com/truecharts/charts/tree/master/charts/incubator/invitarr
 - https://github.com/truecharts/containers/tree/master/mirrorinvitarr
 maintainers:
 - name: TrueCharts

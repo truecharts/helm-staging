@@ -6,8 +6,8 @@ description: Open-source inpainting tool powered by SOTA AI model.
 home: https://truecharts.org/charts/stable/lama-cleaner
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/lama-cleaner.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/lama-cleaner
 - https://github.com/Sanster/lama-cleaner
+- https://github.com/truecharts/charts/tree/master/charts/stable/lama-cleaner
 - https://hub.docker.com/r/cwq1913/lama-cleaner
 maintainers:
 - name: TrueCharts

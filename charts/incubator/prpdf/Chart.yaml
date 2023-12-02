@@ -8,9 +8,8 @@ home: https://truecharts.org/charts/incubator/prpdf
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/prpdf.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/prpdf
-- https://github.com/maschhoff/prpdf
-- https://github.com/truecharts/containers/tree/master/mirrorprpdf/charts/tree/master/charts/incubator/prpdf
 - https://github.com/truecharts/containers/tree/master/mirrorprpdf
+- https://github.com/maschhoff/prpdf
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -8,7 +8,6 @@ home: https://truecharts.org/charts/incubator/tvhproxy
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tvhproxy.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/tvhproxy
-- https://github.com/truecharts/containers/tree/master/mirrortvhproxy/charts/tree/master/charts/incubator/tvhproxy
 - https://github.com/truecharts/containers/tree/master/mirrortvhproxy
 maintainers:
 - name: TrueCharts

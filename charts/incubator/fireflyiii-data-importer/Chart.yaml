@@ -6,11 +6,10 @@ description: Firefly III Data Importer.
 home: https://truecharts.org/charts/incubator/fireflyiii-data-importer
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii-data-importer.png
 sources:
-- https://github.com/firefly-iii/data-importer
-- https://github.com/truecharts/containers/tree/master/mirrorfireflyiii-fidi/charts/tree/master/charts/incubator/fireflyiii-data-importer
-- https://github.com/truecharts/charts/tree/master/charts/incubator/fireflyiii-data-importer
-- https://docs.firefly-iii.org/data-importer/install/configure/
 - https://github.com/truecharts/containers/tree/master/mirrorfireflyiii-fidi
+- https://github.com/firefly-iii/data-importer
+- https://docs.firefly-iii.org/data-importer/install/configure/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/fireflyiii-data-importer
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -6,9 +6,8 @@ description: URL Shortener in python based on flask
 home: https://truecharts.org/charts/incubator/shortipy
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/shortipy.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/shortipy
 - https://github.com/maschhoff/shortipy
-- https://github.com/truecharts/containers/tree/master/mirrorshortipy/charts/tree/master/charts/incubator/shortipy
+- https://github.com/truecharts/charts/tree/master/charts/incubator/shortipy
 - https://github.com/truecharts/containers/tree/master/mirrorshortipy
 maintainers:
 - name: TrueCharts

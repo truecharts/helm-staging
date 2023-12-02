@@ -6,9 +6,8 @@ description: A gallery software at its easiest, it doesn't even require a databa
 home: https://truecharts.org/charts/stable/photoshow
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/photoshow.png
 sources:
-- https://ghcr.io/linuxserver/photoshow/charts/tree/master/charts/stable/photoshow
-- https://ghcr.io/linuxserver/photoshow
 - https://github.com/truecharts/charts/tree/master/charts/stable/photoshow
+- https://ghcr.io/linuxserver/photoshow
 - https://github.com/thibaud-rohmer/PhotoShow
 - https://github.com/linuxserver/docker-photoshow
 maintainers:

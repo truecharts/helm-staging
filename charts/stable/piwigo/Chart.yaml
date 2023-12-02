@@ -7,9 +7,7 @@ home: https://truecharts.org/charts/stable/piwigo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/piwigo.png
 sources:
 - https://github.com/linuxserver/docker-piwigo
-- https://ghcr.io/linuxserver/piwigo/charts/tree/master/charts/stable/piwigo
 - https://github.com/truecharts/charts/tree/master/charts/stable/piwigo
-- http://piwigo.org/
 - https://ghcr.io/linuxserver/piwigo
 maintainers:
 - name: TrueCharts

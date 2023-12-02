@@ -6,9 +6,8 @@ description: RSS feed for Chart Hub images.
 home: https://truecharts.org/charts/incubator/docker-hub-rss
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/docker-hub-rss.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/docker-hub-rss
 - https://github.com/TheConnMan/docker-hub-rss
-- https://github.com/truecharts/containers/tree/master/mirrordocker-hub-rss/charts/tree/master/charts/incubator/docker-hub-rss
+- https://github.com/truecharts/charts/tree/master/charts/incubator/docker-hub-rss
 - https://github.com/truecharts/containers/tree/master/mirrordocker-hub-rss
 maintainers:
 - name: TrueCharts

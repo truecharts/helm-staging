@@ -7,9 +7,8 @@ description: A dead simple static homepage for your server to keep your services
 home: https://truecharts.org/charts/stable/homer
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/homer.png
 sources:
-- https://hub.docker.com/r/b4bz/homer/charts/tree/master/charts/stable/homer
-- https://github.com/truecharts/charts/tree/master/charts/stable/homer
 - https://github.com/bastienwirtz/homer
+- https://github.com/truecharts/charts/tree/master/charts/stable/homer
 - https://hub.docker.com/r/b4bz/homer
 maintainers:
 - name: TrueCharts

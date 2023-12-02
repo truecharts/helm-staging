@@ -6,9 +6,8 @@ description: game library manager focused in retro gaming
 home: https://truecharts.org/charts/stable/romm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/romm.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/romm
 - https://github.com/zurdi15/romm
-- https://ghcr.io/zurdi15/romm/charts/tree/master/charts/stable/romm
+- https://github.com/truecharts/charts/tree/master/charts/stable/romm
 - https://ghcr.io/zurdi15/romm
 maintainers:
 - name: TrueCharts

@@ -8,9 +8,8 @@ description: Healthchecks is a cron job monitoring service. It listens for HTTP 
 home: https://truecharts.org/charts/stable/healthchecks
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/healthchecks.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/healthchecks
 - https://github.com/healthchecks/healthchecks
-- https://ghcr.io/linuxserver/healthchecks/charts/tree/master/charts/stable/healthchecks
+- https://github.com/truecharts/charts/tree/master/charts/stable/healthchecks
 - https://ghcr.io/linuxserver/healthchecks
 maintainers:
 - name: TrueCharts

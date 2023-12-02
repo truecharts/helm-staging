@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/stable/ring-mqtt
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ring-mqtt.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/ring-mqtt
-- https://github.com/tsightler/ring-mqtt
-- https://hub.docker.com/r/tsightler/ring-mqtt/charts/tree/master/charts/stable/ring-mqtt
 - https://hub.docker.com/r/tsightler/ring-mqtt
+- https://github.com/tsightler/ring-mqtt
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

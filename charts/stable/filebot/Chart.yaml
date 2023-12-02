@@ -8,10 +8,9 @@ description: FileBot is the ultimate tool for organizing and renaming your movie
 home: https://truecharts.org/charts/stable/filebot
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/filebot.png
 sources:
-- https://hub.docker.com/r/jlesage/filebot/charts/tree/master/charts/stable/filebot
-- https://hub.docker.com/r/jlesage/filebot
-- https://github.com/truecharts/charts/tree/master/charts/stable/filebot
 - https://github.com/jlesage/docker-filebot
+- https://github.com/truecharts/charts/tree/master/charts/stable/filebot
+- https://hub.docker.com/r/jlesage/filebot
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

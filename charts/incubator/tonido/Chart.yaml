@@ -7,10 +7,9 @@ description: Tonido Server allows you to access all your files on your computer 
 home: https://truecharts.org/charts/incubator/tonido
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tonido.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrortonido
 - https://github.com/truecharts/charts/tree/master/charts/incubator/tonido
+- https://github.com/truecharts/containers/tree/master/mirrortonido
 - https://registry.hub.docker.com/r/captinsano/tonido/
-- https://github.com/truecharts/containers/tree/master/mirrortonido/charts/tree/master/charts/incubator/tonido
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

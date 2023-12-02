@@ -7,9 +7,8 @@ description: A remote control and remote scripting solution, built with .NET 5, 
 home: https://truecharts.org/charts/incubator/remotely
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/remotely.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/remotely
 - https://remotely.one/
-- https://github.com/truecharts/containers/tree/master/mirrorremotely/charts/tree/master/charts/incubator/remotely
+- https://github.com/truecharts/charts/tree/master/charts/incubator/remotely
 - https://github.com/truecharts/containers/tree/master/mirrorremotely
 maintainers:
 - name: TrueCharts

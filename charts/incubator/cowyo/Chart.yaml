@@ -8,9 +8,8 @@ description: cowyo is a self-contained wiki server that makes jotting notes easy
 home: https://truecharts.org/charts/incubator/cowyo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cowyo.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/cowyo
 - https://github.com/schollz/cowyo
-- https://github.com/truecharts/containers/tree/master/mirrorcowyo/charts/tree/master/charts/incubator/cowyo
+- https://github.com/truecharts/charts/tree/master/charts/incubator/cowyo
 - https://github.com/truecharts/containers/tree/master/mirrorcowyo
 maintainers:
 - name: TrueCharts

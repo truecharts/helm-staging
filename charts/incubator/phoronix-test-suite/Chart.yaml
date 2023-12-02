@@ -8,10 +8,9 @@ description: The Phoronix Test Suite is the most comprehensive testing and bench
 home: https://truecharts.org/charts/incubator/phoronix-test-suite
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/phoronix-test-suite.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/phoronix-test-suite
-- https://github.com/phoronix-test-suite/phoronix-test-suite
-- https://github.com/truecharts/containers/tree/master/mirrorphoronix-test-suite/charts/tree/master/charts/incubator/phoronix-test-suite
 - https://github.com/truecharts/containers/tree/master/mirrorphoronix-test-suite
+- https://github.com/phoronix-test-suite/phoronix-test-suite
+- https://github.com/truecharts/charts/tree/master/charts/incubator/phoronix-test-suite
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

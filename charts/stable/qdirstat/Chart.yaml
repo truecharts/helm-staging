@@ -7,9 +7,8 @@ description: QDirStat is a graphical application to show where your disk space h
 home: https://truecharts.org/charts/stable/qdirstat
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/qdirstat.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/qdirstat
 - https://github.com/jlesage/docker-qdirstat
-- https://hub.docker.com/r/jlesage/qdirstat/charts/tree/master/charts/stable/qdirstat
+- https://github.com/truecharts/charts/tree/master/charts/stable/qdirstat
 - https://hub.docker.com/r/jlesage/qdirstat
 maintainers:
 - name: TrueCharts

@@ -7,7 +7,6 @@ home: https://truecharts.org/charts/incubator/phpmyadmin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/phpmyadmin.png
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/incubator/phpmyadmin
-- https://github.com/truecharts/containers/tree/master/mirrorphpmyadmin/charts/tree/master/charts/incubator/phpmyadmin
 - https://github.com/truecharts/containers/tree/master/mirrorphpmyadmin
 maintainers:
 - name: TrueCharts

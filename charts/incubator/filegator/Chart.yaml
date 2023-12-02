@@ -7,10 +7,9 @@ description: FileGator is a free, open-source, self-hosted web application for m
 home: https://truecharts.org/charts/incubator/filegator
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/filegator.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/filegator
-- https://github.com/filegator/filegator
-- https://github.com/truecharts/containers/tree/master/mirrorfilegator/charts/tree/master/charts/incubator/filegator
 - https://github.com/truecharts/containers/tree/master/mirrorfilegator
+- https://github.com/filegator/filegator
+- https://github.com/truecharts/charts/tree/master/charts/incubator/filegator
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

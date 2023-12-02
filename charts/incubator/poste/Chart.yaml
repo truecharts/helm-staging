@@ -7,10 +7,9 @@ description: 'FREE version of Poste.io, full mail server solution. POP3, SMTP, I
 home: https://truecharts.org/charts/incubator/poste
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/poste.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/poste
-- https://poste.io/
-- https://github.com/truecharts/containers/tree/master/mirrorposte/charts/tree/master/charts/incubator/poste
 - https://github.com/truecharts/containers/tree/master/mirrorposte
+- https://poste.io/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/poste
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

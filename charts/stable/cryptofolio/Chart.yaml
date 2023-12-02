@@ -6,9 +6,8 @@ description: Track your cryptocurrency holdings/portfolio
 home: https://truecharts.org/charts/stable/cryptofolio
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cryptofolio.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/cryptofolio
 - https://github.com/Xtrendence/cryptofolio
-- https://hub.docker.com/r/xtrendence/cryptofolio/charts/tree/master/charts/stable/cryptofolio
+- https://github.com/truecharts/charts/tree/master/charts/stable/cryptofolio
 - https://hub.docker.com/r/xtrendence/cryptofolio
 maintainers:
 - name: TrueCharts

@@ -6,9 +6,8 @@ description: A server software for Minecraft Bedrock Edition in PHP.
 home: https://truecharts.org/charts/incubator/pocketmine-mp
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pocketmine-mp.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/pocketmine-mp
 - https://github.com/pmmp/PocketMine-MP
-- https://github.com/truecharts/containers/tree/master/mirrorpocketmine-mp/charts/tree/master/charts/incubator/pocketmine-mp
+- https://github.com/truecharts/charts/tree/master/charts/incubator/pocketmine-mp
 - https://github.com/truecharts/containers/tree/master/mirrorpocketmine-mp
 maintainers:
 - name: TrueCharts

@@ -7,9 +7,8 @@ description: HTML5 Network Speed Test Server. You can test download & upload spe
 home: https://truecharts.org/charts/stable/openspeedtest
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/openspeedtest.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/openspeedtest
 - https://github.com/openspeedtest/Speed-Test
-- https://hub.docker.com/r/openspeedtest/latest/charts/tree/master/charts/stable/openspeedtest
+- https://github.com/truecharts/charts/tree/master/charts/stable/openspeedtest
 - https://hub.docker.com/r/openspeedtest/latest
 maintainers:
 - name: TrueCharts

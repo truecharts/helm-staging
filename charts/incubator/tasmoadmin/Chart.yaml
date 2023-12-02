@@ -6,9 +6,8 @@ description: A administrative platform for devices flashed with Tasmota.
 home: https://truecharts.org/charts/incubator/tasmoadmin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tasmoadmin.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/tasmoadmin
 - https://github.com/TasmoAdmin/TasmoAdmin
-- https://github.com/truecharts/containers/tree/master/mirrortasmoadmin/charts/tree/master/charts/incubator/tasmoadmin
+- https://github.com/truecharts/charts/tree/master/charts/incubator/tasmoadmin
 - https://github.com/truecharts/containers/tree/master/mirrortasmoadmin
 maintainers:
 - name: TrueCharts

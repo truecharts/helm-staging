@@ -6,9 +6,8 @@ description: A Digital Asset Manager (DAM), specifically designed for 3D print f
 home: https://truecharts.org/charts/incubator/van-dam
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/van-dam.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/van-dam
 - https://github.com/Floppy/van_dam
-- https://github.com/truecharts/containers/tree/master/mirrorvan-dam/charts/tree/master/charts/incubator/van-dam
+- https://github.com/truecharts/charts/tree/master/charts/incubator/van-dam
 - https://github.com/truecharts/containers/tree/master/mirrorvan-dam
 maintainers:
 - name: TrueCharts

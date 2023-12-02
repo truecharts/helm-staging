@@ -9,9 +9,8 @@ home: https://truecharts.org/charts/incubator/jmzhomeproxy
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/jmzhomeproxy.png
 sources:
 - https://github.com/JmzTaylor/homelab_proxy/
-- https://github.com/truecharts/containers/tree/master/mirrorjmzhomeproxy/charts/tree/master/charts/incubator/jmzhomeproxy
-- https://github.com/truecharts/containers/tree/master/mirrorjmzhomeproxy
 - https://github.com/truecharts/charts/tree/master/charts/incubator/jmzhomeproxy
+- https://github.com/truecharts/containers/tree/master/mirrorjmzhomeproxy
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

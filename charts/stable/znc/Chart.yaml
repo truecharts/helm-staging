@@ -7,7 +7,6 @@ description: Znc is an IRC network bouncer or BNC. It can detach the client from
 home: https://truecharts.org/charts/stable/znc
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/znc.png
 sources:
-- https://ghcr.io/linuxserver/znc/charts/tree/master/charts/stable/znc
 - https://github.com/truecharts/charts/tree/master/charts/stable/znc
 - https://ghcr.io/linuxserver/znc
 maintainers:

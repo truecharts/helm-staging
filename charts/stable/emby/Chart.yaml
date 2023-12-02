@@ -6,10 +6,9 @@ description: Emby Server is a home media server
 home: https://truecharts.org/charts/stable/emby
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/emby.png
 sources:
-- https://ghcr.io/onedr0p/emby/charts/tree/master/charts/stable/emby
-- https://ghcr.io/onedr0p/emby
-- https://github.com/truecharts/charts/tree/master/charts/stable/emby
 - https://github.com/linuxserver/docker-emby.git
+- https://github.com/truecharts/charts/tree/master/charts/stable/emby
+- https://ghcr.io/onedr0p/emby
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

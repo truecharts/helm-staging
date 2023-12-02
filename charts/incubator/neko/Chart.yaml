@@ -1,28 +1,26 @@
 apiVersion: v2
-appVersion: "latest"
-dependencies:
-  - name: common
-    repository: https://library-charts.truecharts.org
-    version: 11.1.2
-deprecated: false
-description: "A self hosted virtual browser that runs in Chart"
+name: neko
+version: 2.0.27
+appVersion: latest
+description: A self hosted virtual browser that runs in Chart
 home: https://truecharts.org/charts/incubator/neko
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/neko.png
-keywords:
-  - neko
-  - video
-kubeVersion: ">=1.16.0-0"
-maintainers:
-  - email: info@truecharts.org
-    name: TrueCharts
-    url: https://truecharts.org
-name: neko
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/neko
-type: application
-version: 2.0.27
+- https://github.com/truecharts/charts/tree/master/charts/incubator/neko
+- https://github.com/truecharts/containers/tree/master/mirrorneko-firefox
+maintainers:
+- name: TrueCharts
+  email: info@truecharts.org
+  url: https://truecharts.org
+keywords:
+- neko
+- video
+dependencies:
+- name: common
+  version: 11.1.2
+  repository: https://library-charts.truecharts.org
+  condition: ""
+  tags: []
 annotations:
-  min_scale_version: "22.12.4"
-  max_scale_version: "23.10.1"
-  truecharts.org/SCALE-support: "true"
-  truecharts.org/category: media
+  annotations:
+    truecharts.org/train: incubator

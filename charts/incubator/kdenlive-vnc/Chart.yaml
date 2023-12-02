@@ -6,10 +6,9 @@ description: An instance of kdenlive accessible through vnc and noVnc (=Web Inte
 home: https://truecharts.org/charts/incubator/kdenlive-vnc
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kdenlive-vnc.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/kdenlive-vnc
-- https://github.com/JonathanTreffler/kdenlive-vnc-docker
-- https://github.com/truecharts/containers/tree/master/mirrorkdenlive-vnc/charts/tree/master/charts/incubator/kdenlive-vnc
 - https://github.com/truecharts/containers/tree/master/mirrorkdenlive-vnc
+- https://github.com/JonathanTreffler/kdenlive-vnc-docker
+- https://github.com/truecharts/charts/tree/master/charts/incubator/kdenlive-vnc
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

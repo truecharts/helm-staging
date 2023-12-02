@@ -6,9 +6,8 @@ description: Sync your Spotify and Deezer playlists to your Plex server.
 home: https://truecharts.org/charts/incubator/plex-playlist-sync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex-playlist-sync.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorplex-playlist-sync/charts/tree/master/charts/incubator/plex-playlist-sync
-- https://github.com/truecharts/charts/tree/master/charts/incubator/plex-playlist-sync
 - https://github.com/rnagabhyrava/plex-playlist-sync
+- https://github.com/truecharts/charts/tree/master/charts/incubator/plex-playlist-sync
 - https://github.com/truecharts/containers/tree/master/mirrorplex-playlist-sync
 maintainers:
 - name: TrueCharts

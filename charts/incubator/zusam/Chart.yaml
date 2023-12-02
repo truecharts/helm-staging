@@ -7,9 +7,8 @@ description: Zusam is a free and open-source way to self-host private forums for
 home: https://truecharts.org/charts/incubator/zusam
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/zusam.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorzusam/charts/tree/master/charts/incubator/zusam
-- https://github.com/truecharts/charts/tree/master/charts/incubator/zusam
 - https://github.com/zusam/zusam
+- https://github.com/truecharts/charts/tree/master/charts/incubator/zusam
 - https://github.com/truecharts/containers/tree/master/mirrorzusam
 maintainers:
 - name: TrueCharts

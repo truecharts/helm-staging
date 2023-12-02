@@ -7,7 +7,6 @@ description: The Bitcoin Unlimited project seeks to provide a voice to all stake
 home: https://truecharts.org/charts/incubator/bitcoinunlimited
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitcoinunlimited.png
 sources:
-- https://github.com/truecharts/containers/tree/master/mirrorbitcoinunlimited/charts/tree/master/charts/incubator/bitcoinunlimited
 - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoinunlimited
 - https://github.com/truecharts/containers/tree/master/mirrorbitcoinunlimited
 maintainers:

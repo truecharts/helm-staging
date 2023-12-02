@@ -7,9 +7,8 @@ description: A self-hosted podcast manager to download episodes as soon as they 
 home: https://truecharts.org/charts/stable/podgrab
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/podgrab.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/podgrab
 - https://github.com/akhilrex/podgrab
-- https://hub.docker.com/r/akhilrex/podgrab/charts/tree/master/charts/stable/podgrab
+- https://github.com/truecharts/charts/tree/master/charts/stable/podgrab
 - https://hub.docker.com/r/akhilrex/podgrab
 maintainers:
 - name: TrueCharts

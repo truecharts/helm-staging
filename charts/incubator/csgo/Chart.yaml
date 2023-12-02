@@ -7,10 +7,9 @@ description: 'This Chart will download and install SteamCMD. It will also instal
 home: https://truecharts.org/charts/incubator/csgo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/csgo.png
 sources:
-- https://www.steampowered.com/
-- https://github.com/truecharts/containers/tree/master/mirrorcsgo/charts/tree/master/charts/incubator/csgo
-- https://github.com/truecharts/charts/tree/master/charts/incubator/csgo
 - https://github.com/truecharts/containers/tree/master/mirrorcsgo
+- https://www.steampowered.com/
+- https://github.com/truecharts/charts/tree/master/charts/incubator/csgo
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

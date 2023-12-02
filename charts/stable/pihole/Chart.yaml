@@ -6,12 +6,11 @@ description: DNS and Ad-filtering for your network
 home: https://truecharts.org/charts/stable/pihole
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pihole.png
 sources:
-- https://hub.docker.com/r/pihole/pihole/charts/tree/master/charts/stable/pihole
-- https://github.com/truecharts/charts/tree/master/charts/stable/pihole
-- https://hub.docker.com/r/pihole/pihole
 - https://pi-hole.net/
 - https://github.com/pi-hole
 - https://github.com/pi-hole/docker-pi-hole
+- https://github.com/truecharts/charts/tree/master/charts/stable/pihole
+- https://hub.docker.com/r/pihole/pihole
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

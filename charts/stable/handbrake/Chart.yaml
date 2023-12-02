@@ -7,11 +7,10 @@ description: HandBrake is a tool for converting video from nearly any format to 
 home: https://truecharts.org/charts/stable/handbrake
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/handbrake.png
 sources:
-- https://hub.docker.com/r/jlesage/handbrake/charts/tree/master/charts/stable/handbrake
-- https://hub.docker.com/r/jlesage/handbrake
-- https://github.com/truecharts/charts/tree/master/charts/stable/handbrake
 - https://github.com/jlesage/docker-handbrake
 - https://handbrake.fr/
+- https://github.com/truecharts/charts/tree/master/charts/stable/handbrake
+- https://hub.docker.com/r/jlesage/handbrake
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

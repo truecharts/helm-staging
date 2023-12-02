@@ -7,9 +7,8 @@ home: https://truecharts.org/charts/stable/homepage
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/homepage.png
 sources:
 - https://github.com/benphelps/homepage
-- https://ghcr.io/gethomepage/homepage
-- https://ghcr.io/gethomepage/homepage/charts/tree/master/charts/stable/homepage
 - https://github.com/truecharts/charts/tree/master/charts/stable/homepage
+- https://ghcr.io/gethomepage/homepage
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

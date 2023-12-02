@@ -6,10 +6,9 @@ description: Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a sm
 home: https://truecharts.org/charts/stable/nocodb
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/nocodb.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/nocodb
-- https://github.com/nocodb/nocodb
-- https://hub.docker.com/r/nocodb/nocodb/charts/tree/master/charts/stable/nocodb
 - https://hub.docker.com/r/nocodb/nocodb
+- https://github.com/nocodb/nocodb
+- https://github.com/truecharts/charts/tree/master/charts/stable/nocodb
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org

@@ -8,11 +8,10 @@ description: pyLoad(https://pyload.net/) is a Free and Open Source download mana
 home: https://truecharts.org/charts/incubator/pyload-ng
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/pyload-ng.png
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/incubator/pyload-ng
 - https://pyload.net/
 - https://github.com/orgs/linuxserver/packages/container/package/pyload-ng
 - https://github.com/linuxserver/docker-pyload-ng#readme
-- https://github.com/truecharts/containers/tree/master/mirrorpyload-ng/charts/tree/master/charts/incubator/pyload-ng
+- https://github.com/truecharts/charts/tree/master/charts/incubator/pyload-ng
 - https://github.com/truecharts/containers/tree/master/mirrorpyload-ng
 maintainers:
 - name: TrueCharts
