@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: ubooquity
 version: 7.0.21
@@ -6,9 +7,10 @@ description: Ubooquity is a free, lightweight and easy-to-use home server for yo
   comics and ebooks.
 home: https://truecharts.org/charts/stable/ubooquity
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ubooquity.png
+deprecated: false
 sources:
-- https://ghcr.io/linuxserver/ubooquity
 - https://github.com/truecharts/charts/tree/master/charts/stable/ubooquity
+- https://ghcr.io/linuxserver/ubooquity
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -20,7 +22,18 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: incubator
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: traefik-forward-auth
 version: 0.2.6
@@ -7,6 +8,7 @@ description: A minimal forward authentication service that provides OAuth/SSO lo
   typical setup is included in the source (docs/how-to.md).
 home: https://truecharts.org/charts/incubator/traefik-forward-auth
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/traefik-forward-auth.png
+deprecated: false
 sources:
 - https://github.com/thomseddon/traefik-forward-auth
 - https://github.com/truecharts/charts/tree/master/charts/incubator/traefik-forward-auth
@@ -27,7 +29,18 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: network
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

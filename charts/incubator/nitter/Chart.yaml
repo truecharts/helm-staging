@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: nitter
 version: 2.0.0
@@ -6,6 +7,7 @@ description: A free and open source alternative Twitter front-end focused on pri
   and performance.
 home: https://truecharts.org/charts/incubator/nitter
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/nitter.png
+deprecated: false
 sources:
 - https://github.com/zedeus/nitter
 - https://github.com/truecharts/charts/tree/master/charts/incubator/nitter
@@ -22,12 +24,25 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 - name: redis
   version: 6.0.66
   repository: https://deps.truecharts.org
   condition: redis.enabled
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: media
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

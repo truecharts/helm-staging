@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: soft-serve
 version: 3.0.16
@@ -5,6 +6,7 @@ appVersion: 0.7.3
 description: A tasty, self-hostable Git server for the command line.
 home: https://truecharts.org/charts/stable/soft-serve
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/soft-serve.png
+deprecated: false
 sources:
 - https://github.com/charmbracelet/soft-serve
 - https://github.com/truecharts/charts/tree/master/charts/stable/soft-serve
@@ -21,7 +23,16 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  'max_scale_version:': 23.10.1
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: git
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

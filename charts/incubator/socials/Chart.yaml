@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: socials
 version: 2.0.9
@@ -8,6 +9,7 @@ description: Socials is a single-page website that stores all your social media 
   or publishing as a static website or Chart is recommended!
 home: https://truecharts.org/charts/incubator/socials
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/socials.png
+deprecated: false
 sources:
 - https://github.com/diamkil/socials
 - https://registry.hub.docker.com/r/diamkil/socials/
@@ -25,7 +27,18 @@ dependencies:
   version: 11.1.2
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: Other
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

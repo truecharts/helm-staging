@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: ra-rom-processor
 version: 2.0.18
@@ -6,6 +7,7 @@ description: Download / Orgainze / Process / Verify / Dedupe / Scrape a ROMs lib
   automatically by matching ROMs to the RetroAchievement.org database.
 home: https://truecharts.org/charts/incubator/ra-rom-processor
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ra-rom-processor.png
+deprecated: false
 sources:
 - https://github.com/RandomNinjaAtk/docker-raromprocessor
 - https://github.com/RandomNinjaAtk/docker-raromprocessor#instructionsusage-guidelines
@@ -23,7 +25,18 @@ dependencies:
   version: 11.1.2
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: MediaApp-Other
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: onlyoffice-document-server
 version: 12.0.10
@@ -8,11 +9,12 @@ description: 'ONLYOFFICE Document Server is an online office suite comprising vi
   time.'
 home: https://truecharts.org/charts/stable/onlyoffice-document-server
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/onlyoffice-document-server.png
+deprecated: false
 sources:
 - https://github.com/ONLYOFFICE/DocumentServer
+- https://github.com/ONLYOFFICE/Docker-DocumentServer
 - https://github.com/truecharts/charts/tree/master/charts/stable/onlyoffice-document-server
 - https://hub.docker.com/r/onlyoffice/documentserver
-- https://github.com/ONLYOFFICE/Docker-DocumentServer
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -24,12 +26,25 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 - name: redis
   version: 8.0.44
   repository: https://deps.truecharts.org
   condition: redis.enabled
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: office
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

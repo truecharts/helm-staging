@@ -1,31 +1,30 @@
 apiVersion: v2
-name: vikunja
-version: 9.0.26
-appVersion: 0.21.0
+appVersion: "0.21.0"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 14.3.5
+  - condition: redis.enabled
+    name: redis
+    repository: https://deps.truecharts.org
+    version: 6.0.66
 description: The to-do app to organize your life.
 home: https://truecharts.org/charts/stable/vikunja
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.png
-sources:
-- https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
-- https://vikunja.io/docs
-- https://hub.docker.com/r/vikunja/api
-maintainers:
-- name: TrueCharts
-  email: info@truecharts.org
-  url: https://truecharts.org
 keywords:
-- vikunja
-dependencies:
-- name: common
-  version: 14.3.5
-  repository: https://library-charts.truecharts.org
-  condition: ""
-  tags: []
-- name: redis
-  version: 6.0.66
-  repository: https://deps.truecharts.org
-  condition: redis.enabled
-  tags: []
+  - vikunja
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - email: info@truecharts.org
+    name: TrueCharts
+    url: https://truecharts.org
+name: vikunja
+sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
+  - https://vikunja.io/docs
+version: 9.0.26
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  min_scale_version: "22.12.4"
+  max_scale_version: "23.10.1"
+  truecharts.org/category: productivity
+  truecharts.org/SCALE-support: "true"

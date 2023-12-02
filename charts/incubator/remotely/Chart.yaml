@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: remotely
 version: 2.0.9
@@ -6,6 +7,7 @@ description: A remote control and remote scripting solution, built with .NET 5, 
   SignalR Core, and WebRTC.
 home: https://truecharts.org/charts/incubator/remotely
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/remotely.png
+deprecated: false
 sources:
 - https://remotely.one/
 - https://github.com/truecharts/charts/tree/master/charts/incubator/remotely
@@ -22,7 +24,18 @@ dependencies:
   version: 11.1.2
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: Tools-Utilities
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

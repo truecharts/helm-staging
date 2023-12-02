@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: mongodb
 version: 9.0.1
@@ -6,6 +7,7 @@ description: Fast, reliable, scalable, and easy to use open-source no-sql databa
   system.
 home: https://truecharts.org/charts/dependency/mongodb
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mongodb.png
+deprecated: false
 sources:
 - https://github.com/bitnami/bitnami-docker-mongodb
 - https://www.mongodb.com
@@ -24,7 +26,17 @@ dependencies:
   version: 15.3.1
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: dependency
+  'category:': unsorted
+  'max_scale_version:': 23.10.1
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: database
+  truecharts.org/grade: U
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: dependency

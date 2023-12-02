@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: linkwarden
 version: 1.1.0
@@ -6,6 +7,7 @@ description: Linkwarden is a self-hosted, open-source collaborative bookmark man
   to collect, organize and archive webpages.
 home: https://truecharts.org/charts/stable/linkwarden
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/linkwarden.png
+deprecated: false
 sources:
 - https://github.com/linkwarden/linkwarden
 - https://github.com/truecharts/charts/tree/master/charts/stable/linkwarden
@@ -23,7 +25,18 @@ dependencies:
   version: 15.0.1
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: bookmarks
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

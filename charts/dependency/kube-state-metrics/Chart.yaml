@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: kube-state-metrics
 version: 4.0.0
@@ -6,6 +7,7 @@ description: kube-state-metrics is a simple service that listens to the Kubernet
   API server and generates metrics about the state of the objects.
 home: https://truecharts.org/charts/dependency/kube-state-metrics
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kube-state-metrics.png
+deprecated: false
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/dependency/kube-state-metrics
 - https://hub.docker.com/r/bitnami/kube-state-metrics
@@ -22,7 +24,18 @@ dependencies:
   version: 15.3.1
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: dependency
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: metrics
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: dependency

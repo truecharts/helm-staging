@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: trango
 version: 2.0.9
@@ -10,6 +11,7 @@ description: Trango self-hosted is a calling and file sharing solution that work
   and can be accessed from anywhere in the network.
 home: https://truecharts.org/charts/incubator/trango
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/trango.png
+deprecated: false
 sources:
 - https://trango.io/
 - https://github.com/truecharts/charts/tree/master/charts/incubator/trango
@@ -27,7 +29,18 @@ dependencies:
   version: 11.1.2
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: incubator
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: Network-Other
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: incubator

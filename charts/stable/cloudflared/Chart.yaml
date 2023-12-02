@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: cloudflared
 version: 6.0.14
@@ -6,6 +7,7 @@ description: Client for Cloudflare Tunnel, a daemon that exposes private service
   through the Cloudflare edge.
 home: https://truecharts.org/charts/stable/cloudflared
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
+deprecated: false
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
 - https://hub.docker.com/r/cloudflare/cloudflared
@@ -21,7 +23,18 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: network
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

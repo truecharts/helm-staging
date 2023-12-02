@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: wordpress
 version: 3.0.68
@@ -6,10 +7,11 @@ description: The WordPress rich content management system can utilize plugins, w
   and themes.
 home: https://truecharts.org/charts/stable/wordpress
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png
+deprecated: false
 sources:
-- https://hub.docker.com/r/bitnami/wordpress
 - https://www.wordpress.org
 - https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
+- https://hub.docker.com/r/bitnami/wordpress
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -22,12 +24,24 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 - name: mariadb
   version: 7.0.70
   repository: https://deps.truecharts.org/
   condition: mariadb.enabled
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  'max_scale_version:': 23.10.1
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: website
+  truecharts.org/grade: U
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable

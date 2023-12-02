@@ -1,3 +1,4 @@
+kubeVersion: '>=1.16.0-0'
 apiVersion: v2
 name: fleet
 version: 8.0.10
@@ -6,6 +7,7 @@ description: Fleet provides an online web interface which displays a set of main
   images from one or more owned repositories.
 home: https://truecharts.org/charts/stable/fleet
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/fleet.png
+deprecated: false
 sources:
 - https://github.com/truecharts/charts/tree/master/charts/stable/fleet
 - https://ghcr.io/linuxserver/fleet
@@ -20,12 +22,25 @@ dependencies:
   version: 14.3.5
   repository: https://library-charts.truecharts.org
   condition: ""
+  alias: ""
   tags: []
+  import-values: []
 - name: mariadb
   version: 7.0.70
   repository: https://deps.truecharts.org/
   condition: mariadb.enabled
+  alias: ""
   tags: []
+  import-values: []
 annotations:
-  annotations:
-    truecharts.org/train: stable
+  'category:': unsorted
+  max_scale_version: 23.10.1
+  'max_scale_version:': 23.10.1
+  min_scale_version: 22.12.4
+  'min_scale_version:': "22.12"
+  truecharts.org/SCALE-support: "true"
+  'truecharts.org/SCALE-support:': "true"
+  truecharts.org/category: incubator
+  'truecharts.org/max_helm_version:': "3.13"
+  'truecharts.org/min_helm_version:': "3.12"
+  truecharts.org/train: stable
