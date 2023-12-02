@@ -1,4 +1,4 @@
-kubeVersion: '>=1.16.0-0'
+kubeVersion: 1.24.0
 apiVersion: v2
 name: openkm
 version: 11.0.0
@@ -9,10 +9,10 @@ home: https://truecharts.org/charts/incubator/openkm
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/openkm.png
 deprecated: false
 sources:
+- https://github.com/openkm/document-management-system
 - https://github.com/truecharts/charts/tree/master/charts/incubator/openkm
 - https://github.com/truecharts/containers/tree/master/mirroropenkm-ce
 - https://www.openkm.com/
-- https://github.com/openkm/document-management-system
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -45,6 +45,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   'truecharts.org/SCALE-support:': "true"
   truecharts.org/category: media
+  'truecharts.org/category:': unsorted
   'truecharts.org/max_helm_version:': "3.13"
   'truecharts.org/min_helm_version:': "3.12"
   truecharts.org/train: incubator
