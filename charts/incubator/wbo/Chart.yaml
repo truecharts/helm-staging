@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: '>=1.24.0'
 apiVersion: v2
 name: wbo
 version: 4.0.0
@@ -9,9 +9,9 @@ home: https://truecharts.org/charts/incubator/wbo
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/wbo.png
 deprecated: false
 sources:
-- https://github.com/lovasoa/whitebophir
 - https://github.com/truecharts/charts/tree/master/charts/incubator/wbo
 - https://github.com/truecharts/containers/tree/master/mirrorwbo
+- https://github.com/lovasoa/whitebophir
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -28,12 +28,8 @@ dependencies:
   tags: []
   import-values: []
 annotations:
-  'category:': unsorted
-  max_scale_version: 23.10.1
   'max_scale_version:': 23.10.1
-  min_scale_version: 22.12.4
-  'min_scale_version:': "22.12"
-  truecharts.org/SCALE-support: "true"
+  'min_scale_version:': 22.12.4
   'truecharts.org/SCALE-support:': "true"
   truecharts.org/category: productivity
   'truecharts.org/category:': unsorted

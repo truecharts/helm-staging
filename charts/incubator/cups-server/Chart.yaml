@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: '>=1.24.0'
 apiVersion: v2
 name: cups-server
 version: 3.0.21
@@ -26,12 +26,8 @@ dependencies:
   tags: []
   import-values: []
 annotations:
-  'category:': unsorted
-  max_scale_version: 23.10.1
   'max_scale_version:': 23.10.1
-  min_scale_version: 22.12.4
-  'min_scale_version:': "22.12"
-  truecharts.org/SCALE-support: "true"
+  'min_scale_version:': 22.12.4
   'truecharts.org/SCALE-support:': "true"
   truecharts.org/category: media
   'truecharts.org/category:': unsorted

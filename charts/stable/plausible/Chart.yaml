@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: '>=1.24.0'
 apiVersion: v2
 name: plausible
 version: 5.0.12
@@ -9,12 +9,12 @@ home: https://truecharts.org/charts/stable/plausible
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/plausible.png
 deprecated: false
 sources:
-- https://github.com/plausible/hosting
 - https://plausible.io/
 - https://plausible.io/docs/self-hosting
 - https://github.com/truecharts/charts/tree/master/charts/stable/plausible
 - https://hub.docker.com/r/plausible/analytics
 - https://github.com/plausible/analytics
+- https://github.com/plausible/hosting
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -38,12 +38,8 @@ dependencies:
   tags: []
   import-values: []
 annotations:
-  'category:': unsorted
-  max_scale_version: 23.10.1
   'max_scale_version:': 23.10.1
-  min_scale_version: 22.12.4
-  'min_scale_version:': "22.12"
-  truecharts.org/SCALE-support: "true"
+  'min_scale_version:': 22.12.4
   'truecharts.org/SCALE-support:': "true"
   truecharts.org/category: analytics
   'truecharts.org/category:': unsorted

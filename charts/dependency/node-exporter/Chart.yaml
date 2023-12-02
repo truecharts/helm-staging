@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: '>=1.24.0'
 apiVersion: v2
 name: node-exporter
 version: 4.0.0
@@ -9,8 +9,8 @@ home: https://truecharts.org/charts/dependency/node-exporter
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/node-exporter.png
 deprecated: false
 sources:
-- https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
 - https://hub.docker.com/r/bitnami/node-exporter
+- https://github.com/truecharts/charts/tree/master/charts/dependency/node-exporter
 maintainers:
 - name: TrueCharts
   email: info@truecharts.org
@@ -28,12 +28,8 @@ dependencies:
   tags: []
   import-values: []
 annotations:
-  'category:': unsorted
-  max_scale_version: 23.10.1
   'max_scale_version:': 23.10.1
-  min_scale_version: 22.12.4
-  'min_scale_version:': "22.12"
-  truecharts.org/SCALE-support: "true"
+  'min_scale_version:': 22.12.4
   'truecharts.org/SCALE-support:': "true"
   truecharts.org/category: metrics
   'truecharts.org/category:': unsorted
