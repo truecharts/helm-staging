@@ -1,7 +1,5 @@
 # Include{groups}
-portals:
-  open:
-# Include{portalLink}
+portals: {}
 questions:
 # Include{global}
 # Include{workload}
@@ -10,8 +8,55 @@ questions:
 # Include{replicas1}
 # Include{podSpec}
 # Include{containerMain}
+
 # Include{containerBasic}
 # Include{containerAdvanced}
+
+  - variable: pushbits
+    group: App Configuration
+    label: PushBits Server
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: admin
+          label: Admin Credentials
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: id
+                label: Admin Id
+                description: The Matrix account on which the admin will receive their notifications.
+                schema:
+                  type: string
+                  default: ""
+              - variable: password
+                label: Admin Password
+                description: The login password of the admin account.
+                schema:
+                  type: string
+                  private: true
+                  default: ""
+        - variable: matrix
+          label: Matrix Credentials
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: user
+                label: Matrix User
+                description: The Matrix account from which notifications are sent to all users.
+                schema:
+                  type: string
+                  default: ""
+              - variable: password
+                label: Matrix Password
+                description: The login password of the Matrix account.
+                schema:
+                  type: string
+                  private: true
+                  default: ""
 
 # Include{containerConfig}
 # Include{podOptions}
@@ -30,15 +75,15 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6767
+                              default: 8080
                               required: true
 # Include{serviceExpertRoot}
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}
-        - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
           schema:
             additional_attrs: true
             type: dict
@@ -67,7 +112,7 @@ questions:
                   default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 568
@@ -82,15 +127,6 @@ questions:
                   default: 568
 
 # Include{resources}
-# Include{metrics}
-                    - variable: apiKey
-                      label: "Bazarr API key"
-                      description: "Can be found in the Bazarr settings"
-                      schema:
-                        type: string
-                        default: ""
-                        required: true
-# Include{prometheusRule}
 # Include{advanced}
 # Include{addons}
 # Include{codeserver}
