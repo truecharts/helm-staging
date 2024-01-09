@@ -3,15 +3,18 @@ portals:
   open:
 # Include{portalLink}
 questions:
-  ## Portal Button
 # Include{global}
 # Include{workload}
 # Include{workloadDeployment}
+
 # Include{replicas1}
 # Include{podSpec}
 # Include{containerMain}
+
+
 # Include{containerBasic}
 # Include{containerAdvanced}
+
 # Include{containerConfig}
 # Include{podOptions}
 # Include{serviceRoot}
@@ -29,51 +32,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8112
-                              required: true
-        - variable: rpc
-          label: "RPC Service"
-          description: "RPC Service"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-# Include{serviceSelectorLoadBalancer}
-# Include{serviceSelectorExtras}
-                    - variable: rpc
-                      label: "RPC Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 58846
-                              required: true
-        - variable: torrent
-          label: "TCP Torrent Service"
-          description: "TCP Torrent Service"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-# Include{serviceSelectorLoadBalancer}
-# Include{serviceSelectorExtras}
-                    - variable: tcp
-                      label: "TCP Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 51413
+                              default: 10686
                               required: true
 # Include{serviceExpertRoot}
 # Include{serviceExpert}
@@ -82,6 +41,14 @@ questions:
         - variable: config
           label: "App Config Storage"
           description: "Stores the Application Configuration."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{persistenceBasic}
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
           schema:
             additional_attrs: true
             type: dict
@@ -96,9 +63,12 @@ questions:
             type: dict
             attrs:
 # Include{ingressDefault}
+# Include{ingressTLS}
+# Include{ingressTraefik}
 # Include{ingressAdvanced}
 # Include{ingressList}
 # Include{securityContextRoot}
+
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
@@ -107,7 +77,7 @@ questions:
                   default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
@@ -120,6 +90,7 @@ questions:
                 schema:
                   type: int
                   default: 568
+
 # Include{resources}
 # Include{advanced}
 # Include{addons}
