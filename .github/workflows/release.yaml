@@ -43,6 +43,12 @@ jobs:
         GPG_KEYRING_BASE64: "${{ secrets.GPG_KEYRING_BASE64 }}"
         GPG_PASSPHRASE: "${{ secrets.GPG_PASSPHRASE }}"
 
+    # Optional step if GPG signing is used
+    - name: Clean Questions
+      shell: bash
+      run: |
+        find . -type f -name 'questions.yaml' -exec rm {} \;
+
     - name: Run chart-releaser
       uses: helm/chart-releaser-action@v1.6.0
       with:
