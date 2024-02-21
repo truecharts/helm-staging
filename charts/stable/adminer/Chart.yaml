@@ -34,4 +34,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/adminer
   - https://hub.docker.com/_/adminer
 type: application
-version: 7.2.0
+version: 7.2.1
