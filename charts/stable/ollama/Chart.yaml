@@ -36,4 +36,4 @@ sources:
   - https://hub.docker.com/r/ollama/ollama
   - https://ghcr.io/ollama-webui/ollama-webui
 type: application
-version: 1.2.3
+version: 2.0.0
