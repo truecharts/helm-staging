@@ -17,7 +17,7 @@ configmap:
   dashboard:
     enabled: true
     labels:
-      grafanadasboard: "1"
+      grafana_dashboard: "1"
     data:
       memcached.json: >-
         {{ .Files.Get "dashboard.json" | indent 8 }}
