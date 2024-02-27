@@ -125,7 +125,7 @@ mimir:
                   operator: In
                   values:
                     - ingester
-            topologyKey: 'kubernetes.io/hostname'
+            topologyKey: "kubernetes.io/hostname"
 
           - labelSelector:
               matchExpressions:
@@ -133,9 +133,9 @@ mimir:
                   operator: In
                   values:
                     - ingester
-            topologyKey: 'kubernetes.io/hostname'
+            topologyKey: "kubernetes.io/hostname"
     zoneAwareReplication:
-      topologyKey: 'kubernetes.io/hostname'
+      topologyKey: "kubernetes.io/hostname"
 
   admin-cache:
     enabled: true
@@ -144,6 +144,10 @@ mimir:
   chunks-cache:
     enabled: true
     replicas: 2
+    resources:
+      requests:
+        cpu: 20m
+        memory: 10Mi
 
   index-cache:
     enabled: true
@@ -219,7 +223,7 @@ mimir:
                   operator: In
                   values:
                     - store-gateway
-            topologyKey: 'kubernetes.io/hostname'
+            topologyKey: "kubernetes.io/hostname"
 
           - labelSelector:
               matchExpressions:
@@ -227,15 +231,11 @@ mimir:
                   operator: In
                   values:
                     - store-gateway
-            topologyKey: 'kubernetes.io/hostname'
+            topologyKey: "kubernetes.io/hostname"
 
     zoneAwareReplication:
-      topologyKey: 'kubernetes.io/hostname'
-  chunks-cache:
-    resources:
-      requests:
-        cpu: 20m
-        memory: 10Mi
+      topologyKey: "kubernetes.io/hostname"
+
   nginx:
     replicas: 1
     resources:
