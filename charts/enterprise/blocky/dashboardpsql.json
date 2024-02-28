@@ -777,16 +777,16 @@
             {
                 "current": {
                     "selected": false,
-                    "text": "Postgres",
-                    "value": "Postgres"
+                    "text": "BlockyPostgres",
+                    "value": "blockypostgres"
                 },
                 "hide": 0,
                 "includeAll": false,
+                "label": "datasource",
                 "multi": false,
                 "name": "DS_POSTGRES",
-                "label": "datasource",
                 "options": [],
-                "query": "Postgres",
+                "query": "grafana-postgresql-datasource",
                 "refresh": 1,
                 "regex": "",
                 "skipUrlSync": false,
