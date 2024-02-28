@@ -1852,16 +1852,17 @@
             {
                 "current": {
                     "selected": false,
-                    "text": "Prometheus",
-                    "value": "Prometheus"
+                    "text": "BlockyPostgres",
+                    "value": "blockypostgres"
                 },
                 "hide": 0,
                 "includeAll": false,
-                "multi": false,
-                "name": "DS_PROMETHEUS",
                 "label": "datasource",
+                "multi": false,
+                "name": "DS_POSTGRES",
                 "options": [],
-                "query": "prometheus",
+                "query": "grafana-postgresql-datasource",
+                "queryValue": "",
                 "refresh": 1,
                 "regex": "",
                 "skipUrlSync": false,
