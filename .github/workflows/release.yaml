@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  repo-release:
+  release:
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout
@@ -42,77 +42,19 @@ jobs:
       env:
         GPG_KEYRING_BASE64: "${{ secrets.GPG_KEYRING_BASE64 }}"
         GPG_PASSPHRASE: "${{ secrets.GPG_PASSPHRASE }}"
-
-    - name: Run chart-releaser
-      uses: helm/chart-releaser-action@v1.6.0
-      with:
-        charts_dir: charts/*
-        config: cr.yaml
-      env:
-        CR_TOKEN: "${{ secrets.PERS_PAT }}"
-        CR_SKIP_EXISTING: "true"
-
-  oci-release:
-    runs-on: ubuntu-20.04
-    steps:
-    - name: Checkout
-      uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # tag=v3
-      with:
-        token: ${{ secrets.BOT_TOKEN }}
-        fetch-depth: 0
-
-    - name: Configure Git
-      run: |
-        git config user.name "TrueCharts-Bot"
-        git config user.email "bot@truecharts.org"
-
-    - name: Install Helm
-      uses: azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78 # tag=v3
-      with:
-        version: v3.14.0
-
-    # Optional step if GPG signing is used
-    - name: Prepare GPG key
-      run: |
-        gpg_dir=.cr-gpg
-        mkdir "$gpg_dir"
-        keyring="$gpg_dir/secring.gpg"
-        base64 -d <<< "$GPG_KEYRING_BASE64" > "$keyring"
-        passphrase_file="$gpg_dir/passphrase"
-        echo "$GPG_PASSPHRASE" > "$passphrase_file"
-        echo "CR_PASSPHRASE_FILE=$passphrase_file" >> "$GITHUB_ENV"
-        echo "CR_KEYRING=$keyring" >> "$GITHUB_ENV"
-      env:
-        GPG_KEYRING_BASE64: "${{ secrets.GPG_KEYRING_BASE64 }}"
-        GPG_PASSPHRASE: "${{ secrets.GPG_PASSPHRASE }}"
-
-    - name: Run chart-releaser
-      uses: helm/chart-releaser-action@v1.6.0
-      with:
-        charts_dir: charts/*
-        config: cr.yaml
-      env:
-        CR_TOKEN: "${{ secrets.BOT_TOKEN }}"
-        skip_upload: "true"
 
     - name: Helm | Login
       shell: bash
       run: echo ${{ secrets.QUAY_SECRET }} | helm registry login -u ${{ secrets.QUAY_USER }} --password-stdin quay.io
 
 
-    - name: Push Charts to Quay
+    - name: Release Charts
       shell: bash
+      env:
+        CR_TOKEN: "${{ secrets.BOT_TOKEN }}"
+        CR_SKIP_EXISTING: "true"
       run: |
-        for pkg in .cr-release-packages/*.tgz; do
-          if [ -z "${pkg:-}" ]; then
-            break
-          fi
-          filename=$(basename "$pkg")
-          name="${filename%%-[0-9]*.[0-9]*.[0-9]*.tgz}"
-          echo "uploading $name"
-          helm push "${pkg}" oci://quay.io/truecharts || echo "failed to upload $pkg to OCI"
-          curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${{ secrets.QUAY_TOKEN }}" "https://quay.io/api/v1/repository/truecharts/$name/changevisibility"  || echo "failed to set $pkg to public on OCI"
-        done
+        ./.github/scripts/cr.sh --config "cr.yaml" --charts-dir 'charts/*' --quay-token "${{ secrets.QUAY_TOKEN }}"
 
     - name: Helm | Logout
       shell: bash
