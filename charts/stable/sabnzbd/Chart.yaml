@@ -4,7 +4,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   truecharts.org/category: media
   truecharts.org/max_helm_version: "3.14"
-  truecharts.org/min_helm_version: "3.11"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
 apiVersion: v2
 appVersion: 4.2.2
@@ -35,4 +35,4 @@ sources:
   - https://ghcr.io/onedr0p/sabnzbd
   - https://ghcr.io/onedr0p/exportarr
 type: application
-version: 19.2.0
+version: 19.2.1
