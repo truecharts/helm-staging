@@ -49,7 +49,7 @@ jobs:
         charts_dir: charts/*
         config: cr.yaml
       env:
-        CR_TOKEN: "${{ secrets.BOT_TOKEN }}"
+        CR_TOKEN: "${{ secrets.PERS_PAT }}"
         CR_SKIP_EXISTING: "true"
 
     - name: Helm | Login
