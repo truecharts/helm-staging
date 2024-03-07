@@ -54,7 +54,18 @@ jobs:
         CR_TOKEN: "${{ secrets.BOT_TOKEN }}"
         CR_SKIP_EXISTING: "true"
       run: |
-        ./.github/scripts/cr.sh --config "cr.yaml" --charts-dir 'charts/*' --quay-token "${{ secrets.QUAY_TOKEN }}"
+        owner=$(cut -d '/' -f 1 <<< "$GITHUB_REPOSITORY")
+        repo=$(cut -d '/' -f 2 <<< "$GITHUB_REPOSITORY")
+        install="$RUNNER_TOOL_CACHE/cr/${{ inputs.version }}/$(uname -m)"
+        echo "$install" >> "$GITHUB_PATH"
+        ./.github/scripts/cr.sh --config "cr.yaml" --charts-dir 'charts/*' --quay-token "${{ secrets.QUAY_TOKEN }}" --owner "$owner" --repo "$repo" --install-dir "$install"
+        if [[ -f changed_charts.txt ]]; then
+            cat changed_charts.txt >> "$GITHUB_OUTPUT"
+        fi
+        if [[ -f chart_version.txt ]]; then
+            cat chart_version.txt >> "$GITHUB_OUTPUT"
+        fi
+        rm -f changed_charts.txt chart_version.txt
 
     - name: Helm | Logout
       shell: bash
