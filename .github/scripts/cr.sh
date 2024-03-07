@@ -55,6 +55,7 @@ main() {
   local mark_as_latest=true
   local packages_with_index=false
   local pages_branch=
+  local quay_token=
 
   parse_command_line "$@"
 
@@ -89,7 +90,7 @@ main() {
           echo "Nothing to do. No chart changes detected."
         fi
       done
-
+      oci_release_charts
       release_charts
       update_index
       echo "changed_charts=$(
@@ -218,6 +219,12 @@ parse_command_line() {
         shift
       fi
       ;;
+    --quay-token)
+      if [[ -n "${2:-}" ]]; then
+        quay_token="$2"
+        shift
+      fi
+      ;;
     *)
       break
       ;;
@@ -312,6 +319,20 @@ package_chart() {
 
   echo "Packaging chart '$chart'..."
   cr package "${args[@]}"
+}
+
+oci_release_charts() {
+        echo "releaseing charts on Quay..."
+        for pkg in .cr-release-packages/*.tgz; do
+          if [ -z "${pkg:-}" ]; then
+            break
+          fi
+          filename=$(basename "$pkg")
+          name="${filename%%-[0-9]*.[0-9]*.[0-9]*.tgz}"
+          echo "uploading $name"
+          helm push "${pkg}" oci://quay.io/truecharts || echo "failed to upload $pkg to OCI"
+          curl -X POST -H "Content-Type: application/json" -d '{"visibility": "public"}' -H "Authorization: Bearer ${quay_token}" "https://quay.io/api/v1/repository/truecharts/$name/changevisibility"  || echo "failed to set $pkg to public on OCI"
+        done
 }
 
 release_charts() {
