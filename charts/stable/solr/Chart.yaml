@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: database
+  truecharts.org/category: search
   truecharts.org/max_helm_version: "3.14"
-  truecharts.org/min_helm_version: "3.11"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: dependency
 apiVersion: v2
-appVersion: 1.6.24
+appVersion: 9.5.0
 dependencies:
   - name: common
     version: 20.0.9
@@ -17,22 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Memcached is a memory-backed database caching solution
-home: https://truecharts.org/charts/dependency/memcached
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/memcached.png
+description: Apache Solr
+home: https://truecharts.org/charts/dependency/solr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.png
 keywords:
-  - memcached
-  - database
-  - cache
+  - solr
+  - apache
+  - search
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: memcached
+name: solr
 sources:
-  - https://github.com/bitnami/bitnami-docker-memcached
-  - https://github.com/truecharts/charts/tree/master/charts/dependency/memcached
-  - https://hub.docker.com/r/bitnami/memcached
+  - https://github.com/apache/solr
+  - https://github.com/truecharts/charts/tree/master/charts/dependency/solr
+  - https://hub.docker.com/r/bitnami/solr
 type: application
-version: 12.6.3
+version: 10.5.4
