@@ -4,8 +4,8 @@ annotations:
   truecharts.org/SCALE-support: "true"
   truecharts.org/category: core
   truecharts.org/max_helm_version: "3.14"
-  truecharts.org/min_helm_version: "3.11"
-  truecharts.org/train: enterprise
+  truecharts.org/min_helm_version: "3.12"
+  truecharts.org/train: premium
 apiVersion: v2
 appVersion: latest
 dependencies:
@@ -18,7 +18,7 @@ dependencies:
     import-values: []
 deprecated: false
 description: A network load-balancer implementation for Kubernetes using standard routing protocols
-home: https://truecharts.org/charts/enterprise/metallb-config
+home: https://truecharts.org/charts/premium/metallb-config
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/metallb-config.png
 keywords:
   - metallb
@@ -32,7 +32,7 @@ name: metallb-config
 sources:
   - https://metallb.universe.tf
   - https://github.com/metallb/metallb
-  - https://github.com/truecharts/charts/tree/master/charts/enterprise/metallb-config
+  - https://github.com/truecharts/charts/tree/master/charts/premium/metallb-config
   - https://hub.docker.com/_/hello-world
 type: application
-version: 6.5.2
+version: 6.5.3
