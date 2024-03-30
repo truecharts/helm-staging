@@ -5,7 +5,7 @@ chart-yaml-schema: .github/ct-install-config/chart_schema.yaml
 chart-dirs:
   - charts/stable
   - charts/incubator
-  - charts/enterprise
-  - charts/dependency
+  - charts/premium
+  - charts/system
 excluded-charts: []
 kubectl-timeout: 120s
