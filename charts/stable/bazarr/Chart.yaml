@@ -39,4 +39,4 @@ sources:
   - https://ghcr.io/onedr0p/exportarr
   - https://ghcr.io/onedr0p/bazarr
 type: application
-version: 19.6.6
+version: 19.6.7
