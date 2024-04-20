@@ -7,10 +7,10 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 11.0.7
+appVersion: 11.0.8
 dependencies:
   - name: common
-    version: 20.3.7
+    version: 20.3.11
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
@@ -43,4 +43,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/seafile
   - https://hub.docker.com/r/seafileltd/seafile-mc
 type: application
-version: 5.15.12
+version: 5.15.13
