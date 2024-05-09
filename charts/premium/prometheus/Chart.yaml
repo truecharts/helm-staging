@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: premium
 apiVersion: v2
-appVersion: 2.51.2
+appVersion: 2.52.0
 dependencies:
   - name: common
     version: 23.0.0
@@ -43,4 +43,4 @@ sources:
   - https://hub.docker.com/r/bitnami/prometheus
   - https://hub.docker.com/r/bitnami/alertmanager
 type: application
-version: 18.1.2
+version: 18.2.0
