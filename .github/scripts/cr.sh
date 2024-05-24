@@ -75,7 +75,7 @@ main() {
     readarray -t changed_charts <<<"$(lookup_changed_charts "$latest_tag")"
 
     if [[ -n "${changed_charts[*]}" ]]; then
-      install_chart_releaser
+      # install_chart_releaser
 
       rm -rf .cr-release-packages
       mkdir -p .cr-release-packages
