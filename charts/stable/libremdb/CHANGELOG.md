@@ -55,8 +55,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 8.1.60 • [Train: stable]
 
-- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@c45fa4d by renovate (#22535) • [`6b579fa`](https://github.com/truecharts/charts/commit/6b579fab1249b514d52e2bd176de6c5e87c273f2) • [@TrueCharts Bot] (2024-05-28)
 - chore(deps): update container image common to v23.0.9@91ed868 by renovate (#22539) • [`096b7b4`](https://github.com/truecharts/charts/commit/096b7b44ad081dece493a552bbf6bee7650a2ad7) • [@TrueCharts Bot] (2024-05-28)
+- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@c45fa4d by renovate (#22535) • [`6b579fa`](https://github.com/truecharts/charts/commit/6b579fab1249b514d52e2bd176de6c5e87c273f2) • [@TrueCharts Bot] (2024-05-28)
 
 ## 8.1.59 • [Train: stable]
 
@@ -478,8 +478,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.10.46 • [Train: stable]
 
-- Commit daily changes • [`5f6f1c9`](https://github.com/truecharts/charts/commit/5f6f1c96b4e8011db5c39a38330035cfc0d2ccd1) • [@TrueCharts-Bot] (2024-04-20)
 - chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@939f376 by renovate (#21040) • [`9237d59`](https://github.com/truecharts/charts/commit/9237d59aaf38351f2e71f3bad935e94e4521d9de) • [@TrueCharts Bot] (2024-04-20)
+- Commit daily changes • [`5f6f1c9`](https://github.com/truecharts/charts/commit/5f6f1c96b4e8011db5c39a38330035cfc0d2ccd1) • [@TrueCharts-Bot] (2024-04-20)
 
 ## 7.10.45 • [Train: stable]
 
@@ -517,9 +517,9 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.10.37 • [Train: stable]
 
-- Commit daily changes • [`3bbe620`](https://github.com/truecharts/charts/commit/3bbe62084f52c024e50a48f42438dd8a595bda0e) • [@TrueCharts-Bot] (2024-04-17)
 - Commit daily changes • [`26af685`](https://github.com/truecharts/charts/commit/26af68565949440123d8ba215a7e8544ec455067) • [@TrueCharts-Bot] (2024-04-17)
 - Revert &#34;Commit daily changes&#34; • [`328900e`](https://github.com/truecharts/charts/commit/328900e43814c8ec97a259f5124b503dcad3dd34) • [@Kjeld Schouten] (2024-04-17)
+- Commit daily changes • [`3bbe620`](https://github.com/truecharts/charts/commit/3bbe62084f52c024e50a48f42438dd8a595bda0e) • [@TrueCharts-Bot] (2024-04-17)
 - chore(deps): update container image redis to v13.3.8@7640d5a by renovate (#20870) • [`6aa5bda`](https://github.com/truecharts/charts/commit/6aa5bda2f53a3e764a06b2782b92ccd9827f8c2a) • [@TrueCharts Bot] (2024-04-16)
 
 ## 7.10.36 • [Train: stable]
@@ -643,8 +643,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 ## 7.10.8 • [Train: stable]
 
 - Commit daily changes • [`313ec21`](https://github.com/truecharts/charts/commit/313ec21e18d2481ae3b0c3983db48deac34532f0) • [@TrueCharts-Bot] (2024-04-11)
-- chore(deps): update container image redis to v13.3.5@7f45c09 by renovate (#20555) • [`bbf0c71`](https://github.com/truecharts/charts/commit/bbf0c712e7cf87f5b8467e4211bd6bf8ee61be94) • [@TrueCharts Bot] (2024-04-10)
 - hmm • [`d62c9f1`](https://github.com/truecharts/charts/commit/d62c9f1649f26a2bcede53a1bb48f73ee801c5c9) • [@Kjeld Schouten] (2024-04-10)
+- chore(deps): update container image redis to v13.3.5@7f45c09 by renovate (#20555) • [`bbf0c71`](https://github.com/truecharts/charts/commit/bbf0c712e7cf87f5b8467e4211bd6bf8ee61be94) • [@TrueCharts Bot] (2024-04-10)
 
 ## 7.10.7 • [Train: stable]
 
@@ -652,9 +652,9 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.10.6 • [Train: stable]
 
-- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@db85ef2 by renovate (#20525) • [`228ce97`](https://github.com/truecharts/charts/commit/228ce97bb19b619bb8eb97671cc5d4740b5bc052) • [@TrueCharts Bot] (2024-04-10)
 - chore(deps): update container image common to v20.3.4@d7e1b23 by renovate (#20527) • [`5a02b41`](https://github.com/truecharts/charts/commit/5a02b410bdf32fa819a1cf8f7d277c11e7446b6e) • [@TrueCharts Bot] (2024-04-10)
 - cleanup • [`d1bf48d`](https://github.com/truecharts/charts/commit/d1bf48d0f78dd3a1bbf3d855463ea9e0303fbf39) • [@Kjeld Schouten] (2024-04-10)
+- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@db85ef2 by renovate (#20525) • [`228ce97`](https://github.com/truecharts/charts/commit/228ce97bb19b619bb8eb97671cc5d4740b5bc052) • [@TrueCharts Bot] (2024-04-10)
 
 ## 7.10.5 • [Train: stable]
 
@@ -676,8 +676,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.10.1 • [Train: stable]
 
-- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@3b7b6fe by renovate (#20450) • [`8ec60dc`](https://github.com/truecharts/charts/commit/8ec60dc5632b7afefcd6c798e38dfd51bbb41894) • [@TrueCharts Bot] (2024-04-09)
 - chore(deps): update container image redis to v13.3.1@9b53552 by renovate (#20455) • [`80b118d`](https://github.com/truecharts/charts/commit/80b118db2e7a8cd71db8ff6e40585d00b449b251) • [@TrueCharts Bot] (2024-04-09)
+- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@3b7b6fe by renovate (#20450) • [`8ec60dc`](https://github.com/truecharts/charts/commit/8ec60dc5632b7afefcd6c798e38dfd51bbb41894) • [@TrueCharts Bot] (2024-04-09)
 
 ## 7.10.0 • [Train: stable]
 
@@ -899,8 +899,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.8.16 • [Train: stable]
 
-- chore(deps): update container image common to v20.2.9@10fd6c5 by renovate (#19817) • [`604ffe1`](https://github.com/truecharts/charts/commit/604ffe1d5fb655bc1b4140413af6e6102dba73f0) • [@TrueCharts Bot] (2024-03-27)
 - chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@c0229d3 by renovate (#19860) • [`f504b8b`](https://github.com/truecharts/charts/commit/f504b8b9e70f99a2644e6088fa9319b6b712b67f) • [@TrueCharts Bot] (2024-03-27)
+- chore(deps): update container image common to v20.2.9@10fd6c5 by renovate (#19817) • [`604ffe1`](https://github.com/truecharts/charts/commit/604ffe1d5fb655bc1b4140413af6e6102dba73f0) • [@TrueCharts Bot] (2024-03-27)
 
 ## 7.8.15 • [Train: stable]
 
@@ -1056,8 +1056,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 ## 7.7.5 • [Train: stable]
 
 - Commit daily changes • [`18a12ae`](https://github.com/truecharts/charts/commit/18a12ae421748a1397ac8a6ac4c9d0ced8e4e114) • [@TrueCharts-Bot] (2024-03-18)
-- chore(deps): update container image common to v20.2.2@f7d0b92 by renovate (#19432) • [`b92ece3`](https://github.com/truecharts/charts/commit/b92ece325c4290d441d2fd9125c48345b45e9de5) • [@TrueCharts Bot] (2024-03-17)
 - chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@a1990cb by renovate (#19431) • [`ff622a4`](https://github.com/truecharts/charts/commit/ff622a44b5901b16a3851cf63210bac515388fd0) • [@TrueCharts Bot] (2024-03-17)
+- chore(deps): update container image common to v20.2.2@f7d0b92 by renovate (#19432) • [`b92ece3`](https://github.com/truecharts/charts/commit/b92ece325c4290d441d2fd9125c48345b45e9de5) • [@TrueCharts Bot] (2024-03-17)
 
 ## 7.7.4 • [Train: stable]
 
@@ -1086,8 +1086,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.6.1 • [Train: stable]
 
-- chore(deps): update container image redis to v13.0.5@01c1933 by renovate (#19324) • [`b33c151`](https://github.com/truecharts/charts/commit/b33c1514908f8e0de8f6eef8921e1f5c6e257df2) • [@TrueCharts Bot] (2024-03-16)
 - chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@a40d5e0 by renovate (#19279) • [`a62b59d`](https://github.com/truecharts/charts/commit/a62b59d85175e4f5230bc508a921943fea7c55c3) • [@TrueCharts Bot] (2024-03-16)
+- chore(deps): update container image redis to v13.0.5@01c1933 by renovate (#19324) • [`b33c151`](https://github.com/truecharts/charts/commit/b33c1514908f8e0de8f6eef8921e1f5c6e257df2) • [@TrueCharts Bot] (2024-03-16)
 
 ## 7.6.0 • [Train: stable]
 
@@ -1239,8 +1239,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 ## 6.1.24 • [Train: stable]
 
 - no message • [`86f4fd1`](https://github.com/truecharts/charts/commit/86f4fd1f758d7f5e103570fa073b1f3df9ceddbc) • [@Kjeld Schouten] (2024-02-17)
-- Merge branch &#39;master&#39; of github.com:truecharts/charts • [`fda7a69`](https://github.com/truecharts/charts/commit/fda7a699670c386cc13dcd6b8e63a16523c55311) • [@Kjeld Schouten] (2024-02-14)
 - chore(deps): update helm general non-major by renovate (#17986) • [`bdbc2dd`](https://github.com/truecharts/charts/commit/bdbc2ddfc5dc2e48c018f51c3a9934f953258274) • [@TrueCharts Bot] (2024-02-14)
+- Merge branch &#39;master&#39; of github.com:truecharts/charts • [`fda7a69`](https://github.com/truecharts/charts/commit/fda7a699670c386cc13dcd6b8e63a16523c55311) • [@Kjeld Schouten] (2024-02-14)
 
 ## 6.1.23 • [Train: stable]
 
@@ -1354,8 +1354,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 - Commit daily changes • [`92663fd`](https://github.com/truecharts/charts/commit/92663fd20508f148c3750c79de3f37f44530a18a) • [@TrueCharts-Bot] (2024-01-01)
 - chore: move everything to consume OCI-hosted common-chart dependency • [`0eae972`](https://github.com/truecharts/charts/commit/0eae972794d2fe164dc298993e899508639d2f2b) • [@Kjeld Schouten] (2024-01-01)
-- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@a4aa3c2 by renovate (#16639) • [`e110dd7`](https://github.com/truecharts/charts/commit/e110dd7b52834244e337bd0a3750b752f9befa85) • [@TrueCharts Bot] (2023-12-31)
 - chore(docs): standardize ./img references (#16704) • [`6986224`](https://github.com/truecharts/charts/commit/698622495ce0dccf9f0dbbb324d5df196d3eba3c) • [@Stavros Kois] (2023-12-31)
+- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@a4aa3c2 by renovate (#16639) • [`e110dd7`](https://github.com/truecharts/charts/commit/e110dd7b52834244e337bd0a3750b752f9befa85) • [@TrueCharts Bot] (2023-12-31)
 
 ## 6.1.0 • [Train: stable]
 
@@ -1490,9 +1490,9 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 3.0.329 • [Train: stable]
 
-- Commit daily changes • [`3ac7442`](https://github.com/truecharts/charts/commit/3ac7442c25a2d0d2648f9de45f218f95fec3d062) • [@TrueCharts-Bot] (2023-12-12)
 - Commit daily changes • [`8600090`](https://github.com/truecharts/charts/commit/86000902696d589d56ec162ac605e9a079eba969) • [@TrueCharts-Bot] (2023-12-12)
 - Commit daily changes • [`b9f4cca`](https://github.com/truecharts/charts/commit/b9f4ccaee6a5612110484ca4e8e91c6ede3465c8) • [@TrueCharts-Bot] (2023-12-12)
+- Commit daily changes • [`3ac7442`](https://github.com/truecharts/charts/commit/3ac7442c25a2d0d2648f9de45f218f95fec3d062) • [@TrueCharts-Bot] (2023-12-12)
 - Commit daily changes • [`84eca1f`](https://github.com/truecharts/charts/commit/84eca1fd32b6dd0181feeca73f43ba861d2459b2) • [@TrueCharts-Bot] (2023-12-11)
 - chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@602bd09 (#15940) • [`aac9b66`](https://github.com/truecharts/charts/commit/aac9b669c2dc5c96820b28d049c0605975e5bf67) • [@TrueCharts Bot] (2023-12-10)
 
@@ -1591,10 +1591,10 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 3.0.309 • [Train: stable]
 
-- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@181b99e (#15466) • [`8f7ce9e`](https://github.com/truecharts/charts/commit/8f7ce9e38bc92dc058272429554615a4e79b3cf1) • [@TrueCharts Bot] (2023-11-28)
-- Commit daily changes • [`d1c2213`](https://github.com/truecharts/charts/commit/d1c22138f95fdb77ed67ed1702ac71741ce17f1b) • [@TrueCharts-Bot] (2023-11-28)
 - Commit daily changes • [`0027f37`](https://github.com/truecharts/charts/commit/0027f3756f8bc222b262970613f7465d746b0548) • [@TrueCharts-Bot] (2023-11-28)
 - Commit daily changes • [`3fab41f`](https://github.com/truecharts/charts/commit/3fab41f7a192404c061a8db8398e3e45f59e5a19) • [@TrueCharts-Bot] (2023-11-28)
+- chore(deps): update container image quay.io/pussthecatorg/libremdb to latest@181b99e (#15466) • [`8f7ce9e`](https://github.com/truecharts/charts/commit/8f7ce9e38bc92dc058272429554615a4e79b3cf1) • [@TrueCharts Bot] (2023-11-28)
+- Commit daily changes • [`d1c2213`](https://github.com/truecharts/charts/commit/d1c22138f95fdb77ed67ed1702ac71741ce17f1b) • [@TrueCharts-Bot] (2023-11-28)
 
 ## 3.0.308 • [Train: stable]
 
@@ -1631,8 +1631,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 3.0.301 • [Train: stable]
 
-- fix(libremdb) Fix image tag (#15194) • [`c7a7d3a`](https://github.com/truecharts/charts/commit/c7a7d3a58dbd524a3cf758426dd4cc2a882448d4) • [@tuxsudo] (2023-11-21)
 - Commit daily changes • [`b4b772b`](https://github.com/truecharts/charts/commit/b4b772b288ab3556785792408245a839ee943d78) • [@TrueCharts-Bot] (2023-11-21)
+- fix(libremdb) Fix image tag (#15194) • [`c7a7d3a`](https://github.com/truecharts/charts/commit/c7a7d3a58dbd524a3cf758426dd4cc2a882448d4) • [@tuxsudo] (2023-11-21)
 
 ## 3.0.300 • [Train: stable]
 
@@ -3278,14 +3278,14 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.16 • [Train: stable]
 
-- Merge pull request #7698 from truecharts/renovate/tccr.io-truecharts-libremdb-latest • [`1c947e0`](https://github.com/truecharts/charts/commit/1c947e08b975477f2431eaaadaba27d8831f758c) • [@TrueCharts Bot] (2023-02-27)
 - Commit bumped Chart Version • [`465e7b9`](https://github.com/truecharts/charts/commit/465e7b9a84eb395bdf9cfed85845b312f655256a) • [@TrueCharts-Bot] (2023-02-27)
+- Merge pull request #7698 from truecharts/renovate/tccr.io-truecharts-libremdb-latest • [`1c947e0`](https://github.com/truecharts/charts/commit/1c947e08b975477f2431eaaadaba27d8831f758c) • [@TrueCharts Bot] (2023-02-27)
 
 ## 1.0.15 • [Train: stable]
 
-- chore(deps): update container image tccr.io/truecharts/libremdb to latest • [`c51c2c0`](https://github.com/truecharts/charts/commit/c51c2c01d4549026e1c1a57007e424f8da6cb6ac) • [@TrueCharts-Admin] (2023-02-27)
 - Commit bumped Chart Version • [`1d350a1`](https://github.com/truecharts/charts/commit/1d350a17e58a5c218f0964bc30065afa259eab6d) • [@TrueCharts-Bot] (2023-02-27)
 - Merge pull request #7682 from truecharts/renovate/tccr.io-truecharts-libremdb-latest • [`6314837`](https://github.com/truecharts/charts/commit/63148370260517d89f5fa3cc6e12cfe18feaf6d1) • [@TrueCharts Bot] (2023-02-27)
+- chore(deps): update container image tccr.io/truecharts/libremdb to latest • [`c51c2c0`](https://github.com/truecharts/charts/commit/c51c2c01d4549026e1c1a57007e424f8da6cb6ac) • [@TrueCharts-Admin] (2023-02-27)
 
 ## 1.0.14 • [Train: stable]
 
@@ -3332,23 +3332,23 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.7 • [Train: stable]
 
+- chore(deps): update container image tccr.io/truecharts/libremdb to latest • [`aa6afba`](https://github.com/truecharts/charts/commit/aa6afba8bcd18787459851cc16d914c949be0826) • [@TrueCharts-Admin] (2023-02-03)
+- Commit daily changes • [`35f77ed`](https://github.com/truecharts/charts/commit/35f77ed72d81a81a31e9d92d67f39a220022c450) • [@TrueCharts-Bot] (2023-02-03)
+- Commit daily changes • [`208c291`](https://github.com/truecharts/charts/commit/208c2919fec945cc14276a229222915ae0ec50b4) • [@TrueCharts-Bot] (2023-02-03)
+- Commit daily changes • [`2a8f5c5`](https://github.com/truecharts/charts/commit/2a8f5c58e44ce967263ab487d2e68d4cb839e51c) • [@TrueCharts-Bot] (2023-02-03)
+- Revert &#34;Commit daily changes&#34; • [`110ae61`](https://github.com/truecharts/charts/commit/110ae6125b24f4a5def05781696141f3ff44ed12) • [@Kjeld Schouten-Lebbing] (2023-02-03)
+- Revert &#34;Commit daily changes&#34; • [`0dbc251`](https://github.com/truecharts/charts/commit/0dbc251a0676e1781aaffccc1e06f135a5bfba89) • [@Kjeld Schouten-Lebbing] (2023-02-03)
 - Revert &#34;Commit daily changes&#34; • [`b92fcb2`](https://github.com/truecharts/charts/commit/b92fcb20b141c1d5f30a1c83604f6e887827804c) • [@Kjeld Schouten-Lebbing] (2023-02-03)
 - Commit daily changes • [`848e517`](https://github.com/truecharts/charts/commit/848e5175c3efbf8fc3e273b0a03dad67053a4205) • [@TrueCharts-Bot] (2023-02-03)
-- chore(deps): update container image tccr.io/truecharts/libremdb to latest • [`aa6afba`](https://github.com/truecharts/charts/commit/aa6afba8bcd18787459851cc16d914c949be0826) • [@TrueCharts-Admin] (2023-02-03)
-- Commit daily changes • [`2a8f5c5`](https://github.com/truecharts/charts/commit/2a8f5c58e44ce967263ab487d2e68d4cb839e51c) • [@TrueCharts-Bot] (2023-02-03)
-- Commit daily changes • [`35f77ed`](https://github.com/truecharts/charts/commit/35f77ed72d81a81a31e9d92d67f39a220022c450) • [@TrueCharts-Bot] (2023-02-03)
-- Revert &#34;Commit daily changes&#34; • [`0dbc251`](https://github.com/truecharts/charts/commit/0dbc251a0676e1781aaffccc1e06f135a5bfba89) • [@Kjeld Schouten-Lebbing] (2023-02-03)
-- Commit daily changes • [`208c291`](https://github.com/truecharts/charts/commit/208c2919fec945cc14276a229222915ae0ec50b4) • [@TrueCharts-Bot] (2023-02-03)
-- Revert &#34;Commit daily changes&#34; • [`110ae61`](https://github.com/truecharts/charts/commit/110ae6125b24f4a5def05781696141f3ff44ed12) • [@Kjeld Schouten-Lebbing] (2023-02-03)
 - Commit daily changes • [`adda47b`](https://github.com/truecharts/charts/commit/adda47bb6418f0deda603b30b02d21c6978f93a0) • [@TrueCharts-Bot] (2023-02-01)
 - Commit daily changes • [`ed743f6`](https://github.com/truecharts/charts/commit/ed743f6c5c2534c39143d6f822d19bb47913ecd2) • [@TrueCharts-Bot] (2023-02-01)
-- Commit daily changes • [`dfff570`](https://github.com/truecharts/charts/commit/dfff570b9c1a46b2b8a4178626c6b4299be83e22) • [@TrueCharts-Bot] (2023-01-31)
-- Commit daily changes • [`0fb22dd`](https://github.com/truecharts/charts/commit/0fb22dd1e2a9fe895502d16547469e94a3d706c9) • [@TrueCharts-Bot] (2023-01-31)
 - Commit daily changes • [`ed66075`](https://github.com/truecharts/charts/commit/ed660759772ba0148d1e6de709596011b2ceee63) • [@TrueCharts-Bot] (2023-01-31)
+- Commit daily changes • [`0fb22dd`](https://github.com/truecharts/charts/commit/0fb22dd1e2a9fe895502d16547469e94a3d706c9) • [@TrueCharts-Bot] (2023-01-31)
+- Commit daily changes • [`dfff570`](https://github.com/truecharts/charts/commit/dfff570b9c1a46b2b8a4178626c6b4299be83e22) • [@TrueCharts-Bot] (2023-01-31)
 - Commit daily changes • [`3f63d20`](https://github.com/truecharts/charts/commit/3f63d20af933f7fb1f1dc555ed585f475a4eb92f) • [@TrueCharts-Bot] (2023-01-31)
 - Commit daily changes • [`453bd4a`](https://github.com/truecharts/charts/commit/453bd4afef28d6d410077c7065654b4809c0fb48) • [@TrueCharts-Bot] (2023-01-25)
-- Commit bumped Chart Version • [`0821690`](https://github.com/truecharts/charts/commit/082169005a7dba4757d513158925b362458e244f) • [@TrueCharts-Bot] (2023-01-24)
 - Merge pull request #6641 from truecharts/renovate/tccr.io-truecharts-libremdb-latest • [`83baafd`](https://github.com/truecharts/charts/commit/83baafdebb506a84523a72b4cfb33040008a7b3e) • [@TrueCharts Bot] (2023-01-24)
+- Commit bumped Chart Version • [`0821690`](https://github.com/truecharts/charts/commit/082169005a7dba4757d513158925b362458e244f) • [@TrueCharts-Bot] (2023-01-24)
 
 ## 1.0.6 • [Train: stable]
 
@@ -3367,8 +3367,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.3 • [Train: stable]
 
-- Commit bumped Chart Version • [`694bf18`](https://github.com/truecharts/charts/commit/694bf18500091c611d288419eb82e04dc271ac27) • [@TrueCharts-Bot] (2023-01-13)
 - Merge pull request #6286 from truecharts/renovate/tccr.io-truecharts-libremdb-latest • [`1330a64`](https://github.com/truecharts/charts/commit/1330a64fb6801c68a27976612edbf6dbe36fff98) • [@TrueCharts Bot] (2023-01-13)
+- Commit bumped Chart Version • [`694bf18`](https://github.com/truecharts/charts/commit/694bf18500091c611d288419eb82e04dc271ac27) • [@TrueCharts-Bot] (2023-01-13)
 
 ## 1.0.2 • [Train: stable]
 
@@ -3412,8 +3412,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 ## 0.0.10 • [Train: incubator]
 
 - chore(deps): update container image tccr.io/truecharts/libremdb to latest • [`08ddefe`](https://github.com/truecharts/charts/commit/08ddefe0007d2472b75e37f7dc99762a4a8f9f04) • [@TrueCharts-Admin] (2022-12-24)
-- chore(deps): update helm general non-major • [`6485adc`](https://github.com/truecharts/charts/commit/6485adc96ab6dfb4c81b36735337a526d05322eb) • [@TrueCharts-Admin] (2022-12-19)
 - Commit bumped Chart Version • [`39c50fe`](https://github.com/truecharts/charts/commit/39c50fefd0cce4f6c6696a41f3b62b2c28732fcf) • [@TrueCharts-Bot] (2022-12-19)
+- chore(deps): update helm general non-major • [`6485adc`](https://github.com/truecharts/charts/commit/6485adc96ab6dfb4c81b36735337a526d05322eb) • [@TrueCharts-Admin] (2022-12-19)
 
 ## 0.0.9 • [Train: incubator]
 
