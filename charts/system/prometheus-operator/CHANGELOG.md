@@ -13,14 +13,14 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 7.1.0 • [Train: system]
 
-- chore(deps): update ignored by renovate (patch) (#21659) • [`3a07b9f`](https://github.com/truecharts/charts/commit/3a07b9f9794a4debbd6ede53e3e0095060c8c9a2) • [@TrueCharts Bot] (2024-05-31)
 - Commit daily changes • [`4357b53`](https://github.com/truecharts/charts/commit/4357b533a97aa77ffa16998ce8b568336e3892a9) • [@TrueCharts-Bot] (2024-05-31)
+- chore(deps): update ignored by renovate (patch) (#21659) • [`3a07b9f`](https://github.com/truecharts/charts/commit/3a07b9f9794a4debbd6ede53e3e0095060c8c9a2) • [@TrueCharts Bot] (2024-05-31)
 - chore(deps): update ignored by renovate (major) (#21660) • [`49d4258`](https://github.com/truecharts/charts/commit/49d425876349e302ad2a94fccc2cd098d78337ff) • [@TrueCharts Bot] (2024-05-30)
 
 ## 7.0.4 • [Train: system]
 
-- Commit daily changes • [`e50357a`](https://github.com/truecharts/charts/commit/e50357a154422a397a11141869f0973293102e49) • [@TrueCharts-Bot] (2024-05-26)
 - Commit daily changes • [`529340b`](https://github.com/truecharts/charts/commit/529340b7575e8cd6d00d2499271dc62e58a8d18d) • [@TrueCharts-Bot] (2024-05-26)
+- Commit daily changes • [`e50357a`](https://github.com/truecharts/charts/commit/e50357a154422a397a11141869f0973293102e49) • [@TrueCharts-Bot] (2024-05-26)
 - Commit daily changes • [`17d5f88`](https://github.com/truecharts/charts/commit/17d5f886bfd21d2f7e021feee2657a89a9869488) • [@TrueCharts-Bot] (2024-05-02)
 - chore: bump common to release improved checks on volsync and cnpg (#21454) • [`afc5e7e`](https://github.com/truecharts/charts/commit/afc5e7eafa19a1b65a13d021fedf7510b485bd13) • [@Kjeld Schouten] (2024-05-01)
 
@@ -424,12 +424,12 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 - Commit daily changes • [`c43b045`](https://github.com/truecharts/charts/commit/c43b0458e73c91b2a55e3592670299e068729950) • [@TrueCharts-Bot] (2023-12-10)
 - Commit daily changes • [`c5c271c`](https://github.com/truecharts/charts/commit/c5c271cb7efffb1c7200f9e6818a445658fa3890) • [@TrueCharts-Bot] (2023-12-03)
-- chore: update annotations • [`5e194fb`](https://github.com/truecharts/charts/commit/5e194fb0bb5e2db19f02aac9cfd3cf32f28694f2) • [@Kjeld Schouten] (2023-12-02)
 - Commit daily changes • [`57a03f8`](https://github.com/truecharts/charts/commit/57a03f87318553c6d549bb9ae286dcd3cb3d8d5e) • [@TrueCharts-Bot] (2023-12-02)
+- chore: update annotations • [`5e194fb`](https://github.com/truecharts/charts/commit/5e194fb0bb5e2db19f02aac9cfd3cf32f28694f2) • [@Kjeld Schouten] (2023-12-02)
 - Commit daily changes • [`e75af59`](https://github.com/truecharts/charts/commit/e75af597d02003f3848de446c0b2f0c9dc4c10a1) • [@TrueCharts-Bot] (2023-12-01)
 - chore: cleanup chart.yaml and add min-max scale version • [`286f68a`](https://github.com/truecharts/charts/commit/286f68aed0da4d274bcd7e7266934adee6667c6c) • [@Kjeld Schouten] (2023-11-30)
-- Commit daily changes • [`d1c2213`](https://github.com/truecharts/charts/commit/d1c22138f95fdb77ed67ed1702ac71741ce17f1b) • [@TrueCharts-Bot] (2023-11-28)
 - Commit daily changes • [`0027f37`](https://github.com/truecharts/charts/commit/0027f3756f8bc222b262970613f7465d746b0548) • [@TrueCharts-Bot] (2023-11-28)
+- Commit daily changes • [`d1c2213`](https://github.com/truecharts/charts/commit/d1c22138f95fdb77ed67ed1702ac71741ce17f1b) • [@TrueCharts-Bot] (2023-11-28)
 - Update Chart.yaml • [`1b8a805`](https://github.com/truecharts/charts/commit/1b8a805238b7bda78269a43e968987a1e8404d7f) • [@Kjeld Schouten] (2023-11-25)
 
 ## 1.0.15 • [Train: operators]
@@ -457,8 +457,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.10 • [Train: operators]
 
-- chore(deps): update container image tccr.io/truecharts/prometheus-config-reloader to v0.69.0 (#14396) • [`6053dd4`](https://github.com/truecharts/charts/commit/6053dd457cf274164fbdf028cf1e7582b11d5fea) • [@TrueCharts Bot] (2023-11-07)
 - chore(deps): update container image tccr.io/truecharts/prometheus-operator to v0.69.0 (#14398) • [`82dcbbb`](https://github.com/truecharts/charts/commit/82dcbbbc44fbb461228b62915466ad5202f4c878) • [@TrueCharts Bot] (2023-11-07)
+- chore(deps): update container image tccr.io/truecharts/prometheus-config-reloader to v0.69.0 (#14396) • [`6053dd4`](https://github.com/truecharts/charts/commit/6053dd457cf274164fbdf028cf1e7582b11d5fea) • [@TrueCharts Bot] (2023-11-07)
 
 ## 1.0.9 • [Train: operators]
 
@@ -492,8 +492,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.2 • [Train: operators]
 
-- revert bumps on incubator (&#43;2 squashed commit) • [`34bd9b1`](https://github.com/truecharts/charts/commit/34bd9b147b359dd19047ba144ddf0c89026792e1) • [@Kjeld Schouten] (2023-07-31)
 - Commit daily changes • [`133f9ea`](https://github.com/truecharts/charts/commit/133f9ea2e9d7ce53aa66d5e7450d4aead927672e) • [@TrueCharts-Bot] (2023-07-31)
+- revert bumps on incubator (&#43;2 squashed commit) • [`34bd9b1`](https://github.com/truecharts/charts/commit/34bd9b147b359dd19047ba144ddf0c89026792e1) • [@Kjeld Schouten] (2023-07-31)
 - chore(deps): update helm general non-major (#11034) • [`443da3d`](https://github.com/truecharts/charts/commit/443da3d0fbd8e36d757467dfb7372ce7ebb968c4) • [@TrueCharts Bot] (2023-07-30)
 
 ## 1.0.1 • [Train: operators]
