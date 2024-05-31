@@ -122,8 +122,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 4.8.0 • [Train: stable]
 
-- fix(whisper-asr-webservice): liveness probe fix, add large-v3 model, update version, remove unused storage (#20042) • [`aa62d42`](https://github.com/truecharts/charts/commit/aa62d4242e4e26e1e9e8e0570d55af7a7ff89f7f) • [@v3DJG6GL] (2024-04-08)
 - chore(deps): update container image common to v20.3.2@0722ebb by renovate (#20334) • [`36a8308`](https://github.com/truecharts/charts/commit/36a83081e8a2a0f9c0a7d36ae5398e55264c1798) • [@TrueCharts Bot] (2024-04-08)
+- fix(whisper-asr-webservice): liveness probe fix, add large-v3 model, update version, remove unused storage (#20042) • [`aa62d42`](https://github.com/truecharts/charts/commit/aa62d4242e4e26e1e9e8e0570d55af7a7ff89f7f) • [@v3DJG6GL] (2024-04-08)
 
 ## 4.7.5 • [Train: stable]
 
