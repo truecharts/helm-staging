@@ -3,587 +3,147 @@ title: Changelog
 pagefind: false
 ---
 
-## [minecraft-java-2.0.0](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-2.0.0) (2022-11-10)
+All history information can be found at [Github History](https://github.com/truecharts/charts/commits/master/charts/incubator/sd-webui)
 
-### Chore
+:::tip
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Major Change to GUI
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+If you need more than 2 scrolls to find your current version, please consider updating the chart as soon as possible.
 
-### Fix
+:::
 
-- change container config label
+## 1.0.6 • [Train: incubator]
 
-## [minecraft-java-1.0.77](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.77) (2022-11-08)
+- Commit daily changes • [`4357b53`](https://github.com/truecharts/charts/commit/4357b533a97aa77ffa16998ce8b568336e3892a9) • [@TrueCharts-Bot] (2024-05-31)
+- chore(deps): update container image ghcr.io/neggles/sd-webui-docker to latest@6e0740a by renovate (#22679) • [`31f31a8`](https://github.com/truecharts/charts/commit/31f31a8db8e4dfad0091698e4d034c7ed07edd53) • [@TrueCharts Bot] (2024-05-31)
 
-### Chore
+## 1.0.5 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+- chore(deps): update container image ghcr.io/neggles/sd-webui-docker to latest@ceefbb9 by renovate (#22647) • [`84e5724`](https://github.com/truecharts/charts/commit/84e57246f716c3a24f764472c88d4bbd90e96f52) • [@TrueCharts Bot] (2024-05-30)
+- chore(deps): update container image common to v23.0.10@46ba38c by renovate (#22650) • [`f2e9285`](https://github.com/truecharts/charts/commit/f2e9285719fd297f267b1af1be98fc1021c53d6f) • [@TrueCharts Bot] (2024-05-30)
 
-## [minecraft-java-1.0.76](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.76) (2022-11-08)
+## 1.0.4 • [Train: incubator]
 
-### Chore
+- Commit daily changes • [`529340b`](https://github.com/truecharts/charts/commit/529340b7575e8cd6d00d2499271dc62e58a8d18d) • [@TrueCharts-Bot] (2024-05-26)
+- Commit daily changes • [`e50357a`](https://github.com/truecharts/charts/commit/e50357a154422a397a11141869f0973293102e49) • [@TrueCharts-Bot] (2024-05-26)
+- chore(docs): exclude changelog from pagefind (#21693) • [`f91c384`](https://github.com/truecharts/charts/commit/f91c384060835b0cff91205b8ee00de36b10d689) • [@Stavros Kois] (2024-05-06)
+- Commit daily changes • [`17d5f88`](https://github.com/truecharts/charts/commit/17d5f886bfd21d2f7e021feee2657a89a9869488) • [@TrueCharts-Bot] (2024-05-02)
+- chore: bump common to release improved checks on volsync and cnpg (#21454) • [`afc5e7e`](https://github.com/truecharts/charts/commit/afc5e7eafa19a1b65a13d021fedf7510b485bd13) • [@Kjeld Schouten] (2024-05-01)
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+## 1.0.3 • [Train: incubator]
 
-## [minecraft-java-1.0.76](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.76) (2022-11-08)
+- Commit daily changes • [`db84ba1`](https://github.com/truecharts/charts/commit/db84ba13a38056fb56ed83a2bc29280cf8843e70) • [@TrueCharts-Bot] (2024-04-30)
+- chore: bump common • [`9abc20d`](https://github.com/truecharts/charts/commit/9abc20d845b02c347dddd0a6c2f13af10aad3a22) • [@Kjeld Schouten] (2024-04-29)
 
-### Chore
+## 1.0.2 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+- fix: fixup all chart volsync/credentials settings • [`20f2fe8`](https://github.com/truecharts/charts/commit/20f2fe834207c83906a9a505cce8c45aee76d2ed) • [@Kjeld Schouten] (2024-04-29)
 
-## [minecraft-java-1.0.76](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.76) (2022-11-08)
+## 1.0.1 • [Train: incubator]
 
-### Chore
+- fix: adapt for common cnpg/volsync pathing changes (#21445) • [`c3c0b3b`](https://github.com/truecharts/charts/commit/c3c0b3bc461923373054d678abb33e1426bb213f) • [@Kjeld Schouten] (2024-04-29)
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+## 1.0.0 • [Train: incubator]
 
-## [minecraft-java-1.0.75](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.75) (2022-11-07)
+- feat: Add VolSync support and move CNPG backup credentials on SCALE (#21443) • [`02e1038`](https://github.com/truecharts/charts/commit/02e10381acd4056399f58c8c160610c9c6c79743) • [@Kjeld Schouten] (2024-04-29)
 
-### Chore
+## 0.1.18 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+- chore(deps): update ignored by renovate (patch) (#21171) • [`427ba6a`](https://github.com/truecharts/charts/commit/427ba6aa3b87a4e068919c234c71227ef34d5ea6) • [@TrueCharts Bot] (2024-04-26)
 
-## [minecraft-java-1.0.75](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.75) (2022-11-06)
+## 0.1.17 • [Train: incubator]
 
-### Chore
+- Commit daily changes • [`617cb4a`](https://github.com/truecharts/charts/commit/617cb4ab93e0d04ce8d8b8a8f6d4ff8e93555555) • [@TrueCharts-Bot] (2024-04-23)
+- fix(scale-gui): replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI (#21154) • [`d45f7fe`](https://github.com/truecharts/charts/commit/d45f7fe497521d6032fde9792256356ae849019f) • [@Kjeld Schouten] (2024-04-22)
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+## 0.1.16 • [Train: incubator]
 
-## [minecraft-java-1.0.74](https://github.com/truecharts/charts/compare/minecraft-java-1.0.73...minecraft-java-1.0.74) (2022-11-06)
+- Commit daily changes • [`54d8873`](https://github.com/truecharts/charts/commit/54d88732dc1d0b07501c9c32038d316e8b841f23) • [@TrueCharts-Bot] (2024-04-22)
+- chore: bump everything to release new doc pages • [`b4f0331`](https://github.com/truecharts/charts/commit/b4f0331ba851a4cd2f92289a1026f50684dc291d) • [@Kjeld Schouten] (2024-04-21)
 
-### Chore
+## 0.1.15 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
+- chore: update groups html (#21121) • [`b5036ed`](https://github.com/truecharts/charts/commit/b5036ed2aab9d010274c7ce81064fbfe52328865) • [@Kjeld Schouten] (2024-04-21)
 
-## [minecraft-java-1.0.73](https://github.com/truecharts/charts/compare/minecraft-java-1.0.72...minecraft-java-1.0.73) (2022-11-05)
+## 0.1.14 • [Train: incubator]
 
-### Chore
+- chore: bump charts to release new docs to fix broken links • [`2e05d3c`](https://github.com/truecharts/charts/commit/2e05d3ccd87b00109f963c13817e3447bd123563) • [@Kjeld Schouten] (2024-04-21)
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
+## 0.1.13 • [Train: incubator]
 
-## [minecraft-java-1.0.72](https://github.com/truecharts/charts/compare/minecraft-java-1.0.71...minecraft-java-1.0.72) (2022-11-02)
+- chore: bump everything to regenerate readme&#39;s and site index • [`c850d0c`](https://github.com/truecharts/charts/commit/c850d0cfb31f34e07152f112b972241d1781debc) • [@Kjeld Schouten] (2024-04-21)
 
-### Chore
+## 0.1.12 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
+- Chore: rework SCALE catagories/groups to match helm and remove deprecated charts (#21111) • [`a66fd33`](https://github.com/truecharts/charts/commit/a66fd3357bcce17e7f21716949d7e5513b189061) • [@Kjeld Schouten] (2024-04-21)
 
-## [minecraft-java-1.0.71](https://github.com/truecharts/charts/compare/minecraft-java-1.0.70...minecraft-java-1.0.71) (2022-10-25)
+## 0.1.11 • [Train: incubator]
 
-### Chore
+- chore(deps): update ignored updates to v20.3.11@dae6129 by renovate (#21059) • [`f7ba60c`](https://github.com/truecharts/charts/commit/f7ba60c8ffac54cfed0b66b3789b09184ff21e61) • [@TrueCharts Bot] (2024-04-20)
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
+## 0.1.10 • [Train: incubator]
 
-## [minecraft-java-1.0.70](https://github.com/truecharts/charts/compare/minecraft-java-1.0.69...minecraft-java-1.0.70) (2022-10-25)
+- chore(deps): update ignored updates to v20.3.10@c2f262c by renovate (#21034) • [`aefa5aa`](https://github.com/truecharts/charts/commit/aefa5aabc6e45d11fe9ac0d8c4c6c05307a4fc1f) • [@TrueCharts Bot] (2024-04-20)
 
-### Chore
+## 0.1.9 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
+- chore(deps): update ignored updates to v20.3.9@370bb36 by renovate (#20917) • [`50346c4`](https://github.com/truecharts/charts/commit/50346c40728d7ac37094ec83a8036465aa4423de) • [@TrueCharts Bot] (2024-04-18)
 
-## [minecraft-java-1.0.69](https://github.com/truecharts/charts/compare/minecraft-java-1.0.66...minecraft-java-1.0.69) (2022-10-23)
+## 0.1.8 • [Train: incubator]
 
-### Chore
+- Commit daily changes • [`3bbe620`](https://github.com/truecharts/charts/commit/3bbe62084f52c024e50a48f42438dd8a595bda0e) • [@TrueCharts-Bot] (2024-04-17)
+- Commit daily changes • [`26af685`](https://github.com/truecharts/charts/commit/26af68565949440123d8ba215a7e8544ec455067) • [@TrueCharts-Bot] (2024-04-17)
+- Revert &#34;Commit daily changes&#34; • [`328900e`](https://github.com/truecharts/charts/commit/328900e43814c8ec97a259f5124b503dcad3dd34) • [@Kjeld Schouten] (2024-04-17)
+- chore(deps): update ignored updates to v20.3.8@52f4118 by renovate (#20876) • [`0347003`](https://github.com/truecharts/charts/commit/03470036d7e37c8fbcb25953e7558c6f2961e9c0) • [@TrueCharts Bot] (2024-04-16)
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4165](https://github.com/truecharts/charts/issues/4165))
+## 0.1.7 • [Train: incubator]
 
-## [minecraft-java-1.0.66](https://github.com/truecharts/charts/compare/minecraft-java-1.0.65...minecraft-java-1.0.66) (2022-10-19)
+- chore: bump charts to ensure new icons are released • [`9828a1e`](https://github.com/truecharts/charts/commit/9828a1ef02a808a8855e6e17cf4b601a21a315f5) • [@Kjeld Schouten] (2024-04-16)
 
-### Chore
+## 0.1.6 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
+- Webp icons2 (#20851) • [`8b489f4`](https://github.com/truecharts/charts/commit/8b489f48bb8f4f6a01050a08ad544323375bce74) • [@Kjeld Schouten] (2024-04-16)
 
-## [minecraft-java-1.0.65](https://github.com/truecharts/charts/compare/minecraft-java-1.0.64...minecraft-java-1.0.65) (2022-10-18)
+## 0.1.5 • [Train: incubator]
 
-### Chore
+- chore(deps): update ignored updates to v20.3.7@8cf9fc9 by renovate (#20777) • [`1624122`](https://github.com/truecharts/charts/commit/1624122a49c9cea97ce781f854634ea9bf0c55da) • [@TrueCharts Bot] (2024-04-14)
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4120](https://github.com/truecharts/charts/issues/4120))
+## 0.1.4 • [Train: incubator]
 
-## [minecraft-java-1.0.64](https://github.com/truecharts/charts/compare/minecraft-java-1.0.63...minecraft-java-1.0.64) (2022-10-17)
+- chore(deps): update ignored updates to v20.3.6@27edfed by renovate (#20602) • [`96a2eb4`](https://github.com/truecharts/charts/commit/96a2eb423f0681402423a6da6be88f32df5e08d5) • [@TrueCharts Bot] (2024-04-11)
 
-### Chore
+## 0.1.3 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4119](https://github.com/truecharts/charts/issues/4119))
+- chore(deps): update ignored updates to v20.3.5@aedd88a by renovate (#20536) • [`3261600`](https://github.com/truecharts/charts/commit/3261600819a207ddbcc548e6da98c0650f8fd706) • [@TrueCharts Bot] (2024-04-10)
 
-## [minecraft-java-1.0.63](https://github.com/truecharts/charts/compare/minecraft-java-1.0.62...minecraft-java-1.0.63) (2022-10-14)
+## 0.1.2 • [Train: incubator]
 
-### Chore
+- chore(deps): update ignored updates to v20.3.4@d7e1b23 by renovate (#20531) • [`33595ee`](https://github.com/truecharts/charts/commit/33595ee9ebec4497bc5326a8126ba413f6e1130f) • [@TrueCharts Bot] (2024-04-10)
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
+## 0.1.1 • [Train: incubator]
 
-## [minecraft-bedrock-1.0.39](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.38...minecraft-bedrock-1.0.39) (2022-10-12)
+- chore(deps): update ignored updates to v20.3.3@3876ba5 by renovate (#20488) • [`cdb9330`](https://github.com/truecharts/charts/commit/cdb93303e4e3ac6c42812d892be089b6ebd91ab4) • [@TrueCharts Bot] (2024-04-09)
 
-### Chore
+## 0.1.0 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
+- chore(deps): lock file maintenance ignored by renovate (#20393) • [`474e9c4`](https://github.com/truecharts/charts/commit/474e9c41975ddb3ff1b994105a0b48b8d1e1fabb) • [@TrueCharts Bot] (2024-04-08)
 
-## [minecraft-bedrock-1.0.38](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.37...minecraft-bedrock-1.0.38) (2022-10-07)
+## 0.0.5 • [Train: incubator]
 
-### Chore
+- chore(deps): update ignored by renovate (patch) (#19333) • [`79b0e3b`](https://github.com/truecharts/charts/commit/79b0e3bc86527b28c236838aae425c701e546c71) • [@TrueCharts Bot] (2024-03-16)
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major
+## 0.0.4 • [Train: incubator]
 
-## [minecraft-bedrock-1.0.38](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.37...minecraft-bedrock-1.0.38) (2022-10-07)
+- chore(deps): update ignored by renovate (patch) (#19180) • [`74c33b7`](https://github.com/truecharts/charts/commit/74c33b767744f2213c7d141afcdab827804350c6) • [@TrueCharts Bot] (2024-03-12)
 
-### Chore
+## 0.0.3 • [Train: incubator]
 
-- Auto-update chart README [skip ci]
-- update helm general non-major
+- chore(deps): update ignored updates to v20.0.8@021a874 by renovate (#19170) • [`c4d1156`](https://github.com/truecharts/charts/commit/c4d115654eee413a2d76e3efd1541f8d936ae440) • [@TrueCharts Bot] (2024-03-12)
 
-## [minecraft-bedrock-1.0.37](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.36...minecraft-bedrock-1.0.37) (2022-10-05)
+## 0.0.2 • [Train: incubator]
 
-### Chore
+- Commit daily changes • [`606247c`](https://github.com/truecharts/charts/commit/606247c983736d396fb12bc16ad8bebcfd7bb29f) • [@TrueCharts-Bot] (2024-03-12)
+- chore(deps): update ignored updates to v20.0.6@5f6c753 by renovate (#19164) • [`d3e5ca2`](https://github.com/truecharts/charts/commit/d3e5ca210fe8f70128f8a50648ce8c9965f802ff) • [@TrueCharts Bot] (2024-03-11)
 
-- Auto-update chart README [skip ci]
-- split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
-- update helm general non-major
+## 0.0.1 • [Train: incubator]
 
-## [minecraft-bedrock-1.0.36](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.35...minecraft-bedrock-1.0.36) (2022-09-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-## [minecraft-bedrock-1.0.35](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.34...minecraft-bedrock-1.0.35) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-## [minecraft-bedrock-1.0.34](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.33...minecraft-bedrock-1.0.34) (2022-09-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-## [kiwix-serve-1.0.1](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.27...kiwix-serve-1.0.1) (2022-09-23)
-
-### Fix
-
-- Serve all .zim files in the data dir ([#3848](https://github.com/truecharts/charts/issues/3848))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-17)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-18)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-15)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-15)
-
-### Chore
-
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.25...kiwix-serve-0.0.26) (2022-09-11)
-
-### Chore
-
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kiwix-serve-0.0.25](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.24...kiwix-serve-0.0.25) (2022-09-10)
-
-### Chore
-
-- update docker general non-major ([#3727](https://github.com/truecharts/charts/issues/3727))
-
-## [kiwix-serve-0.0.24](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.22...kiwix-serve-0.0.24) (2022-08-30)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3639](https://github.com/truecharts/charts/issues/3639))
-- update helm chart common to v10.5.5 ([#3626](https://github.com/truecharts/charts/issues/3626))
-
-## [kiwix-serve-0.0.23](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.22...kiwix-serve-0.0.23) (2022-08-30)
-
-### Chore
-
-- update helm chart common to v10.5.5 ([#3626](https://github.com/truecharts/charts/issues/3626))
-
-## [kiwix-serve-0.0.22](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.21...kiwix-serve-0.0.22) (2022-08-29)
-
-### Chore
-
-- update helm general non-major ([#3619](https://github.com/truecharts/charts/issues/3619))
-
-## [kiwix-serve-0.0.21](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.19...kiwix-serve-0.0.21) (2022-08-26)
-
-### Fix
-
-- some cleanup ([#3586](https://github.com/truecharts/charts/issues/3586))
-
-## [kiwix-serve-0.0.19](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.18...kiwix-serve-0.0.19) (2022-08-25)
-
-### Chore
-
-- update docker general non-major ([#3561](https://github.com/truecharts/charts/issues/3561))
-
-## [kiwix-serve-0.0.18](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.17...kiwix-serve-0.0.18) (2022-08-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3545](https://github.com/truecharts/charts/issues/3545))
-
-## [kiwix-serve-0.0.17](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.16...kiwix-serve-0.0.17) (2022-08-14)
-
-### Chore
-
-- update docker general non-major docker tags ([#3465](https://github.com/truecharts/charts/issues/3465))
-
-## [kiwix-serve-0.0.16](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.15...kiwix-serve-0.0.16) (2022-08-12)
-
-### Chore
-
-- add documentation checkbox/section to all SCALE Apps
-- update helm general non-major helm releases ([#3456](https://github.com/truecharts/charts/issues/3456))
-
-### Fix
-
-- move extraArgs from .Values.controller to .Values ([#3447](https://github.com/truecharts/charts/issues/3447))
-
-## [kiwix-serve-0.0.15](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.14...kiwix-serve-0.0.15) (2022-08-08)
-
-### Chore
-
-- update helm general non-major helm releases ([#3376](https://github.com/truecharts/charts/issues/3376))
-- replace questions parts with templates ([#3402](https://github.com/truecharts/charts/issues/3402))
-
-## [kiwix-serve-0.0.14](https://github.com/truecharts/apps/compare/kiwix-serve-0.0.13...kiwix-serve-0.0.14) (2022-07-26)
-
-### Chore
-
-- update home links ([#3291](https://github.com/truecharts/apps/issues/3291))
-- update helm general non-major helm releases ([#3302](https://github.com/truecharts/apps/issues/3302))
-
-## [kiwix-serve-0.0.13](https://github.com/truecharts/apps/compare/kiwix-serve-0.0.12...kiwix-serve-0.0.13) (2022-07-25)
-
-### Chore
-
-- update docker general non-major ([#3300](https://github.com/truecharts/apps/issues/3300))
-
-### Chore
-
-- add fake digest to new incubator Apps to fetch digests
-
-## [kiwix-serve-0.0.12](https://github.com/truecharts/apps/compare/kiwix-serve-0.0.11...kiwix-serve-0.0.12) (2022-07-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-## [kiwix-serve-0.0.12](https://github.com/truecharts/apps/compare/kiwix-serve-0.0.11...kiwix-serve-0.0.12) (2022-07-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-## [kiwix-serve-0.0.12](https://github.com/truecharts/apps/compare/kiwix-serve-0.0.11...kiwix-serve-0.0.12) (2022-07-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-## [kiwix-serve-0.0.11]kiwix-serve-0.0.11 (2022-07-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Bump all charts to generate config and container references due to huge increase of repository
-- Move Dev to incubator and some cleanup
-
-## [kiwix-serve-0.0.10]kiwix-serve-0.0.10 (2022-07-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Move Dev to incubator and some cleanup
-
-## [kiwix-serve-0.0.10]kiwix-serve-0.0.10 (2022-07-22)
-
-### Chore
-
-- Move Dev to incubator and some cleanup
+- feat(add): sd-webui (#19148) • [`6e75283`](https://github.com/truecharts/charts/commit/6e752837128b58fc8f0abd9218e8f4c8ece1ae87) • [@Kjeld Schouten] (2024-03-11)
