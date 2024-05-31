@@ -15,8 +15,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 - chore(deps): update ignored by renovate (patch) (#21659) • [`3a07b9f`](https://github.com/truecharts/charts/commit/3a07b9f9794a4debbd6ede53e3e0095060c8c9a2) • [@TrueCharts Bot] (2024-05-31)
 - Commit daily changes • [`4357b53`](https://github.com/truecharts/charts/commit/4357b533a97aa77ffa16998ce8b568336e3892a9) • [@TrueCharts-Bot] (2024-05-31)
-- Commit daily changes • [`529340b`](https://github.com/truecharts/charts/commit/529340b7575e8cd6d00d2499271dc62e58a8d18d) • [@TrueCharts-Bot] (2024-05-26)
 - Commit daily changes • [`e50357a`](https://github.com/truecharts/charts/commit/e50357a154422a397a11141869f0973293102e49) • [@TrueCharts-Bot] (2024-05-26)
+- Commit daily changes • [`529340b`](https://github.com/truecharts/charts/commit/529340b7575e8cd6d00d2499271dc62e58a8d18d) • [@TrueCharts-Bot] (2024-05-26)
 - chore(deps): update container image kubeapps to v15.0.3@6979b89 by renovate (#21582) • [`59f294a`](https://github.com/truecharts/charts/commit/59f294aff09b24ec9a5a04a1e4551e7cb7664b7e) • [@TrueCharts Bot] (2024-05-05)
 
 ## 3.0.4 • [Train: system]
@@ -84,8 +84,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 2.10.6 • [Train: system]
 
-- Webp icons2 (#20851) • [`8b489f4`](https://github.com/truecharts/charts/commit/8b489f48bb8f4f6a01050a08ad544323375bce74) • [@Kjeld Schouten] (2024-04-16)
 - chore(deps): update container image common to v20.3.7@8cf9fc9 by renovate (#20819) • [`4413ae4`](https://github.com/truecharts/charts/commit/4413ae4d1cdd32a9d5f70d57f0c01e429ee90298) • [@TrueCharts Bot] (2024-04-16)
+- Webp icons2 (#20851) • [`8b489f4`](https://github.com/truecharts/charts/commit/8b489f48bb8f4f6a01050a08ad544323375bce74) • [@Kjeld Schouten] (2024-04-16)
 
 ## 2.10.5 • [Train: system]
 
@@ -166,8 +166,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 2.6.0 • [Train: enterprise]
 
-- chore: move everything one-per-cluster, to operator train and remove redundant grafana-agent chart • [`fafe094`](https://github.com/truecharts/charts/commit/fafe094a3bec58b07fbbcc7d54127c18738387f4) • [@Kjeld Schouten] (2024-03-11)
 - chore(deps): update container image kubeapps to v14.7.1@57c5f6b by renovate (#19120) • [`9ec7556`](https://github.com/truecharts/charts/commit/9ec755619243715144e0ce6779ff0783b2cfccaa) • [@TrueCharts Bot] (2024-03-11)
+- chore: move everything one-per-cluster, to operator train and remove redundant grafana-agent chart • [`fafe094`](https://github.com/truecharts/charts/commit/fafe094a3bec58b07fbbcc7d54127c18738387f4) • [@Kjeld Schouten] (2024-03-11)
 
 ## 2.5.1 • [Train: enterprise]
 
