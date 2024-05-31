@@ -13,8 +13,8 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 3.0.5 • [Train: system]
 
-- Commit daily changes • [`4357b53`](https://github.com/truecharts/charts/commit/4357b533a97aa77ffa16998ce8b568336e3892a9) • [@TrueCharts-Bot] (2024-05-31)
 - chore(deps): update ignored by renovate (patch) (#21659) • [`3a07b9f`](https://github.com/truecharts/charts/commit/3a07b9f9794a4debbd6ede53e3e0095060c8c9a2) • [@TrueCharts Bot] (2024-05-31)
+- Commit daily changes • [`4357b53`](https://github.com/truecharts/charts/commit/4357b533a97aa77ffa16998ce8b568336e3892a9) • [@TrueCharts-Bot] (2024-05-31)
 - Commit daily changes • [`529340b`](https://github.com/truecharts/charts/commit/529340b7575e8cd6d00d2499271dc62e58a8d18d) • [@TrueCharts-Bot] (2024-05-26)
 - Commit daily changes • [`e50357a`](https://github.com/truecharts/charts/commit/e50357a154422a397a11141869f0973293102e49) • [@TrueCharts-Bot] (2024-05-26)
 - chore(deps): update container image kubeapps to v15.0.3@6979b89 by renovate (#21582) • [`59f294a`](https://github.com/truecharts/charts/commit/59f294aff09b24ec9a5a04a1e4551e7cb7664b7e) • [@TrueCharts Bot] (2024-05-05)
@@ -284,9 +284,9 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 1.0.1 • [Train: enterprise]
 
-- feat(kubeapps): add tokenlessloginoption • [`b7ab46c`](https://github.com/truecharts/charts/commit/b7ab46c33b79f902e3d90ac349bebe592711d8b2) • [@Kjeld Schouten] (2024-02-16)
 - ahh yes • [`bc603c4`](https://github.com/truecharts/charts/commit/bc603c4c2420315aa41c9a89036d5bc47cda8ead) • [@Kjeld Schouten] (2024-02-16)
 - Revert &#34;ahh yes&#34; • [`ce9d71d`](https://github.com/truecharts/charts/commit/ce9d71d611e5b35f3363ac68d7fb88faf3a33db7) • [@Kjeld Schouten] (2024-02-16)
+- feat(kubeapps): add tokenlessloginoption • [`b7ab46c`](https://github.com/truecharts/charts/commit/b7ab46c33b79f902e3d90ac349bebe592711d8b2) • [@Kjeld Schouten] (2024-02-16)
 
 ## 1.0.0 • [Train: enterprise]
 
@@ -309,12 +309,12 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 ## 0.0.2 • [Train: incubator]
 
-- Update Chart.yaml • [`d3ce6bb`](https://github.com/truecharts/charts/commit/d3ce6bb00fedfb4625a0dece7db37b83e7b2437d) • [@Kjeld Schouten] (2024-02-13)
 - Merge branch &#39;master&#39; of github.com:truecharts/charts • [`74dcc8c`](https://github.com/truecharts/charts/commit/74dcc8cfc99a39f74e7976566f414e744f345596) • [@Kjeld Schouten] (2024-02-13)
+- Update Chart.yaml • [`d3ce6bb`](https://github.com/truecharts/charts/commit/d3ce6bb00fedfb4625a0dece7db37b83e7b2437d) • [@Kjeld Schouten] (2024-02-13)
 
 ## 0.0.1 • [Train: incubator]
 
-- Commit daily changes • [`294fe34`](https://github.com/truecharts/charts/commit/294fe34b4648403217b29c57ff7c9b9ff0b4f653) • [@TrueCharts-Bot] (2024-02-13)
 - Update Chart.yaml • [`3b20c2d`](https://github.com/truecharts/charts/commit/3b20c2d7c79faa113ef6eb2fbaf614d9abe47d22) • [@Kjeld Schouten] (2024-02-13)
 - no message • [`caca9f2`](https://github.com/truecharts/charts/commit/caca9f28b46a300e346f588d711be3728ab2f76d) • [@Kjeld Schouten] (2024-02-13)
+- Commit daily changes • [`294fe34`](https://github.com/truecharts/charts/commit/294fe34b4648403217b29c57ff7c9b9ff0b4f653) • [@TrueCharts-Bot] (2024-02-13)
 - show alpha logintoken instructions • [`969a5ea`](https://github.com/truecharts/charts/commit/969a5eafa4ca0c6a0dac93c2e36f5b89a0676d51) • [@Kjeld Schouten] (2024-02-12)
