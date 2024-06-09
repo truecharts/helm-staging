@@ -11,6 +11,10 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 :::
 
+## 2.0.3 • [Train: incubator]
+
+- test index regen • [`2297f72`](https://github.com/truecharts/charts/commit/2297f72a25b8dfb1013ef82bbe1a43dc9efae02d) • [@Stavros Kois] (2024-06-09)
+
 ## 2.0.2 • [Train: incubator]
 
 - chore(deps): update container image common to v24.0.1@cbdb720 by renovate (#23037) • [`6562794`](https://github.com/truecharts/charts/commit/6562794ee894054a9bc5ecdf95b097521ac410ab) • [@TrueCharts Bot] (2024-06-09)
