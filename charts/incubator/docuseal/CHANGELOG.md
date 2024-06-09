@@ -11,6 +11,10 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 :::
 
+## 2.0.4 • [Train: incubator]
+
+- test agian • [`dab93ab`](https://github.com/truecharts/charts/commit/dab93abd54fc9a070117a0bc05f3ab4d43093722) • [@Stavros Kois] (2024-06-09)
+
 ## 2.0.3 • [Train: incubator]
 
 - test index regen • [`2297f72`](https://github.com/truecharts/charts/commit/2297f72a25b8dfb1013ef82bbe1a43dc9efae02d) • [@Stavros Kois] (2024-06-09)
