@@ -11,6 +11,10 @@ If you need more than 2 scrolls to find your current version, please consider up
 
 :::
 
+## 2.0.6 • [Train: incubator]
+
+- hmm • [`ccf3fa9`](https://github.com/truecharts/charts/commit/ccf3fa97f6a5c97ef2a0ec2f6023ab1b082457ff) • [@Stavros Kois] (2024-06-09)
+
 ## 2.0.5 • [Train: incubator]
 
 - keep some docs safe • [`9cf5cc9`](https://github.com/truecharts/charts/commit/9cf5cc90a5faa963ceff9c1376d35e901d67fcaf) • [@Stavros Kois] (2024-06-09)
