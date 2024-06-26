@@ -6,20 +6,20 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: premium
 apiVersion: v2
-appVersion: latest
+appVersion: 1.4.0
 dependencies:
   - name: common
-    version: 24.0.0
+    version: 24.0.9
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
     tags: []
     import-values: []
-  - name: kubernetes-dashboard
-    version: 5.10.0
-    repository: oci://ghcr.io/elfhosted/charts
-    condition: ""
-    alias: kubernetes-dashboard
+  - name: kong
+    version: 2.38.0
+    repository: https://charts.konghq.com
+    condition: kong.enabled
+    alias: ""
     tags: []
     import-values: []
 deprecated: false
@@ -38,7 +38,10 @@ name: kubernetes-dashboard
 sources:
   - https://github.com/kubernetes-dashboard/kubernetes-dashboard
   - https://github.com/truecharts/charts/tree/master/charts/premium/kubernetes-dashboard
-  - https://github.com/truecharts/containers/tree/master/apps/alpine
+  - https://hub.docker.com/r/kubernetesui/dashboard-api
+  - https://hub.docker.com/r/kubernetesui/dashboard-auth
+  - https://hub.docker.com/r/kubernetesui/dashboard-metrics-scraper
+  - https://hub.docker.com/r/kubernetesui/dashboard-web
   - https://kubernetes-dashboard.universe.tf
 type: application
-version: 0.0.2
+version: 1.0.0
